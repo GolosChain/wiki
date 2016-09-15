@@ -27,7 +27,7 @@
 - [ ] Анонсы @21xhipster
 
 ## 2. Запуск https://blockchain.golos.io @lomashuk 20 сентября
-- [ ] ! Бумага @21xhipster
+- [x] ! Бумага @21xhipster
 - [x] ! Лого @lomashuk 
 - [x] Оригинальный код @lomashuk 
 - [ ] Перевод ролика @lomashuk
@@ -50,14 +50,14 @@
 - [ ] Реализация Лендинг @Undeadlol1 
 - [x] Получение адресов Blockcypher и запись их в блокчейн @tomarcafe 
 - [ ] Скрипт по распределению краудсейла @ValeryLitvin
-- [ ] Мультисиг Bitcoin @vitalylvov
+- [x] Мультисиг Bitcoin @vitalylvov
 - [ ] ! Мультисиг RSteem @ValeryLitvin 
 
 ## 5. Подготовка блокчейна @ValeryLitvin 
 - [x] ! Тестовая сеть @ValeryLitvin
 - [x] Snapshot блокчейна Steem
 - [ ] ! Корректировка эмиссии @ValeryLitvin @21xhipster @vitalylvov 
-- [ ] Отпиливание хардфорков @ValeryLitvin
+- [x] Отпиливание хардфорков @ValeryLitvin
 - [ ] Sharedrop аккаунтов Steem @ValeryLitvin
 - [ ] Сценарий тестирования @ValeryLitvin 
 - [ ] Скрипт по распределению шеардропа @ValeryLitvin
