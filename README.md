@@ -6,6 +6,8 @@
 - [OS X](https://github.com/GolosChain/wiki/blob/master/Steem%20Install%20OS%20X.md)
 
 ## Разарботка
+- [Конфиг для продуктива](https://github.com/GolosChain/wiki/blob/master/config.hpp)
+- [Конфиг для тестнета](https://github.com/GolosChain/wiki/blob/master/config-test.hpp)
 - [Прогнозирование Эмиссии](https://github.com/GolosChain/wiki/blob/master/Inflation%20plot.md)
 - [Дорожная Карта](https://github.com/GolosChain/wiki/blob/master/Roadmap.md)
 - [Правила лейблов](https://github.com/GolosChain/wiki/blob/master/labels.md)
