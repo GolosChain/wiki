@@ -102,6 +102,7 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] Возможность увеличить дробность денежной единицы
 - [ ] Развернуть существующий эксплорер @ValeryLitvin
 - [ ] Steemd.com support @lomashuk
+- [ ] Адаптация скрипта с ценами @tomarcafe
 - [ ] Тестовая группа @21xhipster @ValeryLitvin
 - [ ] Code Review by Dan
 
