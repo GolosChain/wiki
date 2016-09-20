@@ -80,9 +80,10 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [x] ! Лого @lomashuk
 - [x] Оригинальный код @lomashuk
 - [ ] Перевод ролика @lomashuk
-- [ ] Перевод контента @mguryeva
+- [x] Перевод контента @mguryeva
 - [x] Настройка Segment.com (GA, ЯМ) @Undeadlol1
-- [ ] Макет Лендинг @lomashuk
+- [x] Макет Лендинг @lomashuk
+- [ ] Отрисовать Макет @lomashuk
 - [ ] Реализация Лендинг @Undeadlol1
 - [x] Получение адресов Blockcypher и запись их в блокчейн @tomarcafe
 - [ ] Скрипт по распределению краудсейла @ValeryLitvin
