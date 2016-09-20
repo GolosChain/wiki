@@ -75,6 +75,7 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] !!! Логинация через VK, FB, Reddit @tomarcafe
 - [ ] Индексация Яндексом @tomarcafe @ValeryLitvin @Undeadlol1
 - [ ] Домены и поддомены
+- [ ] E2E тесты по ключевым сценариям
 
 ## 3. Подготовка ICO @lomashuk
 - [x] !!! Бумага @21xhipster
