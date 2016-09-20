@@ -64,22 +64,23 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] Соглашение Steemit Inc @lomashuk  
 - [ ] Анонсы @21xhipster
 
-## 2. Адаптация веб-клиента @Undeadlol1 20 сентября
+## 2. Адаптация веб-клиента @Undeadlol1
 - [x] Функционал по локализации @Undeadlol1
-- [ ] Интернационализация цен и валют @Undeadlol1
-- [ ] Русификация тэгов @Undeadlol1
-- [ ] Настройка Segment.com (GA, ЯМ) @Undeadlol1
+- [x] Интернационализация цен и валют @Undeadlol1
+- [ ] !!! Русификация тэгов @Undeadlol1
+- [x] Настройка Segment.com (GA, ЯМ) @Undeadlol1
 - [x] Локализация @Undeadlol1 @21xhipster
 - [x] Конфиг веб-клиента @Undeadlol1 @21xhipster
 - [ ] Google Custom Search @tomarcafe
-- [ ] Логинация через VK, FB, Reddit @tomarcafe
+- [ ] !!! Логинация через VK, FB, Reddit @tomarcafe
 - [ ] Индексация Яндексом @tomarcafe @ValeryLitvin @Undeadlol1
+- [ ] Домены и поддомены
 
-## 3. Подготовка ICO @lomashuk 20 сентября
-- [x] ! Бумага @21xhipster
-- [x] ! Лого @lomashuk
+## 3. Подготовка ICO @lomashuk
+- [x] !!! Бумага @21xhipster
+- [x] Лого @lomashuk
 - [x] Оригинальный код @lomashuk
-- [ ] Перевод ролика @lomashuk
+- [ ] !!! Перевод ролика @lomashuk
 - [x] Перевод контента @mguryeva
 - [x] Настройка Segment.com (GA, ЯМ) @Undeadlol1
 - [x] Макет Лендинг @lomashuk
@@ -88,7 +89,7 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [x] Получение адресов Blockcypher и запись их в блокчейн @tomarcafe
 - [ ] Скрипт по распределению краудсейла @ValeryLitvin
 - [x] Мультисиг Bitcoin @vitalylvov
-- [ ] ! Мультисиг RSteem @ValeryLitvin
+- [ ] Мультисиг RSteem @ValeryLitvin
 
 ## 4. Подготовка блокчейна @ValeryLitvin
 - [x] ! Тестовая сеть @ValeryLitvin
@@ -98,14 +99,15 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] Sharedrop аккаунтов Steem @ValeryLitvin
 - [ ] Сценарий тестирования @ValeryLitvin
 - [ ] Скрипт по распределению шеардропа @ValeryLitvin
-- [ ] Возможность увеличить дробность денежной единицы
-- [ ] Развернуть существующий эксплорер @ValeryLitvin
-- [ ] Steemd.com support @lomashuk
+- [x] Возможность увеличить дробность денежной единицы
+- [x] Развернуть существующий эксплорер @ValeryLitvin
 - [ ] Адаптация скрипта с ценами @tomarcafe
-- [ ] Тестовая группа @21xhipster @ValeryLitvin
+- [ ] Тестовая группа @ValeryLitvin
+- [ ] Инструкция для делегатов
+- [ ] Список верифицированных счетов @all
 - [ ] Code Review by Dan
 
-## 5. Инфраструктура для веб-клиента @tomarcafe 20 сентября
+## 5. Инфраструктура для веб-клиента @tomarcafe
 - [ ] Балансировщик @tomarcafe
 - [ ] Memcached @tomarcafe
 - [ ] Контейенера для нод. Docker. @ValeryLitvin (-> backlog)
@@ -115,15 +117,13 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 ## 6. Юридическая защита @lomashuk
 - [ ] Disclaimer
 - [ ] License Agreement
+- [ ] Купить компанию
 
 # Запуск
 ## -1. Таймлайн
 ## 0. Киев
 
 ## 1. Выбор делегатов @vitalylvov
-- Скрипт по ценовым фидам
-- Статья с требованиям @21xhipster
-- Настройка регулярных отчетов @21xhipster
 
 ## 2. Регистрации (инвайты, проверки, продажи)
 
