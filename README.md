@@ -15,4 +15,4 @@
 - [Снэпшот](https://github.com/GolosChain/wiki/blob/master/snapshot.json)
 - [Конфигурационный файл](https://github.com/GolosChain/wiki/blob/master/config.hpp)
 - [Всячина](https://github.com/GolosChain/wiki/blob/master/%D0%92%D1%81%D1%8F%D1%87%D0%B8%D0%BD%D0%B0.md)
-- [Гайд по добавлению переводов] (https://github.com/GolosChain/golos.io/blob/develop/app/locales/README.md#how-to-add-translations--notes-for-hackers-and-translators)
+- [Гайд по работе с переводами] (https://github.com/GolosChain/golos.io/blob/develop/app/locales/README.md#how-to-work-with-translations)
