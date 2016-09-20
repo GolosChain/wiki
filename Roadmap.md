@@ -64,15 +64,7 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] Соглашение Steemit Inc @lomashuk  
 - [ ] Анонсы @21xhipster
 
-## 2. Запуск https://blockchain.golos.io @lomashuk 20 сентября
-- [x] ! Бумага @21xhipster
-- [x] ! Лого @lomashuk
-- [x] Оригинальный код @lomashuk
-- [ ] Перевод ролика @lomashuk
-- [ ] Перевод контента @mguryeva
-- [x] Настройка Segment.com (GA, ЯМ) @Undeadlol1
-
-## 3. Адаптация веб-клиента @Undeadlol1 20 сентября
+## 2. Адаптация веб-клиента @Undeadlol1 20 сентября
 - [x] Функционал по локализации @Undeadlol1
 - [ ] Интернационализация цен и валют @Undeadlol1
 - [ ] Русификация тэгов @Undeadlol1
@@ -83,7 +75,13 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] Логинация через VK, FB, Reddit @tomarcafe
 - [ ] Индексация Яндексом @tomarcafe @ValeryLitvin @Undeadlol1
 
-## 4. Подготовка ICO @lomashuk 20 сентября
+## 3. Подготовка ICO @lomashuk 20 сентября
+- [x] ! Бумага @21xhipster
+- [x] ! Лого @lomashuk
+- [x] Оригинальный код @lomashuk
+- [ ] Перевод ролика @lomashuk
+- [ ] Перевод контента @mguryeva
+- [x] Настройка Segment.com (GA, ЯМ) @Undeadlol1
 - [ ] Макет Лендинг @lomashuk
 - [ ] Реализация Лендинг @Undeadlol1
 - [x] Получение адресов Blockcypher и запись их в блокчейн @tomarcafe
@@ -91,7 +89,7 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [x] Мультисиг Bitcoin @vitalylvov
 - [ ] ! Мультисиг RSteem @ValeryLitvin
 
-## 5. Подготовка блокчейна @ValeryLitvin
+## 4. Подготовка блокчейна @ValeryLitvin
 - [x] ! Тестовая сеть @ValeryLitvin
 - [x] Snapshot блокчейна Steem
 - [ ] ! Корректировка эмиссии @ValeryLitvin @21xhipster @vitalylvov
@@ -106,14 +104,14 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] Тестовая группа @21xhipster @ValeryLitvin
 - [ ] Code Review by Dan
 
-## 6. Инфраструктура для веб-клиента @tomarcafe 20 сентября
+## 5. Инфраструктура для веб-клиента @tomarcafe 20 сентября
 - [ ] Балансировщик @tomarcafe
 - [ ] Memcached @tomarcafe
 - [ ] Контейенера для нод. Docker. @ValeryLitvin (-> backlog)
 - [ ] Wallarm @ValeryLitvin
 - [ ] New Relic @ValeryLitvin
 
-## 7. Юридическая защита @lomashuk
+## 6. Юридическая защита @lomashuk
 - [ ] Disclaimer
 - [ ] License Agreement
 
