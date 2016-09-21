@@ -114,6 +114,7 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] Контейенера для нод. Docker. @ValeryLitvin (-> backlog)
 - [ ] Wallarm @ValeryLitvin
 - [ ] New Relic @ValeryLitvin
+- [ ] Codeship @tomarcafe
 
 ## 6. Юридическая защита @lomashuk
 - [ ] Disclaimer
