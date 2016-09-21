@@ -1,1 +1,2 @@
-#placeholder
+#placeholder 
+- вычитал
