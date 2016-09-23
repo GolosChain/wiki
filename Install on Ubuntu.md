@@ -1,49 +1,55 @@
-You can use it line-by-line or create file steem-install.sh
-All you have to do, is place the script wherever you want to install steem. Then place your config.ini next to it (optional)
+Скрипт для установки ноды (узла) блочейна `голос`. 
 
-Than do
+Можно запускать к консоли строчка за строчкой, 
+
+но лучше скопировать текст в файл, назавать файл `steem-install.sh` - потом запустить вот такой командой
 ```bash
 chmod +x steem-install.sh && ./steem-install.sh
 ```
 
+
+Сам скрипт вот.
+
 ```bash
 #!/bin/bash
 
-# install dependencies
+# install dependencies == cтавим зависимости
 sudo apt-get -y upgrade && sudo apt-get -y install git cmake g++ python-dev autotools-dev libicu-dev build-essential libbz2-dev libboost-all-dev libssl-dev libncurses5-dev doxygen libreadline-dev dh-autoreconf screen
 
-# remove old installation
+# remove old installation == стираем папки предыдущих установок
 rm -rf steemd
 mkdir steemd
-rm -rf rsteem
+rm -rf rsteem # Эту точно надо?
 
-# pull fresh code, compile
+# pull fresh code, compile == тянем исходники с гх, компилим-собираем
 git clone https://github.com/Rsteem/rsteem && cd rsteem && git checkout master && git submodule update --init --recursive && cmake -DCMAKE_BUILD_TYPE=Release -DLOW_MEMORY_NODE=ON . && make
 
-# install new binaries
+# install new binaries == копируем бинарники поудобнее
 cp programs/steemd/steemd ../steemd/
 cp programs/cli_wallet/cli_wallet ../steemd/
 
-# go into steemd
+# go into steemd == переходим в папку главной программы :) как эта штука называется?
 cd ..
 cd steemd/
 
-# download the blockchain (original steem blockchain!)
-wget http://www.steemitup.eu/witness_node_data_dir.tar.gz
+# download the blockchain (original steem blockchain!) == качаем свежий дамп блокчейна
+wget http://www.steemitup.eu/witness_node_data_dir.tar.gz # == Это что такое? почему ссылка не русифицирована? :)
 tar -zxvf witness_node_data_dir.tar.gz
 rm witness_node_data_dir.tar.gz
 
-# apply config.ini if available
+# apply config.ini if available == используем конфиг-файл, если он есть
 if [ -f ../config.ini ]
 then
     cp -fv ../config.ini witness_node_data_dir/
 fi
 
-# prep the local blockchain
+# prep the local blockchain == чота делаем там
 ./steemd --replay
 ```
 
-After installation, our target folder should be like this:
+_After installation, our target folder should be like this:_
+После всего этого структура папки будет примерно такая - 
+
 ```bash
 besson@ubuntu:~/Desktop/test$ tree -L 2
 .
@@ -57,7 +63,9 @@ besson@ubuntu:~/Desktop/test$ tree -L 2
 └── steem-install.sh
 ```
 
-If blockchain forks, or there is a new version of steem out, all we have to do, is re-run the script.
+_If blockchain forks, or there is a new version of steem out, all we have to do, is re-run the script._
+если случился хардфорк, или вышла новая версия программы, просто перезапускаем скрипт.
+
 ```bash
 ./steem-install.sh
 ```
