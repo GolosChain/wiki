@@ -61,8 +61,8 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [x] Roadmap @21xhipster
 - [x] Команда @21xhipster
 - [x] Домены @lomashuk
-- [ ] Соглашение Steemit Inc @lomashuk  
-- [ ] Анонсы @21xhipster
+- [x] Соглашение Steemit Inc @lomashuk  
+- [x] Анонсы @21xhipster
 
 ## 2. Адаптация веб-клиента @Undeadlol1
 - [x] Функционал по локализации @Undeadlol1
@@ -95,7 +95,7 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 ## 4. Подготовка блокчейна @ValeryLitvin
 - [x] ! Тестовая сеть @ValeryLitvin
 - [x] Snapshot блокчейна Steem
-- [ ] ! Корректировка эмиссии @ValeryLitvin @21xhipster @vitalylvov
+- [ ] ! Корректировка эмиссии @ValeryLitvin @21xhipster @vitalylvov @lomashuk
 - [x] Отпиливание хардфорков @ValeryLitvin
 - [ ] Sharedrop аккаунтов Steem @ValeryLitvin
 - [ ] Сценарий тестирования @ValeryLitvin
@@ -146,8 +146,8 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] Целевка Adwords @lomashuk
 
 ## 5. Публикация Статей
-- [ ] Coinfox @lomashuk
-- [ ] Forklog @ValeryLitvin
+- [x] Coinfox @lomashuk
+- [x] Forklog @ValeryLitvin
 - [ ] Habrahabr @21xhipster @ValeryLitvin
 - [ ] Lepra
 - [ ] Vc.ru
