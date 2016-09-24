@@ -1,62 +1,56 @@
-cmake -DCMAKE_BUILD_TYPE=Release -DLOW_MEMORY_NODE=ON -DOPENSSL_ROOT_DIR='/usr/local/Cellar/openssl/1.0.2h_1/' .
-brew install homebrew/versions/boost160
-cmake -DCMAKE_BUILD_TYPE=Release -DLOW_MEMORY_NODE=ON -DOPENSSL_ROOT_DIR='/usr/local/Cellar/openssl/1.0.2h_1/' -DBOOST_ROOT='/usr/local/Cellar/boost160/1.60.0/' .
-
-Before you should install XCode and Homebrew, than
-
-Open your terminal and update Brew using `brew doctor` command.
-
-Install steem dependecies using this command.
+Перед тем как начать, установите пожалуйста XCode [скачать](https://developer.apple.com/download) или через App Store
+и введите в консоли:
 ```bash
-brew install boost cmake git openssl autoconf automake qt5
+sudo xcodebuild -license accept
 ```
 
-Create a symling for openssl using this command `brew link --force openssl`
+Установите Homebrew [отсуда](http://brew.sh/) или введите:
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
-Install berkeley-db and google-preftools, libtool, python3
+Установите зависимости Голоса:
+```bash
+brew install cmake git openssl autoconf automake qt5
+```
+
 ```bash
 brew install google-perftools berkeley-db libtool python3 readline
 ```
 
-Clone the repository
+```bash
+brew install homebrew/versions/boost160
+```
+
+Склонируйте репозиторий в вашу рабочую директорию:
 ```bash
 git clone https://github.com/GolosChain/golos
 ```
 
-Change directory to golos `cd golos`
-Build golos
+И собирети проект (это может занять от 10 до 30 минут):
 ```bash
+cd golos
 git submodule update --init --recursive
-cmake -DCMAKE_BUILD_TYPE=Release -DLOW_MEMORY_NODE=ON .
+cmake -DBOOST_ROOT='/usr/local/Cellar/boost160/1.60.0' -DOPENSSL_ROOT_DIR='/usr/local/Cellar/openssl/1.0.2h_1/'  -DCMAKE_BUILD_TYPE=Release .
 make
 ```
-
-Now you can run steem with `./steemd` command. Don't forget set config.ini in witness_node_data_dir
-
-**OPENSSL NOTE** If you can't link openssl with brew than do this:
-
-1. Restart your mac and press CMD+R, than open terminal and enter `csrutil disable` -> reboot again
-1. Locate your brew openssl path (ex. /usr/local/Cellar/openssl/1.0.2h_1/bin/openssl)
-1. Move original openssl `sudo mv /usr/bin/openssl /usr/bin/openssl_old`
-1. Link new openssl `ln -s /usr/local/Cellar/openssl/1.0.2h_1/bin/openssl /usr/local/bin/openssl`
-1. Enter `openssl version -a`, you should see:
+Заметка: для ускорения процесса можете запустить команду make с опцией -j4 или больше (зависит от вашего процессора)
 ```bash
-OpenSSL 1.0.2h  3 May 2016
-built on: reproducible build, date unspecified
-platform: darwin64-x86_64-cc
-...
+make -j4
 ```
 
+Теперь вы можете запусить голос:
 ```bash
-cmake -DOPENSSL_ROOT_DIR='/usr/local/Cellar/openssl/1.0.2h_1/' -DCMAKE_BUILD_TYPE=Release -DLOW_MEMORY_NODE=ON .
+./steemd
 ```
 
-**BOOST NOTE** If you have any error with boost:
+Или с помощью утилиты [screen](http://help.ubuntu.ru/wiki/screen)
 ```bash
-brew uninstall boost
-brew install homebrew/versions/boost160
+screen -dmS golos ./steemd
 ```
 
-```bash
-cmake -DBOOST_ROOT='/usr/local/Cellar/boost160/1.60.0' -DCMAKE_BUILD_TYPE=Release -DLOW_MEMORY_NODE=ON .
-```
+После запуска у вас запуситься нода и инициализируются аккаунты из файлы snapshot.json в генезис, также у вас создатся папка 
+witness_node_data_dir с конфигурационным файлом config.ini
+
+Отредактируйте его со следующими настройками:
+[дописать инструкцию по конфигурированию config.ini]
