@@ -9,49 +9,44 @@
 
 Сценарий Тестирования:
 
-1. Хардфорки:
-Применено 13 хардфорков - Проверить логику после хардфорков
-Накатывание 14 хардфорка -
+1. Хардфорки 
+14 хардфорков - Проверить логику после хардфорков
 2. Проверить
-создание аккаунтов
-старт сети
-присоединение витнесов
+- создание аккаунтов
+- старт сети
+- присоединение делегатов
 3. протестировать 3 временных параметра выплат:
 STEEMIT_CASHOUT_WINDOW_SECONDS_PRE_HF12 (60*60*24)  /// 1 daу - 30 мин
 STEEMIT_SECOND_CASHOUT_WINDOW           (60*60*24*30) /// 30 days - 1 час
 STEEMIT_MAX_CASHOUT_WINDOW_SECONDS      (60*60*24*14) /// 2 weeks - 2 часа
-проверить выплату кураторам
-4. Комиссия за создание аккаунта (влияние витнесов на этот показатель? @21xhipster
+- проверить выплату кураторам
+4. Комиссия за создание аккаунта (влияние витнесов на этот показатель) @21xhipster
 5. Восстановление аккаунтов. Протестировать параметры:
 STEEMIT_OWNER_AUTH_RECOVERY_PERIOD                  fc::days(30) // - сек
 STEEMIT_ACCOUNT_RECOVERY_REQUEST_EXPIRATION_PERIOD  fc::days(1) - сек
 STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 6. Проверка вестинга (до и после старта)
-7. STEEMIT_START_MINER_VOTING_BLOCK (STEEMIT_BLOCKS_PER_DAY * 30)????
-8. Проверить попадание витнеса в очередь в результате голосования
+7. STEEMIT_START_MINER_VOTING_BLOCK (STEEMIT_BLOCKS_PER_DAY * 30)
+8. Проверить попадание делегата в очередь в результате голосования
 9. Проверить формирование пула витнес+майнер+случайный на раунд
 10. Тестирование STEEMIT_HARDFORK_REQUIRED_WITNESSES
-11. Вывод из power
-12. STEEMIT_MAX_WITHDRAW_ROUTES 10???
-13. STEEMIT_MAX_VOTE_CHANGES 5???
-14. STEEMIT_UPVOTE_LOCKOUT                  (fc::minutes(1))
+11. Вывод из power, power down
 15. STEEMIT_REVERSE_AUCTION_WINDOW_SECONDS  (60*30) /// 30 minutes
-16. STEEMIT_MIN_VOTE_INTERVAL_SEC           3
 17. Тестирование изменения процентной ставки
 18. Протестировать параметры ликвидности
-19. STEEMIT_APR_PERCENT_MULTIPLY_PER_BLOCK ???
-20. Параметры суплая???????!!!!
+19. STEEMIT_APR_PERCENT_MULTIPLY_PER_BLOCK
+20. Параметры суплая
 21. Работа витнесов (поставка данных)
-22. STEEMIT_BLOCKCHAIN_PRECISION????
+22. STEEMIT_BLOCKCHAIN_PRECISION
 23. Протестировать распределение денег на аккаунты генезиса
 
 ### Тестнет В (публичный)
-Дата: 19 сентября - 26\27 сентября
+Дата: 29 сентября - 8 октября, возможно несколько итерация
 
-Тестовая группа: cyber.fund + группа энтузиастов и хакеров
+Тестовая группа: cyber.fund + группа энтузиастов и хакеров, ядра сообщества
 
 ### Продакшен - Тестнет С (недельный)
-Дата: 27 сентября - 3 октября
+Дата: 9 октября - 15 октября
 
 В течении недели после запуска клеймится возможность перезапуска сети.
 
@@ -90,20 +85,20 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [x] Получение адресов Blockcypher и запись их в блокчейн @tomarcafe
 - [ ] Скрипт по распределению краудсейла @ValeryLitvin
 - [x] Мультисиг Bitcoin @vitalylvov
-- [ ] Мультисиг RSteem @ValeryLitvin
+- [ ] Мультисиг Golos и документация @ValeryLitvin
 
 ## 4. Подготовка блокчейна @ValeryLitvin
 - [x] ! Тестовая сеть @ValeryLitvin
 - [x] Snapshot блокчейна Steem
 - [ ] ! Корректировка эмиссии @ValeryLitvin @21xhipster @vitalylvov @lomashuk
-- [x] Отпиливание хардфорков @ValeryLitvin
+- [x] Корректирование хардфорков @ValeryLitvin
 - [ ] Sharedrop аккаунтов Steem @ValeryLitvin
-- [ ] Сценарий тестирования @ValeryLitvin
+- [x] Сценарий тестирования @ValeryLitvin
 - [ ] Скрипт по распределению шеардропа @ValeryLitvin
 - [x] Возможность увеличить дробность денежной единицы
 - [x] Развернуть существующий эксплорер @ValeryLitvin
 - [ ] Адаптация скрипта с ценами @tomarcafe
-- [ ] Тестовая группа @ValeryLitvin
+- [x] Тестовая группа @ValeryLitvin
 - [ ] Инструкция для делегатов
 - [ ] Список верифицированных счетов @all
 - [ ] Code Review by Dan
@@ -122,12 +117,11 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] Купить компанию
 
 # Запуск
-## -1. Таймлайн
-## 0. Киев
+## 1. Таймлайн
 
 ## 1. Выбор делегатов @vitalylvov
 
-## 2. Регистрации (инвайты, проверки, продажи)
+## 2. Регистрации (инвайты, проверки, продажи, капча для русскоязычных)
 
 
 ## 2. Bounty Hunting Program @ValeryLitvin
@@ -158,7 +152,7 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 Результатам формирования сообщества будет первая выплата!
 
 ## Расширение команды
-- [ ] C++ developer
+- [ ] C++ developers and full-stack devs
 
 ## 1. Формирование рыночной цены @lomashuk
 - [ ] Листинг на Битрекс
