@@ -7,7 +7,7 @@ _Получай ГОЛОС за каждый пост, который оцене
 
 
 
-![КДПВ](http://www.vseodetyah.com/editorfiles/morskaya-svinka-02.jpg "Где деньги, Лебовски?!")
+![КДПВ](http://static.cyber.fund/statics/images/tmp/Lebovski.jpeg "Где деньги, Лебовски?!")
 
 
 
