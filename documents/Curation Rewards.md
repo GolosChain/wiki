@@ -64,10 +64,15 @@
 ГОЛОС автоматически делит 50% всего вознаграждения между всеми пользователями, которые проголосовали за пост, на пропорциональной основе, используя следующее уравнение для определение весового каэффициента каждого пользователя:
 
 пусть total_vote_reward = 50% от общего вознаграждения за пост
+
 пусть steem_power = сила ГОЛОСА для голоса 
+
 пусть current_total_steem_power = общая сила ГОЛОСА за все прошлые голоса
+
 пусть new_total_steem_power = current_total_steem_power + steem_power;
+
 пусть vote_payout_weight = steem_power * (steem_power / new_total_steem_power) ^ 2
+
 пусть total_vote_payout_weight = сумма vote_payout_weight для всех голосов на пост
 
 пусть vote_payout = total_vote_reward * vote_payout_weight / total_vote_payout_weight
