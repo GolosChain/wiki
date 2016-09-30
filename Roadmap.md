@@ -86,6 +86,7 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] Скрипт по распределению краудсейла @ValeryLitvin
 - [x] Мультисиг Bitcoin @vitalylvov
 - [ ] Мультисиг Golos и документация @ValeryLitvin
+- [ ] Adwords @vitalylvov
 
 ## 4. Подготовка блокчейна @ValeryLitvin
 - [x] ! Тестовая сеть @ValeryLitvin
