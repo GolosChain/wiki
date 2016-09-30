@@ -67,10 +67,13 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [x] Локализация @Undeadlol1 @21xhipster
 - [x] Конфиг веб-клиента @Undeadlol1 @21xhipster
 - [ ] Google Custom Search @tomarcafe
-- [ ] !!! Логинация через VK, FB, Reddit @tomarcafe
+- [x] Логинация через VK, FB @tomarcafe 
+- [ ] Логинация через Reddit @tomarcafe
 - [ ] Индексация Яндексом @tomarcafe @ValeryLitvin @Undeadlol1
 - [ ] Домены и поддомены
-- [ ] E2E тесты по ключевым сценариям
+- [ ] E2E тесты по ключевым сценариям *)
+
+*) - список ключевых сценариев?
 
 ## 3. Подготовка ICO @lomashuk
 - [x] !!! Бумага @21xhipster
@@ -80,13 +83,12 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [x] Перевод контента @mguryeva
 - [x] Настройка Segment.com (GA, ЯМ) @Undeadlol1
 - [x] Макет Лендинг @lomashuk
-- [ ] Отрисовать Макет @lomashuk
-- [ ] Реализация Лендинг @Undeadlol1
+- [x] Отрисовать Макет @lomashuk
+- [ ] !hot! Реализация Лендинг @Undeadlol1
 - [x] Получение адресов Blockcypher и запись их в блокчейн @tomarcafe
 - [ ] Скрипт по распределению краудсейла @ValeryLitvin
 - [x] Мультисиг Bitcoin @vitalylvov
 - [ ] Мультисиг Golos и документация @ValeryLitvin
-- [ ] Adwords @vitalylvov
 
 ## 4. Подготовка блокчейна @ValeryLitvin
 - [x] ! Тестовая сеть @ValeryLitvin
@@ -96,17 +98,18 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] Sharedrop аккаунтов Steem @ValeryLitvin
 - [x] Сценарий тестирования @ValeryLitvin
 - [ ] Скрипт по распределению шеардропа @ValeryLitvin
-- [x] Возможность увеличить дробность денежной единицы
+- [x] Возможность увеличить дробность денежной единицы 
+- [ ] !hot! Покрытие тестами предыдущей задачи
 - [x] Развернуть существующий эксплорер @ValeryLitvin
 - [ ] Адаптация скрипта с ценами @tomarcafe
 - [x] Тестовая группа @ValeryLitvin
-- [ ] Инструкция для делегатов
+- [ ] !hot! Инструкция для делегатов
 - [ ] Список верифицированных счетов @all
 - [ ] Code Review by Dan
 
 ## 5. Инфраструктура для веб-клиента @tomarcafe
 - [ ] Балансировщик @tomarcafe
-- [ ] Memcached @tomarcafe
+- [ ] !не мемкашед. скорее redis. Memcached @tomarcafe
 - [ ] Контейенера для нод. Docker. @ValeryLitvin (-> backlog)
 - [ ] Wallarm @ValeryLitvin
 - [ ] New Relic @ValeryLitvin
@@ -138,7 +141,7 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - Ронни
 
 ## 4. Маркетинг
-- [ ] Целевка Adwords @lomashuk
+- [ ] !hot! Целевка Adwords @vitalylvov
 
 ## 5. Публикация Статей
 - [x] Coinfox @lomashuk
@@ -150,7 +153,7 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] Rusbase @21xhipster
 
 # Формирование сообщества
-Результатам формирования сообщества будет первая выплата!
+Результатом формирования сообщества будет первая выплата!
 
 ## Расширение команды
 - [ ] C++ developers and full-stack devs
@@ -160,9 +163,13 @@ STEEMIT_OWNER_UPDATE_LIMIT                          fc::minutes(60) - сек
 - [ ] Листинг на Полоникс
 
 ## 2. Развитие системы делегатов
+- [ ] @
 
 ## 3. Поддержка локализации образовательного контента
+- [ ] @
 
 ## 4. Поддержка #introduceyourself
+- [ ] @
 
 ## 5. Внедрение системы поощрения разработчиков
+- [ ] @
