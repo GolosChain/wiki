@@ -1,5 +1,5 @@
 # Добро пожаловать в вики проекта Голос
-- [Часто задаваемый вопросы](https://github.com/GolosChain/wiki/blob/master/FAQ.md)
+- [Часто задаваемые вопросы](https://github.com/GolosChain/wiki/blob/master/FAQ.md)
 - [Драфт бумаги про Голос](https://github.com/GolosChain/wiki/blob/master/%D0%91%D1%83%D0%BC%D0%B0%D0%B3%D0%B0%20%D0%BF%D1%80%D0%BE%20%D0%93%D0%BE%D0%BB%D0%BE%D1%81.md)
 
 ## Установка Голоса
