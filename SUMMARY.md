@@ -6,7 +6,7 @@
 * [Про Голос](1-introduction/golos_whitepaper.md)
 * [Оригинальная бумага про Стим](1-introduction/steem_whitepaper.md)
 * [ЧАВО](1-introduction/faq.md)
-* [Полезные ссылки](1-introduction/useful_links.md)
+* [Полезные ссылки - To Translate](1-introduction/useful_links.md)
 
 ### Вознаграждения
 * [Инвестиционные награды](2-rewards/commitment_rewards.md)
