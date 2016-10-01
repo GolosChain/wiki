@@ -1,7 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [Разработка](razrabotka.md)
-  * [Разработка](razrabotka.md)
-  * [Разработка](razrabotka.md)
- 
+* Вознаграждения
 
