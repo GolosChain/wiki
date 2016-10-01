@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Разработка](razrabotka.md)
-* Вознаграждения
+* [Вознаграждения](voznagrazhdeniya.md)
 
