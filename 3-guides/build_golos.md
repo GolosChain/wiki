@@ -33,13 +33,17 @@ make
 
 Для загрузки обновлённого программного кода требуется запустить следующий код:
 
+```
 git fetch
 git checkout <version>
 git submodule update --init --recursive
 cmake .
 make
-Distribution Specific Settings
-Boost 1.60
+```
+
+### Особенность разных версий ПО
+
+#### Boost 1.60
 
 Библиотека загрузочных файлов может быть устаревшей. В этом случае следует загрузить tar-архив для Boost 1.60.0.
 
@@ -54,8 +58,6 @@ cd boost_1_60_0/
 ./bootstrap.sh "--prefix=$BOOST_ROOT"
 ./b2 install 
 ``` 
-
-### Специфика версий Ubuntu
 
 #### Ubuntu 14.04
 
