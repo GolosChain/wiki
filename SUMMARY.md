@@ -34,3 +34,4 @@
 ### Разработка
 * [Гайдлайн](5-development/guideline.md)
 * [Дорожная карта](5-development/roadmap.md)
+* [Тестирование](5-development/testing.md)
