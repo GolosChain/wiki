@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "collapsible-chapters"
+        "collapsible-chapters",
+        "anchors"
     ],
     "pluginsConfig": {}
 }
