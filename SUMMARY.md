@@ -4,9 +4,8 @@
 
 ### Введение
 * [Про Голос](1-introduction/golos_whitepaper.md)
-* [Оригинальная бумага про Стим](1-introduction/steem_whitepaper.md)
+* [Про Стим](1-introduction/steem_whitepaper.md)
 * [ЧАВО](1-introduction/faq.md)
-* [Полезные ссылки - To Translate](1-introduction/useful_links.md)
 
 ### Вознаграждения
 * [Постинг](2-rewards/posting_rewards.md)
@@ -37,3 +36,4 @@
 * [Тестирование](5-development/testing.md)
 * [Запуск тестнета](3-guides/start_testnet.md)
 * [Генерация графика эмиссии](3-guides/emission_chart.md)
+* [Полезные ссылки - To Translate](1-introduction/useful_links.md)
