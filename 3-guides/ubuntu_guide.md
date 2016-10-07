@@ -18,30 +18,30 @@ chmod +x golos-install.sh && ./golos-install.sh
 ```bash
 #!/bin/bash
 
-# install dependencies == устанавливаем зависимости
+# install dependencies
 sudo apt-get -y upgrade && sudo apt-get -y install git cmake g++ python-dev autotools-dev libicu-dev build-essential libbz2-dev libboost-all-dev libssl-dev libncurses5-dev doxygen libreadline-dev dh-autoreconf screen
 
-# remove old installation == удаляем папку с предыдущей установкой
+# remove old installation
 rm -rf golos
 mkdir golos
 
-# pull fresh code, compile == скачиваем последний релиз с гитхаба, подтягиваем модули, собираем
+# pull fresh code, compile
 git clone https://github.com/GolosChain/golos && cd golos && git checkout testnet4 && git submodule update --init --recursive && cmake -DCMAKE_BUILD_TYPE=Release . && make -j4
 
-# install new binaries == копируем бинарники в удобное нам место
+# install new binaries
 cp programs/golosd/golosd ../golosnode/
 cp programs/cli_wallet/cli_wallet ../golosnode/
 
-# go into golos == переходим в директорию со собранной нодой и воллетом
+# go into golos
 cd ..
 cd golosnode/
 
-# apply config.ini if available == используем конфигурационный файл, если он есть
+# apply config.ini if available
 if [ -f ../config.ini ]
 then
     cp -fv ../config.ini witness_node_data_dir/
 fi
-
+```
 Заметка: для ускорения процесса вы можете запустить команду make с опцией -j4 (или больше в зависимости от вашего процессора)
 ```
 make -j8
