@@ -16,9 +16,8 @@
 * [Награды за сбережения](2-rewards/savings_rewards.md)
 
 ### Рецепты
-* [Как билдить ноду](3-guides/build_golos.md)
-* [Установка на OS X](3-guides/osx_guide.md)
 * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
+* [Установка на OS X](3-guides/osx_guide.md)
 * [Майнинг голосов](3-guides/mine_golos.md)
 * [Мониторинг счета](3-guides/monitor_deposit.md)
 * [Запуск тестнета](3-guides/start_testnet.md)
