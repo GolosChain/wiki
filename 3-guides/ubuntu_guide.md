@@ -45,10 +45,6 @@ fi
 chmod +x golos-install.sh && ./golos-install.sh
 ```
 
-```
-make -j8
-```
-
 После всего этого структура директорий будет следующая - 
 
 ```bash
