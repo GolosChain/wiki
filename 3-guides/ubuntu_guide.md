@@ -26,6 +26,7 @@ git clone https://github.com/GolosChain/golos && cd golos && git checkout testne
 
 # install new binaries
 cp programs/golosd/golosd ../golosnode/
+cp programs/golosd/snapshot5392323.json ../golosnode/
 cp programs/cli_wallet/cli_wallet ../golosnode/
 
 # go into golos
