@@ -22,11 +22,11 @@ sudo apt-get -y upgrade && sudo apt-get -y install git cmake g++ python-dev auto
 rm -rf golos
 mkdir golos
 
-# pull fresh code, compile
-git clone https://github.com/GolosChain/golos && cd golos && git checkout testnet4 && git submodule update --init --recursive && cmake -DCMAKE_BUILD_TYPE=Release . && make -j4
-
 rm -rf golosnode
 mkdir golosnode
+
+# pull fresh code, compile
+git clone https://github.com/GolosChain/golos && cd golos && git checkout testnet4 && git submodule update --init --recursive && cmake -DCMAKE_BUILD_TYPE=Release . && make -j4
 
 # install new binaries
 cp programs/golosd/golosd ../golosnode/
