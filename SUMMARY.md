@@ -19,11 +19,10 @@
 * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
 * [Установка на OS X](3-guides/osx_guide.md)
 * [Майнинг голосов](3-guides/mine_golos.md)
+* Настройка делегата
 * [Мониторинг счета](3-guides/monitor_deposit.md)
-* [Запуск тестнета](3-guides/start_testnet.md)
 * [CLI кошелек](3-guides/cli_wallet.md)
 * [Генерация ключей](3-guides/generate_keys.md)
-* [Генерация графика эмиссии](3-guides/emission_chart.md)
 
 ### Документация
 * [Алгоритм Консенсуса](4-documentation/consensus_algorithm.md)
@@ -34,3 +33,5 @@
 * [Гайдлайн](5-development/guideline.md)
 * [Дорожная карта](5-development/roadmap.md)
 * [Тестирование](5-development/testing.md)
+* [Запуск тестнета](3-guides/start_testnet.md)
+* [Генерация графика эмиссии](3-guides/emission_chart.md)
