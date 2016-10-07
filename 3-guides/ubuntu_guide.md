@@ -21,10 +21,10 @@ rm -rf golos
 mkdir golos
 
 # pull fresh code, compile == скачиваем последний релиз с гитхаба, подтягиваем модули, собираем
-git clone https://github.com/GolosChain/golos && cd golos && git checkout testnet3 && git submodule update --init --recursive && cmake -DCMAKE_BUILD_TYPE=Release . && make -j4
+git clone https://github.com/GolosChain/golos && cd golos && git checkout testnet4 && git submodule update --init --recursive && cmake -DCMAKE_BUILD_TYPE=Release . && make -j4
 
 # install new binaries == копируем бинарники в удобное нам место
-cp programs/steemd/steemd ../golosnode/
+cp programs/golosd/golosd ../golosnode/
 cp programs/cli_wallet/cli_wallet ../golosnode/
 
 # go into golos == переходим в директорию со собранной нодой и воллетом
@@ -56,9 +56,9 @@ $ tree -L 2
 │   ├── (source code files)
 ├── golosnode <=== (отсуда мы запускаем ноду и воллет)
 │   ├── cli_wallet
-│   ├── steemd
+│   ├── golosd
 │   └── witness_node_data_dir  <=== (config.ini и блокчейн находится здесь)
-└── steem-install.sh
+└── golos-install.sh
 ```
 
 Если вышел новый релиз с новым хардфорком - перезапускаем скрипт.
