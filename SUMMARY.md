@@ -9,11 +9,13 @@
 * [Полезные ссылки - To Translate](1-introduction/useful_links.md)
 
 ### Вознаграждения
-* [Инвестиционные награды](2-rewards/commitment_rewards.md)
-* [Награды за курирование](2-rewards/curation_rewards.md)
-* [Награды за майнинг](2-rewards/mining_rewards.md)
-* [Награды за постинг](2-rewards/posting_rewards.md)
-* [Награды за сбережения](2-rewards/savings_rewards.md)
+* [Постинг](2-rewards/posting_rewards.md)
+* [Курирование](2-rewards/curation_rewards.md)
+* [Инвестирование](2-rewards/commitment_rewards.md)
+* [Сбережения ](2-rewards/savings_rewards.md)
+* [Майнинг](2-rewards/mining_rewards.md)
+* Делегатство
+
 
 ### Рецепты
 * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
