@@ -25,6 +25,9 @@ mkdir golos
 # pull fresh code, compile
 git clone https://github.com/GolosChain/golos && cd golos && git checkout testnet4 && git submodule update --init --recursive && cmake -DCMAKE_BUILD_TYPE=Release . && make -j4
 
+rm -rf golos
+mkdir golosnode
+
 # install new binaries
 cp programs/golosd/golosd ../golosnode/
 cp programs/golosd/snapshot5392323.json ../golosnode/
