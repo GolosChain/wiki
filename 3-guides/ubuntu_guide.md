@@ -25,7 +25,7 @@ mkdir golos
 # pull fresh code, compile
 git clone https://github.com/GolosChain/golos && cd golos && git checkout testnet4 && git submodule update --init --recursive && cmake -DCMAKE_BUILD_TYPE=Release . && make -j4
 
-rm -rf golos
+rm -rf golosnode
 mkdir golosnode
 
 # install new binaries
@@ -36,6 +36,7 @@ cp programs/cli_wallet/cli_wallet ../golosnode/
 # go into golos
 cd ..
 cd golosnode/
+mkdir witness_node_data_dir
 
 # apply config.ini if available
 if [ -f ../config.ini ]
