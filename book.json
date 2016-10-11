@@ -2,7 +2,13 @@
     "plugins": [
         "collapsible-chapters",
         "anchors",
-        "page-toc"
+        "etoc"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+      "etoc": {
+        "mindepth": 3,
+        "maxdepth": 4,
+        "notoc": false
+      }
+    }
 }
