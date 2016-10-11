@@ -1,7 +1,8 @@
 {
     "plugins": [
         "collapsible-chapters",
-        "anchors"
+        "anchors",
+        "etoc"
     ],
     "pluginsConfig": {}
 }
