@@ -1,8 +1,7 @@
 # Summary
 
-[Введение](README.md)
-
 ### Введение
+* [Введение](README.md)
 * [Про Голос](1-introduction/golos_whitepaper.md)
 * [Про Стим](1-introduction/steem_whitepaper.md)
 * [ЧАВО](1-introduction/faq.md)
