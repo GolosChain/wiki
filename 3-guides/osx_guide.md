@@ -29,7 +29,7 @@ git clone https://github.com/GolosChain/golos
 
 И соберите проект (это может занять от 10 до 30 минут):
 ```bash
-cd golos
+cd golos && git checkout master
 git submodule update --init --recursive
 cmake -DBOOST_ROOT='/usr/local/Cellar/boost160/1.60.0' -DOPENSSL_ROOT_DIR='/usr/local/Cellar/openssl/1.0.2h_1/'  -DCMAKE_BUILD_TYPE=Release .
 make
