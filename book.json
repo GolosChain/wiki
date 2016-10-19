@@ -2,7 +2,8 @@
     "plugins": [
         "collapsible-chapters",
         "anchors",
-        "etoc"
+        "etoc",
+        "youtubex"
     ],
     "pluginsConfig": {
       "etoc": {
