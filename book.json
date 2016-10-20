@@ -2,20 +2,13 @@
     "plugins": [
         "collapsible-chapters",
         "anchors",
-        "etoc",
-        "youtubex"
+        "etoc"
     ],
     "pluginsConfig": {
       "etoc": {
         "mindepth": 3,
         "maxdepth": 4,
         "notoc": true
-      },
-      "youtubex": {
-        "embedDescription": {
-          "en": "Watch this video!",
-          "ru": "Смотреть это видео!"
-        }
       }
     }
 }
