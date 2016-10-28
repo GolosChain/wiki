@@ -96,7 +96,7 @@
 
 Думаю теперь вы уже готовы к этому видео (5 минут): 
 
-{%youtube%}Rd_vEKcIHtw{%endyoutube%}
+{%youtube%}TRtHhXOte0o{%endyoutube%}
 
 #### Что такое криптовалюта?
 
