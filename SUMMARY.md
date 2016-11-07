@@ -5,7 +5,6 @@
 * [Про Стим](1-introduction/steem_whitepaper.md)
 * [ЧАВО](1-introduction/faq.md)
    * [Я здесь впервые!](1-introduction/ya_zdes_vpervie.md)
-       * Как пользоваться платформой Голос?
        * [Как пользоваться платформой Голос?](1-introduction/kak_polzovatsya_platformoi_golos.md)
 * [Постинг](2-rewards/posting_rewards.md)
 * [Курирование](2-rewards/curation_rewards.md)
