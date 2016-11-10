@@ -34,9 +34,9 @@ git submodule update --init --recursive
 cmake -DBOOST_ROOT='/usr/local/Cellar/boost160/1.60.0' -DOPENSSL_ROOT_DIR='/usr/local/Cellar/openssl/1.0.2h_1/'  -DCMAKE_BUILD_TYPE=Release .
 make
 ```
-Заметка: для ускорения процесса можете запустить команду make с опцией -j4 или больше, по числу ядер процессора
+Заметка: для ускорения процесса можете запустить команду make с флагом -j и числом ядер процессора:
 ```bash
-make -j4
+make -j$(sysctl -n hw.ncpu)
 ```
 
 Теперь вы можете запусить голос:
