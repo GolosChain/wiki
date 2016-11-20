@@ -66,20 +66,20 @@
 - [x] Тестовая группа @ValeryLitvin
 - [ ] !hot! Инструкция для делегатов
 - [ ] Список верифицированных счетов @all
-- [ ] Code Review by Dan
+- [?] Code Review by Dan
 
 ## 5. Инфраструктура для веб-клиента @tomarcafe
-- [ ] Балансировщик @tomarcafe
+- [x] Балансировщик @tomarcafe
 - [ ] !не мемкашед. скорее redis. Memcached @tomarcafe
 - [ ] Контейенера для нод. Docker. @ValeryLitvin (-> backlog)
 - [ ] Wallarm @ValeryLitvin
-- [ ] New Relic @ValeryLitvin
+- [x] New Relic @pio
 - [ ] Codeship @tomarcafe
 
 ## 6. Юридическая защита @lomashuk
-- [ ] Disclaimer
-- [ ] License Agreement
-- [ ] Купить компанию
+- [x] Disclaimer
+- [x] License Agreement
+- [?] Купить компанию
 
 # Запуск
 ## 1. Таймлайн
