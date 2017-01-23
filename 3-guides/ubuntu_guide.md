@@ -10,7 +10,7 @@ nano golos-install.sh
 
 Заметка: самый простой способ сделать это с помощью редактора [nano](http://help.ubuntu.ru/wiki/nano)
 
-Данный скрипт устанавливает все необходимые зависимости и скачивает последний релиз из основоного репозитория с мастер ветки (во время тестнета с тестовой ветки)
+Данный скрипт устанавливает все необходимые зависимости и скачивает последний релиз из тега актуальной версии основного репозитория
 
 ```bash
 #!/bin/bash
@@ -26,7 +26,7 @@ rm -rf golosnode
 mkdir golosnode
 
 # pull fresh code, compile
-git clone https://github.com/GolosChain/golos && cd golos && git checkout master && git submodule update --init --recursive && cmake -DCMAKE_BUILD_TYPE=Release . && make -j4
+git clone https://github.com/GolosChain/golos && cd golos && git checkout tags/v0.14.2 && git submodule update --init --recursive && cmake -DCMAKE_BUILD_TYPE=Release . && make -j$(nproc)
 
 # install new binaries
 cp programs/golosd/golosd ../golosnode/
@@ -43,10 +43,7 @@ if [ -f ../config.ini ]
 then
     cp -fv ../config.ini witness_node_data_dir/
 fi
-```
-Заметка: для ускорения процесса вы можете запустить команду make с опцией -j4 (или больше в зависимости от вашего процессора)
 
-```
 chmod +x golos-install.sh && ./golos-install.sh
 ```
 
