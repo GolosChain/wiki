@@ -8,7 +8,7 @@
 * [Начни отсюда](chto-nuzhno-znat-v-pervuyu-ochered.md)
 * [Видео уроки для Чайников](1-introduction/kak_polzovatsya_platformoi_golos.md)
 * [Постинг \(написание статьей\)](2-rewards/posting_rewards.md)
-* [Курирование](2-rewards/curation_rewards.md)
+* [Курирование \(голосование за других\)](2-rewards/curation_rewards.md)
 * [Инвестирование](2-rewards/commitment_rewards.md)
 * [Сбережения](2-rewards/savings_rewards.md)
 * [Майнинг](2-rewards/mining_rewards.md)
