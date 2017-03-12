@@ -12,7 +12,7 @@
 * [Инвестирование](2-rewards/commitment_rewards.md)
 * [Сбережения](2-rewards/savings_rewards.md)
 * [Майнинг](2-rewards/mining_rewards.md)
-* Делегатство
+* [Делегатство](delegatstvo.md)
 * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
 * [Установка на OS X](3-guides/osx_guide.md)
 * [Майнинг голосов](3-guides/mine_golos.md)
