@@ -1,4 +1,4 @@
-# Вики, блокчейн, проекта ГОЛОС 
+# Вики блокчейн проекта ГОЛОС 
 
 ![Логотип Голос](https://raw.githubusercontent.com/GolosChain/wiki/master/_images/golos_logo.png)
 
