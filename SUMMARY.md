@@ -3,7 +3,7 @@
 * [Введение](README.md)
 * [Белая бумага Голос](1-introduction/golos_whitepaper.md)
 * [White Paper Steem на Русском](1-introduction/steem_whitepaper.md)
-* [ЧАВО](1-introduction/faq.md)
+* [Вопросы и ответы ЧАВО](1-introduction/faq.md)
   * [Я здесь впервые!](1-introduction/ya_zdes_vpervie.md)
     * [Как пользоваться платформой Голос?](1-introduction/kak_polzovatsya_platformoi_golos.md)
 * [Постинг](2-rewards/posting_rewards.md)
