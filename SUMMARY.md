@@ -16,7 +16,7 @@
 * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
 * [Установка на OS X](3-guides/osx_guide.md)
 * [Майнинг голосов](3-guides/mine_golos.md)
-* Настройка делегата
+* [Настройка делегата](nastroika-delegata.md)
 * [Мониторинг счета](3-guides/monitor_deposit.md)
 * [CLI кошелек](3-guides/cli_wallet.md)
 * [Генерация ключей](3-guides/generate_keys.md)
