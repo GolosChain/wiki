@@ -6,7 +6,7 @@
 * [Вопросы и ответы ЧАВО](1-introduction/faq.md)
 * [Ответы для новичков](1-introduction/ya_zdes_vpervie.md)
 * [Видео уроки для Чайников](1-introduction/kak_polzovatsya_platformoi_golos.md)
-* [Постинг](2-rewards/posting_rewards.md)
+* [Постинг \(написание статьей\)](2-rewards/posting_rewards.md)
 * [Курирование](2-rewards/curation_rewards.md)
 * [Инвестирование](2-rewards/commitment_rewards.md)
 * [Сбережения](2-rewards/savings_rewards.md)
