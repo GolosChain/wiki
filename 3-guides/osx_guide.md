@@ -1,15 +1,16 @@
+#### Установка
 Перед тем как начать, установите пожалуйста XCode [скачать](https://developer.apple.com/download) или через App Store
 и введите в консоли:
 ```bash
 sudo xcodebuild -license accept
 ```
 
-Установите Homebrew [отсюда](http://brew.sh/) или введите:
+#### Установите Homebrew [отсюда](http://brew.sh/) или введите:
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Установите зависимости Голоса:
+#### Установите зависимости Голоса:
 ```bash
 brew install cmake git openssl autoconf automake qt5
 ```
@@ -22,7 +23,7 @@ brew install google-perftools berkeley-db libtool python3 readline
 brew install homebrew/versions/boost160
 ```
 
-Склонируйте репозиторий в вашу рабочую директорию:
+#### Склонируйте репозиторий в вашу рабочую директорию:
 ```bash
 git clone https://github.com/GolosChain/golos
 ```
@@ -54,5 +55,5 @@ screen -dmS golos ./golosd
 После запуска у вас запустится нода и инициализируются аккаунты из файла snapshot.json в генезис, также у вас создастся папка 
 witness_node_data_dir с конфигурационным файлом config.ini
 
-Отредактируйте его со следующими настройками:
+#### Отредактируйте его со следующими настройками:
 [дописать инструкцию по конфигурированию config.ini]
