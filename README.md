@@ -2,7 +2,8 @@
 
 [![Логотип Голос](https://raw.githubusercontent.com/GolosChain/wiki/master/_images/golos_logo.png)](https://golos.io/)
 
-Эта документация является центральной точкой для информации и руководством по проекту [ГОЛОС](https://golos.io/). Расположена по адресу [wiki.golos.io](https://wiki.golos.io). 
+Эта документация - центральная точка для информации и руководство по проекту [ГОЛОС](https://golos.io/).   
+Расположена по адресу [wiki.golos.io](https://wiki.golos.io).
 
 Вики является результатом коллективного труда. Каждый может [поучаствовать в ее развитии](https://github.com/GolosChain/wiki).
 
