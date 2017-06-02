@@ -5,7 +5,7 @@
   * [Начни отсюда](chto-nuzhno-znat-v-pervuyu-ochered.md)
   * [Философия для новичков](1-introduction/ya_zdes_vpervie.md)
   * [Вопросы и ответы ЧАВО](1-introduction/faq.md)
-  * [Видео уроки для Чайников](1-introduction/kak_polzovatsya_platformoi_golos.md)
+  * [Видео-уроки для Чайников](1-introduction/kak_polzovatsya_platformoi_golos.md)
 * Документы
   * [Белая бумага ГОЛОСа](1-introduction/golos_whitepaper.md)
   * [Дорожная карта](5-development/roadmap.md)
@@ -34,6 +34,4 @@
   * [Запуск тестнета](3-guides/start_testnet.md)
 * Полезное
   * [Полезные ссылки - To Translate](1-introduction/useful_links.md)
-
-
 
