@@ -7,7 +7,7 @@
   * [Вопросы и ответы](1-introduction/faq.md)
   * [Видео-уроки](1-introduction/kak_polzovatsya_platformoi_golos.md)
 * Документы
-  * [Белая бумага ГОЛОСа](1-introduction/golos_whitepaper.md)
+  * [Белая бумага Голоса](1-introduction/golos_whitepaper.md)
   * [Дорожная карта](5-development/roadmap.md)
   * [White Paper Steem на Русском](1-introduction/steem_whitepaper.md)
 * Инструкции
