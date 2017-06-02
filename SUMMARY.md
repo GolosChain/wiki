@@ -5,7 +5,7 @@
 * [Философия для новичков](1-introduction/ya_zdes_vpervie.md)
 * [Вопросы и ответы ЧАВО](1-introduction/faq.md)
 * [Видео уроки для Чайников](1-introduction/kak_polzovatsya_platformoi_golos.md)
-* [Белая бумага Голос](1-introduction/golos_whitepaper.md)
+* [Белая бумага ГОЛОСа](1-introduction/golos_whitepaper.md)
 * [Дорожная карта](5-development/roadmap.md)
 * [White Paper Steem на Русском](1-introduction/steem_whitepaper.md)
 * [Постинг \(написание статьей\)](2-rewards/posting_rewards.md)
