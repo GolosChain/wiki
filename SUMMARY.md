@@ -8,7 +8,7 @@
 * [Белая бумага ГОЛОСа](1-introduction/golos_whitepaper.md)
 * [Дорожная карта](5-development/roadmap.md)
 * [White Paper Steem на Русском](1-introduction/steem_whitepaper.md)
-* [Постинг \(написание статьей\)](2-rewards/posting_rewards.md)
+* [Постинг \(написание статей\)](2-rewards/posting_rewards.md)
 * [Курирование \(голосование за других\)](2-rewards/curation_rewards.md)
 * [Инвестирование](2-rewards/commitment_rewards.md)
 * [Сбережения](2-rewards/savings_rewards.md)
