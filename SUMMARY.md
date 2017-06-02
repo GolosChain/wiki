@@ -17,7 +17,7 @@
   * [Сбережения](2-rewards/savings_rewards.md)
   * [Делегатство](delegatstvo.md)
   * [Майнинг](2-rewards/mining_rewards.md)
-* Разработчикам
+* [Разработчикам](razrabotchikam.md)
   * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
   * [Установка на OS X](3-guides/osx_guide.md)
   * [Настройка делегата](nastroika-delegata.md)
@@ -32,6 +32,6 @@
   * [Гайдлайн Github](5-development/guideline.md)
   * [Тестирование](5-development/testing.md)
   * [Запуск тестнета](3-guides/start_testnet.md)
-* Полезное
+* [Полезное](poleznoe.md)
   * [Полезные ссылки - To Translate](1-introduction/useful_links.md)
 
