@@ -1,16 +1,7 @@
 # Вики проекта Медиаблокчейн Голос
-
-  
-  
-  
-  
-  
-  
-  
-
-
+<br>
 [![Логотип Голос](https://raw.githubusercontent.com/GolosChain/wiki/master/_images/golos_logo.png)](https://golos.io/)
-
+<br>
 Эта документация - центральная точка для информации и руководство по проекту [Голос](https://golos.io/).  
 Расположена по адресу [wiki.golos.io](https://wiki.golos.io).
 
