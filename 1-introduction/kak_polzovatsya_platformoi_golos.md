@@ -14,6 +14,7 @@
 
 {%youtube%}8a0TPACOu2k{%endyoutube%}
 
+<br>
 Что такое блокчейн?
 
 {%youtube%}TRtHhXOte0o{%endyoutube%}
