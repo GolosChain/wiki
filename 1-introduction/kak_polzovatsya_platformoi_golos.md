@@ -16,5 +16,8 @@
 
 Что такое блокчейн?
 
+{%youtube%}TRtHhXOte0o{%endyoutube%}
+
+
 
 
