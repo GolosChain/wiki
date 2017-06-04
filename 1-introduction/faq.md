@@ -1,9 +1,10 @@
 # Начни отсюда:
 
-<!-- toc -->
-## Header2
+    tags: tag1, tag2, tag3
 
-tags: tag1, tag2, tag3
+<!-- toc -->
+
+## Header2
 
 ### Header3
 
