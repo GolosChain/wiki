@@ -1,6 +1,6 @@
 # Начни отсюда
 
-tags: tag1, tag2, tag3
+tags: tag1, tag2, tag3, ,
 
 <!-- toc -->
 
