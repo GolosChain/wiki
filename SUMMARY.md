@@ -33,5 +33,4 @@
   * [Запуск тестнета](3-guides/start_testnet.md)
 * [Полезное](poleznoe.md)
   * [Полезные ссылки - To Translate](1-introduction/useful_links.md)
-  * [Теги](tags.md) 
 
