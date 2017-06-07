@@ -77,10 +77,15 @@ Kuna: [GOLOS](https://kuna.io/markets/golbtc)
 [ICO/Краудсейл "Голоса": оценка стоимости, перспективы курса токенов и этапы инвестирования](https://www.youtube.com/watch?v=k1O-53a8VXA)
 ### Полезные сайты
 [GolosTools](http://golostools.com/) - обзор инструментов и сервисов для Голоса
+
 Блок эксплореры Голоса: [golosd.com](http://golosd.com/) и [golosdb.com](http://golosdb.com/)
+
 [Steemul](http://steemul.ru/) - разнообразные рейтинги, ТОПы и отзывы пользователей Голоса друг о друге
+
 [Разум Голоса](http://razumgolosa.com/) - рейтинги, статистика и ключевые показатели Голоса на одной странице
+
 [Доска почёта Голоса](http://golosboard.com/) - геймификация достижений пользователей
+
 [Golos@Steemstats](http://golos.steemstats.com/) - мониторинг активности аккаунтов Голос
 ### Полезные скрипты
 GOLOS NOTIFY - Бот уведомлений для golos.io в Telegram
