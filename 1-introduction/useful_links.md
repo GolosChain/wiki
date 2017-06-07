@@ -19,8 +19,6 @@
 
 [Как на Голосе работает ограничение на четыре заметки в день](https://golos.io/ru--golos/@oxygendependant/kak-na-golose-rabotaet-ogranichenie-na-chetyre-zametki-v-den)
 
-@kulturagolosa - сообщать о плагиате и нарушениях в контентной политике (сделать упоминание аккаунта в комментариях поста нарушителя)
-
 ### Публикация и оформление постов в Голосе
 [Как создать пост на платформе Голос?](https://golos.io/ru--knigagolos/@aleksandraz/kniga-pro-golos-kak-sozdat-post-na-platforme-golos)
 
