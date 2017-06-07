@@ -129,12 +129,18 @@ VGolose - анонс альтернативного веб-клиента для
 [Список всех доступных скриптов обновления цены](https://golos.io/ru--delegaty/@primus/delegatam-cena-zolotogo-na-osnove-birzhi-livecoin-i-spisok-vsekh-dostupnykh-skriptov-obnovleniya-ceny)
 ### Автоматизация работы в Голосе и список полезных библиотек
 [Разработка персональных ботов для Голоса](https://golos.io/ru--golos/@ontofractal/razrabotka-personalnykh-botov-dlya-golosa-urok-3)
+
 [Piston](https://golos.io/golos/@chainsquad/pysteempiston-support-for-golos-has-been-added)- Python библиотека для работы с блокчейном Голоса на уровне протокола
+
 [Golos.js](https://golos.io/ru--golos/@dark.sun/golos-js-legkii-sposob-sozdavat-prilozheniya-dlya-golos) - JavaScript библиотека для работы с блокчейном Голоса
+
 [[GolosSQL]](https://golos.io/ru--golos/@arcange/golossql-baza-dannykh-sql-so-vsemi-dannymi-blokchein) - База данных SQL со всеми данными блокчейн
-[Golos.NET] Библиотека .NET library для API Голоса
-Опен сорс JSONRPC клиент для Голоса на Elixir/Erlang
-Инициатива кибер•Фонда по поддержке открытого исходного кода в Голосе
+
+[[Golos.NET](https://golos.io/ru--golos/@arcange/golos-net-a-microsoft-net-library-for-golos-api)] Библиотека .NET library для API Голоса
+
+[Опен сорс JSONRPC клиент для Голоса на Elixir/Erlang](https://golos.io/ru--golos/@ontofractal/reliz-exgolos-v0-1-open-sors-jsonrpc-klient-dlya-golosa-na-elixir-erlang)
+
+[Инициатива кибер•Фонда по поддержке открытого исходного кода в Голосе](https://golos.io/ru--otkrytyij-kod/@hipster/iniciativa-kiber-fonda-po-podderzhke-otkrytogo-iskhodnogo-koda-v-golose)
 
 ### Действующие боты сети Голоса
 radogost - бот, приветствующий новичков, хозяин @phenom
