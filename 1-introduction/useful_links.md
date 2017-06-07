@@ -137,7 +137,7 @@ seraph - бот, компенсирующий флаги хейтеров, хо�
 cheetah - бот, преследующий за плагиат и копипасту, хозяин @anyx
 
 ##### Использованы материалы:
-[Самый полный FAQ о Голосе](https://golos.io/ru--golos/@bitcoinfo/samyi-polnyi-f-a-q-o-golose-spisok-luchshykh-postov-raskryvayushikh-vse-aspekty-proekta-bonusy-v-vide-kreativa)
+- [Самый полный FAQ о Голосе](https://golos.io/ru--golos/@bitcoinfo/samyi-polnyi-f-a-q-o-golose-spisok-luchshykh-postov-raskryvayushikh-vse-aspekty-proekta-bonusy-v-vide-kreativa)
 
 ### На английском языке:
 
