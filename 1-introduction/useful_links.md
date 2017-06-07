@@ -7,13 +7,13 @@
 [Делегаты и их роль на платформе Голос](https://golos.io/ru--golos/@on0tole/delegaty-i-ikh-rol-na-platforme-golos)
 [Аккаунт команды Голоса](https://golos.io/@golos)
 ### Публикация и оформление постов в Голосе
-Как создать пост на платформе Голос?
-Основы оформления постов на Голосе + полный курс по работе с Markdown
-Дополнительные мультимедийные возможности Голоса: музыка и видео в ваших записях
-Книга про Голос
-Этика поведения. О чём и как писать?
-Где брать картинки для своих публикаций: базы изображений для коммерческого использования
-Флаг: как и в каких случаях стоит использовать
+[Как создать пост на платформе Голос?](https://golos.io/ru--knigagolos/@aleksandraz/kniga-pro-golos-kak-sozdat-post-na-platforme-golos)
+[Основы оформления постов на Голосе + полный курс по работе с Markdown](https://golos.io/ru--golos/@on0tole/osnovy-oformleniya-postov-na-golose-polnyi-kurs-po-rabote-s-markdown)
+[Дополнительные мультимедийные возможности Голоса: музыка и видео в ваших записях](https://golos.io/ru--golos/@primus/dopolnitelnye-multimediinye-vozmozhnosti-golosa-muzyka-i-video-v-vashikh-zapisyakh)
+[Книга про Голос](https://golos.io/created/ru--knigagolos)
+[Этика поведения. О чём и как писать?](https://golos.io/ru--knigagolos/@katrin/etika-povedeniya-o-chyom-i-kak-pisat)
+[Где брать картинки для своих публикаций: базы изображений для коммерческого использования](https://golos.io/ru--golos/@awispa/gde-brat-kartinki-dlya-svoikh-publikacii-bazy-izobrazhenii-dlya-kommercheskogo-ispolzovaniya)
+[Флаг: как и в каких случаях стоит использовать](https://golos.io/ru--knigagolos/@aleksandraz/kniga-pro-golos-flag-kak-i-v-kakikh-sluchayakh-stoit-ispolzovat)
 
 ### Биржи для торговли токенами Голоса
 Bittrex: GOLOS и GBG
