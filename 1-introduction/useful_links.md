@@ -43,8 +43,11 @@ Kuna: [GOLOS](https://kuna.io/markets/golbtc)
 [Выводим Голос в рубли. Подробный мануал для новичков](https://golos.io/ru--golos/@mishka/vyvodim-golos-v-rubli-podrobnyi-manual-dlya-novichkov)
 ### Текущая экономика Голоса для авторов, кураторов, инвесторов и всех остальных
 [Руководство для новичков: Как чёрт возьми это работает?](https://steemit.com/ru-help/@lehard/rukovodstvo-dlya-novichkov-steemit-kak-chyort-vozmi-eto-rabotaet)
+
 [Как рассчитывается вознаграждение за пост?](https://golos.io/ru--golos/@lehard/kak-rasschityvaetsya-voznagrazhdenie-za-post)
+
 [Кураторство на Голосе. Как это работает?](https://golos.io/ru--golos/@haster100/kuratorstvo-na-golose-kak-eto-rabotaet-sait-golos-steemstats-com)
+
 [Что такое репутация на Голосе и как она работает?](https://golos.io/ru--golos/@arcange/chto-takoe-reputaciya-na-golose-i-kak-ona-rabotaet)
 ### Новая экономика Голоса после 16 хадфорка
 Новая экономика Голоса. 1 часть: расчёты и анализ. Что изменится?
