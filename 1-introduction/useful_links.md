@@ -57,7 +57,7 @@ Kuna: [GOLOS](https://kuna.io/markets/golbtc)
 
 [Еще один баннер 728х90](https://golos.io/ru--golos/@acidsun/prosto-myslishki-chego-ne-khvataet-na-golose)
 
-[Принты для футболок #1](https://golos.io/ru--golos/@konti/printy-dlya-futbolok-or-golos): 
+[Принты для футболок #1](https://golos.io/ru--golos/@konti/printy-dlya-futbolok-or-golos)
 
 [Принты для футболок #2](https://golos.io/ru--golos/@konti/novye-originalnye-printy-dlya-futbolok-or-golos-or-doska-pocheta)
 
