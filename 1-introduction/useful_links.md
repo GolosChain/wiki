@@ -22,7 +22,7 @@
 [Флаг: как и в каких случаях стоит использовать](https://golos.io/ru--knigagolos/@aleksandraz/kniga-pro-golos-flag-kak-i-v-kakikh-sluchayakh-stoit-ispolzovat)
 
 ### Биржи для торговли токенами Голоса
-Bittrex: GOLOS и GBG
+Bittrex: [GOLOS](https://www.bittrex.com/Market/Index?MarketName=BTC-GOLOS) и [GBG](https://bittrex.com/Market/Index?MarketName=BTC-GBG)
 Livecoin: GOLOS
 Liqui: GOLOS и GBG
 Kuna: GOLOS
