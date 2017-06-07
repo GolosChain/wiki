@@ -1,13 +1,11 @@
 ### О Голосе в целом: что это такое и как работает
-Бумага о Голосе
-Бумага про Стим
-Голос: русскоязычная социально-медийная блокчейн-платформа
-Голос: общественное медиа как база для социальной активности
-План развития блокчейн Голос и клиента Golos.io
-Делегаты и их роль на платформе Голос
-Официальная Вики проекта Голос
-Официальный репозиторий на GitHub
-Отчёт о проделанной работе команды Голоса
+[Бумага о Голосе](https://golos.io/ru--golos/@golos/golos-russkoyazychnaya-socialno-mediinaya-blokchein-platforma)
+[Бумага про Стим](https://steemit.com/ru/@hipster/bumaga-pro-stim-chast-1)
+[Голос: русскоязычная социально-медийная блокчейн-платформа](https://golos.io/ru--golos/@golos/golos-russkoyazychnaya-socialno-mediinaya-blokchein-platforma)
+[Голос: общественное медиа как база для социальной активности](https://golos.io/ru--golos/@marina/golos-obshestvennoe-media-kak-baza-dlya-socialnoi-aktivnosti)
+[План развития блокчейн Голос и клиента Golos.io](https://docs.google.com/document/d/1WQF1xxmCMxzEA95Gnxw4FHViX_6pjVoUlBnItCepOmE/edit?usp=sharing)
+[Делегаты и их роль на платформе Голос](https://golos.io/ru--golos/@on0tole/delegaty-i-ikh-rol-na-platforme-golos)
+[Аккаунт команды Голоса](https://golos.io/@golos)
 ### Публикация и оформление постов в Голосе
 Как создать пост на платформе Голос?
 Основы оформления постов на Голосе + полный курс по работе с Markdown
