@@ -88,10 +88,13 @@ Kuna: [GOLOS](https://kuna.io/markets/golbtc)
 
 [Golos@Steemstats](http://golos.steemstats.com/) - мониторинг активности аккаунтов Голос
 ### Полезные скрипты
-GOLOS NOTIFY - Бот уведомлений для golos.io в Telegram
-GolosNotify - расширение для браузера Google Chrome с уведомлениями для golos.io
-Закладка в браузере, для переключения между эксплорером/платформой для Голоса и Стимит, ничего не нужно скачивать
-Пользовательские скины, плагины и виджеты для Голоса
+[GOLOS NOTIFY](https://golos.io/ru--golos/@on0tole/dolgozhdannyi-anons-golos-notify-bot-uvedomlenii-dlya-golos-io-v-telegram) - Бот уведомлений для golos.io в Telegram
+
+[GolosNotify](https://golos.io/ru--golos/@on0tole/anons-golosnotify-rasshirenie-dlya-brauzera-google-chrome-s-uvedomleniyami-dlya-golos-io) - расширение для браузера Google Chrome с уведомлениями для golos.io
+
+[Закладка в браузере](https://golos.io/ru--golos/@anyx/zakladka-v-brauzere-dlya-pereklyucheniya-mezhdu-eksplorerom-platformoi-dlya-golosa-i-stimit-nichego-ne-nuzhno-skachivat), для переключения между эксплорером/платформой для Голоса и Стимит
+
+[Пользовательские скины, плагины и виджеты для Голоса](https://golos.io/ru--golos/@vik/vstrechaem-polzovatelskie-skiny-plaginy-i-vidzhety-dlya-golosa)
 ### Альтернативные web-клиенты блокчейна Голос
 Mapala.net - портал для самостоятельных путешественников
 Битва "Бизнес Молодости"
