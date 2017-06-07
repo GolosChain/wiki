@@ -34,4 +34,5 @@
 * [Полезное](poleznoe.md)
   * [Полезные ссылки - To Translate](1-introduction/useful_links.md)
   * [Терминология](1-introduction/terminologiya.md)
+  * [Участие в вики Голоса](1-introduction/uchastie-v-viki-golosa.md)
 
