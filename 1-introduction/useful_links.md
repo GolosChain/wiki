@@ -115,12 +115,18 @@ VGolose - анонс альтернативного веб-клиента для
 [Голос на форуме Bitcoinfo.ru](http://forum.bitcoinfo.ru/viewtopic.php?f=13&t=26742)
 
 ### Полезная статистика
-Результаты ICO: кто и сколько купил Голосов
-Статистика эффективности работы кураторов в Голосе
-Ежедневная статистика по новым пользователям, постам и комментариям
-Распределение токенов GOLOS и объем торгов
-Сравнительная статистика 100 первых дней Голоса и Steem
-Статистика активности делегатов за неделю
+[Результаты ICO: кто и сколько купил Голосов](http://www.steeme.ru/gf.html)
+
+[Статистика эффективности работы кураторов в Голосе](https://golos.io/ru--statistika/@primus/2017-01-30-2017-02-05-statistika-kto-samyi-effektivnyi-kurator-v-golose) за январь - февраль 2017 г.
+
+[Сравнительная статистика 100 первых дней Голоса и Steem](https://golos.io/ru--golos/@ontofractal/sravnitelnaya-statistika-100-pervykh-dnei-golosa-i-steem)
+
+Периодические обзоры: 
+[Ежедневная статистика по новым пользователям, постам и комментариям](https://golos.io/@arcange/)
+
+[Статистика по распределению токенов GOLOS и объему торгов](https://golos.io/@ukrainian)
+
+[Статистика активности делегатов за неделю](https://golos.io/@sancho.malyutin)
 ### Майнерам и делегатам
 [Настройка нод майнера и делегата для работы в Голосе: рабочие конфиги и пояснения по установке](https://golos.io/ru--golos/@primus/nastroika-nod-mainera-i-delegata-dlya-raboty-v-golose-rabochie-konfigi-i-poyasneniya-po-ustanovke)
 
