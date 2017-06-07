@@ -122,9 +122,11 @@ VGolose - анонс альтернативного веб-клиента для
 Сравнительная статистика 100 первых дней Голоса и Steem
 Статистика активности делегатов за неделю
 ### Майнерам и делегатам
-Настройка нод майнера и делегата для работы в Голосе: рабочие конфиги и пояснения по установке
-Как использовать PoW майнинг-аккаунт для работы в Голосе
-Список всех доступных скриптов обновления цены
+[Настройка нод майнера и делегата для работы в Голосе: рабочие конфиги и пояснения по установке](https://golos.io/ru--golos/@primus/nastroika-nod-mainera-i-delegata-dlya-raboty-v-golose-rabochie-konfigi-i-poyasneniya-po-ustanovke)
+
+[Как использовать PoW майнинг-аккаунт для работы в Голосе](https://golos.io/ru--golos/@primus/kak-ispolzovat-pow-maining-akkaunt-dlya-raboty-v-golose)
+
+[Список всех доступных скриптов обновления цены](https://golos.io/ru--delegaty/@primus/delegatam-cena-zolotogo-na-osnove-birzhi-livecoin-i-spisok-vsekh-dostupnykh-skriptov-obnovleniya-ceny)
 ### Автоматизация работы в Голосе и список полезных библиотек
 Разработка персональных ботов для Голоса
 Piston - Python библиотека для работы с блокчейном Голоса на уровне протокола
