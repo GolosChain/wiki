@@ -127,6 +127,11 @@ VGolose - анонс альтернативного веб-клиента для
 [Статистика по распределению токенов GOLOS и объему торгов](https://golos.io/@ukrainian)
 
 [Статистика активности делегатов за неделю](https://golos.io/@sancho.malyutin)
+
+[Ежедневный отчет о кураторстве](https://golos.io/@naminutku)
+
+[Книга рекордов Голоса. Кого больше всего лайкают](https://golos.io/@veritas)
+
 ### Майнерам и делегатам
 [Настройка нод майнера и делегата для работы в Голосе: рабочие конфиги и пояснения по установке](https://golos.io/ru--golos/@primus/nastroika-nod-mainera-i-delegata-dlya-raboty-v-golose-rabochie-konfigi-i-poyasneniya-po-ustanovke)
 
