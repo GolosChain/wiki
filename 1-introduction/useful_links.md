@@ -99,6 +99,8 @@ Kuna: [GOLOS](https://kuna.io/markets/golbtc)
 [Доска почёта Голоса](http://golosboard.com/) - геймификация достижений пользователей
 
 [Golos@Steemstats](http://golos.steemstats.com/) - мониторинг активности аккаунтов Голос
+
+[Калькулятор GBG => RUB](http://steemul.ru/gbg/) - расчет различных вариантов конвертации GBG в рубли, курсы токенов Голоса, золота и рубля
 ### Полезные скрипты
 [GOLOS NOTIFY](https://golos.io/ru--golos/@on0tole/dolgozhdannyi-anons-golos-notify-bot-uvedomlenii-dlya-golos-io-v-telegram) - Бот уведомлений для golos.io в Telegram
 
