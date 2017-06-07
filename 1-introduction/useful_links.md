@@ -1,4 +1,4 @@
-### О Голосе в целом: что это такое и как работает
+[](https://golos.io/ru--golos/@lehard/novaya-ekonomika-golosa-raschyoty-i-analiz-chto-izmenitsya-itogi-konkursa)### О Голосе в целом: что это такое и как работает
 [Бумага о Голосе](https://golos.io/ru--golos/@golos/golos-russkoyazychnaya-socialno-mediinaya-blokchein-platforma)
 
 [Бумага про Стим](https://steemit.com/ru/@hipster/bumaga-pro-stim-chast-1)
@@ -57,10 +57,13 @@ Kuna: [GOLOS](https://kuna.io/markets/golbtc)
 
 [Что такое репутация на Голосе и как она работает?](https://golos.io/ru--golos/@arcange/chto-takoe-reputaciya-na-golose-i-kak-ona-rabotaet)
 ### Новая экономика Голоса после 16 хадфорка
-Новая экономика Голоса. 1 часть: расчёты и анализ. Что изменится?
-Новая экономика Голоса. 2 часть: Централизация или Децентрализация?
-Новая Экономическая Модель ГОЛОСа: перевод поста @hipster на язык простых смертных:)
-Новая экономика Голоса в простых цифрах: что ждёт авторов, инвесторов и делегатов?
+[Новая экономика Голоса. 1 часть: расчёты и анализ. Что изменится?](https://golos.io/ru--golos/@lehard/novaya-ekonomika-golosa-raschyoty-i-analiz-chto-izmenitsya-itogi-konkursa)
+
+[Новая экономика Голоса. 2 часть: Централизация или Децентрализация?](https://golos.io/ru--golos/@lehard/novaya-ekonomika-golosa-2-chast-centralizaciya-ili-decentralizaciya)
+
+[Новая Экономическая Модель ГОЛОСа: перевод поста @hipster на язык простых смертных:)](https://golos.io/ru--golos/@natasha/novaya-ekonomicheskaya-model-golosa-perevod-posta-hipster-na-yazyk-prostykh-smertnykh)
+
+[Новая экономика Голоса в простых цифрах: что ждёт авторов, инвесторов и делегатов?](https://golos.io/ru--golos/@primus/novaya-ekonomika-golosa-v-prostykh-cifrakh-chto-zhdyot-avtorov-investorov-i-delegatov)
 
 ### Промо-материалы: баннеры, картинки, креатив про Голос
 [Комплекты баннеров для рекламы Голоса на ваших сайтах и в социальных сетях](https://golos.io/ru--golos/@primus/komplekty-1-i-2-bannerov-dlya-reklamy-golosa-na-vashikh-saitakh-i-v-socialnykh-setyakh)
