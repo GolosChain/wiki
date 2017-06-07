@@ -164,6 +164,9 @@ VGolose - анонс альтернативного веб-клиента для
 
 [cheetah](https://golos.io/ru--desyatxfaktovobomne/@cheetah/10-faktov-obo-mne-estafeta-ot-dhrms) - бот, преследующий за плагиат и копипасту, хозяин @anyx
 
+[Лотобот](https://golos.io/@lotobot) - автоматическая лотерея на Голосе, хозяин @ropox
+
+[Голос-Лото](https://golos.io/@golos.loto) - автоматическая лотерея на Голосе
 ##### Использованы материалы:
 - [Самый полный FAQ о Голосе](https://golos.io/ru--golos/@bitcoinfo/samyi-polnyi-f-a-q-o-golose-spisok-luchshykh-postov-raskryvayushikh-vse-aspekty-proekta-bonusy-v-vide-kreativa)
 
