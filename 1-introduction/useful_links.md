@@ -70,7 +70,7 @@ Kuna: [GOLOS](https://kuna.io/markets/golbtc)
 ### Видео о Голосе
 Канал [Вечер с Голосом](https://www.youtube.com/channel/UCL_XlALJ-2cERfY8m6s8uEA) - регулярный прямой эфир с разработчиками, делегатами и пользователями Голоса. Вещание с понедельника по четверг в 20:00 по Москве
 
-[Голос токены, Сила Голоса и Золотые Голоса - как с ними работать и как зарабатывать в Голосе](https://www.youtube.com/watch?v=PxpXHVA1OYA)
+[Токены Голос, Сила Голоса и Золотой - как с ними работать и как зарабатывать в Голосе](https://www.youtube.com/watch?v=PxpXHVA1OYA)
 
 [Интервью Валерия Литвина, блокчейн-разработчика CyberFund и сооснователя соц.сети Golos](https://www.youtube.com/watch?v=oGXHAH68dXg)
 
