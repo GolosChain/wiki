@@ -53,11 +53,17 @@ Kuna: [GOLOS](https://kuna.io/markets/golbtc)
 Новая экономика Голоса в простых цифрах: что ждёт авторов, инвесторов и делегатов?
 
 ### Промо-материалы: баннеры, картинки, креатив про Голос
-Комплекты баннеров для рекламы Голоса на ваших сайтах и в социальных сетях
-Еще один баннер 728х90
-Принты для футболок: 1 и 2
-Изображения Голоса, которые можно использовать для оформления ваших постов
-О рекламе, позиционировании и продвижении ГОЛОСа
+[Комплекты баннеров для рекламы Голоса на ваших сайтах и в социальных сетях](https://golos.io/ru--golos/@primus/komplekty-1-i-2-bannerov-dlya-reklamy-golosa-na-vashikh-saitakh-i-v-socialnykh-setyakh)
+
+[Еще один баннер 728х90](https://golos.io/ru--golos/@acidsun/prosto-myslishki-chego-ne-khvataet-na-golose)
+
+[Принты для футболок #1](https://golos.io/ru--golos/@konti/printy-dlya-futbolok-or-golos): 
+
+[Принты для футболок #2](https://golos.io/ru--golos/@konti/novye-originalnye-printy-dlya-futbolok-or-golos-or-doska-pocheta)
+
+[Изображения Голоса, которые можно использовать для оформления ваших постов](https://golos.io/ru--golos/@acidsun/eshe-parochka-izobrazhenii-dlya-oformleniya-postov-na-golose)
+
+[О рекламе, позиционировании и продвижении ГОЛОСа](https://golos.io/ru--golos/@sheriff/informaciya-o-perenose-oficialnogo-zapuska-veb-klinta-bm-na-20-fevralya)
 ### Видео о Голосе
 Канал Вечер с Голосом - регулярный прямой эфир с разработчиками, делегатами и пользователями Голоса. Вещаение с понедельника по четверг в 20:00 по Москве
 Голос токены, Сила Голоса и Золотые Голоса - как с ними работать и как зарабатывать в Голосе
