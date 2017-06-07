@@ -12,6 +12,26 @@
 [Делегаты и их роль на платформе Голос](https://golos.io/ru--golos/@on0tole/delegaty-i-ikh-rol-na-platforme-golos)
 
 [Аккаунт команды Голоса](https://golos.io/@golos)
+
+В раздел: О Голосе в целом: что это такое и как работает
+[](https://golos.io/ru--golos/@aleco/podborka-statei-dlya-novichkov-rekomendovano-kazhdomu-dlya-prochteniya)
+[Как сохранять свои ключи (пароли)](https://golosdb.com/ru--golos/@aleco/sokhrani-svoi-klyuchi-sovet-novichkam-po-registracii-v-golose)
+
+[Как на Голосе работает ограничение на четыре заметки в день](https://golos.io/ru--golos/@oxygendependant/kak-na-golose-rabotaet-ogranichenie-na-chetyre-zametki-v-den)
+
+В Раздел: Текущая экономика Голоса для авторов, кураторов, инвесторов и всех остальных
+https://golos.io/ru--golos/@oxygendependant/sila-golosa-kak-nedvizhimost
+https://golos.io/ru--statistika/@primus/statistika-kto-samyi-effektivnyi-kurator-v-golose-i-skolko-nuzhno-sily-golosa-chtoby-zarabatyvat-na-kuratorstve
+
+В Раздел: Публикация и оформление постов в Голосе
+https://golos.io/ru--akademiya/@lesnik/povyshaem-kulturu-publikacii-yunikod
+
+Полезные скрипты:
+https://golos.io/ru--golos/@rassen/stream-golos-prezentaciya-pervogo-mobilnogo-prilozheniya
+
+Отдельно, полезные аккаунты. Например:
+@kulturagolosa - сообщать о плагиате и нарушениях в контентной политике (сделать упоминание аккаунта в комментариях поста нарушителя)
+
 ### Публикация и оформление постов в Голосе
 [Как создать пост на платформе Голос?](https://golos.io/ru--knigagolos/@aleksandraz/kniga-pro-golos-kak-sozdat-post-na-platforme-golos)
 
@@ -169,6 +189,7 @@ VGolose - анонс альтернативного веб-клиента для
 [Голос-Лото](https://golos.io/@golos.loto) - автоматическая лотерея на Голосе
 ##### Использованы материалы:
 - [Самый полный FAQ о Голосе](https://golos.io/ru--golos/@bitcoinfo/samyi-polnyi-f-a-q-o-golose-spisok-luchshykh-postov-raskryvayushikh-vse-aspekty-proekta-bonusy-v-vide-kreativa)
+- [Подборка статей для прочтения новичкам](https://golos.io/ru--golos/@aleco/podborka-statei-dlya-novichkov-rekomendovano-kazhdomu-dlya-prochteniya)
 
 ### На английском языке:
 
