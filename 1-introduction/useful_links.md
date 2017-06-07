@@ -1,4 +1,6 @@
-[](https://golos.io/ru--golos/@lehard/novaya-ekonomika-golosa-raschyoty-i-analiz-chto-izmenitsya-itogi-konkursa)### О Голосе в целом: что это такое и как работает
+<!-- TOC -->
+
+### О Голосе в целом: что это такое и как работает
 [Бумага о Голосе](https://golos.io/ru--golos/@golos/golos-russkoyazychnaya-socialno-mediinaya-blokchein-platforma)
 
 [Бумага про Стим](https://steemit.com/ru/@hipster/bumaga-pro-stim-chast-1)
