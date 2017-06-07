@@ -33,6 +33,6 @@
   * [Тестирование](5-development/testing.md)
   * [Запуск тестнета](3-guides/start_testnet.md)
 * [Полезное](poleznoe.md)
-  * [Полезные ссылки - To Translate](1-introduction/useful_links.md)
+  * [Полезные ссылки](1-introduction/useful_links.md)
   * [Участие в вики Голоса](1-introduction/uchastie-v-viki-golosa.md)
 
