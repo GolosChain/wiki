@@ -7,6 +7,7 @@
   * [Вопросы и ответы](1-introduction/faq.md)
   * [Видео-уроки](1-introduction/kak_polzovatsya_platformoi_golos.md)
 * [Инструкции](instruktsii.md)
+  * [Терминология](1-introduction/terminologiya.md)
   * [Постинг \(написание статей\)](2-rewards/posting_rewards.md)
   * [Курирование \(голосование за других\)](2-rewards/curation_rewards.md)
   * [Инвестирование](2-rewards/commitment_rewards.md)
@@ -33,6 +34,5 @@
   * [Запуск тестнета](3-guides/start_testnet.md)
 * [Полезное](poleznoe.md)
   * [Полезные ссылки - To Translate](1-introduction/useful_links.md)
-  * [Терминология](1-introduction/terminologiya.md)
   * [Участие в вики Голоса](1-introduction/uchastie-v-viki-golosa.md)
 
