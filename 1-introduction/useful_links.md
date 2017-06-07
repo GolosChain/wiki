@@ -14,22 +14,33 @@
 [Аккаунт команды Голоса](https://golos.io/@golos)
 ### Публикация и оформление постов в Голосе
 [Как создать пост на платформе Голос?](https://golos.io/ru--knigagolos/@aleksandraz/kniga-pro-golos-kak-sozdat-post-na-platforme-golos)
+
 [Основы оформления постов на Голосе + полный курс по работе с Markdown](https://golos.io/ru--golos/@on0tole/osnovy-oformleniya-postov-na-golose-polnyi-kurs-po-rabote-s-markdown)
+
 [Дополнительные мультимедийные возможности Голоса: музыка и видео в ваших записях](https://golos.io/ru--golos/@primus/dopolnitelnye-multimediinye-vozmozhnosti-golosa-muzyka-i-video-v-vashikh-zapisyakh)
+
 [Книга про Голос](https://golos.io/created/ru--knigagolos)
+
 [Этика поведения. О чём и как писать?](https://golos.io/ru--knigagolos/@katrin/etika-povedeniya-o-chyom-i-kak-pisat)
+
 [Где брать картинки для своих публикаций: базы изображений для коммерческого использования](https://golos.io/ru--golos/@awispa/gde-brat-kartinki-dlya-svoikh-publikacii-bazy-izobrazhenii-dlya-kommercheskogo-ispolzovaniya)
+
 [Флаг: как и в каких случаях стоит использовать](https://golos.io/ru--knigagolos/@aleksandraz/kniga-pro-golos-flag-kak-i-v-kakikh-sluchayakh-stoit-ispolzovat)
 
 ### Биржи для торговли токенами Голоса
 Bittrex: [GOLOS](https://www.bittrex.com/Market/Index?MarketName=BTC-GOLOS) и [GBG](https://bittrex.com/Market/Index?MarketName=BTC-GBG)
-Livecoin: GOLOS
-Liqui: GOLOS и GBG
-Kuna: GOLOS
-Внутренний рынок - обмен GBG на GOLOS и наоборот
-Как вывести из Голоса выплаты?
-Пошаговая инструкция как вывести заработанные деньги, из Голоса через биржу Livecoin
-Выводим Голос в рубли. Подробный мануал для новичков
+
+Livecoin: [GOLOS](https://www.livecoin.net/ru/trade/orderbook)<!-- Liqui: GOLOS и GBG -->
+
+Kuna: [GOLOS](https://kuna.io/markets/golbtc)
+
+[Внутренний рынок](https://golos.io/market) - обмен GBG на GOLOS и наоборот
+
+[Как вывести из Голоса выплаты?](https://golos.io/ru--golos/@qqc/kak-vyvesti-iz-golosa-vyplaty-sovety-ot-qqc)
+
+[Пошаговая инструкция как вывести заработанные деньги, из Голоса через биржу Livecoin](https://golos.io/ru--akademiya/@mrwww/poshagovaya-instrukciya-kak-vyvesti-zarabotannye-dengi-iz-golosa-cherez-birzhu-livecoin)
+
+[Выводим Голос в рубли. Подробный мануал для новичков](https://golos.io/ru--golos/@mishka/vyvodim-golos-v-rubli-podrobnyi-manual-dlya-novichkov)
 ### Текущая экономика Голоса для авторов, кураторов, инвесторов и всех остальных
 Руководство для новичков: Как чёрт возьми это работает?
 Как рассчитывается вознаграждение за пост?
