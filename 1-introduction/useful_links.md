@@ -128,10 +128,10 @@ VGolose - анонс альтернативного веб-клиента для
 
 [Список всех доступных скриптов обновления цены](https://golos.io/ru--delegaty/@primus/delegatam-cena-zolotogo-na-osnove-birzhi-livecoin-i-spisok-vsekh-dostupnykh-skriptov-obnovleniya-ceny)
 ### Автоматизация работы в Голосе и список полезных библиотек
-Разработка персональных ботов для Голоса
-Piston - Python библиотека для работы с блокчейном Голоса на уровне протокола
-Golos.js - JavaScript библиотека для работы с блокчейном Голоса
-[GolosSQL] - База данных SQL со всеми данными блокчейн
+[Разработка персональных ботов для Голоса](https://golos.io/ru--golos/@ontofractal/razrabotka-personalnykh-botov-dlya-golosa-urok-3)
+[Piston](https://golos.io/golos/@chainsquad/pysteempiston-support-for-golos-has-been-added)- Python библиотека для работы с блокчейном Голоса на уровне протокола
+[Golos.js](https://golos.io/ru--golos/@dark.sun/golos-js-legkii-sposob-sozdavat-prilozheniya-dlya-golos) - JavaScript библиотека для работы с блокчейном Голоса
+[[GolosSQL]](https://golos.io/ru--golos/@arcange/golossql-baza-dannykh-sql-so-vsemi-dannymi-blokchein) - База данных SQL со всеми данными блокчейн
 [Golos.NET] Библиотека .NET library для API Голоса
 Опен сорс JSONRPC клиент для Голоса на Elixir/Erlang
 Инициатива кибер•Фонда по поддержке открытого исходного кода в Голосе
