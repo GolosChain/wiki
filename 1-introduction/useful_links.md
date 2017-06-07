@@ -102,12 +102,17 @@ VGolose - анонс альтернативного веб-клиента для
 Анонс siski.io
 
 ### Альтернативные каналы общения пользователей Голоса
-Официальный чат
-Канал Telegram
-Голосовой чат на Discord
-Голос во Вконтакте
-Голос на форуме Bitcointalk.org
-Голос на форуме Bitcoinfo.ru
+[Официальный чат](https://chat.golos.io/home)
+
+[Канал Telegram](https://t.me/golos_io)
+
+[Голосовой чат на Discord](https://discordapp.com/channels/253590962381520897/253590962381520897)
+
+[Голос во Вконтакте](https://vk.com/golos_io)
+
+[Голос на форуме Bitcointalk.org](https://bitcointalk.org/index.php?topic=1624364.0)
+
+[Голос на форуме Bitcoinfo.ru](http://forum.bitcoinfo.ru/viewtopic.php?f=13&t=26742)
 
 ### Полезная статистика
 Результаты ICO: кто и сколько купил Голосов
