@@ -19,17 +19,6 @@
 
 [Как на Голосе работает ограничение на четыре заметки в день](https://golos.io/ru--golos/@oxygendependant/kak-na-golose-rabotaet-ogranichenie-na-chetyre-zametki-v-den)
 
-В Раздел: Текущая экономика Голоса для авторов, кураторов, инвесторов и всех остальных
-https://golos.io/ru--golos/@oxygendependant/sila-golosa-kak-nedvizhimost
-https://golos.io/ru--statistika/@primus/statistika-kto-samyi-effektivnyi-kurator-v-golose-i-skolko-nuzhno-sily-golosa-chtoby-zarabatyvat-na-kuratorstve
-
-В Раздел: Публикация и оформление постов в Голосе
-https://golos.io/ru--akademiya/@lesnik/povyshaem-kulturu-publikacii-yunikod
-
-Полезные скрипты:
-https://golos.io/ru--golos/@rassen/stream-golos-prezentaciya-pervogo-mobilnogo-prilozheniya
-
-Отдельно, полезные аккаунты. Например:
 @kulturagolosa - сообщать о плагиате и нарушениях в контентной политике (сделать упоминание аккаунта в комментариях поста нарушителя)
 
 ### Публикация и оформление постов в Голосе
@@ -44,6 +33,8 @@ https://golos.io/ru--golos/@rassen/stream-golos-prezentaciya-pervogo-mobilnogo-p
 [Этика поведения. О чём и как писать?](https://golos.io/ru--knigagolos/@katrin/etika-povedeniya-o-chyom-i-kak-pisat)
 
 [Где брать картинки для своих публикаций: базы изображений для коммерческого использования](https://golos.io/ru--golos/@awispa/gde-brat-kartinki-dlya-svoikh-publikacii-bazy-izobrazhenii-dlya-kommercheskogo-ispolzovaniya)
+
+[Повышаем культуру публикаций](https://golos.io/ru--akademiya/@lesnik/povyshaem-kulturu-publikacii-yunikod)
 
 [Флаг: как и в каких случаях стоит использовать](https://golos.io/ru--knigagolos/@aleksandraz/kniga-pro-golos-flag-kak-i-v-kakikh-sluchayakh-stoit-ispolzovat)
 
@@ -174,17 +165,17 @@ VGolose - анонс альтернативного веб-клиента для
 [Инициатива кибер•Фонда по поддержке открытого исходного кода в Голосе](https://golos.io/ru--otkrytyij-kod/@hipster/iniciativa-kiber-fonda-po-podderzhke-otkrytogo-iskhodnogo-koda-v-golose)
 
 ### Действующие боты сети Голоса
-[radogost](https://golos.io/ru--golos/@radogost/privet-mir-ya-radogost-i-ya-rozhdyon-chtoby-sdelat-golos-gostepriimnym-mestom) - бот, приветствующий новичков, хозяин @phenom
+[radogost](https://golos.io/ru--golos/@radogost/privet-mir-ya-radogost-i-ya-rozhdyon-chtoby-sdelat-golos-gostepriimnym-mestom) - бот, приветствующий новичков, владелец [@phenom](https://golos.io/@phenom)
 
-[mention.bot](https://golos.io/ru--golos/@mention.bot/pozvolte-predstavitsya-ya-bot-kotoryi-uvedomlyaet-vas-ob-upominaniyakh-v-chuzhikh-postakh) - бот, который уведомляет вас об упоминаниях в чужих постах, хозяин @phenom
+[mention.bot](https://golos.io/ru--golos/@mention.bot/pozvolte-predstavitsya-ya-bot-kotoryi-uvedomlyaet-vas-ob-upominaniyakh-v-chuzhikh-postakh) - бот, который уведомляет вас об упоминаниях в чужих постах, владелец [@phenom](https://golos.io/@phenom)
 
-[alcotester](https://golos.io/ru--golos/@primus/vy-eshe-ne-poluchili-flag-za-svoi-post-ochen-zhal-flag-kheitera-prinosit-tolko-polzu-obyasnenie-raboty-moego-bota) - бот, компенсирующий флаги хейтеров, хозяин @primus
+[alcotester](https://golos.io/ru--golos/@primus/vy-eshe-ne-poluchili-flag-za-svoi-post-ochen-zhal-flag-kheitera-prinosit-tolko-polzu-obyasnenie-raboty-moego-bota) - бот, компенсирующий флаги хейтеров, владелец [@primus](https://golos.io/@primus)
 
-[seraph](https://golos.io/golos/@seraph/privet-ya-serafim-strazhnik) - бот, компенсирующий флаги хейтеров, хозяин @anyx
+[seraph](https://golos.io/golos/@seraph/privet-ya-serafim-strazhnik) - бот, компенсирующий флаги хейтеров, владелец [@anyx](https://golos.io/@anyx)
 
-[cheetah](https://golos.io/ru--desyatxfaktovobomne/@cheetah/10-faktov-obo-mne-estafeta-ot-dhrms) - бот, преследующий за плагиат и копипасту, хозяин @anyx
+[cheetah](https://golos.io/ru--desyatxfaktovobomne/@cheetah/10-faktov-obo-mne-estafeta-ot-dhrms) - бот, преследующий за плагиат и копипасту, владелец [@anyx](https://golos.io/@anyx). Действует в рамках проекта @kulturagolosa - о плагиате и нарушениях в контентной политике
 
-[Лотобот](https://golos.io/@lotobot) - автоматическая лотерея на Голосе, хозяин @ropox
+[Лотобот](https://golos.io/@lotobot) - автоматическая лотерея на Голосе, владелец [@ropox](https://golos.io/@ropox)
 
 [Голос-Лото](https://golos.io/@golos.loto) - автоматическая лотерея на Голосе
 ##### Использованы материалы:
