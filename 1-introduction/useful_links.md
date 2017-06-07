@@ -115,7 +115,7 @@ VGolose - анонс альтернативного веб-клиента для
 [Голос на форуме Bitcoinfo.ru](http://forum.bitcoinfo.ru/viewtopic.php?f=13&t=26742)
 
 ### Полезная статистика
-[Результаты ICO: кто и сколько купил Голосов](http://www.steeme.ru/gf.html)
+[Результаты ICO: кто и сколько купил ГОЛОСов](http://www.steeme.ru/gf.html)
 
 [Статистика эффективности работы кураторов в Голосе](https://golos.io/ru--statistika/@primus/2017-01-30-2017-02-05-statistika-kto-samyi-effektivnyi-kurator-v-golose) за январь - февраль 2017 г.
 
