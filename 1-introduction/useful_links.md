@@ -13,8 +13,6 @@
 
 [Аккаунт команды Голоса](https://golos.io/@golos)
 
-В раздел: О Голосе в целом: что это такое и как работает
-[](https://golos.io/ru--golos/@aleco/podborka-statei-dlya-novichkov-rekomendovano-kazhdomu-dlya-prochteniya)
 [Как сохранять свои ключи (пароли)](https://golosdb.com/ru--golos/@aleco/sokhrani-svoi-klyuchi-sovet-novichkam-po-registracii-v-golose)
 
 [Как на Голосе работает ограничение на четыре заметки в день](https://golos.io/ru--golos/@oxygendependant/kak-na-golose-rabotaet-ogranichenie-na-chetyre-zametki-v-den)
