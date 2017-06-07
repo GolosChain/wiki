@@ -80,7 +80,7 @@ Kuna: [GOLOS](https://kuna.io/markets/golbtc)
 
 Блок эксплореры Голоса: [golosd.com](http://golosd.com/) и [golosdb.com](http://golosdb.com/)
 
-[Steemul](http://steemul.ru/) - разнообразные рейтинги, ТОПы и отзывы пользователей Голоса друг о друге
+[Steemul](http://steemul.ru/) - разнообразные рейтинги, ТОПы и отзывы пользователей Голоса друг о друге. [Мобильная версия](https://golos.io/ru--golos/@rassen/stream-golos-prezentaciya-pervogo-mobilnogo-prilozheniya)
 
 [Разум Голоса](http://razumgolosa.com/) - рейтинги, статистика и ключевые показатели Голоса на одной странице
 
