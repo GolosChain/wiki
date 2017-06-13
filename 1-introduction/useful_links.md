@@ -1,7 +1,7 @@
 # Полезные ссылки
 <!-- toc -->
 
-###
+### На русском языке
 #### О Голосе в целом: что это такое и как работает
 [Бумага о Голосе](https://golos.io/ru--golos/@golos/golos-russkoyazychnaya-socialno-mediinaya-blokchein-platforma)
 
@@ -189,7 +189,7 @@ VGolose - анонс альтернативного веб-клиента для
 - [Подборка статей для прочтения новичкам](https://golos.io/ru--golos/@aleco/podborka-statei-dlya-novichkov-rekomendovano-kazhdomu-dlya-prochteniya)
 <hr>
 
-#### На английском языке:
+## На английском языке:
 
 [Awesome Steem](https://steemit.com/awesome/@hipster/awesome-steem)
 
