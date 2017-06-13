@@ -6,6 +6,7 @@
   * [Философия Голоса](1-introduction/ya_zdes_vpervie.md)
   * [Вопросы и ответы](1-introduction/faq.md)
   * [Видео-уроки](1-introduction/kak_polzovatsya_platformoi_golos.md)
+  * [Просто о блокчейне](prosto-o-blokcheine.md)
 * [Инструкции](instruktsii.md)
   * [Терминология](1-introduction/terminologiya.md)
   * [Постинг \(написание статей\)](2-rewards/posting_rewards.md)
