@@ -1,4 +1,4 @@
-<h1>Способы заработка</h1>
+<h1>Способы заработка на криптовалютах</h1>
 <hr>По материалам [статьи](https://golos.io/ru--kriptovalyuty/@muxacr/kak-zarabotat-na-kriptovalyutakh-obzor-aktualnykh-sposobov-pervye-shagi-dlya-nachinayushikh) @muxacr. 
 Отражает авторскую точку зрения. Не является рекомендацией.<hr>
 <p>На рынке криптовалют можно выделить 5 основных видов заработка:</p>
