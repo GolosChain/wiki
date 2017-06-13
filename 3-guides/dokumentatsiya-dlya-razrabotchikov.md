@@ -1,4 +1,4 @@
-### Документация для разработчиков
+# Документация для разработчиков
 
 [![](/assets/logo_developers_golos.png)](https://developers.golos.io/)
 
