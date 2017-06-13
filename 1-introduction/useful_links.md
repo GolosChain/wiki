@@ -189,7 +189,7 @@ VGolose - анонс альтернативного веб-клиента для
 - [Подборка статей для прочтения новичкам](https://golos.io/ru--golos/@aleco/podborka-statei-dlya-novichkov-rekomendovano-kazhdomu-dlya-prochteniya)
 <hr>
 
-## На английском языке:
+### На английском языке:
 
 [Awesome Steem](https://steemit.com/awesome/@hipster/awesome-steem)
 
