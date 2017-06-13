@@ -1,5 +1,14 @@
 # Разработчикам
 
+* [Сайт документации для разработчиков](https://developers.golos.io/doc)
+  * [Руководство по веб-клиенту](https://developers.golos.io/doc/client)
+  * [Руководство по тестнету](https://developers.golos.io/doc/testnet)
+  * [API-документация](https://developers.golos.io/doc/client#api-reference)
+  * [Документация по блокчейну](https://developers.golos.io/doc/blockchain)
+  * [GitHub проекта Голос](https://github.com/GolosChain)
+  * [Документация по Graphene](http://docs.bitshares.eu/)
+
+
   * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
   * [Установка на OS X](3-guides/osx_guide.md)
   * [Настройка делегата](nastroika-delegata.md)
