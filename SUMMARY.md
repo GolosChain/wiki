@@ -7,7 +7,7 @@
   * [Вопросы и ответы](1-introduction/faq.md)
   * [Видео-уроки](1-introduction/kak_polzovatsya_platformoi_golos.md)
   * [Просто о блокчейне](prosto-o-blokcheine.md)
-  * [Зарабатывание](1-introduction/zarabotok.md)
+  * [Способы заработка](1-introduction/zarabotok.md)
 * [Инструкции](instruktsii.md)
   * [Терминология](1-introduction/terminologiya.md)
   * [Постинг \(написание статей\)](2-rewards/posting_rewards.md)
