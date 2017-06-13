@@ -1,6 +1,7 @@
 ### Документация для разработчиков
 
 ![](/assets/logo_developers_golos.png)
+
 * [Сайт developers.golos.io](https://developers.golos.io/doc)
   * [Руководство по веб-клиенту](https://developers.golos.io/doc/client)
   * [Руководство по тестнету](https://developers.golos.io/doc/testnet)
