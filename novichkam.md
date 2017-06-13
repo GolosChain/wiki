@@ -1,5 +1,5 @@
 # Новичкам
-
+    Основная информация для начинающих
 
   * [Начни отсюда](chto-nuzhno-znat-v-pervuyu-ochered.md)
   * [Философия Голоса](1-introduction/ya_zdes_vpervie.md)
