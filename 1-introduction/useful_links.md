@@ -172,17 +172,20 @@ VGolose - анонс альтернативного веб-клиента для
 #### Действующие боты сети Голоса
 [radogost](https://golos.io/ru--golos/@radogost/privet-mir-ya-radogost-i-ya-rozhdyon-chtoby-sdelat-golos-gostepriimnym-mestom) - бот, приветствующий новичков, владелец [@phenom](https://golos.io/@phenom)
 
+[cheetah](https://golos.io/ru--desyatxfaktovobomne/@cheetah/10-faktov-obo-mne-estafeta-ot-dhrms) - бот, преследующий за плагиат и копипасту, владелец [@anyx](https://golos.io/@anyx). Действует в рамках проекта @kulturagolosa - о плагиате и нарушениях в контентной политике
+
+[Голос-Лото](https://golos.io/@golos.loto) - автоматическая лотерея на Голосе
+
+#####Закрыты или временно не работают:
+
+[Лотобот](https://golos.io/@lotobot) - автоматическая лотерея на Голосе, владелец [@ropox](https://golos.io/@ropox)
+
 [mention.bot](https://golos.io/ru--golos/@mention.bot/pozvolte-predstavitsya-ya-bot-kotoryi-uvedomlyaet-vas-ob-upominaniyakh-v-chuzhikh-postakh) - бот, который уведомляет вас об упоминаниях в чужих постах, владелец [@phenom](https://golos.io/@phenom)
 
 [alcotester](https://golos.io/ru--golos/@primus/vy-eshe-ne-poluchili-flag-za-svoi-post-ochen-zhal-flag-kheitera-prinosit-tolko-polzu-obyasnenie-raboty-moego-bota) - бот, компенсирующий флаги хейтеров, владелец [@primus](https://golos.io/@primus)
 
 [seraph](https://golos.io/golos/@seraph/privet-ya-serafim-strazhnik) - бот, компенсирующий флаги хейтеров, владелец [@anyx](https://golos.io/@anyx)
 
-[cheetah](https://golos.io/ru--desyatxfaktovobomne/@cheetah/10-faktov-obo-mne-estafeta-ot-dhrms) - бот, преследующий за плагиат и копипасту, владелец [@anyx](https://golos.io/@anyx). Действует в рамках проекта @kulturagolosa - о плагиате и нарушениях в контентной политике
-
-[Лотобот](https://golos.io/@lotobot) - автоматическая лотерея на Голосе, владелец [@ropox](https://golos.io/@ropox)
-
-[Голос-Лото](https://golos.io/@golos.loto) - автоматическая лотерея на Голосе
 <hr>
 ##### Использованы материалы:
 - [Самый полный FAQ о Голосе](https://golos.io/ru--golos/@bitcoinfo/samyi-polnyi-f-a-q-o-golose-spisok-luchshykh-postov-raskryvayushikh-vse-aspekty-proekta-bonusy-v-vide-kreativa) от @bitcoinfo 
