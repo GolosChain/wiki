@@ -185,8 +185,9 @@ VGolose - анонс альтернативного веб-клиента для
 [Голос-Лото](https://golos.io/@golos.loto) - автоматическая лотерея на Голосе
 <hr>
 ##### Использованы материалы:
-- [Самый полный FAQ о Голосе](https://golos.io/ru--golos/@bitcoinfo/samyi-polnyi-f-a-q-o-golose-spisok-luchshykh-postov-raskryvayushikh-vse-aspekty-proekta-bonusy-v-vide-kreativa)
-- [Подборка статей для прочтения новичкам](https://golos.io/ru--golos/@aleco/podborka-statei-dlya-novichkov-rekomendovano-kazhdomu-dlya-prochteniya)
+- [Самый полный FAQ о Голосе](https://golos.io/ru--golos/@bitcoinfo/samyi-polnyi-f-a-q-o-golose-spisok-luchshykh-postov-raskryvayushikh-vse-aspekty-proekta-bonusy-v-vide-kreativa) от @bitcoinfo 
+- [Подборка статей для прочтения новичкам](https://golos.io/ru--golos/@aleco/podborka-statei-dlya-novichkov-rekomendovano-kazhdomu-dlya-prochteniya) от @aleco
+- [Спецприёмчики для новичков](https://golos.io/ru--obrazovanie/@ladyzarulem/specpriemchiki-dlya-novichkov-chast-1) от @ladyzarulem
 <hr>
 
 ### На английском языке:
