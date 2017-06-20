@@ -37,7 +37,7 @@
   * [Гайдлайн Github](5-development/guideline.md)
   * [Тестирование](5-development/testing.md)
   * [Запуск тестнета](3-guides/start_testnet.md)
-* [Полезное](poleznoe.md)
+* [⚙️ Полезное](poleznoe.md)
   * [Полезные ссылки](1-introduction/useful_links.md)
   * [Участие в вики Голоса](1-introduction/uchastie-v-viki-golosa.md)
   * [Контакты](1-introduction/kontakti.md)
