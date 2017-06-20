@@ -1,6 +1,6 @@
 # Summary
 
-* [Введение](README.md)
+* [📌 Введение](README.md)
 * [🚀 Новичкам](novichkam.md)
   * [Начни отсюда](chto-nuzhno-znat-v-pervuyu-ochered.md)
   * [Философия Голоса](1-introduction/ya_zdes_vpervie.md)
