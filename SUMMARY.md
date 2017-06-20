@@ -6,7 +6,7 @@
   * [Философия Голоса](1-introduction/ya_zdes_vpervie.md)
   * [Терминология](1-introduction/terminologiya.md)
   * [Вопросы и ответы](1-introduction/faq.md)
-  * [Статьи](stati.md)
+  * [⚖️ Статьи](stati.md)
     * [Способы заработка](1-introduction/zarabotok.md)
     * [Просто о блокчейне](prosto-o-blokcheine.md)
 * [📘 Документы](dokumenti.md)
