@@ -39,6 +39,6 @@
   * [Майнинг](2-rewards/mining_rewards.md)
 * [🎯 Полезное](poleznoe.md)
   * [Полезные ссылки](1-introduction/useful_links.md)
-  * [Участие в вики Голоса](1-introduction/uchastie-v-viki-golosa.md)
+  * [Участие в вики](1-introduction/uchastie-v-viki-golosa.md)
   * [Контакты](1-introduction/kontakti.md)
 
