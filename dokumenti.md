@@ -1,6 +1,9 @@
-# Документы
+# 📘 Документы
 
-  * [Белая бумага Голоса](1-introduction/golos_whitepaper.md)
-  * [Дорожная карта](5-development/roadmap.md)
-  * [White Paper Steem на Русском](1-introduction/steem_whitepaper.md)
-  * [Белая бумага Голос•Фонда](1-introduction/belaya-bumaga-golosfonda.md)
+* [Белая бумага Голоса](1-introduction/golos_whitepaper.md)
+* [Дорожная карта](5-development/roadmap.md)
+* [White Paper Steem на Русском](1-introduction/steem_whitepaper.md)
+* [Белая бумага Голос•Фонда](1-introduction/belaya-bumaga-golosfonda.md)
+
+
+

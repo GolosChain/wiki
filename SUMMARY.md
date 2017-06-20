@@ -30,7 +30,7 @@
   * [Гайдлайн Github](5-development/guideline.md)
   * [Тестирование](5-development/testing.md)
   * [Запуск тестнета](3-guides/start_testnet.md)
-* [💯 Вознаграждения](instruktsii.md)
+* [💯 Экономика](instruktsii.md)
   * [Постинг \(написание статей\)](2-rewards/posting_rewards.md)
   * [Курирование \(голосование за других\)](2-rewards/curation_rewards.md)
   * [Инвестирование](2-rewards/commitment_rewards.md)
