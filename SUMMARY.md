@@ -15,7 +15,7 @@
   * [Белая бумага Голос•Фонда](1-introduction/belaya-bumaga-golosfonda.md)
   * [White Paper Steem на Русском](1-introduction/steem_whitepaper.md)
   * [Белая бумага по DPOS](1-introduction/belaya-bumaga-po-dpos.md)
-* [⚙️ Разработчикам](razrabotchikam.md)
+* [💻 Разработчикам](razrabotchikam.md)
   * [Документация](3-guides/dokumentatsiya-dlya-razrabotchikov.md)
   * [Установка на OS X](3-guides/osx_guide.md)
   * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
