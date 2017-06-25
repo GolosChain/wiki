@@ -86,10 +86,16 @@ nano witness_node_data_dir/config.ini```
 # P2P nodes to connect to on startup (may specify multiple times)
 # seed-node = 
 
-seed-node = 95.85.13.229:4243
-seed-node = 95.85.13.229:4243
-seed-node = 95.85.33.35:4243
+seed-node = 5.9.18.213:4243
+seed-node = 52.32.75.69:4243
+seed-node = 52.57.156.202:4243
 seed-node = 88.99.13.48:4243
+seed-node = golos-seed.arcange.eu:4243
+seed-node = golos-seed.esteem.ws:4243
+seed-node = golosnode.com:4243
+seed-node = 138.68.101.115:4243
+seed-node = golos.imcoins.org:2001
+seed-node = 178.62.224.148:4242
 
 # Pairs of [BLOCK_NUM,BLOCK_ID] that should be enforced as checkpoints.
 # checkpoint = 
@@ -190,6 +196,11 @@ appenders=p2p
 mining-threads = 2 - количество ядер вашего CPU
 ```
 
+Note: Актуальный список seed node можете найти тут:
+https://github.com/GolosChain/golos/blob/master/documentation/seednodes
+
+
+Note: WIF PRIVATE KEY можно найти в вашем аккаунте на golos.io, щелкните по иконке своего пользователя в правом верхнем углу, выбирете "КОШЕЛЕК", затем щелкните на вкладку "РАЗРЕШЕНИЯ", вам нужен приватный ключ "ОБСУЖДАЕМОЕ" (нажмите "ПОКАЗАТЬ ПРИВАТНЫЙ КЛЮЧ") -- это и будет WIF PRIVATE KEY.
 
 
 Конфигурационный файл для ноды делегата:
@@ -206,10 +217,17 @@ mining-threads = 2 - количество ядер вашего CPU
 # P2P nodes to connect to on startup (may specify multiple times)
 # seed-node = 
 
-seed-node = 95.85.13.229:4243
-seed-node = 146.185.148.114:4243
-seed-node = 95.85.33.35:4243
+
+seed-node = 5.9.18.213:4243
+seed-node = 52.32.75.69:4243
+seed-node = 52.57.156.202:4243
 seed-node = 88.99.13.48:4243
+seed-node = golos-seed.arcange.eu:4243
+seed-node = golos-seed.esteem.ws:4243
+seed-node = golosnode.com:4243
+seed-node = 138.68.101.115:4243
+seed-node = golos.imcoins.org:2001
+seed-node = 178.62.224.148:4242
 
 # Pairs of [BLOCK_NUM,BLOCK_ID] that should be enforced as checkpoints.
 # checkpoint = 
