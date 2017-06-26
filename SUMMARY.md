@@ -17,7 +17,7 @@
   * [Белая бумага по DPOS](1-introduction/belaya-bumaga-po-dpos.md)
 * [💻 Разработчикам](razrabotchikam.md)
   * [✔ Актуальное](3-guides/aktualnoe.md)
-    * [ХФ 0.2](3-guides/aktualnoe/hf-02.md)
+    * [⚙️ ХФ 0.2](3-guides/aktualnoe/hf-02.md)
   * [Установка на OS X](3-guides/osx_guide.md)
   * [Документация](3-guides/dokumentatsiya-dlya-razrabotchikov.md)
   * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
