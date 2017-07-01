@@ -1,5 +1,9 @@
+# Настройка нод
+<!-- toc -->
+
 #### Настройка нод майнера и делегата для работы в Голосе: рабочие конфиги и пояснения по установке
-Материал взят отсюда:
+
+> Материал взят отсюда:
 https://golos.io/ru--golos/@primus/nastroika-nod-mainera-i-delegata-dlya-raboty-v-golose-rabochie-konfigi-i-poyasneniya-po-ustanovke
 
 Устанавливаем необходимые библиотеки и зависимости:
