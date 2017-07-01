@@ -152,4 +152,6 @@ docker run -p 8090:8090 -p 2001:2001 -it -v chain_data:/var/lib/golosd goloschai
 ```
 
 Testnet: 
-```docker run -p 8092:8090 -p 2002:2001 -e STEEMD_WITNESS_NAME="cyberfounder" -e STEEMD_EXTRA_OPTS="--enable-stale-production" -e STEEMD_MINER_NAME="cyberfounder" -e STEEMD_PRIVATE_KEY="5JVFFWRLwz6JoP9kguuRFfytToGU6cLgBVTL9t6NB3D3BQLbUBS" -e STEEMD_MINING_THREADS=4 -v testnet_chain_data:/var/lib/golosd -it goloschain/golos_testnet:0.17.0```
+```
+docker run -p 8092:8090 -p 2002:2001 -e STEEMD_WITNESS_NAME="cyberfounder" -e STEEMD_EXTRA_OPTS="--enable-stale-production" -e STEEMD_MINER_NAME="cyberfounder" -e STEEMD_PRIVATE_KEY="5JVFFWRLwz6JoP9kguuRFfytToGU6cLgBVTL9t6NB3D3BQLbUBS" -e STEEMD_MINING_THREADS=4 -v testnet_chain_data:/var/lib/golosd -it goloschain/golos_testnet:0.17.0
+```
