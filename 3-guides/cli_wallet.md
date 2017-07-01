@@ -1,3 +1,7 @@
+# CLI кошелек
+<!-- toc -->
+
+
 #### cli_walletCommands
 
 about()
