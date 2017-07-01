@@ -1,3 +1,6 @@
+# Тестирование
+<!-- toc -->
+
 [ЧТО ТАКОЕ TEST CASE, CHECK LIST, CHEET SHEET](http://bugscatcher.net/archives/2480)
 
 ###### Обычно сценарий состоит из следующих пунктов:
