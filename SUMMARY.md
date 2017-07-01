@@ -1,6 +1,8 @@
 # Summary
 
 * [📌 Введение](README.md)
+* [✔ Актуальное](3-guides/aktualnoe.md)
+  * [⚙️ ХФ 0.2](3-guides/aktualnoe/hf-02.md)
 * [🚀 Новичкам](novichkam.md)
   * [Начни отсюда](chto-nuzhno-znat-v-pervuyu-ochered.md)
   * [Философия Голоса](1-introduction/ya_zdes_vpervie.md)
@@ -16,10 +18,8 @@
   * [White Paper Steem на Русском](1-introduction/steem_whitepaper.md)
   * [Белая бумага по DPOS](1-introduction/belaya-bumaga-po-dpos.md)
 * [💻 Разработчикам](razrabotchikam.md)
-  * [✔ Актуальное](3-guides/aktualnoe.md)
-    * [⚙️ ХФ 0.2](3-guides/aktualnoe/hf-02.md)
-  * [Установка на OS X](3-guides/osx_guide.md)
   * [Документация](3-guides/dokumentatsiya-dlya-razrabotchikov.md)
+  * [Установка на OS X](3-guides/osx_guide.md)
   * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
   * [Настройка делегата](nastroika-delegata.md)
   * [CLI кошелек](3-guides/cli_wallet.md)
