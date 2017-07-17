@@ -54,3 +54,6 @@
 </p>
 <p>На сегодня все. Надеемся, столь подробный разбор интерфейса поможет вам легко ориентироваться и эффективно управлять работой своего блога. В следующей статье мы подробно рассмотрим верхний общий трей платформы Голос.<br />
 </p>
+<hr>[![](https://imgp.golos.io/120x120/https://s19.postimg.org/f940iiuab/image.jpg)](https://golos.io/@liga.avtorov) 
+По материалам [статьи](https://golos.io/ru--golos/@liga.avtorov/pervyi-shag-na-golose-interfeis-lichnogo-bloga) (автор [@liga.avtorov](https://golos.io/@liga.avtorov))
+<hr>
