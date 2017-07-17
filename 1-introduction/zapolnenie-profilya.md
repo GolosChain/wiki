@@ -63,6 +63,6 @@
 <blockquote><strong>Резюме</strong></blockquote>
 <blockquote><strong>Итак, мы закончили с профилем. Сделали немного, но качественно. И это хорошо. Уважаемые новички! Если вы заполнили свой профиль до того, как прочитали эту статью, пожалуйста, не пожалейте времени, вернитесь в настройки и еще раз подумайте о том, как ваша “визитная карточка” работает на ваш образ и, в целом, на ваш блог. Желаем вам уникальных решений!</strong></blockquote>
 
-<hr>[![](https://imgp.golos.io/120x120/https://s19.postimg.org/f940iiuab/image.jpg)](https://golos.io/@liga.avtorov) 
+<hr>[![](https://imgp.golos.io/120x120/https://s19.postimg.org/f940iiuab/image.jpg)](https://golos.io/@liga.avtorov)
 По материалам [статьи](https://golos.io/ru--golos/@liga.avtorov/pervyi-shag-na-golose-znakomstvo-i-nastroika-profilya) (автор [@liga.avtorov](https://golos.io/@liga.avtorov))
 <hr>
