@@ -13,6 +13,7 @@
     * [Способы заработка](1-introduction/zarabotok.md)
     * [Просто о блокчейне](prosto-o-blokcheine.md)
     * [Заполнение профиля](1-introduction/zapolnenie-profilya.md)
+    * [Интерфейс личного блога](1-introduction/interfeis-lichnogo-bloga.md)
 * [📘 Документы](dokumenti.md)
   * [Белая бумага Голоса](1-introduction/golos_whitepaper.md)
   * [Дорожная карта](5-development/roadmap.md)
