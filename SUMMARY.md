@@ -10,7 +10,6 @@
   * [Терминология](1-introduction/terminologiya.md)
   * [Вопросы и ответы](1-introduction/faq.md)
   * [Первые шаги](pervie-shagi.md)
-    * Верхнее меню
     * [Заполнение профиля](/pervye/zapolnenie-profilya.md)
     * [Интерфейс блога](1-introduction/interfeis-lichnogo-bloga.md)
   * [🎯 Статьи](stati.md)
