@@ -9,9 +9,11 @@
   * [Философия Голоса](1-introduction/ya_zdes_vpervie.md)
   * [Терминология](1-introduction/terminologiya.md)
   * [Вопросы и ответы](1-introduction/faq.md)
-  * [🎯 Статьи](stati.md)
-    * [Заполнение профиля](1-introduction/zapolnenie-profilya.md)
+  * [Первые шаги](pervie-shagi.md)
+    * Верхнее меню
+    * [Заполнение профиля](/pervye/zapolnenie-profilya.md)
     * [Интерфейс блога](1-introduction/interfeis-lichnogo-bloga.md)
+  * [🎯 Статьи](stati.md)
     * [Просто о блокчейне](prosto-o-blokcheine.md)
     * [Способы заработка](1-introduction/zarabotok.md)
 * [📘 Документы](dokumenti.md)
