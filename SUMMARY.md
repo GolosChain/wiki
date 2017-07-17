@@ -10,7 +10,7 @@
   * [Терминология](1-introduction/terminologiya.md)
   * [Вопросы и ответы](1-introduction/faq.md)
   * [🚀 Первые шаги](pervie-shagi.md)
-    * [Заполнение профиля](/pervye/zapolnenie-profilya.md)
+    * [Заполнение профиля](1-introduction/zapolnenie-profilya.md)
     * [Интерфейс блога](1-introduction/interfeis-lichnogo-bloga.md)
   * [🎯 Статьи](stati.md)
     * [Просто о блокчейне](prosto-o-blokcheine.md)
