@@ -1,5 +1,7 @@
 <h1>Интерфейс платформы Golos.io</h1>
 
+Автор: <a href="https://golos.io/@liga.avtorov">@liga.avtorov</a>
+
 <p><img src="https://imgp.golos.io/0x0/https://s19.postimg.org/ai39lag2b/image.jpg" /></p>
 <p>Сегодня у нас очень важная тема. Мы подробно рассмотрим дополнительное и основное верхнее меню.</p>
 <p></p><h2><center>Дополнительное верхнее меню (верхний трей):</center></h2><p></p>
