@@ -12,6 +12,7 @@
   * [🚀 Первые шаги](pervie-shagi.md)
     * [Заполнение профиля](1-introduction/zapolnenie-profilya.md)
     * [Интерфейс блога](1-introduction/interfeis-lichnogo-bloga.md)
+    * [Интерфейс golos.io](1-introduction/interfeis-golosio.md)
   * [🎯 Статьи](stati.md)
     * [Просто о блокчейне](prosto-o-blokcheine.md)
     * [Способы заработка](1-introduction/zarabotok.md)
