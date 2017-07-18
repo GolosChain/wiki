@@ -6,6 +6,7 @@
 
 * [Заполнение профиля](1-introduction/zapolnenie-profilya.md)
 * [Интерфейс личного блога](1-introduction/interfeis-lichnogo-bloga.md)
+* [Интерфейс платформы golos.io](/1-introduction/interfeis-golosio.md)
 
 
 
