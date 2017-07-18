@@ -45,6 +45,9 @@ Livecoin: [GOLOS](https://www.livecoin.net/ru/trade/orderbook)<!-- Liqui: GOLOS 
 
 Kuna: [GOLOS](https://kuna.io/markets/golbtc)
 
+RuDEX: [GOLOS](https://market.rudex.org/#/market/OPEN.GOLOS_BTS) и [GBG](https://market.rudex.org/#/market/OPEN.GBG_OPEN.BTC)
+[Обзор RuDEX](https://golos.io/golos/@dusikasss/prodazha-golos-gbg-na-birzhe-rudex-za-rubli)
+
 [Внутренний рынок](https://golos.io/market) - обмен GBG на GOLOS и наоборот
 
 [Как вывести из Голоса выплаты?](https://golos.io/ru--golos/@qqc/kak-vyvesti-iz-golosa-vyplaty-sovety-ot-qqc)
@@ -114,8 +117,9 @@ Kuna: [GOLOS](https://kuna.io/markets/golbtc)
 #### Альтернативные web-клиенты блокчейна Голос
 Mapala.net - портал для самостоятельных путешественников
 Битва "Бизнес Молодости"
-VGolose - анонс альтернативного веб-клиента для блокчейна Golos
-Анонс siski.io
+Flacoin.io
+(VGolose - анонс альтернативного веб-клиента для блокчейна Golos)
+(Анонс siski.io)
 
 #### Альтернативные каналы общения пользователей Голоса
 [Официальный чат](https://chat.golos.io/home)
