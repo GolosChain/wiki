@@ -1,5 +1,7 @@
 <h1>Интерфейс личного блога</h1>
 
+Автор: <a href="https://golos.io/@liga.avtorov">@liga.avtorov</a>
+
 <p><img src="https://imgp.golos.io/0x0/https://s19.postimg.org/exmk5rdub/image.jpg" /></p>
 <p>Итак, мы с вами <a href="/1-introduction/zapolnenie-profilya.md">заполнили профиль</a>. Сегодня продолжим изучать интерфейс личного блога. Переходим к вашему главному меню.</p>
 <p><strong>ПЕРВАЯ ВКЛАДКА &quot;БЛОГ&quot;</strong></p>
