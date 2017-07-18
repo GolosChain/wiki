@@ -2,7 +2,7 @@
 ```Адреса для связи```
 <!-- toc -->
 
-### Напишите нам
+## Напишите нам
 #### Обратная связь
 - [Форма обратной связи](https://golos.io/submit.html?type=submit_feedback) на golos.io
 - Почта [support@golos.io](mailto:support@golos.io)
@@ -11,7 +11,9 @@
 [Команда и основатели Голоса](https://golos.io/about#team)
 
 
-#### Альтернативные каналы общения пользователей Голоса
+## Другие каналы
+Альтернативные каналы общения пользователей Голоса:
+
 [Официальный чат](https://chat.golos.io/home)
 
 [Канал Telegram](https://t.me/golos_io)
