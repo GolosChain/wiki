@@ -45,8 +45,8 @@ Livecoin: [GOLOS](https://www.livecoin.net/ru/trade/orderbook)<!-- Liqui: GOLOS 
 
 Kuna: [GOLOS](https://kuna.io/markets/golbtc)
 
-RuDEX: [GOLOS](https://market.rudex.org/#/market/OPEN.GOLOS_BTS) и [GBG](https://market.rudex.org/#/market/OPEN.GBG_OPEN.BTC)
-[Обзор RuDEX](https://golos.io/golos/@dusikasss/prodazha-golos-gbg-na-birzhe-rudex-za-rubli)
+RuDEX: [GOLOS](https://market.rudex.org/#/market/OPEN.GOLOS_OPEN.BTC) и [GBG](https://market.rudex.org/#/market/OPEN.GBG_OPEN.BTC)
+[RuDEX начинает торги Golos и GBG](https://golos.io/golos/@dusikasss/prodazha-golos-gbg-na-birzhe-rudex-za-rubli)
 
 [Внутренний рынок](https://golos.io/market) - обмен GBG на GOLOS и наоборот
 
