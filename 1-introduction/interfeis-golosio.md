@@ -55,3 +55,6 @@
 <hr />
 <p>С интерфейсом платформы и своего блога вы уже познакомились, и в следующей инструкции приступим к практике написания постов.</p>
 
+<hr>[![](https://imgp.golos.io/120x120/https://s19.postimg.org/f940iiuab/image.jpg)](https://golos.io/@liga.avtorov) 
+По материалам [статьи](https://golos.io/ru--golos/@liga.avtorov/pervyi-shag-na-golose-interfeis-platformy-golos-io) (автор [@liga.avtorov](https://golos.io/@liga.avtorov))
+<hr>
