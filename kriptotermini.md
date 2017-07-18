@@ -102,3 +102,5 @@
   <li><strong>ZEC</strong> (Zcash) — криптовалюта с открытым исходным кодом, разработанная компанией <strong>Zerocoin Electric Coin Company</strong>, обеспечивающая конфиденциальность и выборочную прозрачность транзакций</li>
 </ul>
 <p><br /></p>
+<hr>По материалам [статьи](https://golos.io/psk/@uanix/kriptovalyuty-terminy-i-sokrasheniya) (автор [@uanix](https://golos.io/@uanix))
+<hr>
