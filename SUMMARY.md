@@ -13,6 +13,7 @@
     * [Заполнение профиля](1-introduction/zapolnenie-profilya.md)
     * [Интерфейс блога](1-introduction/interfeis-lichnogo-bloga.md)
     * [Интерфейс golos.io](1-introduction/interfeis-golosio.md)
+    * [Публикация в блоге](/1-introduction/posting.md)
   * [🎯 Статьи](stati.md)
     * [Просто о блокчейне](prosto-o-blokcheine.md)
     * [Способы заработка](1-introduction/zarabotok.md)
@@ -49,4 +50,6 @@
   * [Полезные ссылки](1-introduction/useful_links.md)
   * [Участие в вики](1-introduction/uchastie-v-viki-golosa.md)
   * [Контакты](1-introduction/kontakti.md)
+
+
 
