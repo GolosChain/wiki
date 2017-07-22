@@ -4,12 +4,11 @@
 
 ## Напишите нам
 #### Обратная связь
-- [Форма обратной связи](https://golos.io/submit.html?type=submit_feedback) на golos.io
 - GolosWiki [goloswiki@gmail.com](mailto:goloswiki@gmail.com)
-- Поддержка [support@golos.io](mailto:support@golos.io)
 
-#### Команда Голоса
-[Команда и основатели Голоса](https://golos.io/about#team)
+#### Поддержка
+- [Форма обратной связи](https://golos.io/submit.html?type=submit_feedback) на golos.io
+- Поддержка [support@golos.io](mailto:support@golos.io)
 
 
 ## Другие каналы
@@ -26,5 +25,10 @@
 [Голос на форуме Bitcointalk.org](https://bitcointalk.org/index.php?topic=1624364.0)
 
 [Голос на форуме Bitcoinfo.ru](http://forum.bitcoinfo.ru/viewtopic.php?f=13&t=26742)
+
+#### Команда Голоса
+[Команда и основатели Голоса](https://golos.io/about#team)
+
+
 
 
