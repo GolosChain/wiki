@@ -244,6 +244,14 @@
 
 Мы разобрали три способа публикации постов. Однако существуют и альтернативные редакторы, позволяющие входить в Голос, не используя его веб-интерфейс.
 
-С таким редактором вы можете ознакомиться в статье[@vik](https://golos.io/@vik)  
-[https://golos.io/vik/@vik/r](https://golos.io/vik/@vik/r), сам редактор расположен по ссылке [https://chain.cf/post.html](https://chain.cf/post.html)
+---
+
+[![](https://imgp.golos.io/120x120/https://s19.postimg.org/f940iiuab/image.jpg)](https://golos.io/@liga.avtorov)
+
+По материалам [статьи](https://golos.io/ru--golos/@liga.avtorov/pervyi-shag-na-golose-interfeis-platformy-golos-io) \(автор [@liga.avtorov](https://golos.io/@liga.avtorov)\)
+
+---
+
+  
+
 
