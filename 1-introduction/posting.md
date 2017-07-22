@@ -1,6 +1,8 @@
 # Публикация в блоге
 
-# ![](https://imgp.golos.io/0x0/https://s19.postimg.org/jjq4b67df/image.jpg)
+автор [@liga.avtorov](https://golos.io/@liga.avtorov)
+
+![](https://imgp.golos.io/0x0/https://s19.postimg.org/jjq4b67df/image.jpg)
 
 Итак, вы нажали заветную кнопку**“Добавить пост”**. Перед вами открылась новая страница. На этой странице, кроме меню, которые[рассматривали в прошлой инструкции](https://golos.io/ru--golos/@liga.avtorov/pervyi-shag-na-golose-interfeis-platformy-golos-io), появились поля для заполнения текстом.
 
@@ -252,6 +254,5 @@
 
 ---
 
-  
 
 
