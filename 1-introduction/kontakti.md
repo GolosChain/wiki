@@ -9,7 +9,7 @@
 #### Поддержка
 - [Форма обратной связи](https://golos.io/submit.html?type=submit_feedback) на golos.io
 - Поддержка [support@golos.io](mailto:support@golos.io)
-- Сообщения об ошибках [GitHub](https://github.com/GolosChain/tolstoy/issues)
+- Сообщения об ошибках и предложения [GitHub](https://github.com/GolosChain/tolstoy/issues)
 
 
 ## Другие каналы
