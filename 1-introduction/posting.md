@@ -1,6 +1,6 @@
 # Публикация в блоге
 
-автор [@liga.avtorov](https://golos.io/@liga.avtorov)
+Автор [@liga.avtorov](https://golos.io/@liga.avtorov)
 
 ![](https://imgp.golos.io/0x0/https://s19.postimg.org/jjq4b67df/image.jpg)
 
