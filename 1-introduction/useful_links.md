@@ -121,6 +121,11 @@ Flacoin.io
 (VGolose - анонс альтернативного веб-клиента для блокчейна Golos)
 (Анонс siski.io)
 
+Обзор клиентских программ для Голоса:
+[Часть 1.](https://golos.io/golos/@vadbars/obzor-klientskikh-programm-dlya-golosa-chast-1) Клиент дозревает, будь готов! - Усегда готов!
+[Часть 2.](https://golos.io/golos/@vadbars/obzor-klientskikh-programm-dlya-golosa-chast-2) Клиент всегда прав
+[Часть 3.](https://golos.io/golos/@vadbars/obzor-klientskikh-programm-dlya-golosa-chast-3) Клиентов много, я одна
+
 #### Альтернативные каналы общения пользователей Голоса
 [Официальный чат](https://chat.golos.io/home)
 
