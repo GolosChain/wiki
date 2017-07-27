@@ -238,7 +238,10 @@
 
 Вы также можете посмотреть видеоурок от [@serejandmyself](https://golos.io/@serejandmyself) о публикации постов здесь
 
-\(Основы работы языка Raw HTML подготовлены по урокам:[http://www.seoded.ru/beginner/html/text.html\#2](http://www.seoded.ru/beginner/html/text.html#2)\)
+<iframe width="800" height="450" src="https://www.youtube.com/embed/uGF2kUcOefg" frameborder="0" allowfullscreen></iframe>
+
+\(Основы работы языка Raw HTML подготовлены по урокам:
+[http://www.seoded.ru/beginner/html/text.html\#2](http://www.seoded.ru/beginner/html/text.html#2)\)
 
 Мы разобрали три способа публикации постов. Однако существуют и альтернативные редакторы, позволяющие входить в Голос, не используя его веб-интерфейс.
 
