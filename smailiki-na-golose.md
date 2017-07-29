@@ -356,3 +356,9 @@
 <tr><td>🕤</td><td><code>&amp;#128356;</code></td><td>🕥</td><td><code>&amp;#128357;</code></td><td>🕦</td><td><code>&amp;#128358;</code></td></tr>
 </tbody>
 </table>
+
+
+---
+
+По материалам [статьи](https://golos.io/ru--smaijliki/@lebekons/smailiki-na-golose-vsya-podborka-v-udobnoi-tablice) \(автор [@lebekons](https://golos.io/@lebekons)\)
+
