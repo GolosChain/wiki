@@ -14,3 +14,7 @@
 **Где:** Москва, Radisson Slavyanskaya.
 
 **Кратко:** [#яИдуНаГОЛОСфест](https://golos.io/trending/ru--yaidunagolosfest)
+
+**Трансляция ГолосФест**
+{%youtube%}RnDW9Eq1Tvk{%endyoutube%}
+
