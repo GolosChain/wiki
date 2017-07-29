@@ -9,7 +9,7 @@
   * [Философия Голоса](1-introduction/ya_zdes_vpervie.md)
   * [Терминология](1-introduction/terminologiya.md)
   * [Вопросы и ответы](1-introduction/faq.md)
-  * [Видео-уроки](1-introduction/kak_polzovatsya_platformoi_golos.md)
+  * [Видео-материалы](1-introduction/kak_polzovatsya_platformoi_golos.md)
   * [🚀 Первые шаги](pervie-shagi.md)
     * [Заполнение профиля](1-introduction/zapolnenie-profilya.md)
     * [Интерфейс блога](1-introduction/interfeis-lichnogo-bloga.md)
