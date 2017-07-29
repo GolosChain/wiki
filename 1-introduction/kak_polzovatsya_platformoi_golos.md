@@ -11,19 +11,21 @@
 
 #### Общая информация
 
-Что такое Голос?
-
+##### Что такое Голос?
 {%youtube%}8a0TPACOu2k{%endyoutube%}
 
 <br>
-Что такое блокчейн?
+##### Что такое блокчейн?
 
 {%youtube%}TRtHhXOte0o{%endyoutube%}
 
 #### Другие видео
 
-Канал Голос на YouTube
-
+##### Канал Голос на YouTube
 https://www.youtube.com/c/golosioru
+
+##### Трансляция ГолосФест
+{%youtube%}RnDW9Eq1Tvk{%endyoutube%}
+
 
 
