@@ -20,6 +20,7 @@
     * [Просто о блокчейне](prosto-o-blokcheine.md)
     * [Способы заработка](1-introduction/zarabotok.md)
     * [КриптоТермины ](kriptotermini.md)
+    * [Смайлики на Голосе](smailiki-na-golose.md)
 * [📘 Документы](dokumenti.md)
   * [Белая бумага Голоса](1-introduction/golos_whitepaper.md)
   * [Дорожная карта](5-development/roadmap.md)
