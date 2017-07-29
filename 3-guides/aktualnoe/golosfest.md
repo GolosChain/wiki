@@ -1,5 +1,5 @@
 ### Что такое ГОЛОС Фест
-![](https://imgp.golos.io/0x0/https://s5.postimg.org/t1oy0n0gn/Screenshot_2017-07-04_5.12.26.jpg)
+{%youtube%}RnDW9Eq1Tvk{%endyoutube%}
 
 2-дневная встреча сообщества блогеров GOLOS.io в Москве, для погружения в мир блокчейна, блоггинга, криптовалют, а также - знакомства, общения и обмена опытом! 
 
@@ -9,6 +9,8 @@
 👍 **[Программа](https://golos.io/ru--yaidunagolosfest/@golosevents/zavtra-29-iyulya-yaidunagolosfest-finalnyi-post-raspisanie-programma-utochneniya)**
 
 ### О фестивале
+![](https://imgp.golos.io/0x0/https://s5.postimg.org/t1oy0n0gn/Screenshot_2017-07-04_5.12.26.jpg)
+
 **Когда:** 29 - 30 июля 2017 г. (суббота - воскресенье).
 
 **Где:** Москва, Radisson Slavyanskaya.
