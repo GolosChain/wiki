@@ -1,7 +1,7 @@
 # Summary
 
 * [📌 Введение](README.md)
-* [✔ Актуальное](3-guides/aktualnoe.md)
+* [✔ АКТУАЛЬНОЕ](3-guides/aktualnoe.md)
   * [⚙️ ХардФорк 0.2](3-guides/aktualnoe/hf-02.md)
 * [🚀 Новичкам](novichkam.md)
   * [Начни отсюда](chto-nuzhno-znat-v-pervuyu-ochered.md)
@@ -51,7 +51,7 @@
   * [Запуск тестнета](3-guides/start_testnet.md)
   * [🎯 Статьи разработчиков](3-guides/stati.md)
     * [Запуск testnet golos](3-guides/stati/zapusk-testnet-golos.md)
-* [💡 Полезное](poleznoe.md)
+* [💡 ПОЛЕЗНОЕ](poleznoe.md)
   * [Полезные ссылки](1-introduction/useful_links.md)
   * [Участие в вики](1-introduction/uchastie-v-viki-golosa.md)
   * [Контакты](1-introduction/kontakti.md)
