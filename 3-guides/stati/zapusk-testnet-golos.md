@@ -200,10 +200,10 @@ unlocked &gt;&gt;&gt; list_account_balances ropox
   &quot;20.000 ROPOX&quot;
 ]
 </code></pre>
-<p>Удачных вам экспериментов!</p></div></div></div></span>
+<p>Удачных вам экспериментов!</p>
 
 
 <hr>
-По материалам <a href=https://golos.io/ru--smaijliki/@lebekons/smailiki-na-golose-vsya-podborka-v-udobnoi-tablice">статьи</a> 
+По материалам <a href="https://golos.io/ru--golos/@ropox/zapusk-testnet-golos">статьи</a>. 
 Автор <a href="https://golos.io/@ropox">@ropox</a>
 <hr>
