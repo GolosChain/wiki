@@ -200,3 +200,9 @@ unlocked &gt;&gt;&gt; list_account_balances ropox
 ]
 </code></pre>
 <p>Удачных вам экспериментов!</p></div></div></div></span>
+
+
+<hr>
+По материалам <a href=https://golos.io/ru--smaijliki/@lebekons/smailiki-na-golose-vsya-podborka-v-udobnoi-tablice">статьи</a> 
+Автор <a href="https://golos.io/@ropox">@ropox</a>
+<hr>
