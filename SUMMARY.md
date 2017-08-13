@@ -20,7 +20,7 @@
     * [Способы заработка](1-introduction/zarabotok.md)
     * [КриптоТермины ](kriptotermini.md)
     * [Смайлики на Голосе](smailiki-na-golose.md)
-    * [👍 Конференция ГолосФест](3-guides/aktualnoe/golosfest.md)
+    * [Конференция ГолосФест](3-guides/aktualnoe/golosfest.md)
 * [💯 ЭКОНОМИКА](instruktsii.md)
   * [Постинг \(публикация\)](2-rewards/posting_rewards.md)
   * [Курирование \(лайки\)](2-rewards/curation_rewards.md)
