@@ -25,6 +25,8 @@
 https://www.youtube.com/c/golosioru
 
 ##### Трансляция ГолосФест
+{%youtube%}sAT2HwAjUsI{%endyoutube%}
+
 https://www.youtube.com/c/GolosIoru/live
 
 2-дневная встреча сообщества блогеров GOLOS.io в Москве (29-30 июля 2017 г.), для погружения в мир блокчейна, блоггинга, криптовалют, а также - знакомства, общения и обмена опытом. 
