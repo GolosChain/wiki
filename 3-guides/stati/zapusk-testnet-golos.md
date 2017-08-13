@@ -151,8 +151,7 @@ unlocked &gt;&gt;&gt; transfer cyberfounder ropox &quot;200000.000 GOLOS&quot; &
 
 </code></pre>
 <p>Ну и вишенка на торт, создаем свой, персональный токен</p>
-<pre><code>unlocked &gt;&gt;&gt; create_asset cyberfounder ROPOX 3 {&quot;description&quot;: &quot;Золото царя Гороха&quot;, &quot;core_exchange_rate&quot;:{&quot;base&quot;:&quot;1.000 ROPOX&quot;,&quot;quote&quot;:&quot;1.000 GOLOS&quot;}} null true
-
+<pre><code>unlocked &gt;&gt;&gt; create_asset cyberfounder ROPOX 3 {&quot;description&quot;: &quot;Золото царя Гороха&quot;, &quot;core_exchange_rate&quot;:{&quot;base&quot;:&quot;1.000 ROPOX&quot;,&quot;quote&quot;:&quot;1.000 GOLOS&quot;}} null true</code></pre><pre><code>
 {
   &quot;ref_block_num&quot;: 380,
   &quot;ref_block_prefix&quot;: 3346277100,
