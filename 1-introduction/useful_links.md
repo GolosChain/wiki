@@ -52,7 +52,7 @@ RuDEX: [GOLOS](https://market.rudex.org/#/market/OPEN.GOLOS_OPEN.BTC) и [GBG](h
 
 [Как вывести из Голоса выплаты?](https://golos.io/ru--golos/@qqc/kak-vyvesti-iz-golosa-vyplaty-sovety-ot-qqc)
 
-[Пошаговая инструкция как вывести заработанные деньги, из Голоса через биржу Livecoin](https://golos.io/ru--akademiya/@mrwww/poshagovaya-instrukciya-kak-vyvesti-zarabotannye-dengi-iz-golosa-cherez-birzhu-livecoin)
+[Пошаговая инструкция как вывести заработанные деньги из Голоса через биржу Livecoin](https://golos.io/ru--akademiya/@mrwww/poshagovaya-instrukciya-kak-vyvesti-zarabotannye-dengi-iz-golosa-cherez-birzhu-livecoin)
 
 [Выводим Голос в рубли. Подробный мануал для новичков](https://golos.io/ru--golos/@mishka/vyvodim-golos-v-rubli-podrobnyi-manual-dlya-novichkov)
 #### Текущая экономика Голоса для авторов, кураторов, инвесторов и всех остальных
@@ -172,7 +172,7 @@ Flacoin.io
 
 [GolosSQL](https://golos.io/ru--golos/@arcange/golossql-baza-dannykh-sql-so-vsemi-dannymi-blokchein) - База данных SQL со всеми данными блокчейн
 
-[Golos.NET](https://golos.io/ru--golos/@arcange/golos-net-a-microsoft-net-library-for-golos-api)] - Библиотека .NET library для API Голоса
+[Golos.NET](https://golos.io/ru--golos/@arcange/golos-net-a-microsoft-net-library-for-golos-api) - Библиотека .NET library для API Голоса
 
 [Опенсорс JSONRPC клиент для Голоса на Elixir/Erlang](https://golos.io/ru--golos/@ontofractal/reliz-exgolos-v0-1-open-sors-jsonrpc-klient-dlya-golosa-na-elixir-erlang)
 
