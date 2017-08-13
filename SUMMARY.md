@@ -49,7 +49,7 @@
   * [Гайдлайн Github](5-development/guideline.md)
   * [Тестирование](5-development/testing.md)
   * [Запуск тестнета](3-guides/start_testnet.md)
-  * [🎯 Статьи](3-guides/stati.md)
+  * [🎯 Статьи разработчиков](3-guides/stati.md)
     * [Запуск testnet golos](3-guides/stati/zapusk-testnet-golos.md)
 * [💡 Полезное](poleznoe.md)
   * [Полезные ссылки](1-introduction/useful_links.md)
