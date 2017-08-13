@@ -39,7 +39,7 @@
   * [Установка на OS X](3-guides/osx_guide.md)
   * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
   * [Настройка нод](nastroika-delegata.md)
-  * [CLI кошелек](3-guides/cli_wallet.md)
+  * [CLI кошелек \(команды\)](3-guides/cli_wallet.md)
   * [Мониторинг счета](3-guides/monitor_deposit.md)
   * [Генерация ключей](3-guides/generate_keys.md)
   * [Алгоритм консенсуса](4-documentation/consensus_algorithm.md)
