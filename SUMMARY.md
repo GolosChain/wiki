@@ -50,7 +50,7 @@
   * [Запуск тестнета](3-guides/start_testnet.md)
   * [Гайдлайн Github](5-development/guideline.md)
   * [🎯 Статьи разработчиков](3-guides/stati.md)
-    * [Создание пользователя используя cli\_wallet](3-guides/stati/sozdanie-polzovatelya-ispolzuya-cliwallet.md)
+    * [Новый пользователь \(cli\_wallet\)](3-guides/stati/sozdanie-polzovatelya-ispolzuya-cliwallet.md)
     * [Запуск testnet golos](3-guides/stati/zapusk-testnet-golos.md)
 * [💡 ПОЛЕЗНОЕ](poleznoe.md)
   * [Полезные ссылки](1-introduction/useful_links.md)
