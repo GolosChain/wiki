@@ -16,6 +16,8 @@
 
 **Где:** Москва, Radisson Slavyanskaya.
 
-**Итоговый пост:** [яБылНаГОЛОСфест! Итоговый пост](https://golos.io/ru--golos/@golosevents/yabylnagolosfest-itogovyi-post)
+**Итоговый пост:** [яБылНаГОЛОСфест!](https://golos.io/ru--golos/@golosevents/yabylnagolosfest-itogovyi-post)
 
-**Отклики и отчеты:** [Тег #яИдуНаГОЛОСфест](https://golos.io/trending/ru--yaidunagolosfest) и [Все статьи, фото и видео с ГОЛОС Феста](https://golos.io/ru--yaidunagolosfest/@sheriff/upd-or-vse-foto-i-video-s-golos-festa)
+**Отклики и отчеты:** 
+- [Посты с тегом #яИдуНаГОЛОСфест](https://golos.io/trending/ru--yaidunagolosfest)
+- [Все статьи, фото и видео с ГОЛОС Феста](https://golos.io/ru--yaidunagolosfest/@sheriff/upd-or-vse-foto-i-video-s-golos-festa)
