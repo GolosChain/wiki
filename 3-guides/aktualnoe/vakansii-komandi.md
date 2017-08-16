@@ -1,4 +1,4 @@
-[Голос ищет в свою Команду мастера своего дела](https://golos.io/golos/@golosio/udobstvo-i-komfort-dlya-polzovatelya-komanda-golosa-v-poiskakh-ui-ux-specialista).
+## 💔 [Голос ищет в свою Команду мастера своего дела](https://golos.io/golos/@golosio/udobstvo-i-komfort-dlya-polzovatelya-komanda-golosa-v-poiskakh-ui-ux-specialista).
 
 ### UI/UX Web разработчик - 1500 USD (Golos.io)
 
