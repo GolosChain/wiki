@@ -11,6 +11,7 @@
   * [Вопросы и ответы](1-introduction/faq.md)
   * [Видео-материалы](1-introduction/kak_polzovatsya_platformoi_golos.md)
   * [🚀 Первые шаги](pervie-shagi.md)
+    * [Регистрация](1-introduction/registratsiya.md)
     * [Заполнение профиля](1-introduction/zapolnenie-profilya.md)
     * [Интерфейс блога](1-introduction/interfeis-lichnogo-bloga.md)
     * [Интерфейс golos.io](1-introduction/interfeis-golosio.md)
