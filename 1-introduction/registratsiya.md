@@ -16,7 +16,11 @@
 12. Поставьте две галочки и нажмите “Регистрация”.
 13. В поле “Пароль”, копируйте тот пароль, который сохранили и нажмите “Войти”.
 
-https://www.youtube.com/watch?v=OzOoS0m8Fss
+
+
+Видео-инструкция: [https://www.youtube.com/watch?v=OzOoS0m8Fss](https://www.youtube.com/watch?v=OzOoS0m8Fss)
+
+
 
 > По материалам [статьи](https://golos.io/vox-populi/@vp-cryptorostov/obuchenie-poshagovaya-instrukciya-registracii-na-golos-io). Автор [@vp-cryptorostov](https://golos.io/@vp-cryptorostov)
 
