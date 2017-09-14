@@ -36,6 +36,12 @@ https://www.youtube.com/c/GolosIoru/live
 
 Дополнительные материалы: [#яИдуНаГОЛОСфест](https://golos.io/trending/ru--yaidunagolosfest)
 
+##### Как заработать на Голос
+{%youtube%}GEXT9kju0M0{%endyoutube%}
+Видео от Андрея Погорелова ([@ituber](https://golos.io/@ituber))
+
+
+
 
 
 
