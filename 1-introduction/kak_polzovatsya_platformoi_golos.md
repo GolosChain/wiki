@@ -12,18 +12,6 @@
 
 {%youtube%}5Mvpqeb4qYM{%endyoutube%}
 
-#### Общая информация
-
-##### Что такое Голос?
-{%youtube%}8a0TPACOu2k{%endyoutube%}
-
-<br>
-##### Что такое блокчейн?
-
-{%youtube%}TRtHhXOte0o{%endyoutube%}
-
-### Другие видео
-
 #### Курс обучающих видео
 
 https://www.youtube.com/watch?v=GEXT9kju0M0&list=PL_5Hfjgx8sF7QEkpCIew0hb0QZS4Zw36m
@@ -42,7 +30,17 @@ https://www.youtube.com/watch?v=GEXT9kju0M0&list=PL_5Hfjgx8sF7QEkpCIew0hb0QZS4Zw
 #####10. Как Пользоваться Центром Приложений (GOLOS) и Как Создать Свое Приложение?
 #####11. Боты и сообщества Голос: Добрый Кит, Культура Голоса, Vox-populi и т.д.
 
-#### Трансляция ГолосФест
+#### Общая информация
+
+##### Что такое Голос?
+{%youtube%}8a0TPACOu2k{%endyoutube%}
+
+<br>
+##### Что такое блокчейн?
+
+{%youtube%}TRtHhXOte0o{%endyoutube%}
+
+##### Трансляция ГолосФест
 {%youtube%}sAT2HwAjUsI{%endyoutube%}
 
 https://www.youtube.com/c/GolosIoru/live
@@ -51,7 +49,7 @@ https://www.youtube.com/c/GolosIoru/live
 
 Дополнительные материалы: [#яИдуНаГОЛОСфест](https://golos.io/trending/ru--yaidunagolosfest)
 
-#### Канал Голос на YouTube
+##### Канал Голос на YouTube
 https://www.youtube.com/c/golosioru
 
 
