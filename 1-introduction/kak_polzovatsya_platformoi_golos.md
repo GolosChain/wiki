@@ -42,9 +42,6 @@ https://www.youtube.com/watch?v=GEXT9kju0M0&list=PL_5Hfjgx8sF7QEkpCIew0hb0QZS4Zw
 #####10. Как Пользоваться Центром Приложений (GOLOS) и Как Создать Свое Приложение?
 #####11. Боты и сообщества Голос: Добрый Кит, Культура Голоса, Vox-populi и т.д.
 
-#### Канал Голос на YouTube
-https://www.youtube.com/c/golosioru
-
 #### Трансляция ГолосФест
 {%youtube%}sAT2HwAjUsI{%endyoutube%}
 
@@ -53,6 +50,9 @@ https://www.youtube.com/c/GolosIoru/live
 2-дневная встреча сообщества блогеров GOLOS.io в Москве (29-30 июля 2017 г.), для погружения в мир блокчейна, блоггинга, криптовалют, а также - знакомства, общения и обмена опытом. 
 
 Дополнительные материалы: [#яИдуНаГОЛОСфест](https://golos.io/trending/ru--yaidunagolosfest)
+
+#### Канал Голос на YouTube
+https://www.youtube.com/c/golosioru
 
 
 
