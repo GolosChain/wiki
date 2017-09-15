@@ -14,6 +14,8 @@
 
 #### Курс обучающих видео
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GEXT9kju0M0" frameborder="0" allowfullscreen></iframe>
+
 https://www.youtube.com/watch?v=GEXT9kju0M0&list=PL_5Hfjgx8sF7QEkpCIew0hb0QZS4Zw36m
 
 Видео от Андрея Погорелого ([@ituber](https://golos.io/@ituber))
