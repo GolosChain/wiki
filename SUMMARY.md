@@ -4,6 +4,7 @@
 * [✔ АКТУАЛЬНОЕ](3-guides/aktualnoe.md)
   * [⚙️ ХардФорк 0.2](3-guides/aktualnoe/hf-02.md)
   * [💔 Вакансии Команды](3-guides/aktualnoe/vakansii-komandi.md)
+  * [Связь с Golos.Core](3-guides/aktualnoe/svyaz-s-goloscore.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
   * [Начни отсюда](chto-nuzhno-znat-v-pervuyu-ochered.md)
   * [Философия Голоса](1-introduction/ya_zdes_vpervie.md)
