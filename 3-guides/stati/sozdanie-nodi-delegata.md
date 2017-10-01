@@ -8,7 +8,7 @@
 На голосе можно найти старые мануалы, но практически нет информации об активации и настройке режима паблик-api ноды. Я постараюсь подробно описать настройку.
 
 Публичные ноды важная составляющая экосистемы блокчейна, при малом их количестве и не стабильной работе, многие начинают использовать основную ноду ws.golos.io увеличивая нагрузку и нарушая работу клиента golos.io  
-Об этом я уже писал ранее:[**Этика ботоводства на голосе и экономия ресурса официальной паблик ноды**](https://golos.io/ru--golos/@vik/etika-botovodstva-na-golose-i-ekonomiya-resursa-pablik-nod-robot-delegat-za-kotorogo-ne-nuzhno-golosovat)
+Об этом я уже писал ранее: [**Этика ботоводства на голосе и экономия ресурса официальной паблик ноды**](https://golos.io/ru--golos/@vik/etika-botovodstva-na-golose-i-ekonomiya-resursa-pablik-nod-robot-delegat-za-kotorogo-ne-nuzhno-golosovat)
 
 ### Установка ноды Делегата \(Witness\)
 
@@ -34,39 +34,21 @@
 **Установка зависимостей**
 
 ```
-sudo apt-get -y upgrade 
-&
-&
- sudo apt-get -y install git cmake g++ python-dev autotools-dev libicu-dev build-essential libbz2-dev libboost-all-dev libssl-dev libncurses5-dev doxygen libreadline-dev dh-autoreconf screen
+sudo apt-get -y upgrade && sudo apt-get -y install git cmake g++ python-dev autotools-dev libicu-dev build-essential libbz2-dev libboost-all-dev libssl-dev libncurses5-dev doxygen libreadline-dev dh-autoreconf screen
 ```
 
 **Установка ноды**  
-В строке ниже есть фрагмент`tags/v0.16.4`- это версия ноды. Если вам попадется эта инструкция позднее, вам следует проверить, какую актуальную версию блокчейна поддерживает большинство делегатов здесь:[http://golosd.com/witnesses](http://golosd.com/witnesses)и заменить версию в строке ниже на актуальную.
+В строке ниже есть фрагмент`tags/v0.16.4`- это версия ноды. Если вам попадется эта инструкция позднее, вам следует проверить, какую актуальную версию блокчейна поддерживает большинство делегатов здесь: [http://golosd.com/witnesses](http://golosd.com/witnesses) и заменить версию в строке ниже на актуальную.
 
 \(Папка с ПО блокчейна голоса установится в ту директорию, в которой вы введете команду ниже\)
 
 ```
-git clone https://github.com/GolosChain/golos 
-&
-&
- cd golos 
-&
-&
- git checkout tags/v0.16.4 
-&
-&
- git submodule update --init --recursive 
-&
-&
- cmake -DCMAKE_BUILD_TYPE=Release . 
-&
-&
- make -j$(nproc)
+git clone https://github.com/GolosChain/golos && cd golos && git checkout tags/v0.16.4 && git submodule update --init --recursive && cmake -DCMAKE_BUILD_TYPE=Release . && make -j$(nproc)
 ```
 
 ⏰ После ввода команды нужно будет подождать несколько минут инсталяции.
 
-После я рекомендую использовать`screen`- это своего рода окна в консоли между которыми вы можете переключаться не останавливая выполняемые скрипты в них.
+После я рекомендую использовать`screen`- это своего рода окна в консоли, между которыми вы можете переключаться не останавливая выполняемые скрипты в них.
 
 Например создайте и перейдите в окно D \(Делегат\)  
 `screen -S D`\(Вместо D можно использовать любое слово, это просто id окна\)
@@ -126,14 +108,14 @@ rpc-http-allowip = 127.0.0.1
 **witness**и**private-key**
 
 В поле witness добавьте свой логин делегата в кавычках, например`"vik"`  
-А в поле**private-key**нужно вставлять**\(!\) приватный ключ подписи**без кавычек, например:
+А в поле **private-key **нужно вставлять **\(!\) приватный ключ подписи **без кавычек, например:
 
 `5FfMuvf3SQQDKhN83zboHYW5FZA1ShqqD2NaaLqo`
 
 Но вы еще не знаете свой приватный ключ подписи. Обычно я временно вставляю туда активный \(это неправильно\) а после синхронизации беру в кошельке ключ подписи. Но сегодня мы сделаем по-другому.  
-Как узнать свой приватный**signing key**я напишу ниже.
+Как узнать свой приватный **signing key **я напишу ниже.
 
-Вместе с нодой**golosd**мы установили так же**cli wallet**\(кошелек для голоса с командной строкой\)  
+Вместе с нодой **golosd **мы установили также **cli wallet **\(кошелек для голоса с командной строкой\)  
 Обычно мы подключаем кошелек к своей ноде, но поскольку мы ее еще не запустили и она не синхронизировала блокчейн - к ней подключиться нельзя. Мы временно подключимся к публичной ноде.
 
 Вспомним о наших "окнах" screen и создадим новое W \(wallet\):  
@@ -410,7 +392,7 @@ public-api = database_api login_api market_history_api tags_api follow_api netwo
 
 Конфигурация сервера описана мной[ранее в блоге](https://golos.io/ru--golos/@vik/publichnaya-api-noda-dlya-razrabotchikov-golosa-golos-cf-wss-api-golos-cf)
 
-> По материалам [статьи](https://golos.io/ru--golos/@vik/aktualnaya-instrukciya-po-ustanove-delegatskoi-nody-golosd-sozdanie-obshedostupnoi-pablik-api-nody-s-tls-wss-shifrovaniem-na). 
+> По материалам [статьи](https://golos.io/ru--golos/@vik/aktualnaya-instrukciya-po-ustanove-delegatskoi-nody-golosd-sozdanie-obshedostupnoi-pablik-api-nody-s-tls-wss-shifrovaniem-na).
 >
 > Автор [@vik](https://golos.io/@vik)
 
