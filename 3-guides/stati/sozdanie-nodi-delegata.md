@@ -22,12 +22,12 @@
 
 ---
 
-**`sudo apt-get update`**
+`sudo apt-get update`
 
-**`sudo apt-get upgrade`**
+`sudo apt-get upgrade`
 
 Если обновления не заружаются из-за ipv6, просто введите команду ниже и повторите снова  
-**`echo 'Acquire::ForceIPv4 "true";' | tee /etc/apt/apt.conf.d/99force-ipv4`**
+`echo 'Acquire::ForceIPv4 "true";' | tee /etc/apt/apt.conf.d/99force-ipv4`
 
 **Ниже я не использю Docker, поскольку он потребляеет лишние ресурсы, к тому же чистая установка будет нагляднее для первого раза**
 
@@ -38,11 +38,10 @@ sudo apt-get -y upgrade
 &
 &
  sudo apt-get -y install git cmake g++ python-dev autotools-dev libicu-dev build-essential libbz2-dev libboost-all-dev libssl-dev libncurses5-dev doxygen libreadline-dev dh-autoreconf screen
-
 ```
 
 **Установка ноды**  
-В строке ниже есть фрагмент**`tags/v0.16.4`**- это версия ноды. Если вам попадется эта инструкция позднее, вам следует проверить, какую актуальную версию блокчейна поддерживает большинство делегатов здесь:[http://golosd.com/witnesses](http://golosd.com/witnesses)и заменить версию в строке ниже на актуальную.
+В строке ниже есть фрагмент`tags/v0.16.4`- это версия ноды. Если вам попадется эта инструкция позднее, вам следует проверить, какую актуальную версию блокчейна поддерживает большинство делегатов здесь:[http://golosd.com/witnesses](http://golosd.com/witnesses)и заменить версию в строке ниже на актуальную.
 
 \(Папка с ПО блокчейна голоса установится в ту директорию, в которой вы введете команду ниже\)
 
@@ -63,22 +62,20 @@ git clone https://github.com/GolosChain/golos
 &
 &
  make -j$(nproc)
-
-
 ```
 
 ⏰ После ввода команды нужно будет подождать несколько минут инсталяции.
 
-После я рекомендую использовать**`screen`**- это своего рода окна в консоли между которыми вы можете переключаться не останавливая выполняемые скрипты в них.
+После я рекомендую использовать`screen`- это своего рода окна в консоли между которыми вы можете переключаться не останавливая выполняемые скрипты в них.
 
 Например создайте и перейдите в окно D \(Делегат\)  
-**`screen -S D`**\(Вместо D можно использовать любое слово, это просто id окна\)
+`screen -S D`\(Вместо D можно использовать любое слово, это просто id окна\)
 
-> Чтобы выйти из него, нажмите**`ctrl`**+**`A`**+**`D`**  
-> Чтобы вернуться снова**`screen -x D`**
+> Чтобы выйти из него, нажмите`ctrl`+`A`+`D`  
+> Чтобы вернуться снова`screen -x D`
 
 Теперь вы в отдельном окне и можете перейти в папку  
-**`golos/programs/golosd/`**
+`golos/programs/golosd/`
 
 ---
 
@@ -86,7 +83,7 @@ git clone https://github.com/GolosChain/golos
 
 ---
 
-И ввести там**`./golosd`**
+И ввести там`./golosd`
 
 Это будет первый запуск, во время которого будет показана ошибка, но будут созданы необходимые папки с настройками.  
 Вы увидите вывод консоли вида  
@@ -95,7 +92,7 @@ git clone https://github.com/GolosChain/golos
 Файл конфига создан, теперь нужно его найти и отредактировать  
 ![](https://images.golos.io/DQmaxLcS4G6ZcD3BP2RtGBxmWGYRV5KjzyHR9LqUyyCrsvy/path.PNG "Мастер нода GOLOS")
 
-Находим его по пути**`golos/programs/golosd/witness_node_data_dir/config.ini`**
+Находим его по пути`golos/programs/golosd/witness_node_data_dir/config.ini`
 
 Теперь нам нужно добавить адреса сид-нод для связи с сетью голоса и локальные адреса с доступом по RPC, WS, curl и т.д. для работы с блокчейном
 
@@ -115,7 +112,6 @@ seed-node = golosnode.com:4243
 seed-node = 138.68.101.115:4243
 seed-node = golos.imcoins.org:2001
 seed-node = 178.62.224.148:4242
-
 ```
 
 RPC адреса
@@ -124,7 +120,6 @@ RPC адреса
 rpc-endpoint =  127.0.0.1:9090
 rpc-http-endpoint = 127.0.0.1:9091 
 rpc-http-allowip = 127.0.0.1
-
 ```
 
 Теперь осталось добавить еще 2 необходимых параметра  
@@ -133,7 +128,7 @@ rpc-http-allowip = 127.0.0.1
 В поле witness добавьте свой логин делегата в кавычках, например`"vik"`  
 А в поле**private-key**нужно вставлять**\(!\) приватный ключ подписи**без кавычек, например:
 
-**`5FfMuvf3SQQDKhN83zboHYW5FZA1ShqqD2NaaLqo`**
+`5FfMuvf3SQQDKhN83zboHYW5FZA1ShqqD2NaaLqo`
 
 Но вы еще не знаете свой приватный ключ подписи. Обычно я временно вставляю туда активный \(это неправильно\) а после синхронизации беру в кошельке ключ подписи. Но сегодня мы сделаем по-другому.  
 Как узнать свой приватный**signing key**я напишу ниже.
@@ -142,27 +137,27 @@ rpc-http-allowip = 127.0.0.1
 Обычно мы подключаем кошелек к своей ноде, но поскольку мы ее еще не запустили и она не синхронизировала блокчейн - к ней подключиться нельзя. Мы временно подключимся к публичной ноде.
 
 Вспомним о наших "окнах" screen и создадим новое W \(wallet\):  
-**`screen -S W`**
+`screen -S W`
 
 Перейдем в папку cli\_wallet по пути:  
-**`golos/programs/cli_wallet/`**
+`golos/programs/cli_wallet/`
 
 И запустим кошелек командой  
-**`./cli_wallet --server-rpc-endpoint="wss://ws.golos.io"`**
+`./cli_wallet --server-rpc-endpoint="wss://ws.golos.io"`
 
 Параметр`--server-rpc-endpoint="wss://ws.golos.io"`позволил нам подключится к рабочей ноде голоса. Напомню, это временно, так как наша нода еще не запущена и на скрине ниже локальный адрес.
 
 После ввода команды вы увидите строку с приглашением`new>>>`  
 Вам нужно зашифровать локальный кошелек на сервере придуманным паролем, введите команду после new&gt;&gt;&gt;:
 
-**`set_password ВАШ-ПрИдУмАнЫй-ПАРОЛЬ`**\*
+`set_password ВАШ-ПрИдУмАнЫй-ПАРОЛЬ`\*
 
 ![](https://images.golos.io/DQmcSE1UmpseweLKY9g7aHmZUVm87rmcXzZdwSRVfLPANp4/4.PNG "Мастер нода GOLOS")
 
 Вы увидите в ответ locked \(заблокирован\)  
 Теперь разблокируйте кошелек командой
 
-**`unlock ВАШ-ПрИдУмАнЫй-ПАРОЛЬ`**
+`unlock ВАШ-ПрИдУмАнЫй-ПАРОЛЬ`
 
 И увидите приглашение unlocked&gt;&gt;&gt;
 
@@ -173,21 +168,21 @@ rpc-http-allowip = 127.0.0.1
 
 Теперь импортируйте свой ключ командой:
 
-**`import_key 5XNqnTYnkt477juXDv8GjLGrjEpDCD61gJtoidt6huy`**
+`import_key 5XNqnTYnkt477juXDv8GjLGrjEpDCD61gJtoidt6huy`
 
 Далее введите команду  
-**`suggest_brain_key`**
+`suggest_brain_key`
 
 Вы получите ответ вида:
 
 ![](https://images.golos.io/DQmcj7Dfp2djRdCnpxTym5D1PQQThKohfu1CNh2vfMFebiv/image.png)
 
 Надежно сохраните эти ключи \(мы еще вернемся к ним\).  
-А ключ, который**`wif_priv_key`**вставьте в config.ini - это именно тот ключ, с помощью которого ваша делегатская нода будет подписывать блоки.
+А ключ, который`wif_priv_key`вставьте в config.ini - это именно тот ключ, с помощью которого ваша делегатская нода будет подписывать блоки.
 
 ---
 
-Вернемcя к ноде**`screen -x D`**
+Вернемcя к ноде`screen -x D`
 
 Настало время запустить синхронизацию, находясь в папке golosd вводим
 
@@ -214,7 +209,7 @@ rpc-http-allowip = 127.0.0.1
 Теперь нам логично подключиться уже к своей локальной ноде \(помните, мы работали раньше с публичной\)  
 Для этого выйдем с текущей сессии кошелька CTRL+C или ENTER и введем команду:
 
-**`./cli_wallet --server-rpc-endpoint="ws://localhost:9090"`**
+`./cli_wallet --server-rpc-endpoint="ws://localhost:9090"`
 
 Теперь мы подключились к блокчейну локально, через свою ноду.
 
@@ -227,7 +222,6 @@ Cформируйте строку для команды объявления с
 ```
 update_witness "vik" "https://golos.io/x/@vik/delegat" GLS8LPBzkzf6ap9gby1mVLSsXnBhC2sp8iQd8mKoMS2ChbiMAhWHf 
 {"account_creation_fee":"3.000 GOLOS", "maximum_block_size":65536, "sbd_interest_rate":1000} true
-
 ```
 
 Где vik - ваш логин, ссылка - это ваш пост о делегатстве, тот самый публичный ключ \(не вздумайте приватный, эта операция будет публичной и ее увидят все\)  
@@ -238,7 +232,7 @@ update_witness "vik" "https://golos.io/x/@vik/delegat" GLS8LPBzkzf6ap9gby1mVLSsX
 После вы можете опубликовать котировку GOLOS/GBG  
 Сделать это можно так:
 
-**`publish_feed "vik" { "base":"2.362 GBG", "quote":"1.000 GOLOS"} true`**
+`publish_feed "vik" { "base":"2.362 GBG", "quote":"1.000 GOLOS"} true`
 
 Позднее вам лучше автоматизировать эту операцию, так как это обязанность делегата, публиковать котировки GOLOS к GBG
 
@@ -272,8 +266,8 @@ golos.io/~witnesses или командой в кошельке
 
 Как и ранее можно использовать screen и переключиться на отдельное окно и начать установку:
 
-**`sudo apt-get update`**  
-**`sudo apt-get install nginx`**
+`sudo apt-get update`  
+`sudo apt-get install nginx`
 
 Теперь создайте в удобном для себя месте на сервере произвольный файл с расширением .conf  
 Например`golosnode.conf`
@@ -281,13 +275,13 @@ golos.io/~witnesses или командой в кошельке
 Далее добавим путь к этому файлу конфигурации в конфиге nginx  
 Открываем в редакторе главный конфиг:
 
-**`nano /etc/nginx/nginx.conf`**
+`nano /etc/nginx/nginx.conf`
 
 Ищем там строки с include  
 И добавляем после include путь/к/golosnode.conf  
 Например:
 
-**`include /home/nginx/golosnode.conf;`**
+`include /home/nginx/golosnode.conf;`
 
 Далее откройте этот файл и добавьте nginx правила:
 
@@ -306,9 +300,9 @@ server {
     sendfile on;
     tcp_nopush on;
     tcp_nodelay on;
-    
+
     location ~ ^(/|/api) {
-    
+
         limit_req zone=ws burst=5;
         access_log off;
         proxy_pass http://websockets;
@@ -323,15 +317,12 @@ server {
     }
 
 }
-
-
-
 ```
 
 После сохранения перезапустите nginx и проверьте статус
 
-**`systemctl restart nginx`**  
-**`systemctl status nginx.service`**
+`systemctl restart nginx`  
+`systemctl status nginx.service`
 
 При отсутствии ошибок вы увидите примерно такой вывод в консоли
 
@@ -351,7 +342,6 @@ sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
 sudo apt-get install python-certbot-nginx 
 sudo certbot --nginx
-
 ```
 
 Вы увидите диалоговое окно, где вам будет предложено ввести свой email и указать домен для которого вы собираетесь установить сертификаты  
@@ -360,7 +350,7 @@ sudo certbot --nginx
 Так же вам будет предложено автоматически добавить редирект с http на https , но так как нам нужен редирект с ws на wss - можно эту опцию не выбирать.  
 ![](https://images.golos.io/DQmRThxRxDPcXazwKx7G1yYreCtL7gUv2ZtJfYg3XVguhKe/8.PNG "Мастер нода GOLOS")
 
-После всего этого, certbot самостоятельно добавит настройки в ваш**`golosnode.conf;`**  
+После всего этого, certbot самостоятельно добавит настройки в ваш`golosnode.conf;`  
 Но вам лучше все перепроверить:
 
 ```
@@ -374,7 +364,6 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/api.golos.cf/privkey.pem; # ДОЛЖНО БЫТЬ ДОБАВЛЕНО
     include /etc/letsencrypt/options-ssl-nginx.conf; # ДОЛЖНО БЫТЬ ДОБАВЛЕНО
 *** остальные настройки такие же ***
-
 ```
 
 Я оставил полный конфиг тут  
@@ -385,8 +374,8 @@ server {
 Используя его как шаблон, вы сможете настройть правильные пути для своего домена.
 
 После правки nginx настроек его следует перезапускать  
-**`systemctl restart nginx`**- перезапуск  
-**`systemctl status nginx.service`**- проверяем нет ли ошибок
+`systemctl restart nginx`- перезапуск  
+`systemctl status nginx.service`- проверяем нет ли ошибок
 
 #### Теперь вернемся к ноде голоса, к файлу config.ini
 
@@ -400,7 +389,6 @@ enable-plugin = follow
 enable-plugin = market_history
 enable-plugin = tags
 public-api = database_api login_api market_history_api tags_api follow_api network_broadcast_api use_network_node_api
-
 ```
 
 Так же найдите строку`server-pem`и добавьте путь к сертификату, его можно увидеть в конфиге к nginx
@@ -421,4 +409,10 @@ public-api = database_api login_api market_history_api tags_api follow_api netwo
 Так же вы можете подключить к`wss://api.golos.cf`собственные скрипты.
 
 Конфигурация сервера описана мной[ранее в блоге](https://golos.io/ru--golos/@vik/publichnaya-api-noda-dlya-razrabotchikov-golosa-golos-cf-wss-api-golos-cf)
+
+> По материалам [статьи](https://golos.io/ru--golos/@vik/aktualnaya-instrukciya-po-ustanove-delegatskoi-nody-golosd-sozdanie-obshedostupnoi-pablik-api-nody-s-tls-wss-shifrovaniem-na). 
+>
+> Автор [@vik](https://golos.io/@vik)
+
+
 
