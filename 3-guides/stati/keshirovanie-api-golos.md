@@ -36,7 +36,7 @@
 Суть метода простая, на сервере работает javascript который с интервалом в 3 секунды обновляет в базе данных содержимое свежего блока на golos.io  
 Далее вместо того, что бы подключаться всеми своими скриптами одновременно к одной ноде, вы берете данные о блоках из базы данных, а нода работает с минимальной нагрузкой, словно ее использует лишь один скрипт.
 
-Вы можете использовать любую базу данных, как-то mongo, mysql, rethink и другие, для себя же я выбрал именно redis, для меня она проверенный инструмент способный держать нагрузку во время кэширования большого объема данных.
+Вы можете использовать любую базу данных, как-то mongo, mysql, rethink и другие, для себя же я выбрал именно redis, для меня она проверенный инструмент, способный держать нагрузку во время кэширования большого объема данных.
 
 ![](https://imgp.golos.io/0x0/https://redislabs.com/wp-content/uploads/2014/04/redis_proven_performance_2.png)
 
@@ -52,11 +52,9 @@
     const client = redis.createClient()
     golos.config.set('websocket','ws://localhost:9090')
     let trig = {existBlock:true}
-    const dynamicSnap = new Promise((resolve, reject) =
-    >
+    const dynamicSnap = new Promise((resolve, reject) =>
      {
-        golos.api.getDynamicGlobalProperties((err, res) =
-    >
+        golos.api.getDynamicGlobalProperties((err, res) =>
      {
             if (err) {console.log(err)}
             else {
@@ -64,14 +62,11 @@
             }
         })
     })
-    const FIRSTBLOCK = n =
-    >
+    const FIRSTBLOCK = n =>
      n.head_block_number
-    const SENDBLOCK = currentblock =
-    >
+    const SENDBLOCK = currentblock =>
      {
-        golos.api.getBlock(currentblock, (err, result) =
-    >
+        golos.api.getBlock(currentblock, (err, result) =>
      {
             if (err) {
                 console.log(err) 
@@ -85,12 +80,10 @@
                 }
         })
     }
-    const NEXTBLOCKS = firstblock =
-    >
+    const NEXTBLOCKS = firstblock =>
      {
         let currentblock = firstblock
-        setInterval(() =
-    >
+        setInterval(() =>
      {
     if(trig.existBlock){
     currentblock++
@@ -102,9 +95,7 @@
     dynamicSnap
         .then(FIRSTBLOCK)
         .then(NEXTBLOCKS)
-        .catch(e =
-    >
-     console.log(e));
+        .catch(e => console.log(e));
 
 Далее вам достаточно брать данные блока из базы redis
 
@@ -116,8 +107,6 @@ let LastBlockRedis = JSON.parse(LB.data)
 ```
 
 Где предполагается, что функция filterOperations обрабатывается вашим скриптом.
-
-
 
 > По материалам [статьи](https://golos.io/ru--golos/@vik/zapusk-mnozhestva-mnogopotochnykh-zhivykh-skriptov-na-odnoi-node-reshenie-dlya-mashtabiruemosti-botov-golosa).
 >
