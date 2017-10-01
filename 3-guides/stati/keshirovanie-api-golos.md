@@ -2,10 +2,8 @@
 
 Автор: [@vik](https://golos.io/@vik)
 
-**Суть решаемой проблемы:  
+**Суть решаемой проблемы:    
 **![](https://imgp.golos.io/0x0/https://s17.postimg.org/byltwz7rh/image.png)
-
-![](https://imgp.golos.io/0x0/https://s17.postimg.org/byltwz7rh/image.png)
 
 **Решение:**
 
