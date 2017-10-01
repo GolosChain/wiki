@@ -10,9 +10,15 @@
 
 Для генерации пар ключей, введите в консоли:
 
-```bash
+
+
+```
+bash
 ./get_dev_key golosuser active-cryptoonelove owner-cryptoonelove posting-cryptoonelove memo-cryptoonelove othercryptoonelovekey
 ```
+
+
+
 Выводом будет несколько пар ключей:
 
 ```bash
