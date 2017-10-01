@@ -62,6 +62,7 @@
     * [Запуск testnet golos](3-guides/stati/zapusk-testnet-golos.md)
     * [Анонимные трансакции](3-guides/stati/anonimnie-transaktsii.md)
     * [Установка ноды делегата](3-guides/stati/sozdanie-nodi-delegata.md)
+    * [Кеширование API Golos](3-guides/stati/keshirovanie-api-golos.md)
 * [💡 ПОЛЕЗНОЕ](poleznoe.md)
   * [Полезные ссылки](1-introduction/useful_links.md)
   * [Участие в вики](1-introduction/uchastie-v-viki-golosa.md)
