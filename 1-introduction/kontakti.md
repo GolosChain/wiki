@@ -35,6 +35,7 @@
 
 #### Команда Голоса
 [Команда и основатели Голоса](https://golos.io/about#team)
+[Контакты команды GolosCore](/3-guides/aktualnoe/svyaz-s-goloscore.html)
 
 
 
