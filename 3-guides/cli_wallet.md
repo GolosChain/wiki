@@ -2,6 +2,7 @@
 <!-- toc -->
 
 
+См. также статью [Создание пользователя (cli_wallet)](https://wiki.golos.io/3-guides/stati/sozdanie-polzovatelya-ispolzuya-cliwallet.html)
 ### cli_walletCommands
 
 #### about()
