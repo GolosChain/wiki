@@ -106,9 +106,6 @@
     >
      console.log(e));
 
-
-
-
 Далее вам достаточно брать данные блока из базы redis
 
 ```
@@ -116,16 +113,15 @@ client.hgetall("GolosLastBlock", function(err, LB) {
 let LastBlockRedis = JSON.parse(LB.data)
             filterOperations(LastBlockRedis)
 }
-
 ```
 
 Где предполагается, что функция filterOperations обрабатывается вашим скриптом.
 
 
 
-
-
-
+> По материалам [статьи](https://golos.io/ru--golos/@vik/zapusk-mnozhestva-mnogopotochnykh-zhivykh-skriptov-na-odnoi-node-reshenie-dlya-mashtabiruemosti-botov-golosa).
+>
+> Автор [@vik](https://golos.io/@vik)
 
 
 
