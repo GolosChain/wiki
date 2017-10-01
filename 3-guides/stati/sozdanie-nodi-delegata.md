@@ -352,7 +352,7 @@ server {
 [https://github.com/vikxx/server](https://github.com/vikxx/server)  
 Он работает так:  
 Доступ по вебсокетам по адресу`wss://api.golos.cf`  
-Доступ к html страничкам из папки html по адресу[https://golos.cf](https://golos.cf/)  
+Доступ к html страничкам из папки html по адресу [https://golos.cf](https://golos.cf/)  
 Используя его как шаблон, вы сможете настройть правильные пути для своего домена.
 
 После правки nginx настроек его следует перезапускать  
@@ -383,14 +383,16 @@ public-api = database_api login_api market_history_api tags_api follow_api netwo
 
 ### Позднее я добавлю инструкции по настройке фаервола и алгоритмов защиты вашей ноды от злоупотребления.
 
-Пример работы паблик ноды можно увидеть тут[https://golos.cf](https://golos.cf/)  
+Пример работы паблик ноды можно увидеть тут [https://golos.cf](https://golos.cf/)  
 Сайт подключен к api.golos.cf
 
 ![](https://images.golos.io/DQmTwTLB1yP5mYQTjen2pjZmRp5CGQGCE6feSFd3rMa2GJN/image.png)
 
 Так же вы можете подключить к`wss://api.golos.cf`собственные скрипты.
 
-Конфигурация сервера описана мной[ранее в блоге](https://golos.io/ru--golos/@vik/publichnaya-api-noda-dlya-razrabotchikov-golosa-golos-cf-wss-api-golos-cf)
+Конфигурация сервера описана мной [ранее в блоге](https://golos.io/ru--golos/@vik/publichnaya-api-noda-dlya-razrabotchikov-golosa-golos-cf-wss-api-golos-cf)
+
+
 
 > По материалам [статьи](https://golos.io/ru--golos/@vik/aktualnaya-instrukciya-po-ustanove-delegatskoi-nody-golosd-sozdanie-obshedostupnoi-pablik-api-nody-s-tls-wss-shifrovaniem-na).
 >
