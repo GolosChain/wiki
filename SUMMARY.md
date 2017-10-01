@@ -61,6 +61,7 @@
     * [Создание пользователя \(cli\_wallet\)](3-guides/stati/sozdanie-polzovatelya-ispolzuya-cliwallet.md)
     * [Запуск testnet golos](3-guides/stati/zapusk-testnet-golos.md)
     * [Анонимные трансакции](3-guides/stati/anonimnie-transaktsii.md)
+    * [Создание ноды делегата](3-guides/stati/sozdanie-nodi-delegata.md)
 * [💡 ПОЛЕЗНОЕ](poleznoe.md)
   * [Полезные ссылки](1-introduction/useful_links.md)
   * [Участие в вики](1-introduction/uchastie-v-viki-golosa.md)
