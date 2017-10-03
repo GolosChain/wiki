@@ -51,6 +51,13 @@ https://www.youtube.com/c/GolosIoru/live
 
 Дополнительные материалы: [#яИдуНаГОЛОСфест](https://golos.io/trending/ru--yaidunagolosfest)
 
+##### Mediametrics Live 2
+{%youtube%}hghErLkX5m0{%endyoutube%}
+Mediametrics Live 2
+Какие выгоды и возможности предоставляет медиаблокчейн Golos для бизнеса
+Ведущий: Олег Иванов
+В гостях: Сергей Симановский, CEO Golos Fund
+
 ##### Канал Голос на YouTube
 https://www.youtube.com/c/golosioru
 
