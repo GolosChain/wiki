@@ -53,6 +53,7 @@ https://www.youtube.com/c/GolosIoru/live
 
 ##### Mediametrics Live 2
 {%youtube%}hghErLkX5m0{%endyoutube%}
+
 Mediametrics Live 2
 Какие выгоды и возможности предоставляет медиаблокчейн Golos для бизнеса
 Ведущий: Олег Иванов
