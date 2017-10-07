@@ -64,6 +64,7 @@
     * [Установка ноды делегата](3-guides/stati/sozdanie-nodi-delegata.md)
     * [Кеширование API Golos](3-guides/stati/keshirovanie-api-golos.md)
     * [Расчет вознаграждения](3-guides/stati/raschet-voznagrazhdeniya.md)
+    * [Регистрация аккаунтов](3-guides/stati/registratsiya-akkauntov.md)
 * [💡 ПОЛЕЗНОЕ](poleznoe.md)
   * [Полезные ссылки](1-introduction/useful_links.md)
   * [Участие в вики](1-introduction/uchastie-v-viki-golosa.md)
