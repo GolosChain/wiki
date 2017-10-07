@@ -2,15 +2,15 @@
 
 Автор: [@vik](https://golos.io/@vik)
 
-## Этот простой скрипт поможет вам зарегистрировать любое количество новых аккаунтов на голосе.
+Этот простой скрипт поможет вам зарегистрировать любое количество новых аккаунтов на голосе.
 
 ![](https://imgp.golos.io/0x0/https://i.imgur.com/BxJ5UNF.jpg)
 
-## Браузерная версия
+**Браузерная версия**
 
-### Голос [golos.cf/reg.html](https://golos.cf/reg.html)
+Голос [golos.cf/reg.html](https://golos.cf/reg.html)
 
-### Steemit [golos.cf/steem](https://golos.cf/steem)
+Steemit [golos.cf/steem](https://golos.cf/steem)
 
 ![](https://imgp.golos.io/0x0/https://i.imgur.com/ZV6OXXu.jpg)
 
@@ -18,21 +18,19 @@
 
 ---
 
-## Node JS
+**Node JS**
 
-Поставьте nodeJS  
-Установите библиотеку golos-js
+* Поставьте nodeJS
+* Установите библиотеку golos-js
+  `npm install golos-js`
 
-`npm install golos-js`
-
-Скачайте файл accountregistartor.js
+* Скачайте файл accountregistartor.js
 
 [https://github.com/vikxx/robot/blob/master/accountregistartor.js](https://github.com/vikxx/robot/blob/master/accountregistartor.js)
 
-Заполните необходимые поля и запустите  
-`node accountregistartor.js`
+* Заполните необходимые поля и запустите `node accountregistartor.js`
 
-```
+```js
 // Придумайте логин и пароль для нового аккаунта
 const NAME = "nickname123"
 const PASS = "MyStrongPass1234567890"
@@ -55,9 +53,7 @@ const creator= "robot"
 
 
 // Профиль пользователя. О себе, аватар, и т.д. , можно оставить пустым и заполнить позднее
-const jsonMetadata= {
-
-}
+const jsonMetadata= {}
 
 
 let x = golos.auth.generateKeys(NAME, PASS, ['owner','active','posting','memo'])
@@ -84,15 +80,14 @@ activeAuth,
 postingAuth, 
 memoKey, 
 jsonMetadata, 
-(err, result) =
->
+(err, result) =>
  {
   if(err) return console.log(err);
     console.log(result)
 });
 ```
 
-> По материалвм [статьи](https://golos.io/ru--golos/@vik/mgnovennaya-registraciya-akkauntov-na-golos-i-steem-bez-verifikacii-i-ogranichenii)
+> По материалам [статьи](https://golos.io/ru--golos/@vik/mgnovennaya-registraciya-akkauntov-na-golos-i-steem-bez-verifikacii-i-ogranichenii)
 >
 > Автор [@vik](https://golos.io/@vik)
 
