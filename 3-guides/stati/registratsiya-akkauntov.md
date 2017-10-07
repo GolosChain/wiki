@@ -23,14 +23,14 @@
 Поставьте nodeJS  
 Установите библиотеку golos-js
 
-**`npm install golos-js`**
+`npm install golos-js`
 
 Скачайте файл accountregistartor.js
 
 [https://github.com/vikxx/robot/blob/master/accountregistartor.js](https://github.com/vikxx/robot/blob/master/accountregistartor.js)
 
 Заполните необходимые поля и запустите  
-**`node accountregistartor.js`**
+`node accountregistartor.js`
 
 ```
 // Придумайте логин и пароль для нового аккаунта
@@ -56,7 +56,7 @@ const creator= "robot"
 
 // Профиль пользователя. О себе, аватар, и т.д. , можно оставить пустым и заполнить позднее
 const jsonMetadata= {
-    
+
 }
 
 
@@ -90,13 +90,9 @@ jsonMetadata,
   if(err) return console.log(err);
     console.log(result)
 });
-
-
 ```
 
-
-
-> На основе материалов [статьи](https://golos.io/ru--golos/@vik/mgnovennaya-registraciya-akkauntov-na-golos-i-steem-bez-verifikacii-i-ogranichenii)
+> По материалвм [статьи](https://golos.io/ru--golos/@vik/mgnovennaya-registraciya-akkauntov-na-golos-i-steem-bez-verifikacii-i-ogranichenii)
 >
 > Автор [@vik](https://golos.io/@vik)
 
