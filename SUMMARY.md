@@ -45,6 +45,7 @@
   * [Blue Paper Steem на русском](1-introduction/blue-paper-steem-na-russkom.md)
 * [💻 РАЗРАБОТЧИКАМ](razrabotchikam.md)
   * [Документация](3-guides/dokumentatsiya-dlya-razrabotchikov.md)
+  * [Роли нод](3-guides/roli-nod.md)
   * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
   * [Установка на OS X](3-guides/osx_guide.md)
   * [Настройка нод](nastroika-delegata.md)
