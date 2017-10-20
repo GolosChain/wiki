@@ -30,7 +30,7 @@ rm -rf golosnode
 mkdir golosnode
 
 # pull fresh code, compile
-git clone https://github.com/GolosChain/golos && cd golos && git checkout tags/v0.14.2 && git submodule update --init --recursive && cmake -DCMAKE_BUILD_TYPE=Release . && make -j$(nproc)
+git clone https://github.com/GolosChain/golos && cd golos && git checkout tags/v0.16.4 && git submodule update --init --recursive && cmake -DCMAKE_BUILD_TYPE=Release . && make -j$(nproc)
 
 # install new binaries
 cp programs/golosd/golosd ../golosnode/
