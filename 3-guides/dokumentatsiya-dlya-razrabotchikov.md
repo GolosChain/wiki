@@ -7,7 +7,7 @@
   * [Руководство по тестнету](https://developers.golos.io/doc/testnet)
   * [API-документация](https://developers.golos.io/doc/client#api-reference)
   * [Документация по блокчейну](https://developers.golos.io/doc/blockchain)
-  * [GitHub проекта Голос](https://github.com/GolosChain)
-  * [Документация по Graphene](http://docs.bitshares.eu/)
+* [GitHub проекта Голос](https://github.com/GolosChain)
+* [Документация по Graphene](http://docs.bitshares.eu/)
 
 
