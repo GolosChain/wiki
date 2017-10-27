@@ -66,7 +66,7 @@
     * [cli\_wallet Создание пользователя](3-guides/stati/sozdanie-polzovatelya-ispolzuya-cliwallet.md)
     * [Регистрация аккаунтов](3-guides/stati/registratsiya-akkauntov.md)
     * [Запуск testnet golos](3-guides/stati/zapusk-testnet-golos.md)
-    * [Анонимные трансакции](3-guides/stati/anonimnie-transaktsii.md)
+    * [Анонимные транзакции](3-guides/stati/anonimnie-transaktsii.md)
     * [Установка ноды делегата](3-guides/stati/sozdanie-nodi-delegata.md)
     * [Кеширование API Golos](3-guides/stati/keshirovanie-api-golos.md)
     * [Расчет вознаграждения](3-guides/stati/raschet-voznagrazhdeniya.md)
