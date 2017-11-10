@@ -2,11 +2,13 @@
 
 * [📌 Введение](README.md)
 * [✔ АКТУАЛЬНОЕ](3-guides/aktualnoe.md)
+  * [💡 Зеркала golos.io](3-guides/aktualnoe/vnimanie-alternativnie-tochki-vhoda.md)
   * [⚙️ ХардФорк 0.2](3-guides/aktualnoe/hf-02.md)
   * [🚀 О развитии Golos.io](3-guides/aktualnoe/o-razvitii-golos.md)
   * [✔ Связь с Golos.Core](3-guides/aktualnoe/svyaz-s-goloscore.md)
   * [💔 Вакансии Команды](3-guides/aktualnoe/vakansii-komandi.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
+  * [Welcome](welcome.md)
   * [Начни отсюда](chto-nuzhno-znat-v-pervuyu-ochered.md)
   * [Философия Голоса](1-introduction/ya_zdes_vpervie.md)
   * [Терминология](1-introduction/terminologiya.md)
