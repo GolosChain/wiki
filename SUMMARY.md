@@ -9,7 +9,7 @@
   * [💔 Вакансии Команды](3-guides/aktualnoe/vakansii-komandi.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
   * [Welcome](welcome.md)
-  * [Начни отсюда](chto-nuzhno-znat-v-pervuyu-ochered.md)
+  * [Начни отсюда](1-introduction/chto-nuzhno-znat-v-pervuyu-ochered.md)
   * [Философия Голоса](1-introduction/ya_zdes_vpervie.md)
   * [Терминология](1-introduction/terminologiya.md)
   * [Вопросы и ответы](1-introduction/faq.md)
