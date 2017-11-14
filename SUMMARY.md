@@ -1,7 +1,7 @@
 # Summary
 
 * [📌 Введение](README.md)
-* [✔ АКТУАЛЬНОЕ](3-guides/aktualnoe.md)
+* [✔ АКТУАЛЬНОЕ](/3-guides/aktualnoe.md#✔-актуальное)
   * [💡 Зеркала golos.io](3-guides/aktualnoe/vnimanie-alternativnie-tochki-vhoda.md)
   * [⚙️ ХардФорк 0.2](3-guides/aktualnoe/hf-02.md)
   * [🚀 О развитии Golos.io](3-guides/aktualnoe/o-razvitii-golos.md)
