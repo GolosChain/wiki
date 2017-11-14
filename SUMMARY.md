@@ -36,7 +36,7 @@
   * [Курирование \(лайки\)](2-rewards/curation_rewards.md)
   * [Инвестирование](2-rewards/commitment_rewards.md)
   * [Сбережения](2-rewards/savings_rewards.md)
-  * [Делегатство](delegatstvo.md)
+  * [Делегатство](2-rewards/delegatstvo.md)
   * [Майнинг](2-rewards/mining_rewards.md)
 * [📘 ДОКУМЕНТЫ](dokumenti.md)
   * [Белая бумага Голоса](4-documentation/golos_whitepaper.md)
