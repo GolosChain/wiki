@@ -75,6 +75,6 @@
     * [API Golos ч.4](3-guides/stati/api-golos-ch4.md)
 * [💡 ПОЛЕЗНОЕ](poleznoe.md)
   * [Полезные ссылки](useful_links.md)
-  * [Участие в вики](1-introduction/uchastie-v-viki-golosa.md)
+  * [Участие в вики](uchastie-v-viki-golosa.md)
   * [Контакты](kontakti.md)
 
