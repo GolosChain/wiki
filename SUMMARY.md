@@ -41,7 +41,7 @@
 * [📘 ДОКУМЕНТЫ](dokumenti.md)
   * [Белая бумага Голоса](1-introduction/golos_whitepaper.md)
   * [Дорожная карта](5-development/roadmap.md)
-  * [Белая бумага Голос•Фонда](1-introduction/belaya-bumaga-golosfonda.md)
+  * [Белая бумага Голос•Фонда](4-documentation/belaya-bumaga-golosfonda.md)
   * [Белая бумага по DPOS](1-introduction/belaya-bumaga-po-dpos.md)
   * [White Paper Steem на русском](1-introduction/steem_whitepaper.md)
   * [Blue Paper Steem на русском](1-introduction/blue-paper-steem-na-russkom.md)
