@@ -26,7 +26,7 @@
     * [Просто о блокчейне](prosto-o-blokcheine.md)
     * [Способы заработка](1-introduction/zarabotok.md)
     * [КриптоТермины ](kriptotermini.md)
-    * [Смайлики на Голосе](smailiki-na-golose.md)
+    * [Смайлики на Голосе](1-introduction/smailiki-na-golose.md)
     * [Конференция ГолосФест](3-guides/aktualnoe/golosfest.md)
     * [Инструменты: golosd.com](instrumenti-golosdcom.md)
     * [Инструменты: golosdb.com](instrumenti-golosdbcom.md)
