@@ -6,12 +6,12 @@
 
 
 
-* [Регистрация](//1-introduction/registratsiya.html)
-* [Заполнение профиля](1-introduction/zapolnenie-profilya.md)
-* [Интерфейс личного блога](1-introduction/interfeis-lichnogo-bloga.md)
+* [Регистрация](/1-introduction/registratsiya.html)
+* [Заполнение профиля](/1-introduction/zapolnenie-profilya.md)
+* [Интерфейс личного блога](/1-introduction/interfeis-lichnogo-bloga.md)
 * [Интерфейс платформы golos.io](/1-introduction/interfeis-golosio.md)
-* [Публикация в блоге](//1-introduction/posting.html)
-* [Кошелек, ключи, выплаты](//1-introduction/koshelek-klyuchi-viplati.html)
+* [Публикация в блоге](/1-introduction/posting.html)
+* [Кошелек, ключи, выплаты](/1-introduction/koshelek-klyuchi-viplati.html)
 
 
 
