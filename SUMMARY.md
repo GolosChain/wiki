@@ -78,4 +78,5 @@
   * [Полезные ссылки](useful_links.md)
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [Контакты](kontakti.md)
+  * [История](istoriya.md)
 
