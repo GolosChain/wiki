@@ -7,6 +7,7 @@
   * [🚀 О развитии Golos.io](0-aktualnoe/o-razvitii-golos.md)
   * [✔ Связь с Golos.Core](0-aktualnoe/svyaz-s-goloscore.md)
   * [💔 Вакансии Команды](0-aktualnoe/vakansii-komandi.md)
+  * [БАУНТИ](0-aktualnoe/baunti.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
   * [Welcome](welcome.md)
   * [Начни отсюда](1-introduction/chto-nuzhno-znat-v-pervuyu-ochered.md)
