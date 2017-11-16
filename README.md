@@ -1,5 +1,5 @@
 # База знаний проекта Медиаблокчейн ГОЛОС
-<br><br>
+<br>
 
 [![Логотип Голос](https://raw.githubusercontent.com/GolosChain/wiki/master/_images/golos_logo.png)](https://golos.io/)
 <br><br>
