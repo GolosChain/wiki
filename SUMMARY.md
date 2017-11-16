@@ -9,7 +9,7 @@
   * [✔ Связь с Golos.Core](0-aktualnoe/svyaz-s-goloscore.md)
   * [💔 Вакансии Команды](0-aktualnoe/vakansii-komandi.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
-  * [Начни отсюда](1-introduction/chto-nuzhno-znat-v-pervuyu-ochered.md)
+  * [Начни отсюда](1-introduction/welcome.md)
   * [🚀 Первые шаги](pervie-shagi.md)
     * [Регистрация](1-introduction/registratsiya.md)
     * [Заполнение профиля](1-introduction/zapolnenie-profilya.md)
