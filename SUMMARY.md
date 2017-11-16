@@ -21,7 +21,7 @@
   * [Терминология](1-introduction/terminologiya.md)
   * [Вопросы и ответы](1-introduction/faq.md)
   * [👁 Видео-материалы](1-introduction/kak_polzovatsya_platformoi_golos.md)
-  * [🎯 Статьи](stati.md)
+  * [🎯 Полезные статьи](stati.md)
     * [Просто о блокчейне](1-introduction/prosto-o-blokcheine.md)
     * [Способы заработка](1-introduction/zarabotok.md)
     * [КриптоТермины ](1-introduction/kriptotermini.md)
