@@ -10,7 +10,6 @@
   * [💔 Вакансии Команды](0-aktualnoe/vakansii-komandi.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
   * [Начни отсюда](1-introduction/chto-nuzhno-znat-v-pervuyu-ochered.md)
-  * [Философия Голоса](1-introduction/ya_zdes_vpervie.md)
   * [🚀 Первые шаги](pervie-shagi.md)
     * [Регистрация](1-introduction/registratsiya.md)
     * [Заполнение профиля](1-introduction/zapolnenie-profilya.md)
