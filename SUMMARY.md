@@ -56,7 +56,7 @@
   * [Алгоритм консенсуса](4-documentation/consensus_algorithm.md)
   * [Динамические права](4-documentation/dynamic_account_permissons.md)
   * [Производительность](4-documentation/performance_and_scalability.md)
-  * [Генерация графика эмиссии](3-guides/emission_chart.md)
+  * [График эмиссии](3-guides/emission_chart.md)
   * [Тестирование](5-development/testing.md)
   * [Запуск тестнета](3-guides/start_testnet.md)
   * [Гайдлайн Github](5-development/guideline.md)
