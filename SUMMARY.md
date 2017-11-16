@@ -20,7 +20,7 @@
     * [Внутренний рынок](1-introduction/vnutrennii-rinok.md)
   * [Терминология](1-introduction/terminologiya.md)
   * [Вопросы и ответы](1-introduction/faq.md)
-  * [👁 Видео-материалы](1-introduction/kak_polzovatsya_platformoi_golos.md)
+  * [👁 Видео-материалы](1-introduction/video.md)
   * [🎯 Полезные статьи](stati.md)
     * [Просто о блокчейне](1-introduction/prosto-o-blokcheine.md)
     * [Способы заработка](1-introduction/zarabotok.md)
