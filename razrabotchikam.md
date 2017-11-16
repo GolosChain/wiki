@@ -2,15 +2,21 @@
 
 > Руководства для разработчиков
 
-* [Сайт документации для разработчиков](https://developers.golos.io/doc)
+Сайты с документацией:
+* [Сайт developers.golos.io](https://developers.golos.io/doc)
+    * [Руководство по веб-клиенту](https://developers.golos.io/doc/client)
+    * [Руководство по тестнету](https://developers.golos.io/doc/testnet)
+    * [API-документация](https://developers.golos.io/doc/client#api-reference)
+    * [Документация по блокчейну](https://developers.golos.io/doc/blockchain)
+* [GitHub проекта Голос: GolosChain](https://github.com/GolosChain)
+    * [GitHub golos core](https://github.com/GolosChain/golos)
+    * [GitHub клиента golos.io](https://github.com/GolosChain/tolstoy)
+    * [GitHub wiki.golos.io](https://github.com/GolosChain/wiki)
+* [Документация по Graphene: docs.bitshares.eu](http://docs.bitshares.eu/)
 
-  * [Руководство по веб-клиенту](https://developers.golos.io/doc/client)
-  * [Руководство по тестнету](https://developers.golos.io/doc/testnet)
-  * [API-документация](https://developers.golos.io/doc/client#api-reference)
-  * [Документация по блокчейну](https://developers.golos.io/doc/blockchain)
 
-* [GitHub проекта Голос](https://github.com/GolosChain)
-* [Документация по Graphene](http://docs.bitshares.eu/)
+Оглавление:
+
 * [Роли нод](//3-guides/roli-nod.html)
 
 * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
