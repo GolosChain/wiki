@@ -81,7 +81,7 @@
 Условия:
 
 * Ваша СГ > 10000
-* Комиссия сервиса: 10%
+* Комиссия сервиса: 3%
 
 Для подключения необходимо разрешить доступ к posting для аккаунта @upit. Это делается с помощью [веб-интерфейса](https://golos.cf/multi/) от @vik.
 Детальное описание этого интерфейса находится [тут](https://golos.io/ru--golos/@vik/v-pomosh-soobshestvam-i-razrabotchikam-gui-dlya-propisyvaniya-dopolnitelnogo-doverennogo-posting-klyucha).
