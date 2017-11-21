@@ -6,6 +6,10 @@
 > Материал взят отсюда:
 https://golos.io/ru--golos/@primus/nastroika-nod-mainera-i-delegata-dlya-raboty-v-golose-rabochie-konfigi-i-poyasneniya-po-ustanovke
 
+>ВНИМАНИЕ: необходимо изменить команды типа golos-14.2, указав актуальную версию ноды, например, 16.4 
+
+
+
 Устанавливаем необходимые библиотеки и зависимости:
 
 ```
