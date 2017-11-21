@@ -90,8 +90,9 @@
 * Ваша СГ > 10000
 * Комиссия сервиса: 3%
 
-Для подключения необходимо разрешить доступ к posting для аккаунта @upit. Это делается с помощью [веб-интерфейса](https://golos.cf/multi/) от @vik.
-Детальное описание этого интерфейса находится [тут](https://golos.io/ru--golos/@vik/v-pomosh-soobshestvam-i-razrabotchikam-gui-dlya-propisyvaniya-dopolnitelnogo-doverennogo-posting-klyucha).
+Для подключения необходимо разрешить доступ к posting-привилегиям для аккаунта @upit. Это делается с помощью [веб-интерфейса](https://golos.cf/multi/) от @vik. В данном интерфейсе вы генерируете транзакцию при помощи **активного ключа**, которая разрешает доступ к posting-командам для вашего аккаунта upit-у. Таким образом вы не передаёте никакие ключи upit-у, и в любой момент можете отозвать доступ.
+
+Детальное описание веб-интерфейса находится [тут](https://golos.io/ru--golos/@vik/v-pomosh-soobshestvam-i-razrabotchikam-gui-dlya-propisyvaniya-dopolnitelnogo-doverennogo-posting-klyucha).
 
 После этого нужно оставить заявку в комментариях или в [telegram-чате](https://t.me/golos_upit).
 
