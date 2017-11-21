@@ -30,7 +30,7 @@
     * [Смайлики на Голосе](1-introduction/smailiki-na-golose.md)
     * [golosd.com](1-introduction/instrumenti-golosdcom.md)
     * [golosdb.com](1-introduction/instrumenti-golosdbcom.md)
-    * [steemul.com](1-introduction/steemulcom.md)
+    * [steemul.ru](1-introduction/steemulru.md)
     * [golos.steemstats.com](1-introduction/instrumenti-golossteemstatscom.md)
 * [💯 ЭКОНОМИКА](instruktsii.md)
   * [Постинг \(публикация\)](2-rewards/posting_rewards.md)

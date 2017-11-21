@@ -1,4 +1,4 @@
-# Дополнительные инструменты для голоса - steemul.ru
+# Дополнительные инструментыля голоса - steemul.ru
 
 Автор: [@**liga.avtorov**](https://golos.io/@liga.avtorov)
 
