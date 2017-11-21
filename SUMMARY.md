@@ -51,7 +51,7 @@
   * [Роли нод](3-guides/roli-nod.md)
   * [Установка на Ubuntu](3-guides/ubuntu_guide.md)
   * [Установка на OS X](3-guides/osx_guide.md)
-  * [Настройка нод](nastroika-delegata.md)
+  * [Настройка нод](3-guides/nastroika-delegata.md)
   * [CLI кошелек \(команды\)](3-guides/cli_wallet.md)
   * [Мониторинг счета](3-guides/monitor_deposit.md)
   * [Генерация ключей](3-guides/generate_keys.md)
@@ -79,4 +79,6 @@
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [Контакты](kontakti.md)
   * [История](istoriya.md)
+
+
 
