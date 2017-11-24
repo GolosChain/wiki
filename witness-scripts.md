@@ -8,8 +8,8 @@
 
 ## golos-witness-tools (@vvk)
 
-[Проект на github](https://github.com/bitfag/golos-witness-tools/blob/master/PRICEFEED.md)
-[Анонс](https://golos.io/golostools/@vvk/anons-novogo-skripta-obnovleniya-price-feed-i-proekta-golos-witness-tools)
+- [Проект на github](https://github.com/bitfag/golos-witness-tools/blob/master/PRICEFEED.md)
+- [Анонс](https://golos.io/golostools/@vvk/anons-novogo-skripta-obnovleniya-price-feed-i-proekta-golos-witness-tools)
 
 * Не требует наличия *cli_wallet*
 * Написан на python
