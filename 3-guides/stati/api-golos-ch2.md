@@ -1,8 +1,6 @@
-# Описание Golos API. Часть 2.
+# Описание Golos API. Часть 2
 
 Автор: [@asuleymanov](https://golos.io/@asuleymanov)
-
-
 
 В прошлой [статье](https://golos.io/ru--otkrytyij-kod/@asuleymanov/opisanie-api-golos-chast-1) было описано много команд. Если быть точным 54. В этой статье я постараюсь описать оставшиеся команды из раздела Database\_API. А также приоткрою завесу тайны на некоторые команды из прошлого выпуска.  
 В общем в данный выпуск вошли три группы команд. Условно разделю их на три типа:
@@ -14,7 +12,7 @@
 3. **Неразобранные**
    * сюда вошли команды описание которых не вошло в прошлый выпуск.
 
-#### Не выясненные
+#### Невыясненные
 
 _**set\_subscribe\_callback**_  
 Параметры:`"method":"set_subscribe_callback", "params":[["cb","clearfilter"]], "id":0`  
@@ -141,13 +139,9 @@ _**get\_discussions\_by\_promoted**_
   * Окончание разбора команд из раздела Database\_Api
 * [Статья № 3](https://www.gitbook.com/book/cyberfund/golos/edit#)
   * Разбор команд из разделов Market\_History\_API и Follow\_API
-  * 
 
 ---
 
 **P.S. Большая часть статьи это переосмысленный **[**перевод**](https://www.gitbook.com/book/cyberfund/golos/edit#)
 
-> Автор:[@asuleymanov](https://www.gitbook.com/book/cyberfund/golos/edit#)
-
-
-
+> Автор: [@asuleymanov](https://golos.io/@asuleymanov)
