@@ -19,6 +19,7 @@
     * [Кошелек, ключи, выплаты](1-introduction/koshelek-klyuchi-viplati.md)
     * [Внутренний рынок](1-introduction/vnutrennii-rinok.md)
     * [Рокет-чат](1-introduction/instrumenti-roket-chat.md)
+    * [Телеграм-чаты Голоса](1-introduction/telegram-chati-golosa.md)
   * [🔠 Терминология](1-introduction/terminologiya.md)
   * [❓❗ Вопросы и ответы](1-introduction/faq.md)
   * [👁 Видео-материалы](1-introduction/video.md)
@@ -79,6 +80,4 @@
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [Контакты](kontakti.md)
   * [История](istoriya.md)
-
-
 
