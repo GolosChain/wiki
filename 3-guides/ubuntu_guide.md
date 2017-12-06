@@ -59,7 +59,7 @@ $ tree -L 2
 ├── config.ini <=== (наш config.ini)
 ├── golos
 │   ├── (source code files)
-├── golosnode <=== (отсуда мы запускаем ноду и воллет)
+├── golosnode <=== (отсюда мы запускаем ноду и воллет)
 │   ├── cli_wallet
 │   ├── golosd
 │   └── witness_node_data_dir  <=== (config.ini и блокчейн находится здесь)
