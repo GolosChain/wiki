@@ -75,6 +75,8 @@
     * [API Golos ч.2](3-guides/stati/api-golos-ch2.md)
     * [API Golos ч.3](3-guides/stati/api-golos-ch3.md)
     * [API Golos ч.4](3-guides/stati/api-golos-ch4.md)
+* СЕРВИСЫ
+  * [upit - покупка апвотов](6-services/upit.md)
 * [💡 ПОЛЕЗНОЕ](poleznoe.md)
   * [Полезные ссылки](useful_links.md)
   * [Участие в вики](uchastie-v-viki-golosa.md)
