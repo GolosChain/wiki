@@ -2,7 +2,7 @@
 
 Автор: [@**liga.avtorov**](https://golos.io/@liga.avtorov)
 
-Рассмотрим портал steemul.ru, который создан и отдан в пользование пользователям Голоса делегатом[@xtar](https://golos.io/@xtar).
+Рассмотрим портал steemul.ru, который создан и отдан в пользование пользователям Голоса делегатом [@xtar](https://golos.io/@xtar).
 
 ![](https://imgp.golos.io/0x0/http://storage7.static.itmages.ru/i/17/0912/h_1505213814_8433615_bf580e3526.png)
 
