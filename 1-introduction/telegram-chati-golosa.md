@@ -7,6 +7,7 @@
 | [Голос.io #Открытый-код](https://t.me/golosOtkrytyijKod) | Проект [@hipster](https://golos.io/@hipster) по поддержке развития инфраструктуры Голоса |
 | [GolosTools](https://t.me/GolosTools) | Аналог "Открытого кода", только по тегу [#golostools](https://golos.io/trending/golostools) |
 | [GolosWikiGroup](https://t.me/goloswikigroup) | Чат рабочей группы редакторов wiki |
+| [Golos_Developers](https://t.me/GolosDev) | Чат для разработчиков приложений на блокчейне Голос |
 | [Голос ПИН](https://t.me/joinchat/GQu0jxDuMpHuS28p7yaFRQ) | Поддержка новичков |
 | [ГОЛОС: поддержка авторского контента](https://t.me/joinchat/AlKeQUQpN8-9oShtaTcY7Q) | Чат проекта "[Голосовалочка](https://golos.io/ru--golosovalochka/@chiliec/golosovalochka)" |
 | [GoldVoice.club](https://t.me/goldvoice)| Чат поддержки альтернативного клиента [goldvoice.club](https://goldvoice.club) от @on1x  |
