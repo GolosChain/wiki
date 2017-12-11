@@ -36,5 +36,5 @@ Wiki Голоса на gitbook: [https://www.gitbook.com/book/cyberfund/golos](h
 
 #### Баунти!
 
-За участие в наполнении Вики Голоса вы можете [получить поощрение](https://wiki.golos.io/0-aktualnoe/baunti.html).
+За участие в наполнении Вики Голоса вы можете [получить поощрение](/0-aktualnoe/baunti.html).
 
