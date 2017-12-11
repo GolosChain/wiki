@@ -1,6 +1,6 @@
 # Как участвовать в вики Голоса
 
-#### Исходный текст
+#### Исходный текст 
 
 Исходный текст wiki находится на GitHub: [https://github.com/GolosChain/wiki](https://github.com/GolosChain/wiki)
 
