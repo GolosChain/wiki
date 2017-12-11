@@ -79,6 +79,5 @@
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [Контакты](kontakti.md)
   * [История](istoriya.md)
-
-
+* [Что такое сила голосования и сколько постов можно лайкать за сутки](chto-takoe-sila-golosovaniya-i-skolko-postov-mozhno-laikat-za-sutki.md)
 
