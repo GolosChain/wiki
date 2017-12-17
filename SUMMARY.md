@@ -76,6 +76,7 @@
     * [API Golos ч.3](3-guides/stati/api-golos-ch3.md)
     * [API Golos ч.4](3-guides/stati/api-golos-ch4.md)
     * [Сложные мультисиги](3-guides/stati/slozhnie-multisigi.md)
+    * [Объединение операций в одну трансакцию](3-guides/stati/obedinenie-operatsii-v-odnu-transaktsiyu.md)
 * ДЕЛЕГАТАМ
   * [Делегатство](2-rewards/delegatstvo.md)
   * [Установка ноды делегата](3-guides/stati/sozdanie-nodi-delegata.md)
