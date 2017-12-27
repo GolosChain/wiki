@@ -34,7 +34,7 @@
     * [steemul.ru](1-introduction/steemulru.md)
     * [golos.steemstats.com](1-introduction/instrumenti-golossteemstatscom.md)
     * [Сила при голосовании](/1-introduction/chto-takoe-sila-golosovaniya-i-skolko-postov-mozhno-laikat-za-sutki.md)
-    * [Выбор силы голосования](/1-introduction/The choice of the Power of the vote)
+    * [Выбор силы голосования](//1-introduction/The choice of the Power of the vote)
 * [💯 ЭКОНОМИКА](instruktsii.md)
   * [Постинг \(публикация\)](2-rewards/posting_rewards.md)
   * [Курирование \(лайки\)](2-rewards/curation_rewards.md)
