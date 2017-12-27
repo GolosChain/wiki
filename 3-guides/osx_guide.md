@@ -44,7 +44,7 @@ make
 make -j$(sysctl -n hw.ncpu)
 ```
 
-Теперь вы можете запусить голос:
+Теперь вы можете запустить Голос:
 ```bash
 cd programs/golosd
 ./golosd
