@@ -85,8 +85,6 @@
   * [Делегатство](2-rewards/delegatstvo.md)
   * [Установка ноды делегата](3-guides/stati/sozdanie-nodi-delegata.md)
   * [Скрипты для делегатов](7-witness/witness-scripts.md)
-* СЕРВИСЫ
-  * [upit - покупка апвотов](6-services/upit.md)
 * [💡 ПОЛЕЗНОЕ](poleznoe.md)
   * [Полезные ссылки](useful_links.md)
   * [Участие в вики](uchastie-v-viki-golosa.md)
