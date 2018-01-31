@@ -6,7 +6,7 @@
 [Бумага о Голосе](https://golos.io/ru--golos/@golos/golos-russkoyazychnaya-socialno-mediinaya-blokchein-platforma)
 
 [Бумага про Стим](https://steemit.com/ru/@hipster/bumaga-pro-stim-chast-1)
-
+ооо
 [Голос: русскоязычная социально-медийная блокчейн-платформа](https://golos.io/ru--golos/@golos/golos-russkoyazychnaya-socialno-mediinaya-blokchein-platforma)
 
 [Голос: общественное медиа как база для социальной активности](https://golos.io/ru--golos/@marina/golos-obshestvennoe-media-kak-baza-dlya-socialnoi-aktivnosti)
