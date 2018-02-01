@@ -90,4 +90,6 @@
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [Контакты](kontakti.md)
   * [История](istoriya.md)
+* [Как быстро отблагодарить авторов понравившихся постов и ответов](kak-bistro-otblagodarit-avtorov-ponravivshihsya-postov-i-otvetov.md)
+* [Как пожаловаться на пользователя или его посты](kak-pozhalovatsya-na-polzovatelya-ili-ego-posti.md)
 
