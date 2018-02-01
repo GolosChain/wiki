@@ -14,6 +14,8 @@
     * [Регистрация](1-introduction/registratsiya.md)
     * [Заполнение профиля](1-introduction/zapolnenie-profilya.md)
     * [Интерфейс блога](1-introduction/interfeis-lichnogo-bloga.md)
+    * [Благодарность пользователю](kak-bistro-otblagodarit-avtorov-ponravivshihsya-postov-i-otvetov.md)
+    * [Жалоба на пользователя](kak-pozhalovatsya-na-polzovatelya-ili-ego-posti.md)
     * [Интерфейс golos.io](1-introduction/interfeis-golosio.md)
     * [Публикация в блоге](/1-introduction/posting.md)
     * [Кошелек, ключи, выплаты](1-introduction/koshelek-klyuchi-viplati.md)
@@ -90,6 +92,4 @@
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [Контакты](kontakti.md)
   * [История](istoriya.md)
-* [Как быстро отблагодарить авторов понравившихся постов и ответов](kak-bistro-otblagodarit-avtorov-ponravivshihsya-postov-i-otvetov.md)
-* [Как пожаловаться на пользователя или его посты](kak-pozhalovatsya-na-polzovatelya-ili-ego-posti.md)
 
