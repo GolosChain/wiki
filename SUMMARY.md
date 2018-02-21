@@ -10,6 +10,7 @@
   * [💔 Вакансии Команды](0-aktualnoe/vakansii-komandi.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
   * [➊ Начни отсюда](1-introduction/welcome.md)
+  * [Способы регистрации](1-introduction/registratsiya/sposobi-registratsii.md)
   * [🚀 Первые шаги](pervie-shagi.md)
     * [Регистрация](1-introduction/registratsiya.md)
     * [Заполнение профиля](1-introduction/zapolnenie-profilya.md)
