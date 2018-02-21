@@ -13,12 +13,12 @@
 - #####Сайт [Golos.io](https://golos.io) / [Golos.blog](https://golos.blog)
 Зайдите на [страницу создания аккаунта](https://golos.io/create_account) или [на "зеркало" сайта](https://golos.io/create_account), укажите номер своего телефона, получите смс с кодом и заполните форму регистрации. 
 
-_Вопросы и претензии:_ разработчик [команда golos.io](https://golos.io/about#team)<br>форма [обратной связи](https://golos.io/submit.html?type=submit_feedback) на сайте, [чат поддержки](https://t.me/golos_support) в Telegram
+_Контакты:_ разработчик [команда golos.io](https://golos.io/about#team)<br>форма [обратной связи](https://golos.io/submit.html?type=submit_feedback) на сайте, [чат поддержки](https://t.me/golos_support) в Telegram
 
 - #####Сайт [GoldVoice.club](https://goldvoice.club)
 Зайдите на [страницу регистрации](https://goldvoice.club/registration/), укажите желаемый логин и пароль, а также некоторые данные о себе (не обязательно). Отправка или получение смс не требуется.
 
-_Вопросы и претензии:_ автор Анатолий Пискунов ([@on1x](https://golos.io/@on1x))<br>[чат поддержки](https://t.me/goldvoice) в Telegram
+_Контакты:_ автор Анатолий Пискунов ([@on1x](https://golos.io/@on1x))<br>[чат поддержки](https://t.me/goldvoice) в Telegram
 
 - #####Страница на [golos.cf](https://golos.cf/reg.html) 
 Зайдите на страницу [golos.cf/reg.html](https://golos.cf/reg.html), укажите логин и активный ключ регистратора, желаемые логин и пароль для нового аккаунта. Отправка или получение смс не требуется.
@@ -27,7 +27,7 @@ _Вопросы и претензии:_ автор Анатолий Пискун
   - Вы сможете создать новый аккаунт только при помощи своего существующего аккаунта. 
   - Вам необходимо иметь на счету (не в силе голоса) минимум 1 GOLOS. При создании аккаунта они будут переведены в силу голоса нового аккаунта. [Подробнее об этом способе](/3-guides/stati/registratsiya-akkauntov.md).
 
-_Вопросы и претензии:_ автор [@vik](https://golos.io/@vik)<br>[чат поддержки Robot](https://t.me/chain_cf) в Telegram или на странице [golos.cf](https://golos.cf).        
+_Контакты:_ автор [@vik](https://golos.io/@vik)<br>[чат поддержки Robot](https://t.me/chain_cf) в Telegram или на странице [golos.cf](https://golos.cf).        
 
 - #####Используя утилиту cli_wallet
 Воспользуйтесь [инструкцией](/3-guides/stati/sozdanie-polzovatelya-ispolzuya-cliwallet.md) от пользователя [@ropox](https://golos.io/@ropox)
@@ -42,7 +42,7 @@ _Вопросы и претензии:_ автор [@vik](https://golos.io/@vik)
 AnonymGOLOS — сервис позволяющий вам анонимно создавать аккаунты платформы ГОЛОС.
 Стоимость регистрации в BTC (0.001) или LTC (0.05).
 
-_Вопросы и претензии:_ автор [@somegay123](https://steemit.com/@someguy123)<br>эл. почта [anongolos@someguy123.com](mailto:anongolos@someguy123.com) (англ.яз.)
+_Контакты:_ автор [@somegay123](https://steemit.com/@someguy123)<br>эл. почта [anongolos@someguy123.com](mailto:anongolos@someguy123.com) (англ.яз.)
 
 - ##### Пользователи Голоса
 В чате Telegram [Robot](https://t.me/chain_cf) или на странице [golos.cf](https://golos.cf) вы можете обратиться за помощью к пользователям Голоса, предоставляющим услугу платной или бесплатной регистрации на блокчейне Голос без валидации по смс.
