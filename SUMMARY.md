@@ -70,7 +70,7 @@
     * [API part 4](golosd/api/api-golos-ch4.md)
     * [Операция decline\_voting\_rights](golosd/api/operatsiya-declinevoting-rights.md)
   * [Разработка](razrabotka.md)
-    * [Руководство по контибьютингу](golosd/devel/guideline.md)
+    * [Руководство по контрибьютингу](golosd/devel/guideline.md)
   * [Справочные данные](spravochnie-dannie.md)
     * [cli\_wallet](golosd/reference/cli_wallet.md)
   * Руководства \(HOWTO\)
