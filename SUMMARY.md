@@ -54,36 +54,36 @@
   * [Blue Paper Steem на русском](4-documentation/blue-paper-steem-na-russkom.md)
   * [Дорожная карта](5-development/roadmap.md)
 * golosd
-  * Архитектура
+  * [Архитектура](arhitektura.md)
     * [Роли нод](golosd/architecture/node-roles.md)
-  * Администрирование
+  * [Администрирование](administrirovanie.md)
     * [Установка на Ubuntu](golosd/admin/install_ubuntu.md)
     * [Установка на Mac OS X](golosd/admin/install_osx.md)
   * Механика
     * [Алгоритм консенсуса](golosd/mechanics/consensus_algorithm.md)
-    * [Динамически права аккаунта](golosd/mechanics/dynamic_account_permissons.md)
+    * [Динамические права аккаунта](golosd/mechanics/dynamic_account_permissons.md)
     * [Производительность и масштабируемость](golosd/mechanics/performance_and_scalability.md)
   * API-документация
     * [API part 1](golosd/api/api-golos-ch1.md)
     * [API part 2](golosd/api/api-golos-ch2.md)
     * [API part 3](golosd/api/api-golos-ch3.md)
     * [API part 4](golosd/api/api-golos-ch4.md)
-    * [Операция decline_voting_rights](golosd/api/operatsiya-declinevoting-rights.md)
-  * Разработка
+    * [Операция decline\_voting\_rights](golosd/api/operatsiya-declinevoting-rights.md)
+  * [Разработка](razrabotka.md)
     * [Руководство по контибьютингу](golosd/devel/guideline.md)
-  * Справочные данные
-    * [cli_wallet](golosd/reference/cli_wallet.md)
-  * Руководства (HOWTO)
+  * [Справочные данные](spravochnie-dannie.md)
+    * [cli\_wallet](golosd/reference/cli_wallet.md)
+  * Руководства \(HOWTO\)
     * [Скрипт регистрации аккаунтов от vik](golosd/howto/vik-registration-service.md)
     * [Как объединять операции в одну транзакцию](golosd/howto/ops-merging.md)
     * [Как использовать мультиподписи](golosd/howto/multisig.md)
-    * [Создание аккаунта через cli_wallet](golosd/howto/cli_wallet-create-account.md)
+    * [Создание аккаунта через cli\_wallet](golosd/howto/cli_wallet-create-account.md)
     * [Кэширование API](golosd/howto/api-cache.md)
     * [Установка ноды делегата](golosd/howto/witness-node.md)
     * [Генерация графика эмиссии](golosd/howto/emission_chart.md)
     * [Мониторинг транзакций аккаунта](golosd/howto/transactions-monitoring.md)
-    * [Пример запуска тестовой сети #1](golosd/howto/testnet1.md)
-    * [Пример запуска тестовой сети #2](golosd/howto/testnet2.md)
+    * [Пример запуска тестовой сети \#1](golosd/howto/testnet1.md)
+    * [Пример запуска тестовой сети \#2](golosd/howto/testnet2.md)
     * [Генерация ключей аккаунта](golosd/howto/generate-keys.md)
     * [Расчёт отката в зависимости от вклада апвоута](golosd/howto/reward-calculation.md)
 * ДЕЛЕГАТАМ
