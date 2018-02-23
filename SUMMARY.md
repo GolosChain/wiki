@@ -53,7 +53,7 @@
   * [White Paper Steem на русском](4-documentation/steem_whitepaper.md)
   * [Blue Paper Steem на русском](4-documentation/blue-paper-steem-na-russkom.md)
   * [Дорожная карта](5-development/roadmap.md)
-* golosd
+* РАЗРАБОТЧИКАМ
   * [Архитектура](arhitektura.md)
     * [Роли нод](golosd/architecture/node-roles.md)
   * [Администрирование](administrirovanie.md)
