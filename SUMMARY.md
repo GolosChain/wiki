@@ -81,7 +81,7 @@
     * [Сложные мультисиги](3-guides/stati/slozhnie-multisigi.md)
     * [Объединение операций в одну транзакцию](3-guides/stati/obedinenie-operatsii-v-odnu-transaktsiyu.md)
     * [Операция Decline\_voting\_rights](3-guides/stati/operatsiya-declinevoting-rights.md)
-* ДЕЛЕГАТАМ
+* [ДЕЛЕГАТАМ](delegatam.md)
   * [Делегатство](2-rewards/delegatstvo.md)
   * [Установка ноды делегата](3-guides/stati/sozdanie-nodi-delegata.md)
   * [Скрипты для делегатов](7-witness/witness-scripts.md)
