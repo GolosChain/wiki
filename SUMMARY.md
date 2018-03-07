@@ -53,7 +53,7 @@
   * [White Paper Steem на русском](4-documentation/steem_whitepaper.md)
   * [Blue Paper Steem на русском](4-documentation/blue-paper-steem-na-russkom.md)
   * [Дорожная карта](5-development/roadmap.md)
-* РАЗРАБОТЧИКАМ
+* [💻 РАЗРАБОТЧИКАМ](razrabotchikam.md)
   * [Архитектура](arhitektura.md)
     * [Роли нод](golosd/architecture/node-roles.md)
   * [Администрирование](administrirovanie.md)
@@ -87,7 +87,7 @@
     * [Пример запуска тестовой сети \#2](golosd/howto/testnet2.md)
     * [Генерация ключей аккаунта](golosd/howto/generate-keys.md)
     * [Расчёт отката в зависимости от вклада апвоута](golosd/howto/reward-calculation.md)
-* ДЕЛЕГАТАМ
+*  [ДЕЛЕГАТАМ](delegatam.md)
   * [Делегатство](2-rewards/delegatstvo.md)
   * [Установка ноды делегата](golosd/howto/witness-node.md)
   * [Скрипты для делегатов](7-witness/witness-scripts.md)
