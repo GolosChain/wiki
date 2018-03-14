@@ -1,16 +1,12 @@
 # РАЗРАБОТЧИКАМ
 
-[Архитектура](/arhitektura.md)
+* [Архитектура](/arhitektura.md)
+* [Администрирование](/administrirovanie.md)
+* [Механика](/mekhanika.md)
+* [API-документация](/api-dokumentatsiya.md)
+* [Разработка](/razrabotka.md)
+* [Справочные данные](/spravochnie-dannie.md)
+* [Руководства](/rukovodstva-howto.md)
 
-[Администрирование](/administrirovanie.md)
 
-Механика
-
-API-документация
-
-[Разработка](/razrabotka.md)
-
-[Справочные данные](/spravochnie-dannie.md)
-
-Руководства
 

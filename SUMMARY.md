@@ -59,12 +59,12 @@
   * [Администрирование](administrirovanie.md)
     * [Установка на Ubuntu](golosd/admin/install_ubuntu.md)
     * [Установка на Mac OS X](golosd/admin/install_osx.md)
-  * Механика
+  * [Механика](mekhanika.md)
     * [Алгоритм консенсуса](golosd/mechanics/consensus_algorithm.md)
     * [Динамические права аккаунта](golosd/mechanics/dynamic_account_permissons.md)
     * [Производительность и масштабируемость](golosd/mechanics/performance_and_scalability.md)
     * [Устаревание транзакций](golosd/mechanics/trx-expiration.md)
-  * API-документация
+  * [API-документация](api-dokumentatsiya.md)
     * [API part 1](golosd/api/api-golos-ch1.md)
     * [API part 2](golosd/api/api-golos-ch2.md)
     * [API part 3](golosd/api/api-golos-ch3.md)
@@ -74,7 +74,7 @@
     * [Руководство по контрибьютингу](golosd/devel/guideline.md)
   * [Справочные данные](spravochnie-dannie.md)
     * [cli\_wallet](golosd/reference/cli_wallet.md)
-  * Руководства \(HOWTO\)
+  * [Руководства \(HOWTO\)](rukovodstva-howto.md)
     * [Скрипт регистрации аккаунтов от vik](golosd/howto/vik-registration-service.md)
     * [Как объединять операции в одну транзакцию](golosd/howto/ops-merging.md)
     * [Как использовать мультиподписи](golosd/howto/multisig.md)
