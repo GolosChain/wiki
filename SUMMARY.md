@@ -64,6 +64,7 @@
     * [Динамические права аккаунта](golosd/mechanics/dynamic_account_permissons.md)
     * [Производительность и масштабируемость](golosd/mechanics/performance_and_scalability.md)
     * [Устаревание транзакций](golosd/mechanics/trx-expiration.md)
+    * [Медианные параметры](golosd/mechanics/median-props.md)
   * [API-документация](api-dokumentatsiya.md)
     * [API part 1](golosd/api/api-golos-ch1.md)
     * [API part 2](golosd/api/api-golos-ch2.md)
