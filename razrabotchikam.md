@@ -6,7 +6,7 @@
 * [API-документация](/api-dokumentatsiya.md)
 * [Разработка](/razrabotka.md)
 * [Справочные данные](/spravochnie-dannie.md)
-* [Руководства](/rukovodstva-howto.md)
+* [Руководства \(HOWTO\)](/rukovodstva-howto.md)
 
 
 
