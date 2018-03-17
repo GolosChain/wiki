@@ -87,7 +87,7 @@
     * [Пример запуска тестовой сети \#1](golosd/howto/testnet1.md)
     * [Пример запуска тестовой сети \#2](golosd/howto/testnet2.md)
     * [Генерация ключей аккаунта](golosd/howto/generate-keys.md)
-* [ДЕЛЕГАТАМ](delegatam.md)
+* [👍 ДЕЛЕГАТАМ](delegatam.md)
   * [Делегатство](2-rewards/delegatstvo.md)
   * [Установка ноды делегата](golosd/howto/witness-node.md)
   * [Запуск golos ноды в контейнере docker](golosd/howto/zapusk-golos-nodi-v-konteinere-docker.md)
