@@ -4,12 +4,6 @@
 Подготовил: [@korzunav](https://golos.io/@korzunav).
 
 ## account_by_key
-### _plugin
-
-|Входные параметры|Возвращаемый обьект|
-|-----------------|-------------------|
-|<ul><li>vector\<public_key_type\></li></ul>|[object](../objects/object.md)|
-
 ### get_key_references
 
 |Входные параметры|Возвращаемый обьект|
