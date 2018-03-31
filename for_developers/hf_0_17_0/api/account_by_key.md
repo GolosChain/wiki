@@ -4,6 +4,15 @@
 Текс подготовил: [@korzunav](https://golos.io/@korzunav).
 
 ## account_by_key
-|Название метода|Входные параметры|Возвращаемый обьект|Описание|
-|---------------|-----------------|-------------------|--------|
-|get_key_references|<ul><li>vector<public_key_type></li></ul>|account_name_type[]||
+#### _plugin
+
+|Входные параметры|Возвращаемый обьект|
+|-----------------|-------------------|
+|<ul><li>vector<public_key_type></li></ul>|[object](../objects/object.md)|
+
+#### get_key_references
+
+|Входные параметры|Возвращаемый обьект|
+|-----------------|-------------------|
+|<ul><li>vector<public_key_type></li></ul>|account_name_type[]|
+
