@@ -1,5 +1,6 @@
 # Описание классов/структур Golos | актуально для [hf 0.17.0](https://github.com/GolosChain/golos/releases/tag/v0.17.0)
-Автор: [@korzunav](https://golos.io/@korzunav). Текст собран на основе [исходного кода](https://github.com/GolosChain/golos/tree/master/libraries/chain/include/golos/chain/global_property_object.hpp)
+Текст собран на основе [исходного кода](https://github.com/GolosChain/golos/tree/master/libraries/chain/include/golos/chain/global_property_object.hpp)
+Текс подготовил: [@korzunav](https://golos.io/@korzunav).
 ## dynamic_global_property_object
 
 

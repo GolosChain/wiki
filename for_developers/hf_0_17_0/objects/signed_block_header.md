@@ -1,5 +1,6 @@
 # Описание классов/структур Golos | актуально для [hf 0.17.0](https://github.com/GolosChain/golos/releases/tag/v0.17.0)
-Автор: [@korzunav](https://golos.io/@korzunav). Текст собран на основе [исходного кода](https://github.com/GolosChain/golos/tree/master/libraries/protocol/include/golos/protocol/block_header.hpp)
+Текст собран на основе [исходного кода](https://github.com/GolosChain/golos/tree/master/libraries/protocol/include/golos/protocol/block_header.hpp)
+Текс подготовил: [@korzunav](https://golos.io/@korzunav).
 ## signed_block_header
 
 Есть родительский класс: [block_header](block_header.md)
