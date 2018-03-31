@@ -6,4 +6,4 @@
 ## account_by_key
 |Название метода|Входные параметры|Возвращаемый обьект|Описание|
 |---------------|-----------------|-------------------|--------|
-|get_key_references|<ul><li>vector<public_key_type></li></ul>|account_name_type||
+|get_key_references|<ul><li>vector<public_key_type></li></ul>|account_name_type[]||

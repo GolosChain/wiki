@@ -6,4 +6,4 @@
 ## private_message
 |Название метода|Входные параметры|Возвращаемый обьект|Описание|
 |---------------|-----------------|-------------------|--------|
-|get_inbox|<ul><li>std::string</li><li>time_point</li><li>uint16_t</li></ul>|[message_api_obj](../objects/message_api_obj.md)||
+|get_inbox|<ul><li>std::string</li><li>time_point</li><li>uint16_t</li></ul>|[message_api_obj](../objects/message_api_obj.md)[]||
