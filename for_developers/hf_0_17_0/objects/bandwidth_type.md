@@ -1,6 +1,8 @@
 # Описание перечислений Golos | актуально для [hf 0.17.0](https://github.com/GolosChain/golos/releases/tag/v0.17.0)
 Текст собран на основе [исходного кода](https://github.com/GolosChain/golos/tree/master/libraries/chain/include/golos/chain/steem_object_types.hpp)
+
 Текс подготовил: [@korzunav](https://golos.io/@korzunav).
+
 ## bandwidth_type
 |Название поля|Описание|
 |-------------|--------|
