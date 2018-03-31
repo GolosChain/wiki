@@ -4,7 +4,7 @@
 Текс подготовил: [@korzunav](https://golos.io/@korzunav).
 
 ## private_message
-#### get_inbox
+### get_inbox
 
 |Входные параметры|Возвращаемый обьект|
 |-----------------|-------------------|

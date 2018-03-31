@@ -4,7 +4,7 @@
 Текс подготовил: [@korzunav](https://golos.io/@korzunav).
 
 ## database_api
-#### get_account_bandwidth
+### get_account_bandwidth
 
 > Отображает действия пользователя в зависимости от типа
 
@@ -12,7 +12,7 @@
 |-----------------|-------------------|
 |<ul><li>string</li><li>bandwidth_type</li></ul>|[account_bandwidth_api_object](../objects/account_bandwidth_api_object.md)|
 
-#### get_account_count
+### get_account_count
 
 > Возвращает количество зарегестрированных пользователей.
 
@@ -20,7 +20,7 @@
 |-----------------|-------------------|
 ||uint64_t|
 
-#### get_account_history
+### get_account_history
 
 > История всех действий пользователя в сети в виде транзакций. При from = -1 будут показаны последние {limit+1} элементов истории. Параметр limit не должен превышать from (исключение from = -1), так как показываются предшествующие {from} элементы истории.
 
@@ -28,15 +28,15 @@
 |-----------------|-------------------|
 |<ul><li>std::string</li><li>uint64_t</li><li>uint32_t</li></ul>|get_account_history_return_type|
 
-#### get_accounts
+### get_accounts
 
 > Возращает данные по заданным аккаунтам
 
 |Входные параметры|Возвращаемый обьект|
 |-----------------|-------------------|
-|<ul><li>vector<std::string></li></ul>|[extended_account](../objects/extended_account.md)[]|
+|<ul><li>vector\<std::string\></li></ul>|[extended_account](../objects/extended_account.md)[]|
 
-#### get_active_witnesses
+### get_active_witnesses
 
 > This API is a short-cut for returning all of the state required for a particular URL with a single query.
 
@@ -44,7 +44,7 @@
 |-----------------|-------------------|
 ||account_name_type[]|
 
-#### get_block
+### get_block
 
 > Возвращает все данные о блоке включая транзакции
 
@@ -52,7 +52,7 @@
 |-----------------|-------------------|
 |<ul><li>uint32_t</li></ul>|[signed_block](../objects/signed_block.md)|
 
-#### get_block_header
+### get_block_header
 
 > Возвращает все данные о блоке
 
@@ -60,7 +60,7 @@
 |-----------------|-------------------|
 |<ul><li>uint32_t</li></ul>|[block_header](../objects/block_header.md)|
 
-#### get_chain_properties
+### get_chain_properties
 
 > Отображает комиссию за создание пользователя, максимальный размер блока и процентную ставку GBG.
 
@@ -68,7 +68,7 @@
 |-----------------|-------------------|
 ||chain_properties_17|
 
-#### get_config
+### get_config
 
 > Отображает текущую конфигурацию узла.
 
@@ -76,7 +76,7 @@
 |-----------------|-------------------|
 ||variant_object|
 
-#### get_conversion_requests
+### get_conversion_requests
 
 > Возвращает текущие запросы на конвертацию указанным пользователем
 
@@ -84,7 +84,7 @@
 |-----------------|-------------------|
 |<ul><li>std::string</li></ul>|[convert_request_api_object](../objects/convert_request_api_object.md)[]|
 
-#### get_current_median_history_price
+### get_current_median_history_price
 
 > Отображает текущую медианную цену конвертации
 
@@ -92,7 +92,7 @@
 |-----------------|-------------------|
 ||price_17|
 
-#### get_dynamic_global_properties
+### get_dynamic_global_properties
 
 > Отображает информацию о текущем состоянии сети
 
@@ -100,7 +100,7 @@
 |-----------------|-------------------|
 ||[dynamic_global_property_api_object](../objects/dynamic_global_property_api_object.md)|
 
-#### get_escrow
+### get_escrow
 
 > Возвращает операции реализованные с помощью посредничества.
 
@@ -108,7 +108,7 @@
 |-----------------|-------------------|
 |<ul><li>account_name_type</li><li>uint32_t</li></ul>|[escrow_api_object](../objects/escrow_api_object.md)|
 
-#### get_feed_history
+### get_feed_history
 
 > Отображает историю конверсий
 
@@ -116,7 +116,7 @@
 |-----------------|-------------------|
 ||[feed_history_api_object](../objects/feed_history_api_object.md)|
 
-#### get_hardfork_version
+### get_hardfork_version
 
 > Отображает текущую версию сети.
 
@@ -124,7 +124,7 @@
 |-----------------|-------------------|
 ||hardfork_version|
 
-#### get_miner_queue
+### get_miner_queue
 
 > Создает список майнеров, ожидающих попасть в DPOW цепочку, чтобы создать блок.
 
@@ -132,7 +132,7 @@
 |-----------------|-------------------|
 ||account_name_type[]|
 
-#### get_next_scheduled_hardfork
+### get_next_scheduled_hardfork
 
 > Отображает дату и версию HardFork
 
@@ -140,7 +140,7 @@
 |-----------------|-------------------|
 ||[scheduled_hardfork](../objects/scheduled_hardfork.md)|
 
-#### get_ops_in_block
+### get_ops_in_block
 
 > Возвращает все операции в блоке, если параметр 'onlyVirtual' true то возвращает только виртуальные операции
 
@@ -148,7 +148,7 @@
 |-----------------|-------------------|
 |<ul><li>uint32_t</li><li>bool</li></ul>|[applied_operation](../objects/applied_operation.md)[]|
 
-#### get_owner_history
+### get_owner_history
 
 > Отображает имя пользователя если он изменил право собственности на блокчейн
 
@@ -156,7 +156,7 @@
 |-----------------|-------------------|
 |<ul><li>string</li></ul>|[owner_authority_history_api_object](../objects/owner_authority_history_api_object.md)[]|
 
-#### get_potential_signatures
+### get_potential_signatures
 
 > This method will return the set of all public keys that could possibly sign for a given transaction. This call can be used by wallets to filter their set of public keys to just the relevant subset prior to calling @ref get_required_signatures to get the minimum subset.
 
@@ -164,7 +164,7 @@
 |-----------------|-------------------|
 |<ul><li>signed_transaction</li></ul>|public_key_type[]|
 
-#### get_recovery_request
+### get_recovery_request
 
 > Возвращает true если пользователь в статусе на восстановление.
 
@@ -172,23 +172,15 @@
 |-----------------|-------------------|
 |<ul><li>account_name_type</li></ul>|[account_recovery_request_api_object](../objects/account_recovery_request_api_object.md)|
 
-#### get_required_signatures
+### get_required_signatures
 
 > This API will take a partially signed transaction and a set of public keys that the owner has the ability to sign for and return the minimal subset of public keys that should add signatures to the transaction.
 
 |Входные параметры|Возвращаемый обьект|
 |-----------------|-------------------|
-|<ul><li>signed_transaction</li><li>flat_set<public_key_type></li></ul>|public_key_type[]|
+|<ul><li>signed_transaction</li><li>flat_set\<public_key_type\></li></ul>|public_key_type[]|
 
-#### get_savings_withdraw_from
-
-> Возвращает данные о выводах из 'СЕЙФА' для данного пользователя
-
-|Входные параметры|Возвращаемый обьект|
-|-----------------|-------------------|
-|<ul><li>string</li></ul>|[savings_withdraw_api_object](../objects/savings_withdraw_api_object.md)[]|
-
-#### get_savings_withdraw_to
+### get_savings_withdraw_from
 
 > Возвращает данные о выводах из 'СЕЙФА' для данного пользователя
 
@@ -196,7 +188,15 @@
 |-----------------|-------------------|
 |<ul><li>string</li></ul>|[savings_withdraw_api_object](../objects/savings_withdraw_api_object.md)[]|
 
-#### get_transaction
+### get_savings_withdraw_to
+
+> Возвращает данные о выводах из 'СЕЙФА' для данного пользователя
+
+|Входные параметры|Возвращаемый обьект|
+|-----------------|-------------------|
+|<ul><li>string</li></ul>|[savings_withdraw_api_object](../objects/savings_withdraw_api_object.md)[]|
+
+### get_transaction
 
 > Отображает детали транзакции по заданному ID транзакции.
 
@@ -204,7 +204,7 @@
 |-----------------|-------------------|
 |<ul><li>transaction_id_type</li></ul>|[annotated_signed_transaction](../objects/annotated_signed_transaction.md)|
 
-#### get_transaction_hex
+### get_transaction_hex
 
 > Отображает HEX строку транзакции.
 
@@ -212,7 +212,7 @@
 |-----------------|-------------------|
 |<ul><li>signed_transaction</li></ul>|string|
 
-#### get_withdraw_routes
+### get_withdraw_routes
 
 > Возвращает все переводы на счету пользователя в зависимости от типа
 
@@ -220,7 +220,7 @@
 |-----------------|-------------------|
 |<ul><li>string</li><li>withdraw_route_type</li></ul>|[withdraw_route](../objects/withdraw_route.md)[]|
 
-#### get_witness_by_account
+### get_witness_by_account
 
 > Отображает данные о делегате (если он им является) в соответствии с данными из запроса
 
@@ -228,7 +228,7 @@
 |-----------------|-------------------|
 |<ul><li>std::string</li></ul>|[witness_api_object](../objects/witness_api_object.md)|
 
-#### get_witness_count
+### get_witness_count
 
 > Отображает количество делегатов.
 
@@ -236,7 +236,7 @@
 |-----------------|-------------------|
 ||uint64_t|
 
-#### get_witness_schedule
+### get_witness_schedule
 
 > Отображает текущее состояние делегирования.
 
@@ -244,15 +244,15 @@
 |-----------------|-------------------|
 ||[witness_schedule_api_object](../objects/witness_schedule_api_object.md)|
 
-#### get_witnesses
+### get_witnesses
 
 > Отображает данные о делегатах в соответствии с заданными ID
 
 |Входные параметры|Возвращаемый обьект|
 |-----------------|-------------------|
-|<ul><li>vector<witness_object::id_type></li></ul>|[witness_api_object](../objects/witness_api_object.md)[]|
+|<ul><li>vector\<witness_object::id_type\></li></ul>|[witness_api_object](../objects/witness_api_object.md)[]|
 
-#### get_witnesses_by_vote
+### get_witnesses_by_vote
 
 > Отображает ограниченный список делегатов одобряющих голосование.
 
@@ -260,15 +260,15 @@
 |-----------------|-------------------|
 |<ul><li>std::string</li><li>uint32_t</li></ul>|[witness_api_object](../objects/witness_api_object.md)[]|
 
-#### lookup_account_names
+### lookup_account_names
 
 > Возращает данные по заданным аккаунтам
 
 |Входные параметры|Возвращаемый обьект|
 |-----------------|-------------------|
-|<ul><li>vector<std::string></li></ul>|[account_api_object](../objects/account_api_object.md)[]|
+|<ul><li>vector\<std::string\></li></ul>|[account_api_object](../objects/account_api_object.md)[]|
 
-#### lookup_accounts
+### lookup_accounts
 
 > Возвращает имена пользователей близких к шаблону.
 
@@ -276,7 +276,7 @@
 |-----------------|-------------------|
 |<ul><li>account_name_type</li><li>uint32_t</li></ul>|string[]|
 
-#### lookup_witness_accounts
+### lookup_witness_accounts
 
 > Отображает ограниченный список пользователей, которые объявили о своем намерении работать в качестве делегата.
 
@@ -284,21 +284,21 @@
 |-----------------|-------------------|
 |<ul><li>std::string</li><li>uint32_t</li></ul>|account_name_type[]|
 
-#### set_block_applied_callback
+### set_block_applied_callback
 
 |Входные параметры|Возвращаемый обьект|
 |-----------------|-------------------|
 |<ul><li>object</li></ul>|[void_type](../objects/void_type.md)|
 
-#### verify_account_authority
+### verify_account_authority
 
 > Возвращает  true, если у пользователя есть достаточные полномочия для авторизации учетной записи
 
 |Входные параметры|Возвращаемый обьект|
 |-----------------|-------------------|
-|<ul><li>account_name_type</li><li>flat_set<public_key_type></li></ul>|bool|
+|<ul><li>account_name_type</li><li>flat_set\<public_key_type\></li></ul>|bool|
 
-#### verify_authority
+### verify_authority
 
 > Возвращает TRUE если транзакция подписана правильно
 
