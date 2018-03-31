@@ -1,8 +1,6 @@
 # Описание API Golos | актуально для [hf 0.17.0](https://github.com/GolosChain/golos/releases/tag/v0.17.0)
 Текст собран на основе [исходного кода](https://github.com/GolosChain/golos/tree/master/plugins/follow/include/golos/plugins/follow/plugin.hpp)
 
-Подготовил: [@korzunav](https://golos.io/@korzunav).
-
 ## follow
 ### get_account_reputations
 
@@ -81,4 +79,7 @@
 |Входные параметры|Возвращаемый обьект|
 |-----------------|-------------------|
 |<ul><li>account_name_type</li><li>std::string</li></ul>|account_name_type[]|
+
+
+Подготовил: [@korzunav](https://golos.io/@korzunav).
 

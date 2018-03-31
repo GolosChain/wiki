@@ -1,8 +1,6 @@
 # Описание классов/структур Golos | актуально для [hf 0.17.0](https://github.com/GolosChain/golos/releases/tag/v0.17.0)
 Текст собран на основе [исходного кода](https://github.com/GolosChain/golos/tree/master/plugins/database_api/include/golos/plugins/database_api/state.hpp)
 
-Подготовил: [@korzunav](https://golos.io/@korzunav).
-
 ## extended_account
 
 Есть родительский класс: [account_api_object](account_api_object.md)
@@ -26,3 +24,6 @@
 |string|recent_replies|blog posts for this user|
 |map<string,vector<string>>|blog_category|blog posts for this user|
 |string|recommended|posts recommened for this user|
+
+Подготовил: [@korzunav](https://golos.io/@korzunav).
+

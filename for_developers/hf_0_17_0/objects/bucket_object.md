@@ -1,8 +1,6 @@
 # Описание классов/структур Golos | актуально для [hf 0.17.0](https://github.com/GolosChain/golos/releases/tag/v0.17.0)
 Текст собран на основе [исходного кода](https://github.com/GolosChain/golos/tree/master/plugins/blockchain_statistics/include/golos/plugins/blockchain_statistics/bucket_object.hpp)
 
-Подготовил: [@korzunav](https://golos.io/@korzunav).
-
 ## bucket_object
 
 
@@ -54,3 +52,6 @@
 |uint32_t|limit_orders_cancelled|= 0; ///< Limit orders cancelled|
 |uint32_t|total_pow|= 0; ///< POW submitted|
 |uint128_t|estimated_hashpower|= 0; ///< Estimated average hashpower over interval|
+
+Подготовил: [@korzunav](https://golos.io/@korzunav).
+

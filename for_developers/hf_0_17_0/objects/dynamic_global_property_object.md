@@ -1,8 +1,6 @@
 # Описание классов/структур Golos | актуально для [hf 0.17.0](https://github.com/GolosChain/golos/releases/tag/v0.17.0)
 Текст собран на основе [исходного кода](https://github.com/GolosChain/golos/tree/master/libraries/chain/include/golos/chain/global_property_object.hpp)
 
-Подготовил: [@korzunav](https://golos.io/@korzunav).
-
 ## dynamic_global_property_object
 
 
@@ -35,3 +33,6 @@
 |uint64_t|max_virtual_bandwidth|The maximum bandwidth the blockchain can support is: max_bandwidth = maximum_block_size * STEEMIT_BANDWIDTH_AVERAGE_WINDOW_SECONDS / STEEMIT_BLOCK_INTERVAL The maximum virtual bandwidth is: max_bandwidth * current_reserve_ratio (= 0;)|
 |uint64_t|current_reserve_ratio|Any time average_block_size <= 50% maximum_block_size this value grows by 1 until it reaches STEEMIT_MAX_RESERVE_RATIO. Any time average_block_size is greater than 50% it falls by 1%. Upward adjustments happen once per round, downward adjustments happen every block. (= 1;)|
 |uint32_t|vote_regeneration_per_day|The number of votes regenerated per day. Any user voting slower than this rate will be "wasting" voting power through spillover; any user voting faster than this rate will have their votes reduced. (= 40;)|
+
+Подготовил: [@korzunav](https://golos.io/@korzunav).
+

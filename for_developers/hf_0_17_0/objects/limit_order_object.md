@@ -1,8 +1,6 @@
 # Описание классов/структур Golos | актуально для [hf 0.17.0](https://github.com/GolosChain/golos/releases/tag/v0.17.0)
 Текст собран на основе [исходного кода](https://github.com/GolosChain/golos/tree/master/libraries/chain/include/golos/chain/steem_objects.hpp)
 
-Подготовил: [@korzunav](https://golos.io/@korzunav).
-
 ## limit_order_object
 
 
@@ -15,3 +13,6 @@
 |uint32_t|orderid|= 0;|
 |share_type|for_sale|asset id is sell_price.base.symbol|
 |[price](price.md)|sell_price||
+
+Подготовил: [@korzunav](https://golos.io/@korzunav).
+

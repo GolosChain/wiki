@@ -1,8 +1,6 @@
 # Описание классов/структур Golos | актуально для [hf 0.17.0](https://github.com/GolosChain/golos/releases/tag/v0.17.0)
 Текст собран на основе [исходного кода](https://github.com/GolosChain/golos/tree/master/libraries/chain/include/golos/chain/witness_objects.hpp)
 
-Подготовил: [@korzunav](https://golos.io/@korzunav).
-
 ## witness_schedule_object
 
 
@@ -19,3 +17,6 @@
 |uint32_t|witness_pay_normalization_factor|= 25;|
 |[chain_properties](chain_properties.md)|median_props||
 |[version](version.md)|majority_version||
+
+Подготовил: [@korzunav](https://golos.io/@korzunav).
+

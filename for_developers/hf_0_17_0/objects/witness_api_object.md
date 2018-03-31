@@ -1,8 +1,6 @@
 # Описание классов/структур Golos | актуально для [hf 0.17.0](https://github.com/GolosChain/golos/releases/tag/v0.17.0)
 Текст собран на основе [исходного кода](https://github.com/GolosChain/golos/tree/master/plugins/database_api/include/golos/plugins/database_api/api_objects/witness_api_object.hpp)
 
-Подготовил: [@korzunav](https://golos.io/@korzunav).
-
 ## witness_api_object
 
 
@@ -28,3 +26,6 @@
 |[version](version.md)|running_version||
 |hardfork_version|hardfork_version_vote||
 |time_point_sec|hardfork_time_vote||
+
+Подготовил: [@korzunav](https://golos.io/@korzunav).
+

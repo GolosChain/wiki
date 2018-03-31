@@ -1,8 +1,6 @@
 # Описание классов/структур Golos | актуально для [hf 0.17.0](https://github.com/GolosChain/golos/releases/tag/v0.17.0)
 Текст собран на основе [исходного кода](https://github.com/GolosChain/golos/tree/master/libraries/chain/include/golos/chain/steem_objects.hpp)
 
-Подготовил: [@korzunav](https://golos.io/@korzunav).
-
 ## escrow_object
 
 
@@ -21,3 +19,6 @@
 |bool|to_approved|= false;|
 |bool|agent_approved|= false;|
 |bool|disputed|= false;|
+
+Подготовил: [@korzunav](https://golos.io/@korzunav).
+
