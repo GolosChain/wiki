@@ -87,7 +87,7 @@
     * [Пример запуска тестовой сети \#2](golosd/howto/testnet2.md)
     * [Генерация ключей аккаунта](golosd/howto/generate-keys.md)
     * [Расчёт отката в зависимости от вклада апвоута](golosd/howto/reward-calculation.md)
-*  [ДЕЛЕГАТАМ](delegatam.md)
+* [ДЕЛЕГАТАМ](delegatam.md)
   * [Делегатство](2-rewards/delegatstvo.md)
   * [Установка ноды делегата](golosd/howto/witness-node.md)
   * [Скрипты для делегатов](7-witness/witness-scripts.md)
@@ -96,4 +96,5 @@
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [Контакты](kontakti.md)
   * [История](istoriya.md)
+* [Добавление пользователей в игнор. Как это работает](dobavlenie-polzovatelei-v-ignor-kak-eto-rabotaet.md)
 
