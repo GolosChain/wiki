@@ -4,7 +4,7 @@
 * [follow](apis/follow.md)
 * [market_history](apis/market_history.md)
 * [private_message](apis/private_message.md)
-* [get_key_references](apis/get_key_references.md)
+* [account_by_key](apis/account_by_key.md)
 
 
 Подготовил: [@korzunav](https://golos.io/@korzunav).
