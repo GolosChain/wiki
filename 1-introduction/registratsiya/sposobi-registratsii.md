@@ -11,7 +11,7 @@
 
 ####Бесплатные способы регистрации:
 - #####Сайт [Golos.io](https://golos.io) / [Golos.blog](https://golos.blog)
-Зайдите на [страницу создания аккаунта](https://golos.io/create_account) или [на "зеркало" сайта](https://golos.io/create_account), укажите номер своего телефона, получите смс с кодом и заполните форму регистрации. 
+Зайдите на [страницу создания аккаунта](https://golos.io/create_account) или [на "зеркало" сайта](https://golos.blog/create_account), укажите номер своего телефона, получите смс с кодом и заполните форму регистрации. 
 
 _Контакты:_ разработчик [команда golos.io](https://golos.io/about#team)<br>форма [обратной связи](https://golos.io/submit.html?type=submit_feedback) на сайте, [чат поддержки](https://t.me/golos_support) в Telegram
 
@@ -42,7 +42,7 @@ _Контакты:_ автор [@vik](https://golos.io/@vik)<br>[чат подд
 AnonymGOLOS — сервис позволяющий вам анонимно создавать аккаунты платформы ГОЛОС.
 Стоимость регистрации в BTC (0.001) или LTC (0.05).
 
-_Контакты:_ автор [@somegay123](https://steemit.com/@someguy123)<br>эл. почта [anongolos@someguy123.com](mailto:anongolos@someguy123.com) (англ.яз.)
+_Контакты:_ автор [@someguy123](https://steemit.com/@someguy123)<br>эл. почта [anongolos@someguy123.com](mailto:anongolos@someguy123.com) (англ.яз.)
 
 - ##### Пользователи Голоса
 В чате Telegram [Robot](https://t.me/chain_cf) или на странице [golos.cf](https://golos.cf) вы можете обратиться за помощью к пользователям Голоса, предоставляющим услугу платной или бесплатной регистрации на блокчейне Голос без валидации по смс.
