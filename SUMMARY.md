@@ -91,6 +91,7 @@
     * [Пример запуска тестовой сети \#2](golosd/howto/testnet2.md)
     * [Генерация ключей аккаунта](golosd/howto/generate-keys.md)
     * [Расчёт награды в зависимости от вклада апвоута](golosd/howto/reward-calculation.md)
+    * [Вычисление кураторских вознаграждений](golosd/howto/vichislenie-kuratorskih-voznagrazhdenii.md)
 * [👍 ДЕЛЕГАТАМ](delegatam.md)
   * [Делегатство](2-rewards/delegatstvo.md)
   * [Установка ноды делегата](golosd/howto/witness-node.md)
@@ -101,3 +102,4 @@
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [Контакты](kontakti.md)
   * [История](istoriya.md)
+
