@@ -40,6 +40,7 @@
     * [Благодарность пользователю](kak-bistro-otblagodarit-avtorov-ponravivshihsya-postov-i-otvetov.md)
     * [Жалоба на пользователя](kak-pozhalovatsya-na-polzovatelya-ili-ego-posti.md)
     * [Добавление пользователя в игнор](dobavlenie-polzovatelei-v-ignor-kak-eto-rabotaet.md)
+    * [Ответы команды golos.io](1-introduction/otveti-komandi-golosio.md)
 * [💯 ЭКОНОМИКА](instruktsii.md)
   * [Постинг \(публикация\)](2-rewards/posting_rewards.md)
   * [Курирование \(лайки\)](2-rewards/curation_rewards.md)
