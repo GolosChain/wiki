@@ -14,7 +14,7 @@
 
 #### Поддержка golos.io
 - [Форма обратной связи](https://golos.io/submit.html?type=submit_feedback) на golos.io
-- Служба поддержки [support@golos.io](mailto:support@golos.io)
+- E-mail Службы поддержки: [support@golos.io](mailto:support@golos.io)
 - Сообщения об ошибках и предложения [GitHub](https://github.com/GolosChain/tolstoy/issues)
 
 
@@ -42,7 +42,7 @@
 #### Команда Голоса
 [Команда и основатели Голоса](https://golos.io/about#team)
 
-[Контакты команды GolosCore](/3-guides/aktualnoe/svyaz-s-goloscore.html)
+[Контакты команды GolosCore](/0-aktualnoe/svyaz-s-goloscore.html)
 
 
 
