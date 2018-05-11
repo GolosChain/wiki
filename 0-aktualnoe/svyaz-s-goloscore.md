@@ -1,14 +1,13 @@
 # ✔ Предпочтительные механизмы взаимодействия с командой GolosCore
 
-1. Канал на github
-   [https://github.com/GolosChain/golos/issues](https://github.com/GolosChain/golos/issues)
+1. Канал на github: [https://github.com/GolosChain/golos/issues](https://github.com/GolosChain/golos/issues).
    Создание задач и общение в комментариях к существующим являются инструментами двусторонней коммуникации между командой GolosCore,  делегатами, клиентами, сообществом и др. Посредством github вы можете общаться и предлагать идеи для развития блокчейн Golos.
-2. О составе ближайших hardfork или softfork вы можете узнать на канале github по ссылке [https://github.com/GolosChain/golos/milestones](https://github.com/GolosChain/golos/milestones)
+2. О составе ближайших hardfork или softfork вы можете узнать на канале github по ссылке [https://github.com/GolosChain/golos/milestones](https://github.com/GolosChain/golos/milestones).
    Пример версионирования:  0.X.0 - hardfork;  0.X.Y - softfork следующий за hardfork Х
-   \(примерная первоначальная предложенная дорожная карта разработки блокчейн Голос, можно посмотреть в белой бумаге [Golos Fund](https://wiki.golos.io/1-introduction/belaya-bumaga-golosfonda.html)\)      
+   \(примерная первоначальная предложенная дорожная карта разработки блокчейн Голос, можно посмотреть в белой бумаге [Golos Fund](https://wiki.golos.io/1-introduction/belaya-bumaga-golosfonda.html)\).      
 3. Отчетность на аккаунте [@goloscore](https://golos.io/@goloscore). 
    Команда GolosCore будет информировать сообщество о состоянии текущей разработки и других важных новостях. В случае, если у вас нет аккаунта на github, то данный способ может являться дополнительным, резервным каналом коммуникации. Однако, советуем общаться через задачи на github. 
-4. Чат в telegram, см статью [Телеграм-чаты Голоса](1-introduction/telegram-chati-golosa.md).
+4. Чат в Telegram, смотрите статью [Телеграм-группы \(чаты\) Голоса](//1-introduction/telegram-chati-golosa.html).
 
 Каналов общения достаточно много, поток информации через них проходит очень большой. В связи с этим, обращаем ваше внимание, что ваши вопросы, идеи, замечания и предложения, направленные иными способами коммуникации, могут быть утеряны в потоке информации. Просьба пользоваться указанными выше способами \(github и аккаунт[@goloscore](https://golos.io/@goloscore)\).
 
@@ -18,5 +17,5 @@
 
 Каждая команда \(как и делегаты, клиенты, сообщество\) имеет возможность в равной степени как предлагать, так и влиять на развитие цепочки, однако, планы о предстоящих фичах \(для их обсуждения\) и составе hardfork/softfork будут анонсироваться от аккаунта [@goloscore](https://golos.io/@goloscore).
 
-[Источник](https://golos.io/goloscore/@goloscore/predpochtitelnye-mekhanizmy-vzaimodeistviya-s-komandoi-goloscore)
+[Источник](https://golos.io/goloscore/@goloscore/predpochtitelnye-mekhanizmy-vzaimodeistviya-s-komandoi-goloscore).
 
