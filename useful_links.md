@@ -58,7 +58,7 @@
 [Пошаговая инструкция как вывести заработанные деньги из Голоса через биржу Livecoin](https://golos.io/ru--akademiya/@mrwww/poshagovaya-instrukciya-kak-vyvesti-zarabotannye-dengi-iz-golosa-cherez-birzhu-livecoin)
 
 [Выводим Голос в рубли. Подробный мануал для новичков](https://golos.io/ru--golos/@mishka/vyvodim-golos-v-rubli-podrobnyi-manual-dlya-novichkov)
-#### Текущая экономика Голоса для авторов, кураторов, инвесторов и всех остальных
+#### Экономика Голоса для авторов, кураторов, инвесторов и всех остальных (некоторая информация в этих статьях не актуальна после введения 0.17 хардфорка)
 [Руководство для новичков: Как чёрт возьми это работает?](https://steemit.com/ru-help/@lehard/rukovodstvo-dlya-novichkov-steemit-kak-chyort-vozmi-eto-rabotaet)
 
 [Как рассчитывается вознаграждение за пост?](https://golos.io/ru--golos/@lehard/kak-rasschityvaetsya-voznagrazhdenie-za-post)
@@ -66,7 +66,7 @@
 [Кураторство на Голосе. Как это работает?](https://golos.io/ru--golos/@haster100/kuratorstvo-na-golose-kak-eto-rabotaet-sait-golos-steemstats-com)
 
 [Что такое репутация на Голосе и как она работает?](https://golos.io/ru--golos/@arcange/chto-takoe-reputaciya-na-golose-i-kak-ona-rabotaet)
-#### Новая экономика Голоса после 16 хадфорка
+#### Экономика Голоса после 0.16 хардфорка (архивные статьи, не актуальные после введения 0.17 хардфорка)
 [Новая экономика Голоса. 1 часть: расчёты и анализ. Что изменится?](https://golos.io/ru--golos/@lehard/novaya-ekonomika-golosa-raschyoty-i-analiz-chto-izmenitsya-itogi-konkursa)
 
 [Новая экономика Голоса. 2 часть: Централизация или Децентрализация?](https://golos.io/ru--golos/@lehard/novaya-ekonomika-golosa-2-chast-centralizaciya-ili-decentralizaciya)
