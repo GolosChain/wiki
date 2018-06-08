@@ -8,6 +8,3 @@
 * [Справочные данные](/spravochnie-dannie.md)
 * [Руководства \(HOWTO\)](/rukovodstva-howto.md)
 * [HardFork HF18 с измененным API](/hardfork-dokumentatsiya.md)
-
-
-
