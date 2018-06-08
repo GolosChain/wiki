@@ -7,4 +7,4 @@
 * [Разработка](/razrabotka.md)
 * [Справочные данные](/spravochnie-dannie.md)
 * [Руководства \(HOWTO\)](/rukovodstva-howto.md)
-* [HardFork HF18](/hardfork-dokumentatsiya.html)
+* [HardFork HF18](//hardfork-dokumentatsiya.html)
