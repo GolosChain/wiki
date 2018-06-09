@@ -1,4 +1,4 @@
-# Summary
+﻿# Summary
 
 * [📌 Введение](README.md)
 * [✔ АКТУАЛЬНОЕ](/3-guides/aktualnoe.md#✔-актуальное)
@@ -93,6 +93,10 @@
     * [Генерация ключей аккаунта](golosd/howto/generate-keys.md)
     * [Расчёт награды в зависимости от вклада апвоута](golosd/howto/reward-calculation.md)
     * [Вычисление кураторских вознаграждений](golosd/howto/vichislenie-kuratorskih-voznagrazhdenii.md)
+  * [HardFork HF18](hardfork-dokumentatsiya.md)
+    * [HF18: Изменения в API](golosd/HardFork/New_HardFork-HF18.md)
+
+    * [HF18: Релиз-кандидат RC2](golosd/HardFork/RC2-HF18.md)
 * [👍 ДЕЛЕГАТАМ](delegatam.md)
   * [Делегатство](2-rewards/delegatstvo.md)
   * [Установка ноды делегата](golosd/howto/witness-node.md)
