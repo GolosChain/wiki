@@ -1,4 +1,4 @@
-﻿# База знаний проекта Медиаблокчейн ГОЛОС
+# База знаний проекта Медиаблокчейн ГОЛОС
 <br>
 
 [![Логотип Голос](https://raw.githubusercontent.com/GolosChain/wiki/master/_images/golos_logo.png)](https://golos.io/)
