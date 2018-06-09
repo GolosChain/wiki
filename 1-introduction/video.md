@@ -1,16 +1,16 @@
-# 👁 Видео-материалы
+﻿# 👁 Видео-материалы
 #### Пошаговая инструкция регистрации на Golos.io 
-{%youtube%}OzOoS0m8Fss{%endyoutube%}
+\{\%youtube\%\}OzOoS0m8Fss\{\%endyoutube\%\}
 
 #### Как пользоваться платформой ГОЛОС?
 
 [Видео урок #1 - Как написать пост на платформе ГОЛОС?](https://golos.io/ru--golos/@serejandmyself/privet-golos-video-o-tom-kak-napisat-post-v-golos)
 
-{%youtube%}uGF2kUcOefg{%endyoutube%}
+\{\%youtube\%\}uGF2kUcOefg\{\%endyoutube\%\}
 
 [Видео урок #2 - Основы главной страницы, опции и возможности меню](https://golos.io/ru--golos/@serejandmyself/video-urok-2-kak-polzovatsya-platformoi-golos)
 
-{%youtube%}5Mvpqeb4qYM{%endyoutube%}
+\{\%youtube\%\}5Mvpqeb4qYM\{\%endyoutube\%\}
 
 #### Курс обучающих видео
 
@@ -35,15 +35,15 @@ https://www.youtube.com/watch?v=GEXT9kju0M0&list=PL_5Hfjgx8sF7QEkpCIew0hb0QZS4Zw
 #### Общая информация
 
 ##### Что такое Голос?
-{%youtube%}8a0TPACOu2k{%endyoutube%}
+\{\%youtube\%\}8a0TPACOu2k\{\%endyoutube\%\}
 
 <br>
 ##### Что такое блокчейн?
 
-{%youtube%}TRtHhXOte0o{%endyoutube%}
+\{\%youtube\%\}TRtHhXOte0o\{\%endyoutube\%\}
 
 ##### Трансляция ГолосФест
-{%youtube%}sAT2HwAjUsI{%endyoutube%}
+\{\%youtube\%\}sAT2HwAjUsI\{\%endyoutube\%\}
 
 https://www.youtube.com/c/GolosIoru/live
 
@@ -52,7 +52,7 @@ https://www.youtube.com/c/GolosIoru/live
 Дополнительные материалы: [#яИдуНаГОЛОСфест](https://golos.io/trending/ru--yaidunagolosfest)
 
 ##### Mediametrics Live 2
-{%youtube%}hghErLkX5m0{%endyoutube%}
+\{\%youtube\%\}hghErLkX5m0\{\%endyoutube\%\}
 
 Mediametrics Live 2
 Какие выгоды и возможности предоставляет медиаблокчейн Golos для бизнеса
