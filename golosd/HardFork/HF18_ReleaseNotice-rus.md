@@ -31,7 +31,7 @@
 * [12.   Постраничный просмотр личных сообщений пользователя](#RN-rus_12)  
 * [13.   Улучшения в подсистеме хранения блоков цепочки](#RN-rus_13)  
 
-***  
+***
 
 <a name="RN-rus_1"></a>
 ### 1. Делегирование Силы Голоса  
@@ -312,7 +312,6 @@
 #### Полезные ссылки:  
 https://wiki.golos.io/golosd/HardFork/New_HardFork-HF18.html  
 https://wiki.golos.io/golosd/HardFork/RC2-HF18.html  
-
 
 ***
 
