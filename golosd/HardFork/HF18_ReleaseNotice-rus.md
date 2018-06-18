@@ -1,4 +1,4 @@
-# GOLOS·CORE
+﻿# GOLOS·CORE
 # Очередная версия блокчейна HardFork HF·18
 
 
@@ -325,9 +325,9 @@
 
 <a name="glos_13"></a> **Участник транзакции** — пользователь, который отвечает за выполнение отдельной операции из предложенной транзакции.
   
-## Ссылки:
-https://wiki.golos.io/4-documentation/golos_whitepaper.html  
-https://github.com/GolosChain/golos/releases  
+## Полезные ссылки:
+https://wiki.golos.io/golosd/HardFork/New_HardFork-HF18.html  
+https://wiki.golos.io/golosd/HardFork/RC2-HF18.html  
 ***
 
 
