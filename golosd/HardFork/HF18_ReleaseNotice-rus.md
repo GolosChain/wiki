@@ -336,6 +336,7 @@
 https://wiki.golos.io/golosd/HardFork/New_HardFork-HF18.html  
 https://wiki.golos.io/golosd/HardFork/RC2-HF18.html  
 
+
 ***
 
 
