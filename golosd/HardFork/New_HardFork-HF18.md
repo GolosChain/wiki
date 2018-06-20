@@ -102,7 +102,7 @@ struct discussion {
 
 Фоном выделены параметры, которыми были дополнены методы.  
 
-Следующие методы, дублирующие функции плагина `tag` были удалены из плагина `social_network`:  
+Следующие методы, дублирующие функции плагина `tag`, были удалены из плагина `social_network`:  
 * get_trending_categories
 * get_active_categories
 * get_recent_categories
