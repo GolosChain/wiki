@@ -1,4 +1,4 @@
-## Новости GOLOS•CORE
+﻿## Новости GOLOS•CORE
 
 ***Golos·Core подготовил к выпуску новую версию блокчейна HardFork (HF•18) с обновленным API***  
 
@@ -210,6 +210,16 @@ struct discussion {
 
 
 ### Изменения в методах database_api 
+Поля `average_bandwidth` и `average_market_bandwidth` были удалены из плагина `database_api` как неиспользуемые. Заменяемые их в выполнении операций поля `new_average_bandwidth`, `new_average_market_bandwidth` были переименованы в первоначальные их имена `average_bandwidth` и `average_market_bandwidth` соответсвенно.  
+
+
+Поле `lifetime_bandwidth` было удалено и заменено на вновь созданное одноименное поле `lifetime_bandwidth`, зависящее от новых значений, а также поле `lifetime_market_bandwidth` для использования в меркетинговых операциях.  
+
+
+Из описания типа `bandwidth_type`, используемого в вызове метода `get_account_bandwidth`, удалены поля `old_forum` и `old_market`.  
+
+
+В поле `lifetime_bandwidth` хранится суммарное значение `bandwidth`, используемое аккаунтом за все время его работы. В поле `average_bandwidth` хранится среднее значение `bandwidth`, по которому определяется порог чрезмерной активности аккаунта.
 
 #### Внесены изменения в выдаваемый результат следующего метода:
 * get_accounts
