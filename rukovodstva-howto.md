@@ -1,4 +1,4 @@
-# Руководства \(HOWTO\)
+## Руководства \(HOWTO\)
 
 * [Скрипт регистрации аккаунтов](/golosd/howto/vik-registration-service.md)
 * [Как использовать мультиподписи](/golosd/howto/multisig.md)

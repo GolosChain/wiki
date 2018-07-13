@@ -6,3 +6,5 @@
 
 > ##### Существует также **мобильное приложение для Android**. Оно доступно [на Google Play](https://play.google.com/store/apps/details?id=io.golos.golos) и на странице [golos.io/app](https://golos.io/app).
 
+Зеркало сайта Golos.io в <a href="https://www.torproject.org/" target=_blank>TOR</a> - golos4naqn64true.onion
+
