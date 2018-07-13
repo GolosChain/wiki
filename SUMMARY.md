@@ -1,4 +1,4 @@
-﻿# Summary
+# Summary
 
 * [📌 Введение](README.md)
 * [✔ АКТУАЛЬНОЕ](/3-guides/aktualnoe.md#✔-актуальное)
@@ -7,7 +7,7 @@
   * [🚀 Новости Golos.io](0-aktualnoe/o-razvitii-golos.md)
   * [⚙️ Новости Golos.Core](0-aktualnoe/hf-02.md)
   * [✔ Связь с Golos.Core](0-aktualnoe/svyaz-s-goloscore.md)
-  * [💔 Вакансии Команды](0-aktualnoe/vakansii-komandi.md)
+  * [💔 Вакансии Команд Голоса](0-aktualnoe/vakansii-komandi.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
   * [➊ Начни отсюда](1-introduction/welcome.md)
   * [Способы регистрации](1-introduction/registratsiya/sposobi-registratsii.md)
@@ -97,7 +97,7 @@
     * [HF18: Изменения в API](golosd/HardFork/New_HardFork-HF18.md)
     * [HF18: Релиз-кандидат RC2](golosd/HardFork/RC2-HF18.md)
     * [HF18: Новые возможности блокчейна](golosd/HardFork/HF18_ReleaseNotice-rus.md)
-    * [HF18: Изменения в cli_wallet](golosd/HardFork/HF18_cli_wallet_changes-rus.md)
+    * [HF18: Изменения в cli\_wallet](golosd/HardFork/HF18_cli_wallet_changes-rus.md)
     * [HF18: Руководство по установке](golosd/HardFork/HF18_BuildInstruction-rus.md)
 * [👍 ДЕЛЕГАТАМ](delegatam.md)
   * [Делегатство](2-rewards/delegatstvo.md)
