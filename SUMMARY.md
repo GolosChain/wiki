@@ -19,7 +19,6 @@
     * [Публикация в блоге](/1-introduction/posting.md)
     * [Кошелек, ключи, выплаты](1-introduction/koshelek-klyuchi-viplati.md)
     * [Внутренний рынок](1-introduction/vnutrennii-rinok.md)
-    * [Рокет-чат](1-introduction/instrumenti-roket-chat.md)
     * [Телеграм группы \(чаты\) Голоса](1-introduction/telegram-chati-golosa.md)
   * [🔠 Терминология](1-introduction/terminologiya.md)
   * [❓❗ Вопросы и ответы](1-introduction/faq.md)
