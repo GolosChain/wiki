@@ -19,11 +19,7 @@
 - Комьюнити-менеджер [community@golos.io](mailto:community@golos.io)
 
 ## Другие каналы
-[Официальный чат](https://chat.golos.io/home)
-
-[Канал Telegram](https://t.me/golos_io)
-
-[Рокет-чат](https://chat.golos.io/)
+[Канал Telegram](https://t.me/golos_support)
 
 [Голосовой чат на Discord](https://discordapp.com/channels/253590962381520897/253590962381520897)
 
