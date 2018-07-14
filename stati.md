@@ -8,9 +8,7 @@
 * [Способы заработка](/1-introduction/zarabotok.md)
 * [КриптоТермины](/1-introduction/kriptotermini.md)
 * [Смайлики на Голосе](/1-introduction/smailiki-na-golose.md)
-* [Инструменты: сайт golosd.com](/1-introduction/instrumenti-golosdcom.md)
-* [Инструменты: сайт golosdb.com](/1-introduction/instrumenti-golosdbcom.md)
-* [Инструкция для новичков](/1-introduction/instruktsiya-dlya-novichkov-pdf.md) \(PDF-файл\)
+
 
 
 
