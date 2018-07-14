@@ -2,6 +2,8 @@
 
 https://www.youtube.com/watch?v=8a0TPACOu2k
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8a0TPACOu2k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 #### Как пользоваться платформой ГОЛОС?
 
 [Видео урок #1 - Как написать пост на платформе ГОЛОС?](https://golos.io/ru--golos/@serejandmyself/privet-golos-video-o-tom-kak-napisat-post-v-golos)
