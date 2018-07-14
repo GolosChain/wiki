@@ -100,7 +100,6 @@
   * [Запуск golos ноды в контейнере docker](golosd/howto/zapusk-golos-nodi-v-konteinere-docker.md)
   * [Скрипты для делегатов](7-witness/witness-scripts.md)
 * [💡 ПОЛЕЗНОЕ](poleznoe.md)
-  * [Полезные ссылки](useful_links.md)
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [Контакты](kontakti.md)
   * [История](istoriya.md)

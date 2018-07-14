@@ -2,7 +2,6 @@
 
 > Различная полезная информация
 
-* [Полезные ссылки](/useful_links.md)
 * [Участие в вики Голоса](/uchastie-v-viki-golosa.md)
 * [Контакты](/kontakti.md)
 * [История](/istoriya.md)
