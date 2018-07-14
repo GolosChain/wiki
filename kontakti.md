@@ -13,25 +13,26 @@
 - Шеф-редактор вики [@vadbars](https://golos.io/@vadbars)
 
 #### Поддержка golos.io
-- [Форма обратной связи](https://golos.io/submit.html?type=submit_feedback) на golos.io
+- Разработка Golos.io [канал Telegram](https://t.me/golos_developers)
+- Служба поддержки [канал Telegram](https://t.me/golos_support)
 - Служба поддержки [support@golos.io](mailto:support@golos.io)
 - Сообщения об ошибках и предложения [GitHub](https://github.com/GolosChain/tolstoy/issues)
-
+- Комьюнити-менеджер [community@golos.io](mailto:community@golos.io)
 
 ## Другие каналы
-Альтернативные каналы общения пользователей Голоса:
-
-[Официальный чат](https://chat.golos.io/home)
-
-[Канал Telegram](https://t.me/golos_io)
-
 [Голосовой чат на Discord](https://discordapp.com/channels/253590962381520897/253590962381520897)
 
-[Голос во Вконтакте](https://vk.com/golos_io)
+[Голос во ВКонтакте](https://vk.com/golos_io)
+
+[Голос на Facebook](https://www.facebook.com/www.golos.io/)
 
 [Голос на форуме Bitcointalk.org](https://bitcointalk.org/index.php?topic=1624364.0)
 
 [Голос на форуме Bitcoinfo.ru](http://forum.bitcoinfo.ru/viewtopic.php?f=13&t=26742)
+
+Каналы общения пользователей Голоса:
+
+- [Telegram-чаты](/1-introduction/telegram-chati-golosa.md)
 
 #### Команда Голоса
 [Команда и основатели Голоса](https://golos.io/about#team)

@@ -39,13 +39,17 @@
 [Флаг: как и в каких случаях стоит использовать](https://golos.io/ru--knigagolos/@aleksandraz/kniga-pro-golos-flag-kak-i-v-kakikh-sluchayakh-stoit-ispolzovat)
 
 #### Биржи для торговли токенами Голоса
-Bittrex: [GOLOS](https://www.bittrex.com/Market/Index?MarketName=BTC-GOLOS) и [GBG](https://bittrex.com/Market/Index?MarketName=BTC-GBG)
+**Bittrex**: [GOLOS/BTC](https://www.bittrex.com/Market/Index?MarketName=BTC-GOLOS) и [GBG/BTC](https://bittrex.com/Market/Index?MarketName=BTC-GBG)
 
-Livecoin: [GOLOS](https://www.livecoin.net/ru/trade/orderbook)<!-- Liqui: GOLOS и GBG -->
+**Livecoin**: [GOLOS](https://www.livecoin.net/ru/trade/orderbook)<!-- Liqui: GOLOS и GBG -->
 
-Kuna: [GOLOS](https://kuna.io/markets/golbtc)
+**Kuna** (биржа для жителей Украины): [GBG/UAH](https://kuna.io/markets/gbguah)
 
-RuDEX: [GOLOS](https://market.rudex.org/#/market/OPEN.GOLOS_OPEN.BTC) и [GBG](https://market.rudex.org/#/market/OPEN.GBG_OPEN.BTC)
+**RuDEX**: [GOLOS/RUBLE](https://market.rudex.org/#/market/RUDEX.GOLOS_RUBLE), [GBG/RUBLE](https://market.rudex.org/#/market/RUDEX.GBG_RUBLE), [GOLOS/USD](https://market.rudex.org/#/market/RUDEX.GOLOS_USD), [GBG/USD](https://market.rudex.org/#/market/RUDEX.GBG_USD)
+
+---
+Несколько статей на тему бирж и обмена:
+
 [RuDEX начинает торги Golos и GBG](https://golos.io/golos/@dusikasss/prodazha-golos-gbg-na-birzhe-rudex-za-rubli)
 
 [Внутренний рынок](https://golos.io/market) - обмен GBG на GOLOS и наоборот
