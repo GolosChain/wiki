@@ -13,6 +13,7 @@
 - Шеф-редактор вики [@vadbars](https://golos.io/@vadbars)
 
 #### Поддержка golos.io
+
 - Разработка Golos.io [канал Telegram](https://t.me/golos_developers)
 - Служба поддержки [канал Telegram](https://t.me/golos_support)
 - Служба поддержки [support@golos.io](mailto:support@golos.io)
@@ -37,7 +38,7 @@
 #### Команда Голоса
 [Команда и основатели Голоса](https://golos.io/about#team)
 
-[Контакты команды GolosCore](/3-guides/aktualnoe/svyaz-s-goloscore.html)
+[Контакты команды GolosCore](/0-aktualnoe/svyaz-s-goloscore.html)
 
 
 

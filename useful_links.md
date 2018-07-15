@@ -29,7 +29,6 @@ https://goldvoice.club/@marina/golos-obshestvennoe-media-kak-baza-dlya-socialnoi
 
 [Дополнительные мультимедийные возможности Голоса: музыка и видео в ваших записях](https://golos.io/ru--golos/@primus/dopolnitelnye-multimediinye-vozmozhnosti-golosa-muzyka-i-video-v-vashikh-zapisyakh)
 
-[Книга про Голос](https://golos.io/created/ru--knigagolos)
 
 [Этика поведения. О чём и как писать?](https://golos.io/ru--knigagolos/@katrin/etika-povedeniya-o-chyom-i-kak-pisat)
 
@@ -49,18 +48,18 @@ https://goldvoice.club/@marina/golos-obshestvennoe-media-kak-baza-dlya-socialnoi
 **RuDEX**: [GOLOS/RUBLE](https://market.rudex.org/#/market/RUDEX.GOLOS_RUBLE), [GBG/RUBLE](https://market.rudex.org/#/market/RUDEX.GBG_RUBLE), [GOLOS/USD](https://market.rudex.org/#/market/RUDEX.GOLOS_USD), [GBG/USD](https://market.rudex.org/#/market/RUDEX.GBG_USD)
 
 ---
-Несколько статей на тему бирж и обмена:
+**Несколько статей на тему бирж и обмена**:
 
 [RuDEX начинает торги Golos и GBG](https://golos.io/golos/@dusikasss/prodazha-golos-gbg-na-birzhe-rudex-za-rubli)
 
-[Внутренний рынок](https://golos.io/market) - обмен GBG на GOLOS и наоборот
+[Внутренний рынок](https://wiki.golos.io/1-introduction/vnutrennii-rinok.html) - обмен GBG на GOLOS и наоборот
 
 [Как вывести из Голоса выплаты?](https://golos.io/ru--golos/@qqc/kak-vyvesti-iz-golosa-vyplaty-sovety-ot-qqc)
 
 [Пошаговая инструкция как вывести заработанные деньги из Голоса через биржу Livecoin](https://golos.io/ru--akademiya/@mrwww/poshagovaya-instrukciya-kak-vyvesti-zarabotannye-dengi-iz-golosa-cherez-birzhu-livecoin)
 
 [Выводим Голос в рубли. Подробный мануал для новичков](https://golos.io/ru--golos/@mishka/vyvodim-golos-v-rubli-podrobnyi-manual-dlya-novichkov)
-#### Текущая экономика Голоса для авторов, кураторов, инвесторов и всех остальных
+#### Экономика Голоса для авторов, кураторов, инвесторов и всех остальных (некоторая информация в этих статьях не актуальна после введения 0.17 хардфорка)
 [Руководство для новичков: Как чёрт возьми это работает?](https://steemit.com/ru-help/@lehard/rukovodstvo-dlya-novichkov-steemit-kak-chyort-vozmi-eto-rabotaet)
 
 [Как рассчитывается вознаграждение за пост?](https://golos.io/ru--golos/@lehard/kak-rasschityvaetsya-voznagrazhdenie-za-post)
@@ -68,7 +67,7 @@ https://goldvoice.club/@marina/golos-obshestvennoe-media-kak-baza-dlya-socialnoi
 [Кураторство на Голосе. Как это работает?](https://golos.io/ru--golos/@haster100/kuratorstvo-na-golose-kak-eto-rabotaet-sait-golos-steemstats-com)
 
 [Что такое репутация на Голосе и как она работает?](https://golos.io/ru--golos/@arcange/chto-takoe-reputaciya-na-golose-i-kak-ona-rabotaet)
-#### Новая экономика Голоса после 16 хадфорка
+#### Экономика Голоса после 0.16 хардфорка (архивные статьи, не актуальные после введения 0.17 хардфорка)
 [Новая экономика Голоса. 1 часть: расчёты и анализ. Что изменится?](https://golos.io/ru--golos/@lehard/novaya-ekonomika-golosa-raschyoty-i-analiz-chto-izmenitsya-itogi-konkursa)
 
 [Новая экономика Голоса. 2 часть: Централизация или Децентрализация?](https://golos.io/ru--golos/@lehard/novaya-ekonomika-golosa-2-chast-centralizaciya-ili-decentralizaciya)
@@ -90,7 +89,7 @@ https://goldvoice.club/@marina/golos-obshestvennoe-media-kak-baza-dlya-socialnoi
 
 [О рекламе, позиционировании и продвижении ГОЛОСа](https://golos.io/ru--golos/@sheriff/informaciya-o-perenose-oficialnogo-zapuska-veb-klinta-bm-na-20-fevralya)
 #### Видео о Голосе
-Канал [Вечер с Голосом](https://www.youtube.com/channel/UCL_XlALJ-2cERfY8m6s8uEA) - регулярный прямой эфир с разработчиками, делегатами и пользователями Голоса. Вещание с понедельника по четверг в 20:00 по Москве
+Youtube канал [ГОЛОС.ФОНД](https://www.youtube.com/channel/UCL_XlALJ-2cERfY8m6s8uEA) - видео о Голосе, прямые эфиры с разработчиками, делегатами и пользователями Голоса.
 
 [Токены Голос, Сила Голоса и Золотой - как с ними работать и как зарабатывать в Голосе](https://www.youtube.com/watch?v=PxpXHVA1OYA)
 
@@ -104,11 +103,10 @@ https://goldvoice.club/@marina/golos-obshestvennoe-media-kak-baza-dlya-socialnoi
 
 [Steemul](http://steemul.ru/) - разнообразные рейтинги, ТОПы и отзывы пользователей Голоса друг о друге. [Мобильная версия](https://golos.io/ru--golos/@rassen/stream-golos-prezentaciya-pervogo-mobilnogo-prilozheniya)
 
-[Разум Голоса](http://razumgolosa.com/) - рейтинги, статистика и ключевые показатели Голоса на одной странице
 
 [Доска почёта Голоса](http://golosboard.com/) - геймификация достижений пользователей
 
-[Golos@Steemstats](http://golos.steemstats.com/) - мониторинг активности аккаунтов Голос
+[Golos@Steemstats](http://golos.steemstats.com/) - мониторинг активности аккаунтов Голос. На текущий момент (май 2018 года) - не работает.
 
 [Калькулятор GBG => RUB](http://steemul.ru/gbg/) - расчет различных вариантов конвертации GBG в рубли, курсы токенов Голоса, золота и рубля
 #### Полезные скрипты

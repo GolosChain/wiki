@@ -102,4 +102,6 @@
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [Контакты](kontakti.md)
   * [История](istoriya.md)
+* [Текущая экономическая модель выплат за посты на Голосе](tekuschaya-ekonomicheskaya-model-viplat-za-posti-na-golose.md)
+
 
