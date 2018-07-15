@@ -13,18 +13,14 @@
 - Шеф-редактор вики [@vadbars](https://golos.io/@vadbars)
 
 #### Поддержка golos.io
-- [Форма обратной связи](https://golos.io/submit.html?type=submit_feedback) на golos.io
-- E-mail Службы поддержки: [support@golos.io](mailto:support@golos.io)
-- Сообщения об ошибках и предложения [GitHub](https://github.com/GolosChain/tolstoy/issues)
 
+- Разработка Golos.io [канал Telegram](https://t.me/golos_developers)
+- Служба поддержки [канал Telegram](https://t.me/golos_support)
+- Служба поддержки [support@golos.io](mailto:support@golos.io)
+- Сообщения об ошибках и предложения [GitHub](https://github.com/GolosChain/tolstoy/issues)
+- Комьюнити-менеджер [community@golos.io](mailto:community@golos.io)
 
 ## Другие каналы
-[Официальный чат](https://chat.golos.io/home)
-
-[Канал Telegram](https://t.me/golos_io)
-
-[Рокет-чат](https://chat.golos.io/)
-
 [Голосовой чат на Discord](https://discordapp.com/channels/253590962381520897/253590962381520897)
 
 [Голос во ВКонтакте](https://vk.com/golos_io)

@@ -13,7 +13,7 @@
 - #####Сайт [Golos.io](https://golos.io) / [Golos.blog](https://golos.blog)
 Зайдите на [страницу создания аккаунта](https://golos.io/create_account) или [на "зеркало" сайта](https://golos.blog/create_account), укажите номер своего телефона, получите смс с кодом и заполните форму регистрации. 
 
-_Контакты:_ разработчик [команда golos.io](https://golos.io/about#team)<br>форма [обратной связи](https://golos.io/submit.html?type=submit_feedback) на сайте, [чат поддержки](https://t.me/golos_support) в Telegram
+_Контакты:_ разработчик [команда golos.io](https://golos.io/about#team),<br> [чат поддержки](https://t.me/golos_support) в Telegram, почта <a href="mailto:support@golos.io">support@golos.io</a>
 
 - #####Сайт [GoldVoice.club](https://goldvoice.club)
 Зайдите на [страницу регистрации](https://goldvoice.club/registration/), укажите желаемый логин и пароль, а также некоторые данные о себе (не обязательно). Отправка или получение смс не требуется.

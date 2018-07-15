@@ -4,14 +4,12 @@
 >   
 > Имейте в виду, что статьи отражают позицию их авторов и не являются безусловной рекомендацией.
 
-* [Просто о блокчейне](/prosto-o-blokcheine.md)
 * [Способы заработка](/1-introduction/zarabotok.md)
-* [КриптоТермины](/kriptotermini.md)
-* [Смайлики на Голосе](/smailiki-na-golose.md)
-* [Конференция ГолосФест 2017](/3-guides/aktualnoe/golosfest.md)
-* [Инструменты: сайт golosd.com](/instrumenti-golosdcom.md)
-* [Инструменты: сайт golosdb.com](/instrumenti-golosdbcom.md)
-* [Инструкция для новичков](/instruktsiya-dlya-novichkov-pdf.md) \(PDF-файл\)
-
-
-
+* [Просто о блокчейне](/1-introduction/prosto-o-blokcheine.md)
+* [КриптоТермины](/1-introduction/kriptotermini.md)
+* [Смайлики на Голосе](/1-introduction/smailiki-na-golose.md)
+* [Сервис steemul.ru](1-introduction/steemulru.md)
+* [Сервис golos.cf/history](golos.cf/history)
+* [Сила при голосовании](/1-introduction/chto-takoe-sila-golosovaniya-i-skolko-postov-mozhno-laikat-za-sutki.md)
+* [Выбор силы при голосовании](/1-introduction/chto-takoe-sila-golosovaniya-i-skolko-postov-mozhno-laikat-za-sutki.md)
+* [Ответы команды golos.io](1-introduction/otveti-komandi-golosio.md)

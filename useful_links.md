@@ -10,6 +10,7 @@
 [Голос: русскоязычная социально-медийная блокчейн-платформа](https://golos.io/ru--golos/@golos/golos-russkoyazychnaya-socialno-mediinaya-blokchein-platforma)
 
 [Голос: общественное медиа как база для социальной активности](https://golos.io/ru--golos/@marina/golos-obshestvennoe-media-kak-baza-dlya-socialnoi-aktivnosti)
+https://goldvoice.club/@marina/golos-obshestvennoe-media-kak-baza-dlya-socialnoi-aktivnosti/
 
 [План развития блокчейн Голос и клиента Golos.io](https://docs.google.com/document/d/1WQF1xxmCMxzEA95Gnxw4FHViX_6pjVoUlBnItCepOmE/edit?usp=sharing)
 
