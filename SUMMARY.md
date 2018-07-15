@@ -21,7 +21,6 @@
     * [Жалоба на пользователя](kak-pozhalovatsya-na-polzovatelya-ili-ego-posti.md)
     * [Добавление пользователя в игнор](dobavlenie-polzovatelei-v-ignor-kak-eto-rabotaet.md)
     * [Внутренний рынок](1-introduction/vnutrennii-rinok.md)
-    * [🔠 Терминология](1-introduction/terminologiya.md)
     * [❓❗ Вопросы и ответы](1-introduction/faq.md)
     * [Ответы команды Golos.io](1-introduction/faq/otveti-komandi.md)
   * [👁 Видео-материалы](1-introduction/video.md)
