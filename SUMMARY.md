@@ -33,7 +33,7 @@
     * [Сервис golos.cf/history](1-introduction/goloscfhistory.md)
     * [Сила при голосовании](/1-introduction/chto-takoe-sila-golosovaniya-i-skolko-postov-mozhno-laikat-za-sutki.md)
     * [Выбор силы голосования](//1-introduction/The choice of the Power of the vote.md)
-    * [Текущая экономическая модель выплат за посты на Голосе](tekuschaya-ekonomicheskaya-model-viplat-za-posti-na-golose.md)
+    * [Линейка и квадрат](tekuschaya-ekonomicheskaya-model-viplat-za-posti-na-golose.md)
 * [💯 ЭКОНОМИКА](instruktsii.md)
   * [Постинг \(публикация\)](2-rewards/posting_rewards.md)
   * [Курирование \(лайки\)](2-rewards/curation_rewards.md)
