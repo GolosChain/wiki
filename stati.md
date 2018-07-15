@@ -13,3 +13,4 @@
 * [Сила при голосовании](/1-introduction/chto-takoe-sila-golosovaniya-i-skolko-postov-mozhno-laikat-za-sutki.md)
 * [Выбор силы при голосовании](/1-introduction/chto-takoe-sila-golosovaniya-i-skolko-postov-mozhno-laikat-za-sutki.md)
 * [Ответы команды golos.io](1-introduction/otveti-komandi-golosio.md)
+
