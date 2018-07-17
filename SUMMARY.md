@@ -1,10 +1,8 @@
 # Summary
 
 * [📌 Введение](README.md)
-* [✔ АКТУАЛЬНОЕ](/3-guides/aktualnoe.md#✔-актуальное)
+* [✔ ОБЪЯВЛЕНИЯ](/3-guides/aktualnoe.md#✔-актуальное)
   * [💡 Зеркала golos.io](0-aktualnoe/vnimanie-alternativnie-tochki-vhoda.md)
-  * [💰 БАУНТИ за wiki](0-aktualnoe/baunti.md)
-  * [✔ Связь с Командами Голоса](0-aktualnoe/svyaz-s-goloscore.md)
   * [💔 Вакансии Команд Голоса](0-aktualnoe/vakansii-komandi.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
   * [➊ Начни отсюда](1-introduction/welcome.md)
@@ -99,6 +97,8 @@
   * [Скрипты для делегатов](7-witness/witness-scripts.md)
 * [💡 ПОЛЕЗНОЕ](poleznoe.md)
   * [Участие в вики](uchastie-v-viki-golosa.md)
+  * [💰 БАУНТИ за wiki](0-aktualnoe/baunti.md)
   * [Контакты](kontakti.md)
+  * [✔ Связь с Командами Голоса](0-aktualnoe/svyaz-s-goloscore.md)
   * [История](istoriya.md)
 
