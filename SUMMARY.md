@@ -66,6 +66,7 @@
     * [API part 4](golosd/api/api-golos-ch4.md)
     * [Операция decline\_voting\_rights](golosd/api/operatsiya-declinevoting-rights.md)
   * [API-документация для HF18](api-hf18-dokumentatsiya.md)
+      * [API cli-wallet для HF18](golosd/api-hf18/HF18-API-cli-wallet-reference.md)
   * [Разработка](razrabotka.md)
     * [Руководство по контрибьютингу](golosd/devel/guideline.md)
   * [Справочные данные](spravochnie-dannie.md)
