@@ -1,4 +1,4 @@
-# Summary
+﻿# Summary
 
 * [📌 Введение](README.md)
 * [✔ ОБЪЯВЛЕНИЯ](/3-guides/aktualnoe.md#✔-актуальное)
@@ -65,6 +65,7 @@
     * [API part 3](golosd/api/api-golos-ch3.md)
     * [API part 4](golosd/api/api-golos-ch4.md)
     * [Операция decline\_voting\_rights](golosd/api/operatsiya-declinevoting-rights.md)
+  * [API-документация для HF18](api-hf18-dokumentatsiya.md)
   * [Разработка](razrabotka.md)
     * [Руководство по контрибьютингу](golosd/devel/guideline.md)
   * [Справочные данные](spravochnie-dannie.md)
