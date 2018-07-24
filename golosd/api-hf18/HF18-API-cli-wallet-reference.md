@@ -63,7 +63,11 @@ transaction_handle_type wallet_api::begin_builder_transaction()
 
 ### cancel_order()
 ```cpp
-annotated_signed_transaction wallet_api::cancel_order( string owner, uint32_t orderid, bool broadcast )  
+annotated_signed_transaction wallet_api::cancel_order(
+        string owner,
+        uint32_t orderid,
+        bool broadcast
+)  
 ```
 Параметры:  
 `owner` — имя аккаунта, созданного заявку на отмену транзакции;  
@@ -115,7 +119,10 @@ annotated_signed_transaction wallet_api::convert_sbd(string from, asset amount, 
 
 ### check_memo()
 ```cpp
-void wallet_api::check_memo( const string& memo, const golos::api::account_api_object& account )const  
+void wallet_api::check_memo(
+        const string& memo,
+        const golos::api::account_api_object& account
+)const  
 ```
 Параметры:  
 `memo` — поле, записи которого проверяются;   
@@ -441,7 +448,8 @@ account_name — имя аккаунта, информация о котором
 
 ### get_account_history()
 ```cpp
-map< uint32_t, golos::plugins::operation_history::applied_operation > wallet_api::get_account_history(
+map< uint32_t, golos::plugins::operation_history::applied_operation >
+wallet_api::get_account_history(
         string account,
         uint32_t from,
         uint32_t limit
@@ -474,7 +482,9 @@ optional<signed_block_with_info> wallet_api::get_block (uint32_t num)
 
 ### get_conversion_requests()
 ```cpp
-vector< database_api::convert_request_api_object > wallet_api::get_conversion_requests(string owner_account)  
+vector< database_api::convert_request_api_object > wallet_api::get_conversion_requests(
+        string owner_account
+)  
 ```
 
 Параметр:  
@@ -581,7 +591,9 @@ vector<extended_message_object> wallet_api::get_outbox(
 
 ### get_owner_history()
 ```cpp
-vector< database_api::owner_authority_history_api_object > wallet_api::get_owner_history(string account)const  
+vector< database_api::owner_authority_history_api_object > wallet_api::get_owner_history(
+        string account
+)const  
 ```
 
 Параметры:  
@@ -602,7 +614,9 @@ fc::ecc::private_key get_private_key(const public_key_type pubkey)const
 
 ### get_private_key_for_account()
 ```cpp
-fc::ecc::private_key get_private_key_for_account(const golos::api::account_api_object& account)const  
+fc::ecc::private_key get_private_key_for_account(
+        const golos::api::account_api_object& account
+)const  
 ```
 
 Параметр:  
@@ -945,8 +959,9 @@ annotated_signed_transaction wallet_api::recover_account(
 
 Используется для восстановления полномочий (авторизацию) аккаунта с использованием запроса на восстановление, созданного самим аккаунтом. Синтаксис этой команды содержит сериализованный объект авторизации. Пример авторизации объекта показан в следующей строке:  
 ```cpp
-recover_account "account_to_recover" {" weight_threshold": 1,"account_auths": [], "key_auths": [  
-["old_public_key",1]]} {"weight_threshold": 1,"account_auths": [], "key_auths": [["new_public_key",1]]} true  
+recover_account "account_to_recover"
+    { " weight_threshold": 1,"account_auths": [], "key_auths": [["old_public_key",1]] }
+    {"weight_threshold": 1,"account_auths": [], "key_auths": [["new_public_key",1]]} true  
 ``` 
 
 ### remove_builder_transaction()
@@ -992,8 +1007,8 @@ annotated_signed_transaction wallet_api::request_account_recovery(
 
 Создает запрос на восстановление аккаунта. Синтаксис этой команды содержит сериализованный объект авторизации. Передача авторизации приведена в следующем примере:  
 ```cpp
-request_account_recovery "recovery_account" "account_to_recover" {"weight_threshold": 1,"account_auths": [],  
-"key_auths": [["new_public_key",1]]} true
+request_account_recovery "recovery_account" "account_to_recover" 
+{"weight_threshold": 1,"account_auths": [],  "key_auths": [["new_public_key",1]]} true
 ```
 ### save_wallet_file()
 ```cpp
@@ -1038,7 +1053,11 @@ void set_transaction_expiration(uint32_t seconds)
 
 ### set_voting_proxy()
 ```cpp
-signed_transaction set_voting_proxy(string account_to_modify, string voting_account, bool broadcast)  
+signed_transaction set_voting_proxy(
+        string account_to_modify,
+        string voting_account,
+        bool broadcast
+)  
 ```
 
 Параметры:  
@@ -1070,7 +1089,10 @@ annotated_signed_transaction wallet_api::set_withdraw_vesting_route(
 
 ### sign_builder_transaction()
 ```cpp
-signed_transaction wallet_api::sign_builder_transaction(transaction_handle_type handle, bool broadcast)  
+signed_transaction wallet_api::sign_builder_transaction(
+        transaction_handle_type handle,
+        bool broadcast
+)  
 ```
 
 Параметры:  
@@ -1410,7 +1432,10 @@ annotated_signed_transaction wallet_api::vote(
 
 ### withdraw_vesting()
 ```cpp
-annotated_signed_transaction wallet_api::withdraw_vesting(string from, asset vesting_shares, bool broadcast)  
+annotated_signed_transaction wallet_api::withdraw_vesting(
+        string from, asset vesting_shares,
+        bool broadcast
+)  
 ```
 
 Параметры:  
