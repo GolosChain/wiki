@@ -41,11 +41,6 @@ https://www.youtube.com/watch?v=GEXT9kju0M0&list=PL_5Hfjgx8sF7QEkpCIew0hb0QZS4Zw
 
 #### Общая информация
 
-##### Что такое Голос?
-https://www.youtube.com/watch?v=8a0TPACOu2k
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8a0TPACOu2k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 ##### Что такое блокчейн?
 
 https://www.youtube.com/watch?v=TRtHhXOte0o
