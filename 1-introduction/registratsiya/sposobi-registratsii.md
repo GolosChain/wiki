@@ -11,7 +11,7 @@
 
 ####Бесплатные способы регистрации:
 - #####Сайт [Golos.io](https://golos.io) / [Golos.blog](https://golos.blog)
-Зайдите на [страницу создания аккаунта](https://golos.io/create_account) или [на "зеркало" сайта](https://golos.blog/create_account), укажите номер своего телефона, получите смс с кодом и заполните форму регистрации. 
+Зайдите на [страницу создания аккаунта](https://golos.io/create_account) или [на "зеркало" сайта](https://golos.blog/create_account), введите номер своего телефона, затем отправьте смс с кодом на указанный номер, ваш номер телефона пройдет проверку и форма регистрации станет активной.
 
 _Контакты:_ разработчик [команда golos.io](https://golos.io/about#team),<br> [чат поддержки](https://t.me/golos_support) в Telegram, почта <a href="mailto:support@golos.io">support@golos.io</a>
 
