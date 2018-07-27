@@ -1,9 +1,6 @@
 # Summary
 
 * [📌 Введение](README.md)
-* [✔ ОБЪЯВЛЕНИЯ](/3-guides/aktualnoe.md#✔-актуальное)
-  * [💡 Зеркала golos.io](0-aktualnoe/vnimanie-alternativnie-tochki-vhoda.md)
-  * [💔 Вакансии Команд Голоса](0-aktualnoe/vakansii-komandi.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
   * [➊ Начни отсюда](1-introduction/welcome.md)
   * [Способы регистрации](1-introduction/registratsiya/sposobi-registratsii.md)
@@ -66,7 +63,7 @@
     * [API part 4](golosd/api/api-golos-ch4.md)
     * [Операция decline\_voting\_rights](golosd/api/operatsiya-declinevoting-rights.md)
   * [API-документация для HF18](api-hf18-dokumentatsiya.md)
-      * [API cli-wallet для HF18](golosd/api-hf18/HF18-API-cli-wallet-reference.md)
+    * [API cli-wallet для HF18](golosd/api-hf18/HF18-API-cli-wallet-reference.md)
   * [Разработка](razrabotka.md)
     * [Руководство по контрибьютингу](golosd/devel/guideline.md)
   * [Справочные данные](spravochnie-dannie.md)
@@ -98,6 +95,7 @@
   * [Запуск golos ноды в контейнере docker](golosd/howto/zapusk-golos-nodi-v-konteinere-docker.md)
   * [Скрипты для делегатов](7-witness/witness-scripts.md)
 * [💡 ПОЛЕЗНОЕ](poleznoe.md)
+  * [💡 Зеркала golos.io](0-aktualnoe/vnimanie-alternativnie-tochki-vhoda.md)
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [💰 БАУНТИ за wiki](0-aktualnoe/baunti.md)
   * [Контакты](kontakti.md)
