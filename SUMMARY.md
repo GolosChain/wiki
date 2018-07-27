@@ -99,6 +99,5 @@
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [💰 БАУНТИ за wiki](0-aktualnoe/baunti.md)
   * [Контакты](kontakti.md)
-  * [✔ Связь с Командами Голоса](0-aktualnoe/svyaz-s-goloscore.md)
   * [История](istoriya.md)
 
