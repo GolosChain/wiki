@@ -99,7 +99,7 @@
   * [Зеркала golos.io](0-aktualnoe/vnimanie-alternativnie-tochki-vhoda.md)
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [💰 БАУНТИ за wiki](0-aktualnoe/baunti.md)
-  * [Контакты](kontakti.md)
+  * [Контакты Wiki Golos](kontakti.md)
   * [Контакты Golos Core](0-aktualnoe/kontakti-golos-core.md)
   * [Контакты Golos.io](0-aktualnoe/kontakti-golosio.md)
   * [История](istoriya.md)
