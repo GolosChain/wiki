@@ -100,5 +100,6 @@
   * [Участие в вики](uchastie-v-viki-golosa.md)
   * [💰 БАУНТИ за wiki](0-aktualnoe/baunti.md)
   * [Контакты](kontakti.md)
+  * [Контакты Golos Core](0-aktualnoe/kontakti-golos-core.md)
   * [История](istoriya.md)
 
