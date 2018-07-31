@@ -39,7 +39,7 @@
 [Команда и основатели Голоса](https://golos.io/about#team)
 
 [Контакты команды GolosCore](0-aktualnoe/kontakti-golos-core.md)
-[Контакты команды Golos.io](/0-aktualnoe/svyaz-s-goloscore.html)
+[Контакты команды Golos.io](0-aktualnoe/kontakti-golosio.md)
 
 
 
