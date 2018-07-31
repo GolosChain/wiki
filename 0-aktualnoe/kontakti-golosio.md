@@ -2,4 +2,5 @@
 
 - Новости команды Golos.io можно прочитать в ленте официального аккаунта https://golos.io/@golosio
 
-- Канал на github [https://github.com/GolosChain/golos/issues](https://github.com/GolosChain/golos/issues)
+- Канал на Github [https://github.com/GolosChain/golos/issues](https://github.com/GolosChain/tolstoy/issues)
+- Телеграм https://t.me/golos_support 
