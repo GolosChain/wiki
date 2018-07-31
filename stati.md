@@ -12,5 +12,8 @@
 * [Сервис golos.cf/history](golos.cf/history)
 * [Сила при голосовании](/1-introduction/chto-takoe-sila-golosovaniya-i-skolko-postov-mozhno-laikat-za-sutki.md)
 * [Выбор силы при голосовании](/1-introduction/chto-takoe-sila-golosovaniya-i-skolko-postov-mozhno-laikat-za-sutki.md)
-* [Ответы команды golos.io](1-introduction/otveti-komandi-golosio.md)
+* [Линейка и квадрат](tekuschaya-ekonomicheskaya-model-viplat-za-posti-na-golose.md)
+* [Бенефициарство](1-introduction/benefitsiarstvo.md)
+
+
 
