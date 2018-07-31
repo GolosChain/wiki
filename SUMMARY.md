@@ -101,5 +101,6 @@
   * [💰 БАУНТИ за wiki](0-aktualnoe/baunti.md)
   * [Контакты](kontakti.md)
   * [Контакты Golos Core](0-aktualnoe/kontakti-golos-core.md)
+  * [Контакты Golos.io](0-aktualnoe/kontakti-golosio.md)
   * [История](istoriya.md)
 
