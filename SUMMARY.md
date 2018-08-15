@@ -1,4 +1,4 @@
-﻿# Summary
+# Summary
 
 * [📌 Введение](README.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
