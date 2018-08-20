@@ -609,7 +609,7 @@ struct settings_api_object {
 
 Для получения данных о размерах контакт листа используется запрос следующего вида:  
 ```cpp
-get_contact_size(string owner)
+get_contacts_size(string owner)
 ```
 Параметр:  
 `owner` — имя аккаунта, собственника контакт-листа.  
