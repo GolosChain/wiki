@@ -2,17 +2,20 @@
 # The new version SoftFork 0.18.4
 
 ***Golos•Core has announced the new SoftFork version 0.18.0 has been released.
-This page provides a detailed outline of some fixes and improvements in this version. These updates are approved by a majority of witnesses.***
+This page provides a detailed outline of some fixes and improvements in this version. These updates are approved by a majority of witnesses.***  
+
+
 **Reindexing:**  
 ***SF 0.18.4 requires reindexing from all previous versions.***  
 
 
-## In this article
+### In this article
 <!-- toc -->  
 ****  
 
 ## Additional information in the notifications about signed blocks
-In previous versions of SoftFork, a user could subscribe to receive up-to-date information as a notification about new signed blocks appeared in blockchain. The information in the notification was not complete enough and contained nothing about virtual operations in this block.
+In previous versions of SoftFork, a user could subscribe to receive up-to-date information as a notification about new signed blocks appeared in blockchain. The information in the notification was not complete enough and contained nothing about virtual operations in this block.  
+
 ### Getting information from notifications about virtual operations in signed blocks
 
 In previous SoftFork versions, a user could subscribe to receive up-to-date information in the form of notifications about new signed blocks appeared in the blockchain. It was done by calling the `set_block_applied_callback ()` method. The matter was the method returned an information about only a new appeared signed block without any information about virtual operations in this block.  
