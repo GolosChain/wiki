@@ -1,4 +1,4 @@
-﻿# GOLOS·CORE
+# GOLOS·CORE
 # New version SoftFork 0.18.4
 
 ***Golos•Core has announced the new SoftFork version 0.18.0 has been released.
