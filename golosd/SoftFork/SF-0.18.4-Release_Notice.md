@@ -18,15 +18,15 @@ In previous versions of SoftFork, a user could subscribe to receive up-to-date i
 
 ### Getting information from notifications about virtual operations in signed blocks
 
-In previous SoftFork versions, a user could subscribe to receive up-to-date information in the form of notifications about new signed blocks appeared in the blockchain. It was done by calling the `set_block_applied_callback ()` method. The fact is that the method returned data only about new signed operations in the block without any information about virtual operations of this block.  
+In previous SoftFork versions, a user could subscribe to receive up-to-date information in the form of notifications about new signed blocks appeared in the blockchain. It was done by calling the `set_block_applied_callback()` method. The fact is that the method returned data only about new signed operations in the block without any information about virtual operations of this block.  
 
-In version SF-0.18.4, a configurable parameter `type` is added to the  `set_block_applied_callback()` method, which takes four values. Depending on a set value of this parameter, the user can receive the following information about a block:  
+In version SF-0.18.4, a configurable parameter `type` is added to the  `set_block_applied_callback()` method, which can take four values. Depending on a set value of this parameter, the user can receive the following information about a block:  
 — signed block;  
 — block header;  
 — virtual operations only;  
 — both a signed block and virtual operations.  
 
-This allows the user to receive not only full information about a signed block, but also a separate content at its discretion including the virtual operations.  
+This impovement allows the user to receive not only full information about a signed block, but also a separate content at its discretion including the virtual operations.  
 
 
 The following table shows correspondence between a set parameter value and a type of information received.    
@@ -40,7 +40,7 @@ Parameter value | Alternative parameter value | Notification data type
 
 Any other specified value will be treated by the `set_block_applied_callback()` method as a «block».  
 
-The `set_block_applied_callback ()` method has been fixed while maintaining backwards compatibility with previous SF versions.  
+The `set_block_applied_callback()` method has been fixed while maintaining backwards compatibility with previous SF versions.  
 The method has a parameter that was not previously used. Its field always contained a value of 0. In the new version, this field is assigned to the returned result type. If this field is set to 0, the returned result will match the result of previous versions. Adding three new values to this parameter extends the API capability.  
 
 
@@ -50,10 +50,10 @@ void set_block_applied_callback(
 	block_applied_callback_result_type type
 )
 ```
-**Parameter:**
+Parameter:  
 `type` — a returned result type.  
 
-### Getting notification about transactions on the Node that are not in a block
+### Getting notification about transactions on the node that are not in a block
 A new operation has been implemented in the new version, this is a notification of a user about the blocks. This operation was developed earlier, but was blocked and never used.  
 
 If a transaction was on a node, but was not approved for execution (not placed in a block), the user could not get information about that transaction by simple calling the `set_block_applied_callback()` method. This problem existed in previous versions and it is no longer in the new version.  
@@ -81,7 +81,7 @@ Parameters:
 ## Improved error diagnosis   
 In previous versions, diagnostic information about errors which occurred in the blockchain, was issued in the form of an uninformative text message.  The text of the message contained only general information and it was difficult for a user to identify the cause of the error.  
 
-To solve this problem the solution has been implemented in the new SF version that provides a user with much more diagnostic information.  about an error including a description of the level of the hierarchical structure of the block that is causing the error. The solution is based on breaking all the errors into categories and generating diagnostic information for each category. The information includes a description of the hierarchical structure level of the block that is causing the error.  
+To solve this problem the solution has been implemented in the new SF version that provides a user with much more diagnostic information  about an error including a description of the level of the hierarchical structure of the block that is causing the error. The solution is based on breaking all the errors into categories and generating diagnostic information for each category. The information includes a description of the hierarchical structure level of the block that causes the error.  
 
 All errors were analyzed directly in the places of their formation and then classified according to informative signs. As a result of the analysis, three classes of errors were identified:   
 1. user errors in setting parameters;  
@@ -97,7 +97,7 @@ Each of these classes of errors was divided into subclasses and then into error 
 6. transaction structure violation;  
 7. an absence of specified object (for example, an absence of an account with a specified name or transaction with a specified identifier);  
 8. lack of a required HardFork version;  
-9. a business logic error, including:   
+9. business logic error, including:   
 — lack of sufficient assets for an operation;  
 — exceeding a bandwidth (for example, exceeding a number of posts or votes per a certain period);  
 10. server error (for example, lack of access to a server);  
@@ -107,7 +107,7 @@ Each of these classes of errors was divided into subclasses and then into error 
 — code error (for example, invalid use of a function within a code).  
 
 Diagnostic information has been generated for each of the error categories and added to the message catalog. Specific errors are separated within each of the category by additional signs. Besides, improved diagnostic information return system about an error that occurred when processing a request in the JSON format.  
-Except for category 12 errors, all other errors are user-defined and can be analyzed directly by the user.  
+Except for category errors under 12 number, all other errors are user-defined and can be analyzed directly by the user.  
 
 This update provides a user with the most complete diagnostic information about an error.  
 
