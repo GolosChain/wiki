@@ -891,7 +891,7 @@ N=-1         | All blocks | Removal of votes is not performed | The value «-1»
 
 In all cases, the removal of votes is not performed until a post is closed.  
 
-> Note: this modification has been implemented at the request of delegates.
+**Note:** This modification has been implemented at the request of delegates.  
 
 ## Fixed old bug in the cli_wallet application for the case, when an account had a multiple authorities
 
