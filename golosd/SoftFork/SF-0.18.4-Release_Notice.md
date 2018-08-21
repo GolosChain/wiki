@@ -905,7 +905,7 @@ There was modified the `annotated_signed_transaction()` method in the client app
 
 A user who subscribed to view posts of only certain blogger, could see other bloggers on the post feed.
 This bug occured in the case when a blogger, for which the user had a subscription, reposted work of another blogger, for which the user had no subscription. As a result, the user could see another blogger on the post feed. The user was confused because of there was no any explain information on the post feed.
-This bug has been fixed in the 0.18.4 version. The post feed has been supplemented with the "reblogged_by:\<a name\>" field, which displays a name of the author who reposted a third-party author work. 
+This bug has been fixed in the 0.18.4 version. The post feed has been supplemented with the `"reblogged_by:<a name>"` field, which displays a name of the author who reposted a third-party author work. 
 
 ## Filtering the requested information about operations from account history
 
