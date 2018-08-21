@@ -1,5 +1,5 @@
 # GOLOS·CORE
-# New version SoftFork 0.18.4
+# The new version SoftFork 0.18.4
 
 ***Golos•Core has announced the new SoftFork version 0.18.0 has been released.
 This page provides a detailed outline of some fixes and improvements in this version. These updates are approved by a majority of witnesses.***
@@ -905,7 +905,7 @@ There was modified the `annotated_signed_transaction()` method in the client app
 
 A user who subscribed to view posts of only certain blogger, could see other bloggers on the post feed.
 This bug occured in the case when a blogger, for which the user had a subscription, reposted work of another blogger, for which the user had no subscription. As a result, the user could see another blogger on the post feed. The user was confused because of there was no any explain information on the post feed.
-This bug has been fixed in the 0.18.4 version. The post feed has been supplemented with the "reblogged_by:<a name>" field, which displays a name of the author who reposted a third-party author work 
+This bug has been fixed in the 0.18.4 version. The post feed has been supplemented with the "reblogged_by:\<a name\>" field, which displays a name of the author who reposted a third-party author work. 
 
 ## Filtering the requested information about operations from account history
 
@@ -936,7 +936,7 @@ The `query` parameter is a structure (object) and contains the following fields:
 
 **Changes in the cli_wallet application**   
 
-The `filter_account_history()` method was added to the application `cli_wallet`, which performs the same function as the method `get_account_history()`. Unlike the latter, it has the input parameter `query` to support filtering. In the body of that method, there is a call to the API method ' get_account_history()`.  
+The `filter_account_history()` method was added to the application `cli_wallet`, which performs the same function as the method `get_account_history()`. Unlike the latter, it has the input parameter `query` to support filtering. In the body of that method, there is a call to the API method `get_account_history()`.  
 
 
 Examples of calling the `filter_account_history()` method:  
