@@ -18,9 +18,9 @@ In previous versions of SoftFork, a user could subscribe to receive up-to-date i
 
 ### Getting information from notifications about virtual operations in signed blocks
 
-In previous SoftFork versions, a user could subscribe to receive up-to-date information in the form of notifications about new signed blocks appeared in the blockchain. It was done by calling the `set_block_applied_callback ()` method. The matter was the method returned an information about only a new appeared signed block without any information about virtual operations in this block.  
+In previous SoftFork versions, a user could subscribe to receive up-to-date information in the form of notifications about new signed blocks appeared in the blockchain. It was done by calling the `set_block_applied_callback ()` method. The fact is that the method returned data only about new signed operations in the block without any information about virtual operations of this block.  
 
-In version SF-0.18.4, a configurable parameter `type` is added to the  `set_block_applied_callback ()` method, which takes four values. Depending on a set value of this parameter, the user can receive the following information about a block:  
+In version SF-0.18.4, a configurable parameter `type` is added to the  `set_block_applied_callback()` method, which takes four values. Depending on a set value of this parameter, the user can receive the following information about a block:  
 — signed block;  
 — block header;  
 — virtual operations only;  
