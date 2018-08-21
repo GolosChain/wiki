@@ -1,4 +1,4 @@
-# Summary
+﻿# Summary
 
 * [📌 Введение](README.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
@@ -91,6 +91,7 @@
     * [HF18: Изменения в cli\_wallet](golosd/HardFork/HF18_cli_wallet_changes-rus.md)
     * [HF18: Руководство по установке](golosd/HardFork/HF18_BuildInstruction-rus.md)
     * [SF-0.18.4: Новые возможности СофтФорка](golosd/HardFork/SF-0.18.4_ReleaseNotice-rus.md)
+  * [SoftFork in English](sf-documentation.md)
 * [👍 ДЕЛЕГАТАМ](delegatam.md)
   * [Делегатство](2-rewards/delegatstvo.md)
   * [Установка ноды делегата](golosd/howto/witness-node.md)
