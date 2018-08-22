@@ -21,10 +21,10 @@ In previous versions of SoftFork, a user could subscribe to receive up-to-date i
 In previous SoftFork versions, a user could subscribe to receive up-to-date information in the form of notifications about new signed blocks appeared in the blockchain. It was done by calling the `set_block_applied_callback()` method. The fact is that the method returned data only about new signed operations in the block without any information about virtual operations of this block.  
 
 In version SF-0.18.4, a configurable parameter `type` is added to the  `set_block_applied_callback()` method, which can take four values. Depending on a set value of this parameter, the user can receive the following information about a block:  
-— signed block;  
-— block header;  
-— virtual operations only;  
-— both a signed block and virtual operations.  
+  * signed block;  
+  * block header;  
+  * virtual operations only;  
+  * both a signed block and virtual operations.  
 
 This impovement allows the user to receive not only full information about a signed block, but also a separate content at its discretion including the virtual operations.  
 
@@ -61,9 +61,9 @@ The new operation will send a message to the user about each incoming transactio
 
 ### Getting information about rewarding a person who signed a block
 A new virtual (not explicitly specified) operation has been implemented in the new version. The virtual operation can be generated on each of the blocks.  It notifies a user about rewarding (in GESTS) a person who signed a block. This is a producer of the block, which may be one of the following persons:  
-  * — a witness included in the approved list of witnesses;  
-  * — a witness, randomly chosen;  
-  * — a miner.  
+  * a witness included in the approved list of witnesses;  
+  * a witness, randomly chosen;  
+  * a miner.  
 
 The virtual operation is stored in a block history and can be requested by the API method `get_ops_in_block()` to get the information about a block producer reward. This method has the following form:  
 ```cpp
@@ -86,7 +86,7 @@ All errors were analyzed directly in the places of their formation and then clas
 2. user errors when executing business logic operations (for example, exceeding a bandwidth);  
 3. program text errors (internal blockchain errors that are not user-specific).  
 
-Each of these classes of errors was divided into subclasses and then into error categories. The following error categories were created:  
+Each of these error classes was divided into error subclasses and then into error categories for each subclass. The following error categories were created:  
 1. unsupported operation by the blockchain;  
 2. error of arguments number passed to a plugin;  
 3. parameter value error (syntax checking of a specified parameter value, including: the presence of invalid characters in account names, a correctness of asset units writing, exceeding the maximum number of characters in a comment);  
@@ -112,15 +112,15 @@ This update provides a user with the most complete diagnostic information about 
 ## New private message operations
 Version SF-0.18.4 has a new plugin 'private_message_operations' that extends a user's ability to communicate with other users, as well as to process personal messages.  
 The new plugin added the following functionality to a user:  
-  * — messaging with other users without using tokens;  
-  * — getting a subscription to (virtual) operations related to the operation of the plugin;  
-  * — getting a list of users  who are in communication;  
-  * — creating and setting up an account contact list;  
-  * — ability to obtain a history of messaging by a given user name;  
-  * — ability to obtain a history of messaging by a given certain signs (for example, by date or by number of messages);  
-  * — pagination of messages received during communication;  
-  * — editing a sent message;  
-  * — ability to delete a sent message (and mark it as deleted message).  
+  * messaging with other users without using tokens;  
+  * getting a subscription to (virtual) operations related to the operation of the plugin;  
+  * getting a list of users  who are in communication;  
+  * creating and setting up an account contact list;  
+  * ability to obtain a history of messaging by a given user name;  
+  * ability to obtain a history of messaging by a given certain signs (for example, by date or by number of messages);  
+  * pagination of messages received during communication;  
+  * editing a sent message;  
+  * ability to delete a sent message (and mark it as deleted message).  
 
 ### Private message operations
 
@@ -202,6 +202,7 @@ To mark a user private message the user has to specify a unique key (with the va
 
 #### Creating and setting up an account contact list
 A contact list for monitoring incoming and outgoing messages has been added to the system for processing private messages. The contact list for a user is created immediately after the first message sending (or receiving) with any of accounts. After each sending or receiving message this contact list is updated with new account who have been sharing this message.  
+
 The user himself can add a new account to the contact list who was not yet in communication. The method that creates a new contact is as follows:
 ```cpp
 struct private_contact_operation {
@@ -239,7 +240,7 @@ struct private_settings_operation {
 ```
 Parameters:  
 `owner` — account name that owns the contact list;   
-`ignore_messages_from_unknown_contact` — "true", to stop receiving messages from unknown contact. 
+`ignore_messages_from_unknown_contact` — "true" to stop receiving messages from unknown contact. 
 
 ### Private message operations supported by the client application cli_wallet
 #### Sending private messages
@@ -607,6 +608,7 @@ get_settings(string owner)
 Parameter:  
 `owner` — account name that owns the contact list.  
 
+
 The result is a structure receiving of the following form:
 ```cpp
 struct settings_api_object {
@@ -614,7 +616,7 @@ struct settings_api_object {
 };
 ```
 Parameter:  
-`ignore_messages_from_unknown_contact` — "true", if messages from unknown contacts should be blocked.
+`ignore_messages_from_unknown_contact` — "true" if messages from unknown contacts should be blocked.
 
 #### Obtaining data on a size of the contact list
 
@@ -925,16 +927,16 @@ get_account_history(account_name, [from, [limit, [query]]])
 The parameters `from` and` limit` in this method are optional and by default take the values "-1" and "100" respectively. This method can be called with one specified parameter (for example, `get_account_history(account)`) to get the last 100 account operations.  
 
 The `query` parameter is a structure (object) and contains the following fields:  
-`select_ops` — list of operations that need to be obtained. The value may contain  names of operations (including ending with "\_operation"), as well as the following key words:  
-	`ALL` — all operations;  
-	`REAL` — only explicitly defined operations;  
-	`VIRTUAL` — only virtual operations;  
-`filter_ops` — list of operations to be deleted. Takes the same values as `select_ops`. This field is optional and defaults to the empty value;  
-`direction` — "direction" of operation relative to the account (for example, the operation `vote` defines two accounts: one is who votes and another is whose post is voted for). This field is optional and takes the following values:  
-`any` — any direction (default value is no filtering by direction);  
-`sender` — determines the account as a sender (for example, `creator` or `voter`. Usually, this is account who creates the operation);  
-`receiver`— determines the account as a receiver (for example, `created` or `voted`. Usually, this is account who is related to the operation but does not creates it);  
-`dual` — determines the account as both sender and receiver at the same time (for example, `voting self post`. That is, the case where the operation ambiguously determines the account role).  
+  * `select_ops` — list of operations that need to be obtained. The value may contain  names of operations (including ending with "\_operation"), as well as the following key words:  
+    * `ALL` — all operations;  
+    * `REAL` — only explicitly defined operations;  
+    * `VIRTUAL` — only virtual operations;  
+  * `filter_ops` — list of operations to be deleted. Takes the same values as `select_ops`. This field is optional and defaults to the empty value;  
+  * `direction` — "direction" of operation relative to the account (for example, the operation `vote` defines two accounts: one is who votes and another is whose post is voted for). This field is optional and takes the following values:  
+    * `any` — any direction (default value is no filtering by direction);  
+    * `sender` — determines the account as a sender (for example, `creator` or `voter`. Usually, this is account who creates the operation);  
+    * `receiver`— determines the account as a receiver (for example, `created` or `voted`. Usually, this is account who is related to the operation but does not creates it);  
+    * `dual` — determines the account as both sender and receiver at the same time (for example, `voting self post`. That is, the case where the operation ambiguously determines the account role).  
 
 **Changes in the cli_wallet application**   
 
