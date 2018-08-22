@@ -33,15 +33,14 @@ The following table shows correspondence between a set parameter value and a typ
 
 Parameter value | Alternative parameter value | Notification data type  
 :----------------------- |:--------------------------- |:------------------
-«block» |  0  |  A signed block (`signed_block` field)  
-«header» | 1 | a block header  (`block_header` field)  
-«virtual_ops» | 2 | only virtual operations (`virtual_operations` field)  
-«full» | 3 | both a signed block and virtual operations (`signed_block` extended with `virtual_operations` field)  
+«block» |  0  |  A signed block (the `signed_block` field)  
+«header» | 1 | a block header  (the `block_header` field)  
+«virtual_ops» | 2 | Only virtual operations (the `virtual_operations` field)  
+«full» | 3 | Both a signed block and virtual operations (the `signed_block` field extended with `virtual_operations`)  
 
 Any other specified value will be treated by the `set_block_applied_callback()` method as a «block».  
 
-The `set_block_applied_callback()` method has been fixed while maintaining backwards compatibility with previous SF versions.  
-The method has a parameter that was not previously used. Its field always contained a value of 0. In the new version, this field is assigned to the returned result type. If this field is set to 0, the returned result will match the result of previous versions. Adding three new values to this parameter extends the API capability.  
+The `set_block_applied_callback()` method has been fixed while maintaining backwards compatibility with previous SF versions. This method has a parameter that was not previously used. Its field previously always contained a value of 0. In the new version, this field is assigned to the returned result type. If the field is set to 0, the returned result will match the result of previous versions. Adding three new values to this parameter extends the API capability.  
 
 
 This method has the following form:  
@@ -62,16 +61,15 @@ The new operation will send a message to the user about each incoming transactio
 
 ### Getting information about rewarding a person who signed a block
 A new virtual (not explicitly specified) operation has been implemented in the new version. The virtual operation can be generated on each of the blocks.  It notifies a user about rewarding (in GESTS) a person who signed a block. This is a producer of the block, which may be one of the following persons:  
-— a witness included in the approved list of witnesses;  
-— a witness, randomly chosen;  
-— a miner.  
-
+  * — a witness included in the approved list of witnesses;  
+  * — a witness, randomly chosen;  
+  * — a miner.  
 
 The virtual operation is stored in a block history and can be requested by the API method `get_ops_in_block()` to get the information about a block producer reward. This method has the following form:  
 ```cpp
 std::vector<applied_operation> get_ops_in_block(
-  uint32_t block_num,
-  bool only_virtual
+	uint32_t block_num,
+	bool only_virtual
 )
 ```
 Parameters:   
@@ -83,27 +81,27 @@ In previous versions, diagnostic information about errors which occurred in the 
 
 To solve this problem the solution has been implemented in the new SF version that provides a user with much more diagnostic information  about an error including a description of the level of the hierarchical structure of the block that is causing the error. The solution is based on breaking all the errors into categories and generating diagnostic information for each category. The information includes a description of the hierarchical structure level of the block that causes the error.  
 
-All errors were analyzed directly in the places of their formation and then classified according to informative signs. As a result of the analysis, three classes of errors were identified:   
+All errors were analyzed directly in the places of their formation and then classified according to informative signs. As a result of the analysis, three classes of errors were identified:  
 1. user errors in setting parameters;  
 2. user errors when executing business logic operations (for example, exceeding a bandwidth);  
 3. program text errors (internal blockchain errors that are not user-specific).  
 
 Each of these classes of errors was divided into subclasses and then into error categories. The following error categories were created:  
-1. unsupported operation by the blockchain;   
-2. error of arguments number passed to a plugin;   
-3. parameter value error (syntax checking of a specified parameter value, including: the presence of invalid characters in account names, a correctness of asset units writing, exceeding the maximum number of characters in a comment);   
-4. excess of the limit for the operation result issuance;   
-5. JSON-API request structure error (for example, an empty field, a request to a non-existent method);   
+1. unsupported operation by the blockchain;  
+2. error of arguments number passed to a plugin;  
+3. parameter value error (syntax checking of a specified parameter value, including: the presence of invalid characters in account names, a correctness of asset units writing, exceeding the maximum number of characters in a comment);  
+4. excess of the limit for the operation result issuance;  
+5. JSON-API request structure error (for example, an empty field, a request to a non-existent method);  
 6. transaction structure violation;  
 7. an absence of specified object (for example, an absence of an account with a specified name or transaction with a specified identifier);  
 8. lack of a required HardFork version;  
-9. business logic error, including:   
+9. business logic error, including:  
 — lack of sufficient assets for an operation;  
 — exceeding a bandwidth (for example, exceeding a number of posts or votes per a certain period);  
 10. server error (for example, lack of access to a server);  
 11. attempt to perform an operation on a blocked wallet;  
 12. program code error, including:  
-— error, which occurs in the using libraries;   
+— error, which occurs in the using libraries;  
 — code error (for example, invalid use of a function within a code).  
 
 Diagnostic information has been generated for each of the error categories and added to the message catalog. Specific errors are separated within each of the category by additional signs. Besides, improved diagnostic information return system about an error that occurred when processing a request in the JSON format.  
@@ -114,15 +112,15 @@ This update provides a user with the most complete diagnostic information about 
 ## New private message operations
 Version SF-0.18.4 has a new plugin 'private_message_operations' that extends a user's ability to communicate with other users, as well as to process personal messages.  
 The new plugin added the following functionality to a user:  
-— messaging with other users without using tokens;  
-— getting a subscription to (virtual) operations related to the operation of the plugin;  
-— getting a list of users  who are in communication;  
-— creating and setting up an account contact list;  
-— ability to obtain a history of messaging by a given user name;  
-— ability to obtain a history of messaging by a given certain signs (for example, by date or by number of messages);  
-— pagination of messages received during communication;  
-— editing a sent message;  
-— ability to delete a sent message (and mark it as deleted message).  
+  * — messaging with other users without using tokens;  
+  * — getting a subscription to (virtual) operations related to the operation of the plugin;  
+  * — getting a list of users  who are in communication;  
+  * — creating and setting up an account contact list;  
+  * — ability to obtain a history of messaging by a given user name;  
+  * — ability to obtain a history of messaging by a given certain signs (for example, by date or by number of messages);  
+  * — pagination of messages received during communication;  
+  * — editing a sent message;  
+  * — ability to delete a sent message (and mark it as deleted message).  
 
 ### Private message operations
 
@@ -131,17 +129,17 @@ The new plugin added the following functionality to a user:
 The following method is used to send or edit user private messages:  
 ```cpp
 struct private_message_operation {
-  account_name_type from;  
-  account_name_type to;  
-  uint64_t nonce;   
-  public_key_type from_memo_key;   
-  public_key_type to_memo_key;  
-  uint32_t checksum;  
-  bool update;  
-  vector<char> encrypted_message
+	account_name_type from;  
+	account_name_type to;  
+	uint64_t nonce;   
+	public_key_type from_memo_key;   
+	public_key_type to_memo_key;  
+	uint32_t checksum;  
+	bool update;  
+	vector<char> encrypted_message
 };
 ```
-Parameters: 
+Parameters:  
 `from` — account name who sends a message;  
 `to` — account name who receives a message;  
 `nonce` — arbitrary integer value, unique value of the key part (recommended value is a current time in milliseconds);  
@@ -164,12 +162,12 @@ struct  message {
 This operation deletes user private messages from the personal mailboxes of the accounts that are either a sender or a recipient of the messages being deleted. The operation must include an account name that is requesting this operation. This operation is performed by calling the following method:  
 ```cpp
 struct private_delete_message_operation {
-  account_name_type requester;  
-  account_name_type from;  
-  account_name_type to;  
-  uint64_t nonce;  
-  time_point_sec start_date;  
-  time_point_sec stop_date  
+	account_name_type requester;  
+	account_name_type from;  
+	account_name_type to;  
+	uint64_t nonce;  
+	time_point_sec start_date;  
+	time_point_sec stop_date  
 };
 ```
 Parameters:  
@@ -186,11 +184,11 @@ To delete a user private message the user has to specify a unique key (with the 
 A message (or series of messages) can be marked with a "read" label. This operation is similar to the delete message operation and is called by the following method:  
 ```cpp
 struct private_mark_message_operation {
-  account_name_type from;
-  account_name_type to;
-  uint64_t nonce;
-  time_point_sec start_date;
-  time_point_sec stop_date
+	account_name_type from;
+	account_name_type to;
+	uint64_t nonce;
+	time_point_sec start_date;
+	time_point_sec stop_date
 };
 ```
 Parameters:  
@@ -207,10 +205,10 @@ A contact list for monitoring incoming and outgoing messages has been added to t
 The user himself can add a new account to the contact list who was not yet in communication. The method that creates a new contact is as follows:
 ```cpp
 struct private_contact_operation {
-  account_name_type owner;
-  account_name_type contact;
-  private_contact_type type;
-  string json_metadata
+	account_name_type owner;
+	account_name_type contact;
+	private_contact_type type;
+	string json_metadata
 };
 ```
 Parameters:  
@@ -222,20 +220,21 @@ Parameters:
 Allowed contact types:  
 ```cpp
 enum private_contact_type {
-  unknown = 1, // unknown account name
-  pinned = 2,    // the contact that the user adds to the contact list personally
-  ignored = 3  // ignored account name 
+	unknown = 1, // unknown account name
+	pinned = 2,  // the contact that the user adds to the contact list personally
+	ignored = 3  // ignored account name 
 };
 ```
 To remove a contact from the contact list, the user has to specify the `unknown` type in this method. All messages related to this account will be deleted.  
 To add an account to the contact list, the user has to specify the type `pinned`.  
 To stop receiving messages from a contact that exists in the contact list,  the user has to specify the type of `ignored`.  
-To stop receiving messages from all accounts except those in the contact list, the user has to set up the contact list.
+To stop receiving messages from all accounts except those in the contact list, the user has to set up the contact list.  
+
 For setting up a contact list the following method is used:  
 ```cpp
 struct private_settings_operation {
-  account_name_type owner;
-  bool ignore_messages_from_unknown_contact
+	account_name_type owner;
+	bool ignore_messages_from_unknown_contact
 };
 ```
 Parameters:  
@@ -247,10 +246,10 @@ Parameters:
 The following method is used in `cli_wallet` to send private messages: 
 ```cpp
 send_private_message(
-  string from, 
-  string to, 
-  message_body message,
-  bool broadcast
+	string from, 
+	string to, 
+	message_body message,
+	bool broadcast
 );
 ```
 Parameters:  
@@ -263,11 +262,11 @@ Parameters:
 The following method is used in `cli_wallet` to send private messages:  
 ```cpp
 edit_private_message(
-  string from, 
-  string to, 
-  uint64_t nonce, 
-  message_body message, 
-  bool broadcast
+	string from, 
+	string to, 
+	uint64_t nonce, 
+	message_body message, 
+	bool broadcast
 );
 ```
 Parameters:  
@@ -281,8 +280,8 @@ Parameters:
 The following method is used in `cli_wallet` to get a list of incoming messages:  
 ```cpp
 get_private_inbox(
-  string to, 
-  message_box_query query
+	string to, 
+	message_box_query query
 );
 ```
 Parameters:  
@@ -293,8 +292,8 @@ Parameters:
 The following method is used in `cli_wallet` to get a list of outgoing messages:  
 ```cpp
 get_private_outbox(
-  string from, 
-  message_box_query query
+	string from, 
+	message_box_query query
 );
 ```
 Parameters:  
@@ -305,9 +304,9 @@ Parameters:
 The following method is used in `cli_wallet` to receive a list from a message pipe:
 ```cpp
 get_private_thread(
-  string from, 
-  string to, 
-  message_thread_query query
+	string from, 
+	string to, 
+	message_thread_query query
 );
 ```
 Parameters:  
@@ -319,9 +318,9 @@ Parameters:
 The following method is used in `cli_wallet` to set up private messages:
 ```cpp
 set_private_settings(
-  string owner, 
-  settings_api_object settings, 
-  bool broadcast
+	string owner, 
+	settings_api_object settings, 
+	bool broadcast
 );
 ```
 Parameters:  
@@ -341,11 +340,11 @@ Parameter:
 The following method is used in `cli_wallet` to add or edit a contact in the contact list: 
 ```cpp
 add_private_contact(
-  string owner, 
-  string contact, 
-  private_contact_type type, 
-  string json_metadata, 
-  bool broadcast
+	string owner, 
+	string contact, 
+	private_contact_type type, 
+	string json_metadata, 
+	bool broadcast
 )
 ```
 Parameters:  
@@ -358,11 +357,11 @@ Parameters:
 #### Obtaining a list of accounts existed in private message contact list
 The following method is used in `cli_wallet` to obtaine a list of contacts: 
 ```cpp
-  get_private_contacts(
-  string owner, 
-  private_contact_type type, 
-  int limit, 
-  int offset
+get_private_contacts(
+	string owner, 
+	private_contact_type type, 
+	int limit, 
+	int offset
 );
 ```
 Parameters:  
@@ -375,8 +374,8 @@ Parameters:
 The following method is used in `cli_wallet` to obtaine information about a particular contact:
 ```cpp
 get_private_contact(
-  string owner, 
-  string contact
+	string owner, 
+	string contact
 );
 ```
 Parameters:  
@@ -387,10 +386,10 @@ Parameters:
 The following method is used in `cli_wallet` to delete a private message from the inbox:
 ```cpp
 delete_inbox_private_message(
-  string from, 
-  string to, 
-  uint64_t nonce, 
-  bool broadcast
+	string from, 
+	string to, 
+	uint64_t nonce, 
+	bool broadcast
 );
 ```
 Parameters:  
@@ -404,11 +403,11 @@ The following method is used in `cli_wallet` to delete a series of private messa
 
 ```cpp
 delete_inbox_private_messages(
-  string from, 
-  string to, 
-  time_point_sec start_date, 
-  time_point_sec stop_date, 
-  bool broadcast
+	string from, 
+	string to, 
+	time_point_sec start_date, 
+	time_point_sec stop_date, 
+	bool broadcast
 );
 ```
 Parameters:  
@@ -422,10 +421,10 @@ Parameters:
 The following method is used in `cli_wallet` to delete a private message from the sent list:
 ```cpp
 delete_inbox_private_message(
-  string from, 
-  string to, 
-  uint64_t nonce, 
-  bool broadcast
+	string from, 
+	string to, 
+	uint64_t nonce, 
+	bool broadcast
 );
 ```
 Parameters:  
@@ -439,11 +438,11 @@ The following method is used in `cli_wallet` to delete a series of private messa
 
 ```cpp
 delete_outbox_private_messages(
-  string from, 
-  string to, 
-  time_point_sec start_date, 
-  time_point_sec stop_date, 
-  bool broadcast
+	string from, 
+	string to, 
+	time_point_sec start_date, 
+	time_point_sec stop_date, 
+	bool broadcast
 );
 ```
 Parameters:  
@@ -457,10 +456,10 @@ Parameters:
 The operation is similar to the delete private message operation and is called by the following method:
 ```cpp
 mark_private_message(
-  string from, 
-  string to, 
-  const uint64_t nonce, 
-  bool broadcast
+	string from, 
+	string to, 
+	const uint64_t nonce, 
+	bool broadcast
 );
 ```
 Parameters:  
@@ -473,11 +472,11 @@ Parameters:
 The operation is similar to the delete a series of private message operation and is called by the following method:
 ```cpp
 mark_private_messages(
-  string from, 
-  string to, 
-  time_point_sec start_date,
-  time_point_sec stop_date, 
-  bool broadcast
+	string from, 
+	string to, 
+	time_point_sec start_date,
+	time_point_sec stop_date, 
+	bool broadcast
 );
 ```
 Parameters:  
@@ -492,17 +491,17 @@ Parameters:
 When performing the operation of receiving the list of messages, a user receives a structure of the following form:
 ```cpp
 struct message_api_object {
-  account_name_type from;  
-  account_name_type to;  
-  uint64_t nonce;  
-  public_key_type from_memo_key;  
-  public_key_type to_memo_key;  
-  uint32_t checksum;  
-  std::vector<char> encrypted_message;  
-  time_point_sec create_date;  
-  time_point_sec receive_date;  
-  time_point_sec read_date;  
-  time_point_sec remove_date  
+	account_name_type from;  
+	account_name_type to;  
+	uint64_t nonce;  
+	public_key_type from_memo_key;  
+	public_key_type to_memo_key;  
+	uint32_t checksum;  
+	std::vector<char> encrypted_message;  
+	time_point_sec create_date;  
+	time_point_sec receive_date;  
+	time_point_sec read_date;  
+	time_point_sec remove_date  
 };
 ```
 Parameters:  
@@ -523,12 +522,12 @@ Parameters:
 To view the messages stored in the inbox and outbox, the following structure is used:    
 ```cpp
 struct message_box_query {
-  set<string> select_accounts;   
-  set<string> filter_accounts;  
-  time_point_sec newest_date;  
-  bool unread_only;  
-  uint16_t limit;  
-  uint32_t offset  
+	set<string> select_accounts;   
+	set<string> filter_accounts;  
+	time_point_sec newest_date;  
+	bool unread_only;  
+	uint16_t limit;  
+	uint32_t offset  
 };
 ```
 Parameters:  
@@ -543,8 +542,8 @@ Parameters:
 To get a list of incoming messages for a recipient account, the following query form is used: 
 ```cpp
 get_inbox(
-  string to, 
-  message_box_query
+	string to, 
+	message_box_query
 )
 ```
 Parameters:  
@@ -558,8 +557,8 @@ The result is a vector receiving of the following form: `vector<message_api_obje
 The following query is used to get a list of outgoing messages for a sender account:  
 ```cpp
 get_outbox(
-  from, 
-  message_box_query
+	from, 
+	message_box_query
 )
 ```
 Parameters:  
@@ -573,10 +572,10 @@ The result is a vector receiving of the following form: `vector<message_api_obje
 A structure of following form is used for filtering the list of messages in a message pipe (between accounts `from` and `to`) is carried out using structures of the following form: 
 ```cpp
 struct message_thread_query {
-  time_point_sec newest_date;  
-  bool unread_only;  
-  uint16_t limit;  
-  uint32_t offset
+	time_point_sec newest_date;  
+	bool unread_only;  
+	uint16_t limit;  
+	uint32_t offset
 };
 ```
 Parameters:  
@@ -588,9 +587,9 @@ Parameters:
 Receiving a message stream (between accounts `from` and `to`) is performed using a method of the following form:
 ```cpp
 get_thread(
-  string from,
-  string to, 
-  message_thread_query
+	string from,
+	string to, 
+	message_thread_query
 )
 ```
 Parameters:  
@@ -629,18 +628,18 @@ Parameter:
 The result is a structure receiving of the following form:
 ```cpp
 struct contacts_size_api_object {
-  map<private_contact_type, contacts_size_info> size
+	map<private_contact_type, contacts_size_info> size
 };
 ```
 Parameters:  
 `size` —  size data of the contact list in the form of the following structure:  
 ```cpp
-`struct contacts_size_info {  
-  int total_contacts;  
-  int total_outbox_messages;  
-  int unread_outbox_messages;  
-  int total_inbox_messages;  
-  int unread_inbox_messages  
+struct contacts_size_info {  
+	int total_contacts;  
+	int total_outbox_messages;  
+	int unread_outbox_messages;  
+	int total_inbox_messages;  
+	int unread_inbox_messages  
 };
 ```
 `total_contacts` — total number of account (contact) names in the contact list;  
@@ -686,10 +685,10 @@ Parameters:
 The following query form is used to obtain a complete list of account names (contacts) which are existed in the contact list:
 ```cpp
 get_contacts(
-  string owner,
-  private_contact_type type,
-  int limit,
-  int offset
+	string owner,
+	private_contact_type type,
+	int limit,
+	int offset
 )
 ```
 Parameters:  
@@ -710,10 +709,10 @@ set_callback(callback_query)
 The `callback_jquery` parameter is a structure of the following form:
 ```cpp
 struct callback_query {
-  set<account_name_type> select_accounts;  
-  set<account_name_type> filter_accounts;  
-  set<callback_event_type> select_events;  
-  set<callback_event_type> filter_events  
+	set<account_name_type> select_accounts;  
+	set<account_name_type> filter_accounts;  
+	set<callback_event_type> select_events;  
+	set<callback_event_type> filter_events  
 };  
 ```
 Parameters:  
@@ -726,27 +725,27 @@ Parameters:
 A list of the events has the `enum` form:
 ```cpp
 enum callback_event_type {
-  message, 		 // message monitoring
-  mark,			 //marking messages as read
-  remove_inbox, 	// delete incoming messages
-  remove_outbox, 	// delete outgoing messages
-  contact		// adding account name to the contact list
+	message, 		// message monitoring
+	mark,			// marking messages as read
+	remove_inbox, 	// delete incoming messages
+	remove_outbox, 	// delete outgoing messages
+	contact			// adding account name to the contact list
 };
 ```
 
 If the events `message`, `mark`, `remove_inbox` and `remove_outbox` are occured the following struct will be received:
 ```cpp
- struct callback_message_event {
-  callback_event_type type;  // type of contact (`unknown`, `pinned`, `ignored`);  
-  message_api_object message // message object 
+struct callback_message_event {
+	callback_event_type type;  // type of contact (`unknown`, `pinned`, `ignored`);  
+	message_api_object message // message object 
 };
 ```
 
 If the event `contact` is occured the following struct will be received:  
 ```cpp
 struct callback_contact_event {
-  callback_event_type type; // type of contact (`unknown`, `pinned`, `ignored`);  
-  contact_api_object contact // contact object
+	callback_event_type type;	// type of contact (`unknown`, `pinned`, `ignored`);  
+	contact_api_object contact	// contact object
 };
 ```
 ## Ability to tune the configuration file for storing only the necessary information on a node
@@ -831,18 +830,18 @@ New `store-comment-rewards` variable has been added to the configuration file `c
 New parameters (marked with the comment “new parameter”) has been added to the structure `comment_api_object`:
 ```cpp
 struct comment_api_object {
-…
-asset total_payout_value;
-asset beneficiary_payout_value;
-asset beneficiary_gests_payout_value;
-asset curator_payout_value;
-asset curator_gests_payout_value; // new parameter
+	…
+	asset total_payout_value;
+	asset beneficiary_payout_value;
+	asset beneficiary_gests_payout_value;
+	asset curator_payout_value;
+	asset curator_gests_payout_value; // new parameter
 
-share_type author_rewards;
-asset author_gbg_payout_value; // new parameter
-asset author_golos_payout_value; // new parameter
-asset author_gests_payout_value; // new parameter
-…
+	share_type author_rewards;
+	asset author_gbg_payout_value; // new parameter
+	asset author_golos_payout_value; // new parameter
+	asset author_gests_payout_value; // new parameter
+	…
 }
 ```
 Parameters:  
@@ -901,13 +900,13 @@ In all cases, the removal of votes is not performed until a post is closed.
 In previous versions, an account (a user) who has multiple authorities was not able to sign a transaction with using own key when the names of third-party accounts were containing in the  `account_auths`  field.  
 Transactions created by the user could only be signed with using keys of the third-party accounts existed in the `account_auths` field. When the user was trying to sign a transaction with own key, the application `cli_wallet` issued an error message.  
  
-This flaw is no longer in the SF-0.18.4 version.  
-There was modified the `annotated_signed_transaction()` method in the client application `cli_wallet`. The fix did not affect the input and output parameters of this method and did not change a call to this method. This modification provides ability to sign transactions with using the user's key as well as with using  keys of the accounts existed in the `account_auth` field.  
+This flaw is no longer in the SF-0.18.4 version. There was modified the `annotated_signed_transaction()` method in the client application `cli_wallet`. The fix did not affect the input and output parameters of this method and did not change a call to this method. This modification provides ability to sign transactions with using the user's key as well as with using  keys of the accounts existed in the `account_auth` field.  
 
 ## Fixed bug in displaying the original blogger on the post feed
 
 A user who subscribed to view posts of only certain blogger, could see other bloggers on the post feed.
-This bug occured in the case when a blogger, for which the user had a subscription, reposted work of another blogger, for which the user had no subscription. As a result, the user could see another blogger on the post feed. The user was confused because of there was no any explain information on the post feed.
+This bug occured in the case when a blogger, for which the user had a subscription, reposted work of another blogger, for which the user had no subscription. As a result, the user could see another blogger on the post feed. The user was confused because of there was no any explain information on the post feed.  
+
 This bug has been fixed in the 0.18.4 version. The post feed has been supplemented with the `"reblogged_by:<a name>"` field, which displays a name of the author who reposted a third-party author work. 
 
 ## Filtering the requested information about operations from account history
@@ -927,9 +926,9 @@ The parameters `from` and` limit` in this method are optional and by default tak
 
 The `query` parameter is a structure (object) and contains the following fields:  
 `select_ops` — list of operations that need to be obtained. The value may contain  names of operations (including ending with "\_operation"), as well as the following key words:  
-`ALL` — all operations;  
-`REAL` — only explicitly defined operations;  
-`VIRTUAL` — only virtual operations;  
+	`ALL` — all operations;  
+	`REAL` — only explicitly defined operations;  
+	`VIRTUAL` — only virtual operations;  
 `filter_ops` — list of operations to be deleted. Takes the same values as `select_ops`. This field is optional and defaults to the empty value;  
 `direction` — "direction" of operation relative to the account (for example, the operation `vote` defines two accounts: one is who votes and another is whose post is voted for). This field is optional and takes the following values:  
 `any` — any direction (default value is no filtering by direction);  
