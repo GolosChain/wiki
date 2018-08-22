@@ -60,10 +60,21 @@ If a transaction was on a node, but was not approved for execution (not placed i
 The new operation will send a message to the user about each incoming transaction before it will be apllied. To subscribe to this type of notification, the user has to call the API method `set_pending_transaction_callback()`. The method has no parameters.
 
 ### Getting information about rewarding a person who signed a block
-A new virtual (not explicitly specified) operation has been implemented in the new version. The virtual operation can be generated on each of the blocks.  It notifies a user about rewarding (in GESTS) a person who signed a block. This is a producer of the block, which may be one of the following persons:  
+A new virtual (not explicitly specified) operation `producer_reward_operation()` has been implemented in the new version. The virtual operation can be emitted on each of the blocks.  It notifies a user about rewarding (in GESTS) a person who signed a block. This is a producer of the block, which may be one of the following persons:  
   * a witness included in the approved list of witnesses;  
   * a witness, randomly chosen;  
   * a miner.  
+
+The virtual operation looks as follows:
+```cpp
+struct producer_reward_operation {
+	account_name_type producer;
+	asset vesting_shares
+};
+```
+Parameters:  
+`producer` — a person who signed a block;  
+`vesting_shares` — amount of reward (in GESTS).  
 
 The virtual operation is stored in a block history and can be requested by the API method `get_ops_in_block()` to get the information about a block producer reward. This method has the following form:  
 ```cpp
@@ -870,9 +881,9 @@ The parameters are given in the following table.
 
 Name | Type | Default value | Set value  
 :------------- |:----------- |:----------- |:---------  
-`comment-title-depth` | uint32_t | — | maximum number of blocks to store titles  
-`comment-body-depth` | uint32_t | — | maximum number of blocks to store a post (or comment) body  
-`comment-json-metadata-depth` | uint32_t | — | maximum number of blocks to store metadata in the JSON format  
+`comment-title-depth` | uint32_t | — | Maximum number of blocks to store titles  
+`comment-body-depth` | uint32_t | — | Maximum number of blocks to store a post (or comment) body  
+`comment-json-metadata-depth` | uint32_t | — | Maximum number of blocks to store metadata in the JSON format  
 `set-content-storing-depth-null-after-update`  | bool | "false" | "true" if the content storage depth should be reset after content changes  
 
 ### Ability to tune the configuration file for removing obsolete votes
