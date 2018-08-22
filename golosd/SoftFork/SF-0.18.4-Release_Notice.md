@@ -14,7 +14,7 @@ This page provides a detailed outline of some fixes and improvements in this ver
 ****  
 
 ## Additional information in the notifications about signed blocks
-In previous versions of SoftFork, a user could subscribe to receive up-to-date information as a notification about new signed blocks appeared in blockchain. The information in the notification was not complete enough and contained nothing about virtual operations in this block.  
+In previous versions of SoftFork, a user could subscribe to receive up-to-date information as a notification about new signed blocks appeared in blockchain. The information in the notification was not complete enough and contained nothing about virtual operations in this block. The new SF-0.18.4 version provides a user with the ability to receive notifications about events (virtual operations) related to created block.
 
 ### Getting information from notifications about virtual operations in signed blocks
 
