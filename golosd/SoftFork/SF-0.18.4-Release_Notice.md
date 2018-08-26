@@ -791,7 +791,7 @@ To delete more than one reblogged post, it needs to create a transaction with mu
 
 In the SF-0.18.4 version, unlike the previous ones, the author of the reblog is given the opportunity to add a comment to the reblog. For this purpose, the `reblog_operation` method has been modified in the` follow` plugin. Calling this method is available from `cli_wallet` using the `custom_json` evaluator. The operation of adding a comment to the reblog is formed manually.  
 
-**Changes in the `cli_wallet` application**  
+**Changes in the cli_wallet application**  
 
 Calling the operation `reblog_operation` is possible from the `cli_wallet` application. To add a comment to the reblog, the following fields are added to the call:  
 
