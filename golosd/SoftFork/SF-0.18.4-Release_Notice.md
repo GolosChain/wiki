@@ -761,6 +761,85 @@ struct callback_contact_event {
 	contact_api_object contact	// contact object
 };
 ```
+## Additional operations on reblogged posts
+
+In previous versions, а user was given only small opportunities with operations on reblogged posts (for example, the user could not delete them or add their own comment). Version SF-0.18.4 provides the user with such features.  
+
+### Deleting the reblogged post
+ In the new version, unlike previous versions, the blogger is given the opportunity to remove reblogs, as well as third-party publications copied randomly to his blog.  To implement this feature, a new method `delete_reblog_operation()` has been added to the `follow` plugin. Calling this method is available from `cli_wallet` using evaluator `custom_json`. The operation of deleting the reblog is formed manually.
+
+Example of calling the operation to delete a reblogged post:
+```cpp
+begin_builder_transaction
+add_operation_to_builder_transaction 0 ["custom_json", {"required_posting_auths":["<reblogger-name>"], \
+	"id": "follow", "json":"["delete_reblog", {"account":"<reblogger-name>", \
+	"author":"<post-author-name>", "permlink":"<post>"}]"}]
+sign_builder_transaction 0 true
+``` 
+In this example:  
+`begin_builder_transaction` — a command to call the transaction, which includes the operation of deleting the reblogged post;  
+`add_operation_to_builder_transaction` — a command that the deletion of the reblog that has the identification number “0”;  
+ `<reblogger-name>` — account name, who is a reblogger;  
+`<post-author-name>` — account name of the original post;  
+`<post>`  — reblogged post to be deleted;  
+`sign_builder_transaction` — a command for signing transaction, which is sending into a demon.  
+
+To delete more than one reblogged post, it needs to create a transaction with multiple operations.
+
+
+### Adding a comment to the reblog
+
+In the SF-0.18.4 version, unlike the previous ones, the author of the reblog is given the opportunity to add a comment to the reblog. For this purpose, the `reblog_operation` method has been modified in the` follow` plugin. Calling this method is available from `cli_wallet` using the `custom_json` evaluator. The operation of adding a comment to the reblog is formed manually.  
+
+**Changes in the `cli_wallet` application**  
+
+Calling the operation `reblog_operation` is possible from the `cli_wallet` application. To add a comment to the reblog, the following fields are added to the call:  
+
+Field name    |   Type     |       Functionality  
+:--------- |:---------- |:------------  
+`body`     | string (UTF-8) | Contains a comment body to be added to the reblog  
+`title`       | string (UTF-8) | Contains a comment title to be added to the reblog  
+`json_metadata` | string (UTF-8) | Contains a comment metadata in JSON form to be added to the reblog  
+
+**Note:** The `body` field is mandatory in the call for the reblog operation with the addition of a comment.  
+
+A sample invocation of the reblog operation with adding a comment:
+```cpp
+`begin_builder_transaction
+add_operation_to_builder_transaction 0 ["custom_json", {"required_posting_auths":["<reblogger-name>"], \
+	"id": "follow", "json":"["reblog", {"account":"<reblogger-name>","author":"<post-author-name>", \
+	"permlink":"<post>","title":"<comment-title>","body":"<comment-body>"}]"}
+sign_builder_transaction 0 true
+```
+In this sample:  
+`begin_builder_transaction` — a command to call the transaction, which includes the operation the post reblog with adding a comment;  
+`add_operation_to_builder_transaction` — команда, формирующая операцию репоста с добавлением комментария, a command that the post reblog that has the identification number “0”;  
+ `<reblogger-name>` — account name, who performs the post reblog;  
+`<post-author-name>` — account name of the original post;  
+`<post>`  — the post to be reblogged;  
+`<comment-title>`  — comment title to be added to the reblog;  
+`<comment-body>`  — comment body to be added to the reblog;  
+`sign_builder_transaction` — a command for signing transaction, which is sending into a demon.  
+
+**Changes in API methods:**  
+
+Responses of API methods `get_blog` and `get_blog_entries` have been supplemented with the fields listed in the following table:  
+
+Field name | Type  |  Functionality 
+:------------- |:-------- |:---------------  
+`reblog_title`  | string (UTF-8)  | Contains the reblog title to which the comment is added  
+ `reblog_body` | string (UTF-8)  |   Contains the reblog body  
+ `reblog_json_metadata` | string (UTF-8)  |  Contains the reblog metadata  
+
+Responses of API methods `get_feed`, `get_feed_entries`, `get_discussions_by_blog` and `get_discussions_by_feed` are supplemented with the array of objects `reblog_entries`, the structure of which is supplemented by the fields given in the following table:  
+
+Field name | Type  |  Functionality  
+:------------- |:-------- |:---------------  
+`author`  | string (UTF-8) | Contains the account name who reblogged the post  
+`reblog_title`  | string (UTF-8) | Contains the reblog title to which the comment is added  
+ `reblog_body` | string (UTF-8)  |   Contains the reblog body  
+ `reblog_json_metadata` | string (UTF-8)  |  Contains the reblog metadata 
+
 ## Ability to tune the configuration file for storing only the necessary information on a node
 
 In order to save memory resources, a user is interested in storing on the blockchain node only necessary data, such as account metadata, memo text (a note) in the operations of savings withdraws, the latest updates of posts and comments. After the post is closed, such information becomes irrelevant and needs to be deleted.  
@@ -903,10 +982,26 @@ N>0          | N | Removing votes from blocks older than N | Used to save votes 
 N=-1         | All blocks | Removal of votes is not performed | The value «-1» is converted to the maximum possible unsigned number (infinity analog). Used to store voices for a long time  
 
 
-
 In all cases, the removal of votes is not performed until a post is closed.  
 
 **Note:** This modification has been implemented at the request of delegates.  
+
+### Ability to tune the configuration file for increasing the number of keywords or phrases to find the right information in the posts
+
+In previous versions, the number of tags (keywords or phrases) in a request to a blockchain Node was limited to five.  which was not always sufficient for a more detailed description of the requested information in posts. This amount was not always sufficient for a more detailed description of the requested information in the posts.  
+
+In the new version, the maximum number of tags in a request to a blockchain Node can be increased to 15 . In addition, the tag size is limited to 512 characters. New parameters `tags-number` and `tag-max-length` have been added to the `config.ini` file, allowing the user more flexibility to customize the operation of the blockchain. The user can specify the number and size of the tag depending on resources of the blockchain nodeю The specified number of tags must not exceed 15.  
+ 
+**Changes in the config.ini file**  
+The parameters `tags-number` and `tag-max-length` are given in the following table.  
+
+Name | Type  | Default value  | Comment  
+:------------ |:---------- |:---------- |:-----------   
+`tags-number` | std::size_t  | 5  | This value can be increased to 15   
+`tag-max-length`  | std::size_t  | 512  | It is not recommended to set tag size more than 512 characters  
+
+If `tags-number` takes default value, the changes are backward compatible with previous version.
+
 
 ## Fixed old bug in the cli_wallet application for the case, when an account had a multiple authorities
 
