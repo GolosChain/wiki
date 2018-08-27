@@ -779,7 +779,7 @@ sign_builder_transaction 0 true
 In this example:  
 `begin_builder_transaction` — a command to call the transaction, which includes the operation of deleting the reblogged post;  
 `add_operation_to_builder_transaction` — a command that the deletion of the reblog that has the identification number “0”;  
- `<reblogger-name>` — account name, who is a reblogger;  
+`<reblogger-name>` — account name, who is a reblogger;  
 `<post-author-name>` — account name of the original post;  
 `<post>`  — reblogged post to be deleted;  
 `sign_builder_transaction` — a command for signing transaction, which is sending into a demon.  
@@ -805,10 +805,10 @@ Field name    |   Type     |       Functionality
 
 A sample invocation of the reblog operation with adding a comment:
 ```cpp
-`begin_builder_transaction
+begin_builder_transaction
 add_operation_to_builder_transaction 0 ["custom_json", {"required_posting_auths":["<reblogger-name>"], \
 	"id": "follow", "json":"["reblog", {"account":"<reblogger-name>","author":"<post-author-name>", \
-	"permlink":"<post>","title":"<comment-title>","body":"<comment-body>"}]"}
+	"permlink":"<post>","title":"<comment-title>","body":"<comment-body>"}]"}]
 sign_builder_transaction 0 true
 ```
 In this sample:  
@@ -827,18 +827,18 @@ Responses of API methods `get_blog` and `get_blog_entries` have been supplemente
 
 Field name | Type  |  Functionality 
 :------------- |:-------- |:---------------  
-`reblog_title`  | string (UTF-8)  | Contains the reblog title to which the comment is added  
- `reblog_body` | string (UTF-8)  |   Contains the reblog body  
- `reblog_json_metadata` | string (UTF-8)  |  Contains the reblog metadata  
+`reblog_title`  | string  | Contains the reblog title to which the comment is added  
+ `reblog_body` | string  |   Contains the reblog body  
+ `reblog_json_metadata` | string  |  Contains the reblog metadata  
 
 Responses of API methods `get_feed`, `get_feed_entries`, `get_discussions_by_blog` and `get_discussions_by_feed` are supplemented with the array of objects `reblog_entries`, the structure of which is supplemented by the fields given in the following table:  
 
 Field name | Type  |  Functionality  
 :------------- |:-------- |:---------------  
-`author`  | string (UTF-8) | Contains the account name who reblogged the post  
-`reblog_title`  | string (UTF-8) | Contains the reblog title to which the comment is added  
- `reblog_body` | string (UTF-8)  |   Contains the reblog body  
- `reblog_json_metadata` | string (UTF-8)  |  Contains the reblog metadata 
+`author`  | string  | Contains the account name who reblogged the post  
+`reblog_title`  | string  | Contains the reblog title to which the comment is added  
+ `reblog_body` | string  |   Contains the reblog body  
+ `reblog_json_metadata` | string  |  Contains the reblog metadata 
 
 ## Ability to tune the configuration file for storing only the necessary information on a node
 
