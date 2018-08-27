@@ -828,7 +828,7 @@ Responses of API methods `get_blog` and `get_blog_entries` have been supplemente
 Field name | Type  |  Functionality 
 :------------- |:-------- |:---------------  
 `reblog_title`  | string  | Contains the reblog title to which the comment is added  
- `reblog_body` | string  |   Contains the reblog body  
+ `reblog_body` | string |   Contains the reblog body  
  `reblog_json_metadata` | string  |  Contains the reblog metadata  
 
 Responses of API methods `get_feed`, `get_feed_entries`, `get_discussions_by_blog` and `get_discussions_by_feed` are supplemented with the array of objects `reblog_entries`, the structure of which is supplemented by the fields given in the following table:  
