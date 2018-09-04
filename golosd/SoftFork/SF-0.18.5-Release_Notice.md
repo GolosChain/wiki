@@ -106,4 +106,5 @@ The removed argument has been returned back to the method `broadcast_transaction
   * Also the `set_block_applied_callback` method was modified in the plugin `database_api`. From now on, its response has the `_virtual_operations` field as well. This change affects API node only.  
 
 
+
 ****
