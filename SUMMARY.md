@@ -1,4 +1,4 @@
-# Summary
+﻿# Summary
 
 * [📌 Введение](README.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
@@ -93,6 +93,7 @@
     * [SF-0.18.4: Новые возможности СофтФорка](golosd/HardFork/SF-0.18.4_ReleaseNotice-rus.md)
   * [SoftFork in English](sf-documentation.md)
     * [SF-0.18.4 Release Notice](golosd/SoftFork/SF-0.18.4-Release_Notice.md)
+    * [SF-0.18.4 Release Notice](golosd/SoftFork/SF-0.18.5-Release_Notice.md)
 * [👍 ДЕЛЕГАТАМ](delegatam.md)
   * [Делегатство](2-rewards/delegatstvo.md)
   * [Установка ноды делегата](golosd/howto/witness-node.md)
