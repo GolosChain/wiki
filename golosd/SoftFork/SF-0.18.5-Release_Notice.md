@@ -8,6 +8,7 @@ This page describes a detailed outline of the fixes.***
 **Reindexing:**  
 ***SF 0.18.5 requires reindexing from all previous versions except version SF 0.18.4.***  
 
+
 ### Defects fixed in this release  
 
 Defect (Task№) | Abstract  
