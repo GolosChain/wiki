@@ -1,4 +1,4 @@
-﻿# GOLOS·CORE
+# GOLOS·CORE
 # The new version SoftFork 0.18.5
 
 ***Golos·Core announced the SoftFork 0.18.5 version release which eliminated previously existing defects in the system.  
