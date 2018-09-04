@@ -14,6 +14,7 @@ Defect (Task№) | Abstract
 :------------------------------- |:----------------  
 943                         | Problem of creating a list of operations for operation_history plugin  
 936                                 | The `get_ops_in_block` method, unlike the `get_block` method, did not provide information about virtual operations in block  
+948                                 | Removed the first argument in the method `broadcast_transaction_with_callback` did not allow this method to be used in third-party libraries  
 
 
 <!-- toc -->  
@@ -88,6 +89,17 @@ The <block> parameter is a block number.
     ]
 }]
 ```
+
+## Removed the first argument in the method broadcast_transaction_with_callback did not allow this method to be used in third-party libraries
+
+**Bug description**  
+In the previous version of softfork-0.18.4, the order of arguments in the `broadcast_transaction_with_callback` method was changed. The argument at the first position was removed as unused. Because this method was used by third-party libraries, the absence of this argument caused problems. Failure was caused by requirement to check node softfork version to find what arguments should be used to call that method.  
+
+**Solution:**  
+The removed argument has been returned back to the method `broadcast_transaction_with_callback` at its previous first position. The argument order and functioning of the libraries have been restored in this release. Additionally, one of checks in the method has been fixed too.  
+
+
+
 **Notes:**  
   * The `_virtual_operations` field is optional and can be omitted if here are no virtual operations in the block. There is no more difference between responses of the methods.  
   * Also the `set_block_applied_callback` method was modified in the plugin `database_api`. From now on, its response has the `_virtual_operations` field as well. This change affects API node only.  
