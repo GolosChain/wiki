@@ -90,7 +90,7 @@ The <block> parameter is a block number.
 ```
 **Notes:**  
   * The `_virtual_operations` field is optional and can be omitted if here are no virtual operations in the block. There is no more difference between responses of the methods.  
-  * Also in the plugin `database_api` modified method `set_block_applied_callback`. From now on, its response has the `_virtual_operations` field as well. This change affects API node only.  
+  * Also the `set_block_applied_callback` method was modified in the plugin `database_api`. From now on, its response has the `_virtual_operations` field as well. This change affects API node only.  
 
 
 ****
