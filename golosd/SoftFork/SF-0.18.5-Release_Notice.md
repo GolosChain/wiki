@@ -12,7 +12,7 @@ This page describes a detailed outline of the fixes.***
 
 Defect (Task№) | Abstract  
 :------------------------------- |:----------------  
-943, 944                         | Problem of creating a list of operations for operation_history plugin  
+943                         | Problem of creating a list of operations for operation_history plugin  
 936                                 | The `get_ops_in_block` method, unlike the `get_block` method, did not provide information about virtual operations in block  
 
 
