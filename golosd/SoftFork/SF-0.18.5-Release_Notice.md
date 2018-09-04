@@ -18,7 +18,7 @@ Defect (Task№) | Abstract
 
 <!-- toc -->  
 ****  
-## Problem of creating a list of operations for operation_history plugin
+## Problem of creating a list of operations for operation_history plugin  
 **Bug description**  
 Some plugins, including `operation_history`, had difficulty setting options (keys).  
 
