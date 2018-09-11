@@ -1,3 +1,3 @@
-# Raznoe
+# Р Р°Р·РЅРѕРµ
 
-* [Обсуждаемое](/golosd/mix/riski-izmenenija-GBG.md)
+* [РћР±СЃСѓР¶РґР°РµРјРѕРµ](/golosd/mix/riski-izmenenija-GBG.md)
