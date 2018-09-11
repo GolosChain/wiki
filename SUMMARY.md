@@ -1,4 +1,4 @@
-# Summary
+﻿# Summary
 
 * [📌 Введение](README.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
@@ -94,6 +94,8 @@
   * [SoftFork in English](sf-documentation.md)
     * [SF-0.18.4 Release Notice](golosd/SoftFork/SF-0.18.4-Release_Notice.md)
     * [SF-0.18.5 Release Notice](golosd/SoftFork/SF-0.18.5-Release_Notice.md)
+  * [Разное](raznoe.md)
+    * [Обсуждаемое](golosd/mix/riski-izmenenija-GBG.md)
 * [👍 ДЕЛЕГАТАМ](delegatam.md)
   * [Делегатство](2-rewards/delegatstvo.md)
   * [Установка ноды делегата](golosd/howto/witness-node.md)
