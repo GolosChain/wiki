@@ -41,6 +41,7 @@
 
 <a id="note1" href="#note1ref"><sup>1</sup></a> *Эта строка добавлена в текст после поднявшейся дискуссии о якобы имеющем место отклонении стоимости GBG в системе больше порогового. Возможно некоторые читатели восприняли следующую часть текста как уже существующее поведение системы. На самом деле далее описываются всего лишь возможные последствия в случае изменения или удаления 10-типроцентного порогового значения.*  
 
+
 [link_1]: https://github.com/GolosChain/golos/issues/817  "№817"  
 [link_2]: https://golos.io/ru--golos/@litrbooh/ru-pochemu-delegaty-podryvayut-ideyu-stabilxnogo-aktiva-ili-pochemu-nuzhno-ubratx-proczenty-po-gbg  "статье"  
 [link_3]: https://raw.githubusercontent.com/GolosChain/wiki/master/_images/golos_logo.png  
