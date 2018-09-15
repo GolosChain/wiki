@@ -46,5 +46,6 @@
 [link_2]: https://golos.io/ru--golos/@litrbooh/ru-pochemu-delegaty-podryvayut-ideyu-stabilxnogo-aktiva-ili-pochemu-nuzhno-ubratx-proczenty-po-gbg  "статье"  
 [link_3]: https://raw.githubusercontent.com/GolosChain/wiki/master/_images/golos_logo.png  
 
+
 ****
 
