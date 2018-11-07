@@ -1,4 +1,4 @@
-# Summary
+﻿# Summary
 
 * [📌 Введение](README.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
@@ -91,6 +91,8 @@
     * [HF18: Изменения в cli\_wallet](golosd/HardFork/HF18_cli_wallet_changes-rus.md)
     * [HF18: Руководство по установке](golosd/HardFork/HF18_BuildInstruction-rus.md)
     * [SF-0.18.4: Новые возможности СофтФорка](golosd/HardFork/SF-0.18.4_ReleaseNotice-rus.md)
+  * [HardFork HF19](hardfork-dokumentatsiya.md)
+    * [HF19: Новые возможности блокчейна](golosd/HardFork/HF19_ReleaseNotice-rus.md)
   * [SoftFork in English](sf-documentation.md)
     * [SF-0.18.4 Release Notice](golosd/SoftFork/SF-0.18.4-Release_Notice.md)
     * [SF-0.18.5 Release Notice](golosd/SoftFork/SF-0.18.5-Release_Notice.md)
