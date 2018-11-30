@@ -1,4 +1,4 @@
-## РАЗРАБОТЧИКАМ
+﻿## РАЗРАБОТЧИКАМ
 
 * [Архитектура](/arhitektura.md)
 * [Администрирование](/administrirovanie.md)
@@ -9,7 +9,7 @@
 * [Справочные данные](/spravochnie-dannie.md)
 * [Руководства \(HOWTO\)](/rukovodstva-howto.md)
 * [HardFork HF18](/hardfork-dokumentatsiya.md)
-* [HardFork HF19](/hardfork-dokumentatsiya.md)
+* [HardFork HF19](/hardfork19-dokumentatsiya.md)
 * [SoftFork in English](/sf-documentation.md)
 * [Разное](/raznoe.md)
 
