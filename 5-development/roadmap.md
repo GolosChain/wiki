@@ -8,7 +8,7 @@
 
 ### Конференция разработчиков Голоса, апрель 2017 г.
 
-\{\%youtube\%\}9Bh-v_KBobc\{\%endyoutube\%\}
+[![Видео доклада Димы Стародубцева "Возможности для разработчиков"](https://img.youtube.com/vi/9Bh-v_KBobc/0.jpg)](https://www.youtube.com/watch?v=9Bh-v_KBobc)
 
 Видео доклада Димы Стародубцева ([@hipster](https://golos.io/@hipster)) "Возможности для разработчиков".
 
