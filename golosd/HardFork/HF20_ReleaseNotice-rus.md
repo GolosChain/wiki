@@ -1,4 +1,3 @@
-﻿
 # GOLOS·CORE
 # Очередная версия HardFork 0.20.0
 
