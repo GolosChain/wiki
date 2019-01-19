@@ -1,4 +1,4 @@
-# Summary
+﻿# Summary
 
 * [📌 Введение](README.md)
 * [🚀 НОВИЧКАМ](novichkam.md)
@@ -93,6 +93,8 @@
     * [SF-0.18.4: Новые возможности СофтФорка](golosd/HardFork/SF-0.18.4_ReleaseNotice-rus.md)
   * [HardFork HF19](hardfork19-dokumentatsiya.md)
     * [HF19: Новые возможности блокчейна](golosd/HardFork/HF19_ReleaseNotice-rus.md)
+  * [HardFork HF20](hardfork20-dokumentatsiya.md)
+    * [HF20: Устранение критического бага в блокчейне](golosd/HardFork/HF20_ReleaseNotice-rus.md)
   * [SoftFork in English](sf-documentation.md)
     * [SF-0.18.4 Release Notice](golosd/SoftFork/SF-0.18.4-Release_Notice.md)
     * [SF-0.18.5 Release Notice](golosd/SoftFork/SF-0.18.5-Release_Notice.md)
