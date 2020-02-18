@@ -1,4 +1,4 @@
-# Пример запуска тестовой сети \#2
+# Пример запуска тестовой сети
 
 Автор: [@ropox](https://golos.io/@ropox)
 
@@ -62,7 +62,7 @@ $ nano libraries/protocol/include/steemit/protocol/config.hpp
 ```
 
 И ищу переменные со словам withdraw и почти сразу нахожу нужные мне.  
- ![](https://imgp.golos.io/0x0/https://s1.postimg.org/4vryqapwv/048.png)
+![](https://imgp.golos.io/0x0/https://s1.postimg.org/4vryqapwv/048.png)
 
 Меня интересует конкретно вот эта строка
 
@@ -185,9 +185,7 @@ unlocked >>> import_key 5JVFFWRLwz6JoP9kguuRFfytToGU6cLgBVTL9t6NB3D3BQLbUBS
 import_key 5JVFFWRLwz6JoP9kguuRFfytToGU6cLgBVTL9t6NB3D3BQLbUBS
 2152613ms th_a       wallet.cpp:534                save_wallet_file     ] saving wallet to file wallet.json
 true
-unlocked >>> 
-
-
+unlocked >>>
 ```
 
 На аккаунте cyberfounder есть уже некая сумма голосов
@@ -226,8 +224,6 @@ unlocked >>> transfer cyberfounder ropox "200000.000 GOLOS" "для тестов
   "block_num": 339,
   "transaction_num": 0
 }
-
-
 ```
 
 Ну и вишенка на торт, создаем свой, персональный токен
@@ -237,7 +233,6 @@ unlocked >>> create_asset cyberfounder ROPOX 3 {"description": "Золото ц�
 ```
 
 ```text
-
 {
   "ref_block_num": 380,
   "ref_block_prefix": 3346277100,
@@ -291,5 +286,5 @@ unlocked >>> list_account_balances ropox
 
 Удачных вам экспериментов!
 
- По материалам [статьи](https://golos.io/ru--golos/@ropox/zapusk-testnet-golos). Автор [@ropox](https://golos.io/@ropox)
+По материалам [статьи](https://golos.io/ru--golos/@ropox/zapusk-testnet-golos). Автор [@ropox](https://golos.io/@ropox)
 
