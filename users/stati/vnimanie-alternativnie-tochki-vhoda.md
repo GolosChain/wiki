@@ -1,16 +1,14 @@
-# Зеркала golos.io
+# Зеркала golos.id
 
-Если у вас возникает проблема с отображением сайта golos.io,
+Если у вас возникает проблема с отображением сайта [golos.id](https://golos.id/)
 
-> ## Вы можете воспользоваться зеркалом сайта на домене [**Golos.blog**](https://golos.blog/).
+> ## Вы можете воспользоваться зеркалом сайта на домене [**Golos.in**](https://golos.in/)\*\*\*\*
 
-Напоминаем, вводить свои личные данные — логин, пароль, приватные ключи — на других сайтах c именем Golos.\* \(кроме Golos**.io** и Golos**.blog**\) _\*\*_строго не рекомендуется с точки зрения обеспечения безопасности.
+Напоминаем, вводить свои личные данные — логин, пароль, приватные ключи — на других сайтах c именем Golos.\* \(кроме Golos**.id** и Golos**.in**\) строго не рекомендуется с точки зрения обеспечения безопасности.
 
 > ## Существует также **мобильное приложение для Android**.
 
-Оно доступно [на Google Play](https://play.google.com/store/apps/details?id=io.golos.golos) и на странице [golos.io/app](https://golos.io/app).
-
-> ## Зеркало сайта Golos.io в [TOR](https://www.torproject.org/)
-
-Адрес: golos4naqn64true.onion
+[https://play.google.com/store/apps/details?id=com.GOLOSidBlogi\_denisgolub](https://play.google.com/store/apps/details?id=com.GOLOSidBlogi_denisgolub)  
+  
+Разработка делегата [@denis-golub](https://golos.id/@denis-golub)
 

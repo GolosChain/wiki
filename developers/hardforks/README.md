@@ -1,7 +1,6 @@
 # HardForks
 
 * [HF18: Изменения в API](new_hardfork-hf18.md)
-* [HF18: Релиз-кандидат RC2](https://github.com/golos-blockchain/wiki/tree/d4fe11c3d8f3a019fe4c0b1f3da33a6c2aeab1eb/razrabotchikam/hardforks/rc2-hf18.md)
 * [HF18: Новые возможности блокчейна](hf18_releasenotice-rus.md)
 * [HF18: Изменения в cli\_wallet](hf18_cli_wallet_changes-rus.md)
 * [HF18: Руководство по установке](hf18_buildinstruction-rus.md)

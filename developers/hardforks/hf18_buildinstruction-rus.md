@@ -1,22 +1,6 @@
 # HF18: Руководство по установке
 
-## Аннотация
-
-Настоящее руководство предназначено для [делегатов](hf18_buildinstruction-rus.md#bld_44) и [майнеров](hf18_buildinstruction-rus.md#bld_47) блокчейна Golos, а также персонала, занимающегося разработкой скриптов для взаимодействия с [блокчейном](hf18_buildinstruction-rus.md#bld_42) по API-запросам и использования их для биржевых целей.
-
 Документ содержит инструкцию по начальной установке и запуску, а также обновлению программного продукта GolosChain на сервере под управлением операционной системы Ubuntu 16.04 либо иной системы семейства Linux с помощью программного обеспечения Docker.
-
-Стиль изложения руководства предполагает, что персонал имеет навыки работы с компьютерным оборудованием и знаком с блокчейн-технологией.
-
-## Раздел\_1 Общее
-
-### Назначение
-
-Программный продукт GolosChain версии HF•18 \(далее — HF•18\) предназначен для поддержки блокчейна Golos, используемого для обработки блоков публикуемой информации и проведения криптовалютных операций.
-
-### Отличия версии HF•18 от предыдущих
-
-В версии HF•18 устранены недостатки, выявленные в предыдущих версиях, и реализованы новые функциональные возможности.
 
 ### Способы установки HF•18
 
@@ -548,6 +532,5 @@ sudo sv start golosd
  **Docker-файл** \(англ. dockerfile\) — файл, содержащий инструкции и параметры для создания Docker-образа под конкретные задачи.
 
 **Полезные ссылки:**  
-[https://golos.io/ru--golos/@vik/ustanovka-i-nastroika-rezervnykh-nod-vozmozhnost-obkhoditsya-bez-nikh-ne-narushaya-rabotu-golosa](https://golos.io/ru--golos/@vik/ustanovka-i-nastroika-rezervnykh-nod-vozmozhnost-obkhoditsya-bez-nikh-ne-narushaya-rabotu-golosa)  
-[https://wiki.golos.io/golosd/HardFork/HF18\_ReleaseNotice-rus.html](https://wiki.golos.io/golosd/HardFork/HF18_ReleaseNotice-rus.html)
+[https://golos.io/ru--golos/@vik/ustanovka-i-nastroika-rezervnykh-nod-vozmozhnost-obkhoditsya-bez-nikh-ne-narushaya-rabotu-golosa](https://golos.io/ru--golos/@vik/ustanovka-i-nastroika-rezervnykh-nod-vozmozhnost-obkhoditsya-bez-nikh-ne-narushaya-rabotu-golosa)
 

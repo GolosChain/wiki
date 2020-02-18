@@ -1561,7 +1561,3 @@ annotated_signed_transaction wallet_api::withdraw_vesting(
 Настраивает запрос на вывод средств. Запрос выполняется один раз в неделю в течение последующих двух лет.  
 Возвращает подписанную транзакцию.
 
-**Полезные ссылки:**  
-[https://wiki.golos.io/golosd/HardFork/New\_HardFork-HF18.html](https://wiki.golos.io/golosd/HardFork/New_HardFork-HF18.html)  
-[https://wiki.golos.io/golosd/HardFork/HF18\_cli\_wallet\_changes-rus.html](https://wiki.golos.io/golosd/HardFork/HF18_cli_wallet_changes-rus.html)
-

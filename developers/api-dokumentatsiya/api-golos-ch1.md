@@ -357,7 +357,3 @@ _**get\_miner\_queue**_
 * [Статья №4](https://golos.io/ru--otkrytyij-kod/@asuleymanov/opisani-golosapi-chast-4)
   * Команды из раздела Network\_Brodcast\_API и Login\_API
 
-**P.S. Большая часть статьи это переосмысленный** [**перевод**](https://steemit.com/steem/@xeroc/steem-transaction-signing-in-a-nutshell)
-
-> Автор: [@asuleymanov](https://golos.io/@asuleymanov)
-

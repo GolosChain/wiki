@@ -83,7 +83,5 @@
 
 Является самостоятельным ограничителем и никак не связана с пропускной способностью сети. Предназначение - штрафовать аккаунт, который постит слишком часто.
 
-Реализация в исходных текстах находится в steem\_evaluator.cpp в `void comment_evaluator::do_apply()`.
-
-Подробное описание вы можете прочитать в статье [https://goldvoice.club/@veritas/kak-ustroeno-ogranichenie-na-kolichestvo-publikacii-na-golose/](mailto:https://goldvoice.club/@veritas/kak-ustroeno-ogranichenie-na-kolichestvo-publikacii-na-golose/)
+Реализация в исходных текстах находится в steem\_evaluator.cpp в `void comment_evaluator::do_apply()`
 

@@ -8,11 +8,9 @@
 * [Способы регистрации](users/sposobi-registratsii.md)
 * [Первые шаги](users/pervie-shagi/README.md)
   * [Основы Голоса](users/pervie-shagi/osnovy-golosa.md)
-  * [Регистрация](users/pervie-shagi/registraciya.md)
   * [Интерфейс блога](users/pervie-shagi/interfeis-lichnogo-bloga.md)
   * [Интерфейс golos.id](users/pervie-shagi/interfeis-golosio.md)
   * [Кошелек, ключи, выплаты](users/pervie-shagi/koshelek-klyuchi-viplati.md)
-  * [Игнор пользователя](users/pervie-shagi/ignor-polzovatelya.md)
   * [Внутренний рынок](users/pervie-shagi/vnutrennii-rinok.md)
   * [Вопросы и ответы](users/pervie-shagi/faq.md)
   * [Полезные ссылки](users/pervie-shagi/poleznye-ssylki.md)
@@ -21,15 +19,13 @@
   * [КриптоТермины](users/stati/kriptotermini.md)
   * [Сервис golos.cf/history](users/stati/goloscfhistory.md)
   * [Бенефициарство](users/stati/benefitsiarstvo.md)
-  * [Зеркала golos.io](users/stati/vnimanie-alternativnie-tochki-vhoda.md)
-  * [Участие в вики](users/stati/uchastie-v-viki-golosa.md)
+  * [Зеркала golos.id](users/stati/vnimanie-alternativnie-tochki-vhoda.md)
 * [Экономика](users/ekonomika-1/README.md)
   * [Постинг \(публикация\)](users/ekonomika-1/posting_rewards.md)
   * [Курирование \(лайки\)](users/ekonomika-1/curation_rewards.md)
   * [Инвестирование](users/ekonomika-1/commitment_rewards.md)
   * [Сбережения](users/ekonomika-1/savings_rewards.md)
   * [Делегатство](users/ekonomika-1/delegatstvo.md)
-  * [Майнинг](users/ekonomika-1/mining_rewards.md)
 
 ## Разработчикам <a id="developers"></a>
 
@@ -37,7 +33,6 @@
   * [Алгоритм консенсуса](developers/mekhanika/consensus_algorithm.md)
   * [Динамические права аккаунта](developers/mekhanika/dynamic_account_permissons.md)
   * [Производительность и масштабируемость](developers/mekhanika/performance_and_scalability.md)
-  * [Устаревание транзакций](developers/mekhanika/ustarevanie-tranzakcii.md)
   * [Медианные параметры](developers/mekhanika/median-props.md)
   * [Bandwidth](developers/mekhanika/bandwidth.md)
 * [API-документация](developers/api-dokumentatsiya/README.md)
@@ -64,13 +59,12 @@
   * [Мониторинг транзакций аккаунта](developers/rukovodstva-howto/transactions-monitoring.md)
   * [Пример запуска тестовой сети](developers/rukovodstva-howto/testnet2.md)
   * [Генерация ключей аккаунта](developers/rukovodstva-howto/generate-keys.md)
-  * [Расчёт награды в зависимости от вклада апвоута](developers/rukovodstva-howto/raschyot-nagrady-v-zavisimosti-ot-vklada-apvouta.md)
   * [Вычисление кураторских вознаграждений](developers/rukovodstva-howto/vichislenie-kuratorskih-voznagrazhdenii.md)
 
 ## Делегатам <a id="witnesses"></a>
 
 * [Делегатство](witnesses/delegatstvo.md)
 * [Типы и роли нод](witnesses/node-roles.md)
-* [Установка ноды](witnesses/ustanovka-nody.md)
-* [Скрипты для price feed](witnesses/witness-scripts.md)
+* [Установка ноды в docker](witnesses/ustanovka-nody.md)
+* [Скрипт обновления price feed](witnesses/witness-scripts.md)
 

@@ -140,7 +140,3 @@ _**get\_discussions\_by\_promoted**_
 * [Статья № 3](https://www.gitbook.com/book/cyberfund/golos/edit#)
   * Разбор команд из разделов Market\_History\_API и Follow\_API
 
-**P.S. Большая часть статьи это переосмысленный** [**перевод**](https://www.gitbook.com/book/cyberfund/golos/edit#)
-
-> Автор: [@asuleymanov](https://golos.io/@asuleymanov)
-

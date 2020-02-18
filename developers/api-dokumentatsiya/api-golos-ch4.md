@@ -414,5 +414,3 @@ trx["signatures"].append(
 * [Статья № 3](https://golos.io/ru--otkrytyij-kod/@asuleymanov/opisanie-golosapi-chast-3)
   * Разбор команд из разделов Market\_History\_API и Follow\_API
 
-**P.S. Большая часть статьи это переосмысленный** [**перевод**](https://steemit.com/steem/@xeroc/steem-transaction-signing-in-a-nutshell)
-
