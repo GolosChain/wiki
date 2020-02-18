@@ -1,0 +1,15 @@
+# Руководства \(HOWTO\)
+
+* [Скрипт регистрации аккаунтов](vik-registration-service.md)
+* [Как использовать мультиподписи](multisig.md)
+* [Как объединять операции в одну транзакцию](ops-merging.md)
+* [Создание аккаунта через cli\_wallet](cli_wallet-create-account.md)
+* [Кэширование API](api-cache.md)
+* [Установка ноды делегата](../../1-introduction/delegatam/witness-node.md)
+* [Запуск golos ноды в контейнере docker](../../1-introduction/delegatam/zapusk-golos-nodi-v-konteinere-docker.md)
+* [Генерация графика эмиссии](emission_chart.md)
+* [Мониторинг транзакций аккаунта](transactions-monitoring.md)
+* [Пример запуска тестовой сети \#1](testnet1.md)
+* [Пример запуска тестовой сети \#2](testnet2.md)
+* [Генерация ключей аккаунта](generate-keys.md)
+

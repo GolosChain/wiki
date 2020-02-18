@@ -1,0 +1,16 @@
+# Зеркала golos.io
+
+Если у вас возникает проблема с отображением сайта golos.io,
+
+> ## Вы можете воспользоваться зеркалом сайта на домене [**Golos.blog**](https://golos.blog/).
+
+Напоминаем, вводить свои личные данные — логин, пароль, приватные ключи — на других сайтах c именем Golos.\* \(кроме Golos**.io** и Golos**.blog**\) ****строго не рекомендуется с точки зрения обеспечения безопасности.
+
+> ## Существует также **мобильное приложение для Android**.
+
+Оно доступно [на Google Play](https://play.google.com/store/apps/details?id=io.golos.golos) и на странице [golos.io/app](https://golos.io/app).
+
+> ## Зеркало сайта Golos.io в [TOR](https://www.torproject.org/)
+
+Адрес: golos4naqn64true.onion
+
