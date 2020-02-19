@@ -29,6 +29,14 @@
 
 ## Разработчикам <a id="developers"></a>
 
+* [Основы](developers/basics/README.md)
+  * [Операции и их типы](developers/basics/operations.md)
+  * [Объекты и структуры](developers/basics/object-structures.md)
+  * [Состояние \(стэйт\) системы](developers/basics/state.md)
+  * [Плагины и их API](developers/basics/plugins-api.md)
+  * [Библиотеки для работы](developers/basics/libraries.md)
+  * [Примеры кода](developers/basics/code-examples.md)
+  * [Формирование транзакций](developers/basics/transaction-formatting.md)
 * [Механика](developers/mekhanika/README.md)
   * [Алгоритм консенсуса](developers/mekhanika/consensus_algorithm.md)
   * [Динамические права аккаунта](developers/mekhanika/dynamic_account_permissons.md)
@@ -65,6 +73,6 @@
 
 * [Делегатство](witnesses/delegatstvo.md)
 * [Типы и роли нод](witnesses/node-roles.md)
-* [Установка ноды в docker](witnesses/ustanovka-nody.md)
+* [Установка ноды](witnesses/ustanovka-nody.md)
 * [Скрипт обновления price feed](witnesses/witness-scripts.md)
 
