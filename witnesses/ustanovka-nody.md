@@ -1,5 +1,7 @@
 # Установка ноды
 
+
+
 * [Подробный гайд](https://docs.google.com/document/d/1QQirN4d_JtHnyNq9sfmGJrDaDkhY7l7RNsP_wTG0vNE/edit#) по запуску делегатской ноды с вкл. seed-обменом
 * [Гайд](https://golos.id/ru--golos/@lex/gaid-po-ustanovke-publichnoi-api-nody-dlya-golos) по запуску публичной API-ноды
 

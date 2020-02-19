@@ -25,7 +25,6 @@
   * [Курирование \(лайки\)](users/ekonomika-1/curation_rewards.md)
   * [Инвестирование](users/ekonomika-1/commitment_rewards.md)
   * [Сбережения](users/ekonomika-1/savings_rewards.md)
-  * [Делегатство](users/ekonomika-1/delegatstvo.md)
 
 ## Разработчикам <a id="developers"></a>
 
