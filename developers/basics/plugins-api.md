@@ -1,15 +1,11 @@
 # Плагины и их API
 
-Плагины представляют собой универсальный инструмент расширения ноды и её возможностей. Часть из них лишь отдают данные, подготавливают индексы, отвечают на сложные запросы пользователей с фильтрацией данных, часть из них обрабатывают custom операции и могут предоставлять совершенно отдельный сервис. Например, можно написать плагин, который после платной подписки первого уровня будет формировать уведомления о важных действиях в блокчейне или предоставлять сервис личных сообщений. Публичный плагин не всегда означает «бесплатный». И «бесплатный» не всегда значит открытый \(в плане исходного кода\).
+Плагины представляют собой универсальный инструмент расширения ноды и её возможностей. Часть из них лишь отдают данные, подготавливают индексы, отвечают на сложные запросы пользователей с фильтрацией данных, часть из них обрабатывают custom операции и могут предоставлять совершенно отдельный сервис. 
 
-Если обратиться к логическому изучению цепочки нода-сервисы-API, то мы увидим неприятную ситуацию, когда публичные API могут создавать проблемы для функционирования самой ноды. Такое может возникнуть при большом потоке запросов к API сервиса, тем более в том случае, если плагин, предоставляющий сервис, работает как раз с нодой блокчейна. Пропускная способность от пользовательских запросов \(или запросов злоумышлинника при желании произвести DDOS сервиса\) может помешать самой ноде обмениваться данными с другими узлами. Если API запросы нагружают CPU или используют большие выборки по индексам, долго подготавливают данные для ответа — возникает проблема не только с сервисом, который начинает тормозить, но и с функционированием ноды.
+В данном разделе описаны некоторые доступные плагины GOLOS, предоставляющие пользователям доступ через API. Вы можете сами изучить API того или иного плагина, если будете следовать следующей инструкции:
 
-Именно поэтому рекомендуется избегать пересечения публичной API ноды с требовательными плагинами и работы делегата на том же сервере. Более правильная архитектура сервиса будет отдельный независимый плагин, который имеет доступ к обработке блоков на приватной ноде, сам обрабатывает данные, хранит их в базе данных и позволяет кэшировать запросы. При росте нагрузки всегда можно расширить сервис применяя технологии кластеризации как данных, так и отвечающих узлов \(с помощью load balancing\).
-
-В данном разделе описаны все доступные плагины VIZ, предоставляющие пользователям доступ через API. Вы можете сами изучить API того или иного плагин, если будете следовать следующей инструкции:
-
-* Открыть основной заголовочный файл плагина \([пример для database\_api](https://github.com/VIZ-Blockchain/viz-cpp-node/blob/master/plugins/database_api/include/graphene/plugins/database_api/plugin.hpp#L98)\), изучить `DEFINE_API_ARGS` \(название API метода, тип возвращаемого значения\);
-* Открыть основной файл плагина \([пример для database\_api](https://github.com/VIZ-Blockchain/viz-cpp-node/blob/master/plugins/database_api/api.cpp#L211)\), изучить `DEFINE_API` \(проверка параметров запроса, `CHECK_ARGS_COUNT`, формирование возвращаемого значения определенного типа\);
+* Открыть основной заголовочный файл плагина \([пример для database\_api](https://github.com/golos-blockchain/golos/blob/master/plugins/database_api/include/golos/plugins/database_api/plugin.hpp)\), изучить `DEFINE_API_ARGS` \(название API метода, тип возвращаемого значения\);
+* Открыть основной файл плагина \([пример для database\_api](https://github.com/golos-blockchain/golos/blob/master/plugins/database_api/api.cpp#L152)\), изучить `DEFINE_API` \(проверка параметров запроса, `CHECK_ARGS_COUNT`, формирование возвращаемого значения определенного типа\);
 * Изучить `plugin_initialize`, который может обрабатывать `boost::program_options::variables_map` для более тонкой настройки плагина через конфигурационный файл ноды.
 
 ## Протокол запросов
@@ -27,9 +23,6 @@ webserver-http-endpoint = 0.0.0.0:8090
 
 # IP:PORT для WebSocket подключений
 webserver-ws-endpoint = 0.0.0.0:8091
-
-# IP:PORT для HTTP и WebSocket соединений (одновременная обработка двух типов подключений)
-rpc-endpoint = 0.0.0.0:8081
 ```
 
 Чтобы обрабатывать запросы с поддержкой SSL, необходимо пробросить используемые порты через проксирующий сервер \(например, nginx или apache\), тогда станут возможными запросы через https/wss.
@@ -64,7 +57,7 @@ rpc-endpoint = 0.0.0.0:8081
 Пример:
 
 ```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["database_api","get_accounts",[["wildviz","zozo"]]]}
+{"id":1,"method":"call","jsonrpc":"2.0","params":["database_api","get_accounts",[["xel"]]]}
 ```
 
 Ответ:
@@ -72,91 +65,107 @@ rpc-endpoint = 0.0.0.0:8081
 ```javascript
 [
   {
-    "id": 3276,
-    "name": "wildviz",
-    "master_authority": {
+    "id": 89772,
+    "name": "xel",
+    "owner": {
       "weight_threshold": 1,
       "account_auths": [],
       "key_auths": [
         [
-          "VIZ7TAJxC1ibwYEgWon3YWXJdjKaTPS3eVy9zSKq2cRFECMuJvHcq",
+          "GLS53nbKGcMwXw8zWMNLBm5XXLTW9fqZeQT5J7dC3Qso7GwJ7F8Hb",
           1
         ]
       ]
     },
-    "active_authority": {
+    "active": {
       "weight_threshold": 1,
       "account_auths": [],
       "key_auths": [
         [
-          "VIZ8dJxeKPXe5wf6bnqaMsj3EW8EbMURoKxR4RqPCQH8xA89b6RpC",
+          "GLS81ApmkpdaJfbCXe7ZkbaiMeVcaQFW361sqC9r414fxVq9jNH3i",
           1
         ]
       ]
     },
-    "regular_authority": {
+    "posting": {
       "weight_threshold": 1,
       "account_auths": [],
       "key_auths": [
         [
-          "VIZ8iKb38H1JD7PZqEYpoLX3nMt1mgfoh2LwngexvywusE7fgrd5G",
+          "GLS7WLHYqZrf9RYW273X34Aee7mK9pet8t83xgQ8jxeeZXXG3cTvS",
           1
         ]
       ]
     },
-    "memo_key": "VIZ8mvAu9beH6gDtBrdy3oh8eTGP4tKpNXHvY7wtGm7EXLuwFaRi7",
-    "json_metadata": "",
+    "memo_key": "GLS8iWbEMQB3WaXHLrCVyDoJAuPQhaiCby3g3PNL4h2hdWq7kiACb",
+    "json_metadata": "{"profile":{}}",
     "proxy": "",
-    "referrer": "",
-    "last_master_update": "1970-01-01T00:00:00",
-    "last_account_update": "1970-01-01T00:00:00",
-    "created": "2019-03-14T08:33:21",
-    "recovery_account": "xchng",
+    "last_owner_update": "2019-05-10T14:10:30",
+    "last_account_update": "2019-05-10T14:10:30",
+    "created": "2017-12-06T01:22:18",
+    "mined": false,
+    "owner_challenged": false,
+    "active_challenged": false,
+    "last_owner_proved": "1970-01-01T00:00:00",
+    "last_active_proved": "1970-01-01T00:00:00",
+    "recovery_account": "lex",
     "last_account_recovery": "1970-01-01T00:00:00",
-    "subcontent_count": 0,
-    "vote_count": 10,
-    "content_count": 0,
-    "awarded_rshares": 0,
-    "custom_sequence": 2,
-    "custom_sequence_block_num": 10319967,
-    "energy": 9995,
-    "last_vote_time": "2019-10-14T08:08:48",
-    "balance": "0.000 VIZ",
-    "vesting_shares": "19159.343040 SHARES",
-    "delegated_vesting_shares": "250.000000 SHARES",
-    "received_vesting_shares": "0.000000 SHARES",
-    "vesting_withdraw_rate": "0.000000 SHARES",
+    "reset_account": "null",
+    "comment_count": 4,
+    "lifetime_vote_count": 0,
+    "post_count": 0,
+    "can_vote": true,
+    "voting_power": 9802,
+    "last_vote_time": "2020-01-05T12:10:48",
+    "balance": "23.549 GOLOS",
+    "savings_balance": "0.000 GOLOS",
+    "sbd_balance": "0.000 GBG",
+    "sbd_seconds": "32824410702",
+    "sbd_seconds_last_update": "2020-02-17T12:02:54",
+    "sbd_last_interest_payment": "2018-02-05T16:51:54",
+    "savings_sbd_balance": "0.000 GBG",
+    "savings_sbd_seconds": "0",
+    "savings_sbd_seconds_last_update": "2019-12-11T16:05:15",
+    "savings_sbd_last_interest_payment": "2019-12-11T16:05:15",
+    "savings_withdraw_requests": 0,
+    "vesting_shares": "341688.730149 GESTS",
+    "delegated_vesting_shares": "0.000000 GESTS",
+    "received_vesting_shares": "0.000000 GESTS",
+    "vesting_withdraw_rate": "0.000000 GESTS",
     "next_vesting_withdrawal": "1969-12-31T23:59:59",
-    "withdrawn": 1500000000,
-    "to_withdraw": 1500000000,
+    "withdrawn": "185064241674",
+    "to_withdraw": "185064241674",
     "withdraw_routes": 0,
+    "benefaction_rewards": 0,
     "curation_rewards": 0,
+    "delegation_rewards": 0,
     "posting_rewards": 0,
-    "receiver_awards": 255786,
-    "benefactor_awards": 2958047,
     "proxied_vsf_votes": [
       0,
       0,
       0,
       0
     ],
-    "witnesses_voted_for": 1,
-    "witnesses_vote_weight": "19159343040",
+    "witnesses_voted_for": 0,
+    "average_bandwidth": 2721294841,
+    "average_market_bandwidth": 1080000000,
+    "lifetime_bandwidth": "632909000000",
+    "lifetime_market_bandwidth": "6119410000000",
+    "last_bandwidth_update": "2020-02-18T10:58:18",
+    "last_market_bandwidth_update": "2020-02-07T02:04:09",
+    "last_comment": "2020-02-18T10:54:03",
     "last_post": "1970-01-01T00:00:00",
-    "last_root_post": "1970-01-01T00:00:00",
-    "average_bandwidth": 1089649559,
-    "lifetime_bandwidth": "24196000000",
-    "last_bandwidth_update": "2019-10-14T08:08:48",
-    "witness_votes": [
-      "wildviz"
-    ],
-    "valid": true,
-    "account_seller": "",
-    "account_offer_price": "0.000 VIZ",
-    "account_on_sale": false,
-    "subaccount_seller": "",
-    "subaccount_offer_price": "0.000 VIZ",
-    "subaccount_on_sale": false
+    "post_bandwidth": 0,
+    "witness_votes": [],
+    "reputation": 0,
+    "posts_capacity": 3,
+    "comments_capacity": 32112,
+    "voting_capacity": 12,
+    "referrer_account": "",
+    "referrer_interest_rate": 0,
+    "referral_end_date": "1970-01-01T00:00:00",
+    "referral_break_fee": "0.000 GOLOS",
+    "last_active_operation": "2020-02-17T12:02:54"
   }
 ]
 ```
@@ -166,45 +175,20 @@ rpc-endpoint = 0.0.0.0:8081
 Пример:
 
 ```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["database_api","get_block",["1"]]}
+{"id":1,"method":"call","jsonrpc":"2.0","params":["database_api","get_block",["34940353"]]}
 ```
 
 Ответ:
 
 ```javascript
 {
-  "previous": "0000000000000000000000000000000000000000",
-  "timestamp": "2018-09-29T10:23:27",
-  "witness": "committee",
+  "previous": "021525c0c311e480cde023eea5c2ba26e0d06c82",
+  "timestamp": "2020-02-19T12:09:15",
+  "witness": "pzm",
   "transaction_merkle_root": "0000000000000000000000000000000000000000",
-  "extensions": [
-    [
-      1,
-      "1.0.0"
-    ]
-  ],
-  "witness_signature": "2003120d1f1d8bb8e8325036838e5269332fbec7c88cd3cc76e4517d27772856ce43ef6bf0a7fde9987cec9467b944e7626db100b70867e7ec82308879a021e97a",
+  "extensions": [],
+  "witness_signature": "1f17e84a65e103c9cc476d27a29dbba4e5100ab60c79015418a5eeab0cf867b1ee7b4407b408b6d2d28fed9f08820defadb7f4ba715f4c520bb49c3fa5e5e8412a",
   "transactions": []
-}
-```
-
-* **get\_block\_header** — возвращает заголовок блока по его номеру;
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["database_api","get_block_header",["2"]]}
-```
-
-Ответ:
-
-```javascript
-{
-  "previous": "000000010496d4414ddcee5b76f9a6b950da6fe9",
-  "timestamp": "2018-09-29T10:23:30",
-  "witness": "committee",
-  "transaction_merkle_root": "0000000000000000000000000000000000000000",
-  "extensions": []
 }
 ```
 
@@ -220,248 +204,41 @@ rpc-endpoint = 0.0.0.0:8081
 
 ```javascript
 {
-  "account_creation_fee": "1.000 VIZ",
+  "account_creation_fee": "1.000 GOLOS",
   "maximum_block_size": 65536,
-  "create_account_delegation_ratio": 10,
+  "sbd_interest_rate": 0,
+  "create_account_min_golos_fee": "0.030 GOLOS",
+  "create_account_min_delegation": "0.150 GOLOS",
   "create_account_delegation_time": 2592000,
-  "min_delegation": "1.000 VIZ",
-  "min_curation_percent": 0,
-  "max_curation_percent": 10000,
-  "bandwidth_reserve_percent": 0,
-  "bandwidth_reserve_below": "0.000000 SHARES",
-  "flag_energy_additional_cost": 0,
-  "vote_accounting_min_rshares": 50000,
-  "committee_request_approve_min_percent": 1000,
-  "inflation_witness_percent": 2000,
-  "inflation_ratio_committee_vs_reward_fund": 7500,
-  "inflation_recalc_period": 806400,
-  "data_operations_cost_additional_bandwidth": 0,
-  "witness_miss_penalty_percent": 100,
-  "witness_miss_penalty_duration": 86400
-}
-```
-
-* **get\_config** — возвращает предустановки в конфигурационном файле протокола VIZ;
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["database_api","get_config",[]]}
-```
-
-Ответ:
-
-```javascript
-{
-  "CHAIN_100_PERCENT": 10000,
-  "CHAIN_1_PERCENT": 100,
-  "CHAIN_ADDRESS_PREFIX": "VIZ",
-  "CHAIN_BANDWIDTH_AVERAGE_WINDOW_SECONDS": 604800,
-  "CHAIN_BANDWIDTH_PRECISION": 1000000,
-  "CONSENSUS_BANDWIDTH_RESERVE_PERCENT": 1000,
-  "CONSENSUS_BANDWIDTH_RESERVE_BELOW": 500000000,
-  "CHAIN_HARDFORK_VERSION": "2.4.0",
-  "CHAIN_VERSION": "2.4.0",
-  "CHAIN_BLOCK_INTERVAL": 3,
-  "CHAIN_BLOCKS_PER_DAY": 28800,
-  "CHAIN_BLOCKS_PER_YEAR": 10512000,
-  "CHAIN_CASHOUT_WINDOW_SECONDS": 86400,
-  "CHAIN_ID": "2040effda178d4fffff5eab7a915d4019879f5205cc5392e4bcced2b6edda0cd",
-  "CHAIN_HARDFORK_REQUIRED_WITNESSES": 17,
-  "CHAIN_INITIATOR_NAME": "viz",
-  "CHAIN_INITIATOR_PUBLIC_KEY_STR": "VIZ6MyX5QiXAXRZk7SYCiqpi6Mtm8UbHWDFSV8HPpt7FJyahCnc2T",
-  "CHAIN_INIT_SUPPLY": "50000000000",
-  "CHAIN_COMMITTEE_ACCOUNT": "committee",
-  "CHAIN_COMMITTEE_PUBLIC_KEY_STR": "VIZ6Yt7d6LsngBoXQr47aLv97bJVs7jyr7esZTM4UUSpLUf3nbRKS",
-  "CHAIN_IRREVERSIBLE_THRESHOLD": 7500,
-  "CHAIN_IRREVERSIBLE_SUPPORT_MIN_RUN": 2,
-  "CHAIN_MAX_ACCOUNT_NAME_LENGTH": 25,
-  "CHAIN_MAX_ACCOUNT_WITNESS_VOTES": 100,
-  "CHAIN_BLOCK_SIZE": 6291456,
-  "CHAIN_MAX_COMMENT_DEPTH": 65520,
-  "CHAIN_MAX_MEMO_LENGTH": 2048,
-  "CHAIN_MAX_WITNESSES": 21,
-  "CHAIN_MAX_PROXY_RECURSION_DEPTH": 4,
-  "CHAIN_MAX_RESERVE_RATIO": 20000,
-  "CHAIN_MAX_SUPPORT_WITNESSES": 10,
-  "CHAIN_MAX_SHARE_SUPPLY": "1000000000000000",
-  "CHAIN_MAX_SIG_CHECK_DEPTH": 2,
-  "CHAIN_MAX_TIME_UNTIL_EXPIRATION": 3600,
-  "CHAIN_MAX_TRANSACTION_SIZE": 65536,
-  "CHAIN_MAX_UNDO_HISTORY": 10000,
-  "CHAIN_MAX_VOTE_CHANGES": 5,
-  "CHAIN_MAX_TOP_WITNESSES": 11,
-  "CHAIN_MAX_WITHDRAW_ROUTES": 10,
-  "CHAIN_MAX_WITNESS_URL_LENGTH": 2048,
-  "CHAIN_MIN_ACCOUNT_CREATION_FEE": 1000,
-  "CHAIN_MIN_ACCOUNT_NAME_LENGTH": 2,
-  "CHAIN_MIN_BLOCK_SIZE_LIMIT": 65536,
-  "CHAIN_MAX_BLOCK_SIZE_LIMIT": 2097152,
-  "CHAIN_NULL_ACCOUNT": "null",
-  "CHAIN_NUM_INITIATORS": 0,
-  "CHAIN_PROXY_TO_SELF_ACCOUNT": "",
-  "CHAIN_SECONDS_PER_YEAR": 31536000,
-  "CHAIN_VESTING_WITHDRAW_INTERVALS": 28,
-  "CHAIN_VESTING_WITHDRAW_INTERVAL_SECONDS": 86400,
-  "CHAIN_ENERGY_REGENERATION_SECONDS": 432000,
-  "TOKEN_SYMBOL": 1514755587,
-  "SHARES_SYMBOL": "23438642651878150",
-  "CHAIN_NAME": "VIZ",
-  "CHAIN_BLOCK_GENERATION_POSTPONED_TX_LIMIT": 5,
-  "CHAIN_PENDING_TRANSACTION_EXECUTION_LIMIT": 200000
-}
-```
-
-* **get\_database\_info** — возвращает информацию по использованию базы данных \(по типу объектов\);
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["database_api","get_database_info",[]]}
-```
-
-Ответ:
-
-```javascript
-{
-  "total_size": "6442450944",
-  "free_size": 1828375424,
-  "reserved_size": 0,
-  "used_size": "4614075520",
-  "index_list": [
-    {
-      "name": "graphene::chain::dynamic_global_property_object",
-      "record_count": 1
-    },
-    {
-      "name": "graphene::chain::account_object",
-      "record_count": 3700
-    },
-    {
-      "name": "graphene::chain::account_authority_object",
-      "record_count": 3700
-    },
-    {
-      "name": "graphene::chain::witness_object",
-      "record_count": 59
-    },
-    {
-      "name": "graphene::chain::transaction_object",
-      "record_count": 4
-    },
-    {
-      "name": "graphene::chain::block_summary_object",
-      "record_count": 65536
-    },
-    {
-      "name": "graphene::chain::witness_schedule_object",
-      "record_count": 1
-    },
-    {
-      "name": "graphene::chain::content_object",
-      "record_count": 0
-    },
-    {
-      "name": "graphene::chain::content_type_object",
-      "record_count": 0
-    },
-    {
-      "name": "graphene::chain::content_vote_object",
-      "record_count": 0
-    },
-    {
-      "name": "graphene::chain::witness_vote_object",
-      "record_count": 239
-    },
-    {
-      "name": "graphene::chain::hardfork_property_object",
-      "record_count": 1
-    },
-    {
-      "name": "graphene::chain::withdraw_vesting_route_object",
-      "record_count": 7
-    },
-    {
-      "name": "graphene::chain::master_authority_history_object",
-      "record_count": 4
-    },
-    {
-      "name": "graphene::chain::account_recovery_request_object",
-      "record_count": 0
-    },
-    {
-      "name": "graphene::chain::change_recovery_account_request_object",
-      "record_count": 0
-    },
-    {
-      "name": "graphene::chain::escrow_object",
-      "record_count": 0
-    },
-    {
-      "name": "graphene::chain::vesting_delegation_object",
-      "record_count": 286
-    },
-    {
-      "name": "graphene::chain::fix_vesting_delegation_object",
-      "record_count": 0
-    },
-    {
-      "name": "graphene::chain::vesting_delegation_expiration_object",
-      "record_count": 12
-    },
-    {
-      "name": "graphene::chain::account_metadata_object",
-      "record_count": 3700
-    },
-    {
-      "name": "graphene::chain::proposal_object",
-      "record_count": 0
-    },
-    {
-      "name": "graphene::chain::required_approval_object",
-      "record_count": 0
-    },
-    {
-      "name": "graphene::chain::committee_request_object",
-      "record_count": 39
-    },
-    {
-      "name": "graphene::chain::committee_vote_object",
-      "record_count": 453
-    },
-    {
-      "name": "graphene::chain::invite_object",
-      "record_count": 364
-    },
-    {
-      "name": "graphene::chain::award_shares_expire_object",
-      "record_count": 2463
-    },
-    {
-      "name": "graphene::chain::paid_subscription_object",
-      "record_count": 4
-    },
-    {
-      "name": "graphene::chain::paid_subscribe_object",
-      "record_count": 26
-    },
-    {
-      "name": "graphene::chain::witness_penalty_expire_object",
-      "record_count": 4
-    },
-    {
-      "name": "graphene::plugins::private_message::message_object",
-      "record_count": 0
-    },
-    {
-      "name": "graphene::plugins::operation_history::operation_object",
-      "record_count": 11967735
-    },
-    {
-      "name": "graphene::plugins::account_history::account_history_object",
-      "record_count": 12014504
-    }
-  ]
+  "min_delegation": "0.010 GOLOS",
+  "max_referral_interest_rate": 1000,
+  "max_referral_term_sec": 15552000,
+  "min_referral_break_fee": "0.001 GOLOS",
+  "max_referral_break_fee": "100.000 GOLOS",
+  "posts_window": 7200,
+  "posts_per_window": 2,
+  "comments_window": 32767,
+  "comments_per_window": 50,
+  "votes_window": 15,
+  "votes_per_window": 5,
+  "auction_window_size": 0,
+  "max_delegated_vesting_interest_rate": 8000,
+  "custom_ops_bandwidth_multiplier": 10,
+  "min_curation_percent": 7500,
+  "max_curation_percent": 7500,
+  "curation_reward_curve": "square_root",
+  "allow_distribute_auction_reward": true,
+  "allow_return_auction_reward_to_fund": true,
+  "worker_reward_percent": 1000,
+  "witness_reward_percent": 1500,
+  "vesting_reward_percent": 7500,
+  "worker_request_creation_fee": "100.000 GBG",
+  "worker_request_approve_min_percent": 1500,
+  "sbd_debt_convert_rate": 100,
+  "vote_regeneration_per_day": 10,
+  "witness_skipping_reset_time": 21600,
+  "witness_idleness_time": 2592000,
+  "account_idleness_time": 15552000
 }
 ```
 
@@ -478,31 +255,42 @@ rpc-endpoint = 0.0.0.0:8081
 ```javascript
 {
   "id": 0,
-  "head_block_number": 10920301,
-  "head_block_id": "00a6a16d8a63db35fa727c62a49c00bf9d963819",
-  "genesis_time": "2018-09-29T10:23:24",
-  "time": "2019-10-14T12:22:54",
-  "current_witness": "ae.witness",
-  "committee_fund": "1442755.925 VIZ",
-  "committee_requests": 39,
-  "current_supply": "55206722.493 VIZ",
-  "total_vesting_fund": "27501277.264 VIZ",
-  "total_vesting_shares": "27501269.766153 SHARES",
-  "total_reward_fund": "28351.836 VIZ",
-  "total_reward_shares": "6610384216022",
-  "average_block_size": 120,
+  "head_block_number": 34940424,
+  "head_block_id": "021526082557e35d8f65271a46ddfec351eeb2de",
+  "time": "2020-02-19T12:12:48",
+  "current_witness": "blockchained",
+  "total_pow": 1719078,
+  "num_pow_witnesses": 172,
+  "virtual_supply": "223046315.397 GOLOS",
+  "current_supply": "200741691.274 GOLOS",
+  "confidential_supply": "0.000 GOLOS",
+  "current_sbd_supply": "7129967.558 GBG",
+  "confidential_sbd_supply": "0.000 GBG",
+  "total_vesting_fund_steem": "80100561.317 GOLOS",
+  "total_vesting_shares": "251334390154.901765 GESTS",
+  "total_reward_fund_steem": "254.756 GOLOS",
+  "total_reward_shares2": "21159194891210756",
+  "sbd_interest_rate": 0,
+  "sbd_print_rate": 0,
+  "sbd_debt_percent": 4046,
+  "average_block_size": 318,
   "maximum_block_size": 65536,
-  "current_aslot": 10946390,
+  "current_aslot": 35108656,
   "recent_slots_filled": "340282366920938463463374607431768211455",
   "participation_count": 128,
-  "last_irreversible_block_num": 10920284,
+  "last_irreversible_block_num": 34940409,
   "max_virtual_bandwidth": "5986734968066277376",
   "current_reserve_ratio": 20000,
-  "vote_regeneration_per_day": 1,
-  "bandwidth_reserve_candidates": 1,
-  "inflation_calc_block_num": 10315901,
-  "inflation_witness_percent": 2000,
-  "inflation_ratio": 5000
+  "custom_ops_bandwidth_multiplier": 10,
+  "is_forced_min_price": true,
+  "transit_block_num": 29585430,
+  "transit_witnesses": "76766b0000000000000000000000000078746172000000000000000000000000646d696c617368000000000000000000726f706f7800000000000000000000006c657800000000000000000000000000676f6c6f73636f72650000000000000076696b00000000000000000000000000737465657073686f740000000000000073746968692d696f0000000000000000676f6c6f73696f0000000000000000006c6164797a6172756c656d0000000000797564696e612d63617400000000000063726561746f720000000000000000006b756e6100000000000000000000000064656e69732d736b7269706e696b00007072696d7573000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "worker_requests": [
+    [
+      "91600047785731",
+      0
+    ]
+  ]
 }
 ```
 
@@ -510,197 +298,14 @@ rpc-endpoint = 0.0.0.0:8081
 * **get\_expiring\_vesting\_delegations** — возвращает список возвращаемой делегированной доли \(по времени истечения возврата\);
 * **get\_hardfork\_version** — возвращает версию текущего хардфорка;
 * **get\_next\_scheduled\_hardfork** — возвращает следующий запланированный хардфорк;
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["database_api","get_next_scheduled_hardfork",[]]}
-```
-
-Ответ:
-
-```javascript
-{
-  "hf_version": "2.4.0",
-  "live_time": "2019-04-30T05:00:00"
-}
-```
-
 * **get\_potential\_signatures** — возвращает потенциальные публичные ключи для подписи транзакции;
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["database_api","get_potential_signatures",[{"ref_block_num":41097,"ref_block_prefix":1234018187,"expiration":"2019-10-14T12:21:46","operations":[["award",{"initiator":"social","receiver":"social","energy":15,"custom_sequence":0,"memo":"ubi","beneficiaries":[]}]],"extensions":[]}]]}
-```
-
-Ответ:
-
-```javascript
-[
-  "VIZ5iCdUDKypJU3iCp1vbkTk5P7hEW1GgK6E75V1yZZznGU7NuV32"
-]
-```
-
 * **get\_recovery\_request** — возвращает данные по запросу на восстановление доступа к аккаунту;
 * **get\_required\_signatures** — возвращает публичные ключи из предложенных, которые необходимы для подписи транзакции \(нужно направить транзакцию без подписи и предоставить открытые ключи\);
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["database_api","get_required_signatures",[{"ref_block_num":41097,"ref_block_prefix":1234018187,"expiration":"2019-10-14T12:21:46","operations":[["award",{"initiator":"social","receiver":"social","energy":15,"custom_sequence":0,"memo":"ubi","beneficiaries":[]}]],"extensions":[]},["VIZ7TAJxC1ibwYEgWon3YWXJdjKaTPS3eVy9zSKq2cRFECMuJvHcq","VIZ5iCdUDKypJU3iCp1vbkTk5P7hEW1GgK6E75V1yZZznGU7NuV32"]]]}
-```
-
-Ответ:
-
-```javascript
-[
-  "VIZ5iCdUDKypJU3iCp1vbkTk5P7hEW1GgK6E75V1yZZznGU7NuV32"
-]
-```
-
 * **get\_transaction\_hex** — возвращает hex значение сырой транзакции;
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["database_api","get_transaction_hex",[{"ref_block_num":41097,"ref_block_prefix":1234018187,"expiration":"2019-10-14T12:21:46","operations":[["award",{"initiator":"social","receiver":"social","energy":15,"custom_sequence":0,"memo":"ubi","beneficiaries":[]}]],"extensions":[],"signatures":["1f64cb23ba686126f9a00d904840e472de44e0e2291eca5c6b380083ee7a0b9f9934bbe9f03404a33a6df0630a020ff4750b886b65f4af8cd9877df8128d45da05"]}]]}
-```
-
-Ответ:
-
-```javascript
-89a08b9f8d495a68a45d012f06736f6369616c06736f6369616c0f000000000000000000037562690000011f64cb23ba686126f9a00d904840e472de44e0e2291eca5c6b380083ee7a0b9f9934bbe9f03404a33a6df0630a020ff4750b886b65f4af8cd9877df8128d45da05
-```
-
 * **get\_vesting\_delegations** — возвращает список делегированной доли аккаунта;
 * **get\_withdraw\_routes** — возвращает массив путей понижения доли для аккаунта;
 * **lookup\_account\_names** — возвращает массив аккаунтов по запрошенным логинам;
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["database_api","lookup_account_names",[["wildviz","zozo"]]]}
-```
-
-Ответ:
-
-```javascript
-[
-  {
-    "id": 3276,
-    "name": "wildviz",
-    "master_authority": {
-      "weight_threshold": 1,
-      "account_auths": [],
-      "key_auths": [
-        [
-          "VIZ7TAJxC1ibwYEgWon3YWXJdjKaTPS3eVy9zSKq2cRFECMuJvHcq",
-          1
-        ]
-      ]
-    },
-    "active_authority": {
-      "weight_threshold": 1,
-      "account_auths": [],
-      "key_auths": [
-        [
-          "VIZ8dJxeKPXe5wf6bnqaMsj3EW8EbMURoKxR4RqPCQH8xA89b6RpC",
-          1
-        ]
-      ]
-    },
-    "regular_authority": {
-      "weight_threshold": 1,
-      "account_auths": [],
-      "key_auths": [
-        [
-          "VIZ8iKb38H1JD7PZqEYpoLX3nMt1mgfoh2LwngexvywusE7fgrd5G",
-          1
-        ]
-      ]
-    },
-    "memo_key": "VIZ8mvAu9beH6gDtBrdy3oh8eTGP4tKpNXHvY7wtGm7EXLuwFaRi7",
-    "json_metadata": "",
-    "proxy": "",
-    "referrer": "",
-    "last_master_update": "1970-01-01T00:00:00",
-    "last_account_update": "1970-01-01T00:00:00",
-    "created": "2019-03-14T08:33:21",
-    "recovery_account": "xchng",
-    "last_account_recovery": "1970-01-01T00:00:00",
-    "subcontent_count": 0,
-    "vote_count": 10,
-    "content_count": 0,
-    "awarded_rshares": 0,
-    "custom_sequence": 2,
-    "custom_sequence_block_num": 10319967,
-    "energy": 9995,
-    "last_vote_time": "2019-10-14T08:08:48",
-    "balance": "0.000 VIZ",
-    "vesting_shares": "19157.679056 SHARES",
-    "delegated_vesting_shares": "250.000000 SHARES",
-    "received_vesting_shares": "0.000000 SHARES",
-    "vesting_withdraw_rate": "0.000000 SHARES",
-    "next_vesting_withdrawal": "1969-12-31T23:59:59",
-    "withdrawn": 1500000000,
-    "to_withdraw": 1500000000,
-    "withdraw_routes": 0,
-    "curation_rewards": 0,
-    "posting_rewards": 0,
-    "receiver_awards": 255786,
-    "benefactor_awards": 2958047,
-    "proxied_vsf_votes": [
-      0,
-      0,
-      0,
-      0
-    ],
-    "witnesses_voted_for": 1,
-    "witnesses_vote_weight": "19157679056",
-    "last_post": "1970-01-01T00:00:00",
-    "last_root_post": "1970-01-01T00:00:00",
-    "average_bandwidth": 1089649559,
-    "lifetime_bandwidth": "24196000000",
-    "last_bandwidth_update": "2019-10-14T08:08:48",
-    "witness_votes": [],
-    "valid": true,
-    "account_seller": "",
-    "account_offer_price": "0.000 VIZ",
-    "account_on_sale": false,
-    "subaccount_seller": "",
-    "subaccount_offer_price": "0.000 VIZ",
-    "subaccount_on_sale": false
-  },
-  null
-]
-```
-
 * **lookup\_accounts** — возвращает массив логинов аккаунтов по нижней границе с указанием количества возвращаемых элементов \(не более 1000\);
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["database_api","lookup_accounts",["ae","10"]]}
-```
-
-Ответ:
-
-```javascript
-[
-  "ae",
-  "ae-witness",
-  "ae.witness",
-  "ae0",
-  "ae1",
-  "ae10",
-  "ae100",
-  "ae101",
-  "ae102",
-  "ae103"
-]
-```
-
 * **verify\_account\_authority** — проверяет подпись транзакции отдельным аккаунтом с указанием публичного ключа;
 * **verify\_authority** — принимает подписанную транзакцию и возвращает TRUE, если транзакция подписана всеми необходимыми ключами;
 
@@ -711,7 +316,7 @@ rpc-endpoint = 0.0.0.0:8081
 Пример запроса:
 
 ```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["account_by_key","get_key_references",[["VIZ5Z2po7K5CoCXw2xLPPt8JJvJLJ3xVNANLgTy9KDfLeZH2urSSd","VIZ1111111111111111111111111111111114T1Anm"]]]}
+{"id":1,"method":"call","jsonrpc":"2.0","params":["account_by_key","get_key_references",[["GLS53nbKGcMwXw8zWMNLBm5XXLTW9fqZeQT5J7dC3Qso7GwJ7F8Hb"]]]}
 ```
 
 Ответ:
@@ -719,22 +324,19 @@ rpc-endpoint = 0.0.0.0:8081
 ```text
 [
   [
-    "on1x"
-  ],
-  [
-    "viz"
+    "xel"
   ]
 ]
 ```
 
 ## account\_history
 
-* **get\_account\_history** — возвращает историю операций \(в том числе и виртуальных\), связанных с определенным аккаунтом. В конфигурационном файле может быть многократно указан `track-account-range` в виде json строки: `["from","to"]`.
+* **get\_account\_history** — возвращает историю операций \(в том числе и виртуальных\), связанных с определенным аккаунтом. 
 
 Пример запроса:
 
 ```text
-{"id":1,"method":"call","jsonrpc":"2.0","params":["account_history","get_account_history",["on1x","-1","5"]]}
+{"id":1,"method":"call","jsonrpc":"2.0","params":["account_history","get_account_history",["xel","-1","1"]]}
 ```
 
 Ответ:
@@ -742,188 +344,46 @@ rpc-endpoint = 0.0.0.0:8081
 ```javascript
 [
   [
-    3057,
+    84,
     {
-      "trx_id": "d5f53163bc237b17c8fd6f3278d3ca1b4ae21691",
-      "block": 10913871,
-      "trx_in_block": 0,
-      "op_in_trx": 0,
+      "trx_id": "de0c1837f59023dd183e1f6f0d338f60432af2ab",
+      "block": 34910086,
+      "trx_in_block": 1,
+      "op_in_trx": 1,
       "virtual_op": 0,
-      "timestamp": "2019-10-14T07:01:18",
+      "timestamp": "2020-02-18T10:54:03",
       "op": [
-        "transfer",
+        "comment_options",
         {
-          "from": "viz-social-bot",
-          "to": "on1x",
-          "amount": "7.725 VIZ",
-          "memo": "withdraw:3353"
+          "author": "xel",
+          "permlink": "re-lex-re-on0tole-re-lex-re-on0tole-re-lex-voznagrazhdeniya-za-shering-po-socsetyam-i-otkaz-ot-flagov-20200218t105406785z",
+          "max_accepted_payout": "1000000.000 GBG",
+          "percent_steem_dollars": 10000,
+          "allow_votes": true,
+          "allow_curation_rewards": true,
+          "extensions": []
         }
       ]
     }
   ],
   [
-    3058,
+    85,
     {
-      "trx_id": "ac8c4c225334dc59ec604dfa3d56b55dfc0647d3",
-      "block": 10916119,
+      "trx_id": "b35973bbf446a37d3d64492388231f7d5531f93b",
+      "block": 34910171,
       "trx_in_block": 0,
       "op_in_trx": 0,
-      "virtual_op": 1,
-      "timestamp": "2019-10-14T08:53:42",
+      "virtual_op": 0,
+      "timestamp": "2020-02-18T10:58:18",
       "op": [
-        "receive_award",
+        "delete_comment",
         {
-          "initiator": "dignity",
-          "receiver": "on1x",
-          "custom_sequence": 0,
-          "memo": "telegram:151842302",
-          "shares": "58.246984 SHARES"
+          "author": "xel",
+          "permlink": "re-lex-re-on0tole-re-lex-re-on0tole-re-lex-voznagrazhdeniya-za-shering-po-socsetyam-i-otkaz-ot-flagov-20200218t105406785z"
         }
       ]
     }
   ]
-]
-```
-
-## committee\_api
-
-* **get\_committee\_request** — возвращает информацию о заявке \(можно указать возвращаемое количество голосов за заявку\);
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["committee_api","get_committee_request",["39","1"]]}
-```
-
-Ответ:
-
-```javascript
-{
-  "id": 38,
-  "request_id": 39,
-  "url": "https://control.viz.world/media/@wildviz/committee-1/",
-  "creator": "wildviz",
-  "worker": "wildviz",
-  "required_amount_min": "0.000 VIZ",
-  "required_amount_max": "10000.000 VIZ",
-  "start_time": "2019-09-23T15:49:39",
-  "duration": 432000,
-  "end_time": "2019-09-28T15:49:39",
-  "status": 5,
-  "votes_count": 23,
-  "conclusion_time": "2019-09-28T15:49:39",
-  "conclusion_payout_amount": "10000.000 VIZ",
-  "payout_amount": "10000.000 VIZ",
-  "remain_payout_amount": "0.000 VIZ",
-  "last_payout_time": "2019-09-28T15:56:42",
-  "payout_time": "2019-09-28T15:56:42",
-  "votes": [
-    {
-      "voter": "wildviz",
-      "vote_percent": 10000,
-      "last_update": "2019-09-23T15:52:09"
-    }
-  ]
-}
-```
-
-* **get\_committee\_request\_votes** — возвращает массив всех голосов по заявке;
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["committee_api","get_committee_request_votes",["39"]]}
-```
-
-Ответ:
-
-```javascript
-[
-  {
-    "voter": "wildviz",
-    "vote_percent": 10000,
-    "last_update": "2019-09-23T15:52:09"
-  },
-  {
-    "voter": "denis-golub",
-    "vote_percent": 10000,
-    "last_update": "2019-09-23T15:54:51"
-  },
-  {
-    "voter": "lex",
-    "vote_percent": 10000,
-    "last_update": "2019-09-23T15:54:51"
-  },
-  ...
-]
-```
-
-* **get\_committee\_requests\_list** — возвращает массив идентификаторов заявок в комитет по статусу \(0 — ожидает рассмотрения, 1 — отменена создателем, 2 — недостаточно голосов, 3 — недостаточная выплата для заявки, 4 — заявка одобрена и ожидает выплат, 5 — выплаты завершены\);
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["committee_api","get_committee_requests_list",["2"]]}
-```
-
-Ответ:
-
-```javascript
-[
-  2,
-  3,
-  13,
-  14,
-  33
-]
-```
-
-## invite\_api
-
-* **get\_invite\_by\_id** — возвращает инвайт по идентификатору;
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["invite_api","get_invite_by_id",["0"]]}
-```
-
-Ответ:
-
-```javascript
-{
-  "id": 0,
-  "creator": "denis-skripnik",
-  "receiver": "liveblogs",
-  "invite_key": "VIZ5bqU5UEig5o8gESpJCy662LLXQuZWHX49puiZtGhv3ZxmN6e3t",
-  "invite_secret": "5JopL2TpywM2WKx83aTLnwLZjZ58ZEnK7aBJ3L2V2KjaVA1Neko",
-  "balance": "0.000 VIZ",
-  "claimed_balance": "100.000 VIZ",
-  "create_time": "2018-10-05T02:12:57",
-  "claim_time": "2018-10-05T11:55:36",
-  "status": 2
-}
-```
-
-* **get\_invite\_by\_key** — возвращает инвайт по публичному ключу;
-* **get\_invites\_list** — возвращает массив идентификаторов инвайтов по статусу \(0 — не активированные, 1 — погашенные на аккаунт, 2 — использованы для регистрации аккаунта\);
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["invite_api","get_invites_list",["0"]]}
-```
-
-Ответ:
-
-```javascript
-[
-  6,
-  8,
-  15,
-  20,
-  34,
-  ...
 ]
 ```
 
@@ -934,7 +394,7 @@ rpc-endpoint = 0.0.0.0:8081
 Пример:
 
 ```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["operation_history","get_ops_in_block",["10913871","false"]]}
+{"id":1,"method":"call","jsonrpc":"2.0","params":["operation_history","get_ops_in_block",["31913871","false"]]}
 ```
 
 Ответ:
@@ -942,68 +402,17 @@ rpc-endpoint = 0.0.0.0:8081
 ```javascript
 [
   {
-    "trx_id": "d5f53163bc237b17c8fd6f3278d3ca1b4ae21691",
-    "block": 10913871,
-    "trx_in_block": 0,
-    "op_in_trx": 0,
-    "virtual_op": 0,
-    "timestamp": "2019-10-14T07:01:18",
-    "op": [
-      "transfer",
-      {
-        "from": "viz-social-bot",
-        "to": "on1x",
-        "amount": "7.725 VIZ",
-        "memo": "withdraw:3353"
-      }
-    ]
-  },
-  {
-    "trx_id": "0122149bdfdbae80a6c3f4cabe36c78e0e20c12d",
-    "block": 10913871,
-    "trx_in_block": 1,
-    "op_in_trx": 0,
-    "virtual_op": 0,
-    "timestamp": "2019-10-14T07:01:18",
-    "op": [
-      "transfer",
-      {
-        "from": "viz-social-bot",
-        "to": "dance",
-        "amount": "6.827 VIZ",
-        "memo": "withdraw:3354"
-      }
-    ]
-  },
-  {
-    "trx_id": "e8d8da85004234afd048979860d88cd78297ac1e",
-    "block": 10913871,
-    "trx_in_block": 2,
-    "op_in_trx": 0,
-    "virtual_op": 0,
-    "timestamp": "2019-10-14T07:01:18",
-    "op": [
-      "transfer",
-      {
-        "from": "viz-social-bot",
-        "to": "hypno",
-        "amount": "6.976 VIZ",
-        "memo": "withdraw:3355"
-      }
-    ]
-  },
-  {
     "trx_id": "0000000000000000000000000000000000000000",
-    "block": 10913871,
+    "block": 31913871,
     "trx_in_block": 65535,
     "op_in_trx": 0,
     "virtual_op": 1,
-    "timestamp": "2019-10-14T07:01:21",
+    "timestamp": "2019-11-05T23:23:18",
     "op": [
-      "witness_reward",
+      "producer_reward",
       {
-        "witness": "wildviz",
-        "shares": "0.103999 SHARES"
+        "producer": "xanoxt",
+        "vesting_shares": "488.592569 GESTS"
       }
     ]
   }
@@ -1011,126 +420,6 @@ rpc-endpoint = 0.0.0.0:8081
 ```
 
 * **get\_transaction** — возвращает данные транзакции по её хэшу \(id\);
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["operation_history","get_transaction",["d5f53163bc237b17c8fd6f3278d3ca1b4ae21691"]]}
-```
-
-Ответ:
-
-```javascript
-{
-  "ref_block_num": 34889,
-  "ref_block_prefix": 453694329,
-  "expiration": "2019-10-14T07:11:20",
-  "operations": [
-    [
-      "transfer",
-      {
-        "from": "viz-social-bot",
-        "to": "on1x",
-        "amount": "7.725 VIZ",
-        "memo": "withdraw:3353"
-      }
-    ]
-  ],
-  "extensions": [],
-  "signatures": [
-    "203e778ae54b5fe51367bef34a7001eca7257732075723e99f07fd8c4cd0cc8040021925c811fef0ff2151a28193403af6af05f05dadc1427bb0daf604df53ee0c"
-  ],
-  "transaction_id": "d5f53163bc237b17c8fd6f3278d3ca1b4ae21691",
-  "block_num": 10913871,
-  "transaction_num": 0
-}
-```
-
-## paid\_subscription\_api
-
-* **get\_active\_paid\_subscriptions** — возвращает массив активных соглашений по платной подписке для аккаунта;
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["paid_subscription_api","get_active_paid_subscriptions",["on1x"]]}
-```
-
-Ответ:
-
-```javascript
-[
-  "viz.world"
-]
-```
-
-* **get\_inactive\_paid\_subscriptions** — возвращает массив отмененных соглашений по платной подписке для аккаунта;
-* **get\_paid\_subscription\_options** — возвращает данные о соглашении по платной подписке на аккаунт;
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["paid_subscription_api","get_paid_subscription_options",["viz.world"]]}
-```
-
-Ответ:
-
-```javascript
-{
-  "creator": "viz.world",
-  "url": "https://control.viz.world/media/@viz.world/ru-service/",
-  "levels": 2,
-  "amount": 5000,
-  "period": 30,
-  "update_time": "2019-05-21T07:14:45",
-  "active_subscribers": [
-    "on1x",
-    "muz",
-    "litrbooh",
-    "antonkostroma",
-    "xchng",
-    "liveblogs",
-    "wildviz",
-    "id1club"
-  ],
-  "active_subscribers_count": 8,
-  "active_subscribers_summary_amount": 65000,
-  "active_subscribers_with_auto_renewal": [
-    "on1x",
-    "muz",
-    "litrbooh",
-    "antonkostroma",
-    "liveblogs"
-  ],
-  "active_subscribers_with_auto_renewal_count": 5,
-  "active_subscribers_with_auto_renewal_summary_amount": 35000
-}
-```
-
-* **get\_paid\_subscription\_status** — возвращает данные о соглашении подписчика по платной подписке на определенный аккаунт;
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["paid_subscription_api","get_paid_subscription_status",["on1x","viz.world"]]}
-```
-
-Ответ:
-
-```javascript
-{
-  "subscriber": "on1x",
-  "creator": "viz.world",
-  "level": 2,
-  "amount": 5000,
-  "period": 30,
-  "start_time": "2019-09-18T07:51:39",
-  "next_time": "2019-10-18T07:51:39",
-  "end_time": "1969-12-31T23:59:59",
-  "active": true,
-  "auto_renewal": true
-}
-```
 
 ## witness\_api
 
@@ -1146,212 +435,34 @@ rpc-endpoint = 0.0.0.0:8081
 
 ```javascript
 [
-  "solox",
-  "lexai",
-  "xchng",
-  "creativity",
-  "jackvote",
-  "pom-vjfru0njnme",
-  "retroscope",
-  "wildviz",
-  "lex",
-  "dordoy",
-  "denis-skripnik",
-  "dmilash",
-  "id1club",
-  "lb",
-  "ae.witness",
-  "denis-golub",
+  "blockchained",
   "litrbooh",
-  "mad-max",
-  "t3",
-  "web3",
-  "charity"
+  "lex",
+  "prizm.space",
+  "aleksw",
+  "pzm",
+  "anyx",
+  "miner-113",
+  "ladyzarulem",
+  "rise",
+  "xanoxt",
+  "on0tole",
+  "primus",
+  "lulz",
+  "actual",
+  "vvk",
+  "lindsay",
+  "erikkartmen",
+  "arcange",
+  "jackvote",
+  "solox"
 ]
 ```
 
 * **get\_witness\_by\_account** — возвращает делегата в соответствием с его логином;
 * **get\_witness\_count** — возвращает количество аккаунтов, заявивших о желании быть делегатом;
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["witness_api","get_witness_count",[]]}
-```
-
-Ответ:
-
-```javascript
-59
-```
-
 * **get\_witness\_schedule** — возвращает очередь делегатов дополненную расчитанными медианными значениями параметров сети и мажориторной версией хардфорка;
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["witness_api","get_witness_schedule",[]]}
-```
-
-Ответ:
-
-```javascript
-{
-  "id": 0,
-  "current_virtual_time": "23461032266075892861574835409469",
-  "next_shuffle_block_num": 10916661,
-  "current_shuffled_witnesses": "736f6c6f780000000000000000000000000000000000000000000000000000006c657861690000000000000000000000000000000000000000000000000000007863686e6700000000000000000000000000000000000000000000000000000063726561746976697479000000000000000000000000000000000000000000006a61636b766f7465000000000000000000000000000000000000000000000000706f6d2d766a667275306e6a6e6d650000000000000000000000000000000000726574726f73636f70650000000000000000000000000000000000000000000077696c6476697a000000000000000000000000000000000000000000000000006c65780000000000000000000000000000000000000000000000000000000000646f72646f79000000000000000000000000000000000000000000000000000064656e69732d736b7269706e696b000000000000000000000000000000000000646d696c61736800000000000000000000000000000000000000000000000000696431636c7562000000000000000000000000000000000000000000000000006c6200000000000000000000000000000000000000000000000000000000000061652e7769746e657373000000000000000000000000000000000000000000006d61642d6d6178000000000000000000000000000000000000000000000000006c697472626f6f6800000000000000000000000000000000000000000000000070686f746f636c75620000000000000000000000000000000000000000000000743300000000000000000000000000000000000000000000000000000000000064656e69732d676f6c75620000000000000000000000000000000000000000006368617269747900000000000000000000000000000000000000000000000000",
-  "num_scheduled_witnesses": 21,
-  "median_props": {
-    "account_creation_fee": "1.000 VIZ",
-    "maximum_block_size": 65536,
-    "create_account_delegation_ratio": 10,
-    "create_account_delegation_time": 2592000,
-    "min_delegation": "1.000 VIZ",
-    "min_curation_percent": 0,
-    "max_curation_percent": 10000,
-    "bandwidth_reserve_percent": 0,
-    "bandwidth_reserve_below": "0.000000 SHARES",
-    "flag_energy_additional_cost": 0,
-    "vote_accounting_min_rshares": 50000,
-    "committee_request_approve_min_percent": 1000,
-    "inflation_witness_percent": 2000,
-    "inflation_ratio_committee_vs_reward_fund": 7500,
-    "inflation_recalc_period": 806400,
-    "data_operations_cost_additional_bandwidth": 0,
-    "witness_miss_penalty_percent": 100,
-    "witness_miss_penalty_duration": 86400
-  },
-  "majority_version": "2.4.0"
-}
-```
-
 * **get\_witnesses** — возвращает массив делегатов в соответствием с их id \(можно запросить нескольких в массиве\);
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["witness_api","get_witnesses",[["0"]]]}
-```
-
-Ответ:
-
-```javascript
-[
-  {
-    "id": 0,
-    "owner": "committee",
-    "created": "1970-01-01T00:00:00",
-    "url": "",
-    "votes": 0,
-    "penalty_percent": 0,
-    "counted_votes": 0,
-    "virtual_last_update": "0",
-    "virtual_position": "0",
-    "virtual_scheduled_time": "340282366920938463463374607431768211455",
-    "total_missed": 15,
-    "last_aslot": 144669,
-    "last_confirmed_block_num": 132749,
-    "signing_key": "VIZ1111111111111111111111111111111114T1Anm",
-    "props": {
-      "account_creation_fee": "1.000 VIZ",
-      "maximum_block_size": 131072,
-      "create_account_delegation_ratio": 10,
-      "create_account_delegation_time": 2592000,
-      "min_delegation": "0.001 VIZ",
-      "min_curation_percent": 1600,
-      "max_curation_percent": 1600,
-      "bandwidth_reserve_percent": 1000,
-      "bandwidth_reserve_below": "500.000000 SHARES",
-      "flag_energy_additional_cost": 0,
-      "vote_accounting_min_rshares": 5000000,
-      "committee_request_approve_min_percent": 1000,
-      "inflation_witness_percent": 2000,
-      "inflation_ratio_committee_vs_reward_fund": 5000,
-      "inflation_recalc_period": 806400,
-      "data_operations_cost_additional_bandwidth": 0,
-      "witness_miss_penalty_percent": 100,
-      "witness_miss_penalty_duration": 86400
-    },
-    "last_work": "0000000000000000000000000000000000000000000000000000000000000000",
-    "running_version": "1.0.1",
-    "hardfork_version_vote": "0.0.0",
-    "hardfork_time_vote": "1970-01-01T00:00:00"
-  }
-]
-```
-
 * **get\_witnesses\_by\_vote** — возвращает массив делегатов, отсортированных по потенциалу полученных голосов \(указывается левая граница списка и количество возвращаемых значений в массиве, но не более 100\);
-
-Пример:
-
-```javascript
-{"id":1,"method":"call","jsonrpc":"2.0","params":["witness_api","get_witnesses_by_vote",["","10000"]]}
-```
-
-Ответ:
-
-```javascript
-[
- {
-   "id": 42,
-   "owner": "solox",
-   "created": "2018-12-22T19:09:51",
-   "url": "http://viz.world/@solox/witness/",
-   "votes": "2265575784725",
-   "penalty_percent": 0,
-   "counted_votes": "2265575784725",
-   "virtual_last_update": "23453249838245982754942708691144",
-   "virtual_position": "0",
-   "virtual_scheduled_time": "23453400035105083671049497423272",
-   "total_missed": 273,
-   "last_aslot": 10942638,
-   "last_confirmed_block_num": 10916550,
-   "signing_key": "VIZ8MzGnSUeqbFaFr8g297XNDT7iWQZ8ktBgeBDYj1moWCHQ8a5PA",
-   "props": {
-     "account_creation_fee": "1.000 VIZ",
-     "maximum_block_size": 65536,
-     "create_account_delegation_ratio": 10,
-     "create_account_delegation_time": 2592000,
-     "min_delegation": "1.000 VIZ",
-     "min_curation_percent": 0,
-     "max_curation_percent": 10000,
-     "bandwidth_reserve_percent": 100,
-     "bandwidth_reserve_below": "1.000000 SHARES",
-     "flag_energy_additional_cost": 0,
-     "vote_accounting_min_rshares": 50000,
-     "committee_request_approve_min_percent": 1000,
-     "inflation_witness_percent": 3000,
-     "inflation_ratio_committee_vs_reward_fund": 7500,
-     "inflation_recalc_period": 806400,
-     "data_operations_cost_additional_bandwidth": 0,
-     "witness_miss_penalty_percent": 100,
-     "witness_miss_penalty_duration": 86400
-   },
-   "last_work": "0000000000000000000000000000000000000000000000000000000000000000",
-   "running_version": "2.4.0",
-   "hardfork_version_vote": "2.4.0",
-   "hardfork_time_vote": "2019-04-30T05:00:00"
- }
-]
-```
-
 * **lookup\_witness\_accounts** — возвращает массив логинов аккаунтов, которые заявляли себя как делегаты \(указывается левая граница списка и количество возвращаемых значений в массиве, но не более 1000\).
-
-  Пример:
-
-  ```javascript
-  {"id":1,"method":"call","jsonrpc":"2.0","params":["witness_api","lookup_witness_accounts",["","4"]]}
-  ```
-
-  Ответ:
-
-  ```javascript
-  [
-  "t3",
-  "lb",
-  "ae",
-  "in"
-  ]
-  ```
 

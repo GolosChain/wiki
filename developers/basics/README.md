@@ -2,11 +2,11 @@
 
 Раздел с описанием API/объектов/структур в блокчейне, примеры кода для популярных вариантов использования, гайд для формирования транзакций.
 
-* [Операции и их типы](ru/Ru-Operations)
-* [Объекты и структуры](ru/Ru-Object-structures)
-* [Состояние \(стэйт\) системы](ru/Ru-State)
-* [Плагины и их API](ru/Ru-Plugins-API)
-* [Библиотеки для работы](ru/Ru-Libraries)
-* [Примеры кода](ru/Ru-Code-examples)
-* [Формирование транзакций](ru/Ru-Transaction-formatting)
+* [Операции и их типы](operations.md)
+* [Объекты и структуры](object-structures.md)
+* [Состояние \(стэйт\) системы](state.md)
+* [Плагины и их API](plugins-api.md)
+* [Библиотеки для работы](libraries.md)
+* [Примеры кода](code-examples.md)
+* [Формирование транзакций](transaction-formatting.md)
 
