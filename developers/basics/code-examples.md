@@ -10,7 +10,7 @@
 
 Для nodejs актуальной инструкцией будет установка библиотеки через `npm install golos-classic-js --save` и подключением её в js файле через `var golos = require('golos-classic-js');`.
 
-[![npm version](https://badge.fury.io/js/golos-classic-js.svg)](https://badge.fury.io/js/golos-classic-js)
+Для js подключения можно либо самому собрать webpack библиотеки через консоль `npm build`, либо воспользоваться уже собранной библиотекой от [Unpkg CDN](https://unpkg.com/golos-classic-js@latest/dist/golos.min.js). Просто добавьте к html файлу тэг script и укажите url библиотеки: `<script type="text/javascript" src="https://unpkg.com/golos-classic-js@latest/dist/golos.min.js"></script>`, после чего у вас будет доступ через консоль к глобальной переменной `golos`.
 
 ### Использование публичной ноды
 
