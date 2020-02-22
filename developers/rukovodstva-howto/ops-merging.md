@@ -1,16 +1,12 @@
 # Как объединять операции в одну транзакцию
 
-Автор: [@vik](https://golos.io/@vik)
+Автор: [@vik](https://golos.id/@vik)
 
 Операции голосования своими 100+ аккаунтами, упакованные в ОДНУ транзакцию:
 
-## [http://golosd.com/tx/522aa6fe847ea5b7fab6901d17f9f28c7a0f80c3](http://golosd.com/tx/522aa6fe847ea5b7fab6901d17f9f28c7a0f80c3)
-
-![&#x431;&#x43E;&#x442;&#x44B; &#x433;&#x43E;&#x43B;&#x43E;&#x441;&#x430;](https://images.golos.io/DQmcfUzZmhQXGwsZ1aJxJvAp8iusvLEE2zMUVGnT5N4XhVF/image.png)
-
-* **Экономит время \(100+ апвотов одновременно\)**
-* **Экономит bandwidth \(Новореги смогут совершать в**`X`**раз больше транзакций?\)**
-* **Экономит ресурсы среды в которой выполняется скрипт \(браузер, сервер, приложение\)**
+* **Экономит время \(100+ операций одновременно\)**
+* **Экономит bandwidth \(новореги смогут совершать в**`X`**раз больше транзакций\)**
+* **Экономит ресурсы среды скрипта \(браузер, сервер, приложение\)**
 
 Для начала выбираем 1 свой основной аккаунт-ботовод и прописываем его логин своим ботам в постинг-авторити. Это можно сделать массово с помощью скрипта:  
 [https://github.com/vikxx/bots/blob/master/sample/setBotMaster.js](https://github.com/vikxx/bots/blob/master/sample/setBotMaster.js)
@@ -94,8 +90,5 @@ golos.api.broadcastTransactionSynchronous(signedTX)
 Скрипт полностью здесь:  
 [https://github.com/vikxx/bots/blob/master/sample/botVotes.js](https://github.com/vikxx/bots/blob/master/sample/botVotes.js)
 
-В итоге получаем способ совершать массовые операции экономя ресурсы как аккаунтов, так и сервера.  
-[http://golosd.com/tx/522aa6fe847ea5b7fab6901d17f9f28c7a0f80c3](http://golosd.com/tx/522aa6fe847ea5b7fab6901d17f9f28c7a0f80c3)
-
-[Источник](https://golos.io/ru--golos/@vik/ekonomim-resurs-akkaunta-i-servera-sovmeshaya-100-operacii-v-odnoi-tranzakcii)
+По материалам [статьи](https://golos.id/ru--golos/@vik/ekonomim-resurs-akkaunta-i-servera-sovmeshaya-100-operacii-v-odnoi-tranzakcii)
 

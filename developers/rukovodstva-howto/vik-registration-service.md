@@ -1,16 +1,10 @@
-# Скрипт регистрации аккаунтов от vik
+# Скрипт регистрации аккаунтов
 
-Автор: [@vik](https://golos.io/@vik)
+Автор: [@vik](https://golos.id/@vik)
 
 Этот простой скрипт поможет вам зарегистрировать любое количество новых аккаунтов на голосе.
 
-![](https://imgp.golos.io/0x0/https://i.imgur.com/BxJ5UNF.jpg)
-
-**Браузерная версия**
-
-Голос [golos.cf/reg.html](https://golos.cf/reg.html)
-
-Steemit [golos.cf/steem](https://golos.cf/steem)
+**Браузерная версия** [golos.cf/reg/](https://golos.cf/reg/)
 
 ![](https://imgp.golos.io/0x0/https://i.imgur.com/ZV6OXXu.jpg)
 
@@ -45,7 +39,7 @@ const PASS = "MyStrongPass1234567890"
 
 
 const golos = require('golos-js')
-golos.config.set('websocket', "wss://api.golos.cf")
+golos.config.set('websocket', "wss://api.golos.blckchnd.com/ws")
 
 // Данные создателя аккаунта
 // Активный ключ создателя (вашего существующего аккаунта)
@@ -95,7 +89,5 @@ jsonMetadata,
 });
 ```
 
-> По материалам [статьи](https://golos.io/ru--golos/@vik/mgnovennaya-registraciya-akkauntov-na-golos-i-steem-bez-verifikacii-i-ogranichenii)
->
-> Автор [@vik](https://golos.io/@vik)
+По материалам[ статьи](https://golos.id/ru--golos/@vik/mgnovennaya-registraciya-akkauntov-na-golos-i-steem-bez-verifikacii-i-ogranichenii)
 

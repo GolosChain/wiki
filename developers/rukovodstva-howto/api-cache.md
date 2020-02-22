@@ -1,17 +1,10 @@
 # Кэширование API
 
-Автор: [@vik](https://golos.io/@vik)
-
-**Суть решаемой проблемы:**    
-![](https://imgp.golos.io/0x0/https://s17.postimg.org/byltwz7rh/image.png)
-
-**Решение:**
-
-В конце поста будет приведен простой код для node.js который позволит оптимизировать работу множества скриптов на одной ноде.
+Автор: [@vik](https://golos.id/@vik)
 
 ![](https://imgp.golos.io/0x0/https://s2.postimg.org/qf2uq63pz/image.png)
 
-В последнее время моими [телеграм ботами для голосования](https://golos.io/ru--boty/@vik/vozobnovlenie-raboty-kuratorskikh-botov-dlya-telegram) пользуются все больше людей и естественно нагрузка возросла в 10-ки раз по сравнению даже с прошлым месяцем. Я поднял [дополнительные ноды](https://golos.io/ru--golos/@vik/etika-botovodstva-na-golose-i-ekonomiya-resursa-pablik-nod-robot-delegat-za-kotorogo-ne-nuzhno-golosovat), распределил нагрузки, добавил мощности серверам, но узкое место оказалось в самой пропускной способности нод.
+В последнее время моими телеграм ботами для голосования пользуются все больше людей и естественно нагрузка возросла в 10-ки раз по сравнению даже с прошлым месяцем. Я поднял дополнительные ноды, распределил нагрузки, добавил мощности серверам, но узкое место оказалось в самой пропускной способности нод.
 
 Обратите внимание на скрин, там изредка мелькают строки белого цвета. Это череда новых блоков. Желтые же строки - это обращение к ноде.
 
@@ -105,7 +98,5 @@ let LastBlockRedis = JSON.parse(LB.data)
 
 Где предполагается, что функция filterOperations обрабатывается вашим скриптом.
 
-> По материалам [статьи](https://golos.io/ru--golos/@vik/zapusk-mnozhestva-mnogopotochnykh-zhivykh-skriptov-na-odnoi-node-reshenie-dlya-mashtabiruemosti-botov-golosa).
->
-> Автор [@vik](https://golos.io/@vik)
+По материалам [статьи](https://golos.id/ru--golos/@vik/zapusk-mnozhestva-mnogopotochnykh-zhivykh-skriptov-na-odnoi-node-reshenie-dlya-mashtabiruemosti-botov-golosa)
 
