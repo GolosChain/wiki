@@ -1,10 +1,4 @@
----
-description: ...
----
-
 # API-документация
-
-
 
 * [API часть 1](api-golos-ch1.md)
 * [API часть 2](api-golos-ch2.md)
