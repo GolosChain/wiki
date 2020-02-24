@@ -65,5 +65,5 @@
   * [Гайд для witness/seed ноды](witnesses/node/guide.md)
   * [Настройка для API-ноды](witnesses/node/guide-api.md)
 * [Медианные параметры](witnesses/median-props.md)
-* [Скрипты для price feed](witnesses/price-feed.md)
+* [Скрипты для price feed](witnesses/witness-scripts.md)
 
