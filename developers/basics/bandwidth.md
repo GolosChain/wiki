@@ -52,7 +52,7 @@
    * `STEEMIT_BANDWIDTH_PRECISION` - константа, определяющая точность вычислений при работе с bandwidth
 6. Вычисляется финальное значение `account_average_bandwidth = new_bandwidth + trx_bandwidth`
 
-### Получение значений bandwidth в килобайтах
+### Значения bandwidth в килобайтах
 
 Мы можем самостоятельно вычислять максимально доступную bandwidth аккаунта и потреблённую на текущий момент.
 

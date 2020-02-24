@@ -60,8 +60,8 @@
 
 ## Делегатам <a id="witnesses"></a>
 
-* [Делегатство и роли нод](witnesses/basics.md)
-* [Установка ноды](witnesses/node/README.md)
+* [Делегатство и роли нод](witnesses/delegatstvo.md)
+* [Установка ноды](witnesses/ustanovka-nody.md)
   * [Гайд для witness/seed ноды](witnesses/node/guide.md)
   * [Настройка для API-ноды](witnesses/node/guide-api.md)
 * [Медианные параметры](witnesses/median-props.md)

@@ -11,3 +11,5 @@
 * Удобен для запуска из cron
 * Возможность работы в виде docker-контейнера
 
+Пример запуска скрипта к ноде в докер-контейнере есть [здесь](https://wiki.golos.id/witnesses/node/guide#publikaciya-praisfidov).
+

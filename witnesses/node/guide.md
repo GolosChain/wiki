@@ -1,5 +1,10 @@
 # Гайд для witness/seed ноды
 
+Рекомендованные минимальные системные требования:
+
+* 8 Гб оперативной памяти и 80 Гб SSD накопителя
+* Linux-система, напр. Ubuntu 16.04/18.04 + стабильный доступ к интернету 
+
 ## Устанавливаем Docker
 
 ```text
@@ -190,7 +195,7 @@ sudo docker run -it -e NODE=ws://localhost:8091 -e WITNESS=ЛОГИН-ДЕЛЕГ
 
 После появления логов с калькуляцией курса GBG, закрываем окно терминала.
 
-## **Изменения в конфиге ноды**
+## **Изменения в конфиге**
 
 Заходим в конфиг командой**:**
 
@@ -212,7 +217,7 @@ sudo docker restart golosd
 
 [Подробнее](../median-props.md) о значении медианных параметров.
 
-Изменить параметры можно и через cli\_wallet ноды, заменив логин и выполнив команду:
+Изменить параметры можно и через [cli\_wallet](https://wiki.golos.id/witnesses/node/guide#rabota-s-cli-wallet) ноды, заменив логин и выполнив команду:
 
 ```text
 update_chain_properties ЛОГИН {"account_creation_fee":"1.000 GOLOS", "maximum_block_size":65536, "sbd_interest_rate":0, "create_account_min_golos_fee":"0.100 GOLOS", "create_account_min_delegation":"1.000 GOLOS", "create_account_delegation_time":2592000, "min_delegation":"1.000 GOLOS"} true
@@ -234,7 +239,7 @@ update_chain_properties ЛОГИН {"worker_reward_percent":1000, "witness_rewar
 
 Ставим “пустой ключ” для ноды чтобы приостановить подпись блоков через параметры на странице [https://golos.id/@lex/witness](https://golos.id/@lex/witness) \(заменив на свой логин\).  
   
-****Или через cli\_wallet ноды командой
+****Или через [cli\_wallet](https://wiki.golos.id/witnesses/node/guide#rabota-s-cli-wallet) ноды командой
 
 ```text
 update_witness "ЛОГИН" "https://golos.id" GLS1111111111111111111111111111111114T1Anm true
@@ -276,7 +281,7 @@ sudo docker run -it -p 4243:4243 -v ~/config:/etc/golosd -v ~/home/blockchain:/v
 
 Возвращаем публичный ключ ноды GLS.............. который ранее сбрасывали через параметры на странице [https://golos.id/@lex/witness](https://golos.id/@lex/witness)  
   
-или через cli\_wallet, заменив в команде ниже логин, ссылку на пост/аккаунт делегата + публичный ключ на свои:
+или через [cli\_wallet](https://wiki.golos.id/witnesses/node/guide#rabota-s-cli-wallet), заменив в команде ниже логин, ссылку на пост/аккаунт делегата + публичный ключ на свои:
 
 ```text
 update_witness "ЛОГИН" "https://golos.id/@ЛОГИН" GLS................. true
@@ -289,4 +294,8 @@ sudo docker run -it -e NODE=ws://localhost:8091 -e WITNESS=ЛОГИН-ДЕЛЕГ
 ```
 
 После появления логов с калькуляцией курса GBG, закрываем окно терминала.
+
+## Есть вопросы?
+
+Можно уточнить в чате делегатов [https://t.me/golos\_witnesses](https://t.me/golos_witnesses)
 
