@@ -5,22 +5,14 @@
 ## ПОЛЬЗОВАТЕЛЯМ <a id="users"></a>
 
 * [Начни отсюда](users/welcome.md)
-* [Способы регистрации](users/sposoby-registracii.md)
-* [Первые шаги](users/first-steps/README.md)
-  * [Основы Голоса](users/first-steps/osnovy-golosa.md)
-  * [Интерфейс блога](users/first-steps/interfeis-bloga.md)
-  * [Интерфейс golos.id](users/first-steps/interfeis-golos.id.md)
-  * [Кошелек, ключи, выплаты](users/first-steps/koshelek-klyuchi-vyplaty.md)
-  * [Внутренний рынок](users/first-steps/vnutrennii-rynok.md)
-  * [Вопросы и ответы](users/first-steps/voprosy-i-otvety.md)
-  * [Постинг \(публикация\)](users/first-steps/posting-publikaciya.md)
-  * [Сбережения](users/first-steps/sberezheniya.md)
-  * [Полезные ссылки](users/first-steps/poleznye-ssylki.md)
-* [Полезные статьи](users/posts/README.md)
+* [Способы регистрации](users/registration.md)
+* [Полезные посты](users/posts/README.md)
   * [Просто о блокчейне](users/posts/prosto-o-blokcheine.md)
-  * [КриптоТермины](users/posts/kriptoterminy.md)
-  * [Сервис golos.cf/history](users/posts/servis-golos.cf-history.md)
-  * [Бенефициарство](users/posts/beneficiarstvo.md)
+  * [Внутренний рынок](users/posts/market.md)
+  * [Интерфейс](users/posts/interface.md)
+  * [Кошелёк и ключи](users/posts/wallet.md)
+  * [Вопросы и ответы](users/posts/faq.md)
+  * [Сервис golos.cf/history](users/posts/golos-history.md)
   * [Зеркала golos.id](users/posts/zerkala-golos.id.md)
 
 ## Разработчикам <a id="developers"></a>
@@ -64,3 +56,4 @@
   * [Настройка для API-ноды](witnesses/node/guide-api.md)
 * [Медианные параметры](witnesses/median-props.md)
 * [Скрипты для price feed](witnesses/price-feed.md)
+
