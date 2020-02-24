@@ -10,13 +10,19 @@
 
 Для nodejs актуальной инструкцией будет установка библиотеки через `npm install golos-classic-js --save` и подключением её в js файле через `var golos = require('golos-classic-js');`.
 
-Для js подключения можно либо самому собрать webpack библиотеки через консоль `npm build`, либо воспользоваться уже собранной библиотекой от [jsDelivr CND](https://cdn.jsdelivr.net/npm/golos-classic-js@latest/dist/golos.min.js) или [Unpkg CDN](https://unpkg.com/golos-classic-js@latest/dist/golos.min.js). Просто добавьте к файлу script и укажите url библиотеки: `<script type="text/javascript" src="https://unpkg.com/golos-classic-js@latest/dist/golos.min.js"></script>`, после чего у вас будет доступ через консоль к глобальной переменной `golos`.
+Для js подключения можно либо самому собрать webpack библиотеки через консоль `npm build`, либо воспользоваться уже собранной библиотекой от [jsDelivr CND](https://cdn.jsdelivr.net/npm/golos-classic-js@latest/dist/golos.min.js) или [Unpkg CDN](https://unpkg.com/golos-classic-js@latest/dist/golos.min.js). Просто добавьте к файлу script и укажите url библиотеки: 
+
+```javascript
+<script type="text/javascript" src="https://unpkg.com/golos-classic-js@latest/dist/golos.min.js"></script>
+```
+
+После чего у вас будет доступ через консоль к глобальной переменной `golos`.
 
 ### Использование публичной ноды
 
 Пока у вашего приложения нет большого потока пользователей, разумно использовать публичные API-ноды, список от делегатов [здесь](https://golos.id/nodes).
 
-В нём указаны адреса для JSON-RPC запросов через WebSocket over SSL, для запросов через HTTPS просто замените `wss` на `https`и уберите `ws` в конце.
+В нём указаны адреса для JSON запросов через WebSocket over SSL, для запросов через HTTPS просто замените `wss` на `https`и уберите `ws` в конце.
 
 Пример настройки для работы с нодой `https://api.golos.blckchnd.com/`:
 

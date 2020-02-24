@@ -21,7 +21,7 @@
 * forum bandwidth: 100 KB
 * market bandwidth: 10 KB
 
-Время восстановления bandwidth от 0 до 100% определяется константой `STEEMIT_BANDWIDTH_AVERAGE_WINDOW_SECONDS` и составляет 7 дней \(актуально для 0.17.0\).
+Время восстановления bandwidth от 0 до 100% определяется константой `STEEMIT_BANDWIDTH_AVERAGE_WINDOW_SECONDS` и составляет 7 дней.
 
 ### Механизм вычисления bandwidth
 
