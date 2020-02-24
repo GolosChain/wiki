@@ -5,8 +5,8 @@
 ## ПОЛЬЗОВАТЕЛЯМ <a id="users"></a>
 
 * [Начни отсюда](users/welcome.md)
-* [Способы регистрации](users/registration.md)
-* [Первые шаги](users/pervie-shagi/README.md)
+* [Способы регистрации](users/sposobi-registratsii.md)
+* [Первые шаги](users/first-steps/README.md)
   * [Основы Голоса](users/pervie-shagi/osnovy-golosa.md)
   * [Интерфейс блога](users/pervie-shagi/interfeis-lichnogo-bloga.md)
   * [Интерфейс golos.id](users/pervie-shagi/interfeis-golosio.md)
@@ -18,7 +18,7 @@
   * [Сбережения](users/ekonomika-1/savings_rewards.md)
   * [Курирование \(лайки\)](users/ekonomika-1/curation_rewards.md)
   * [Полезные ссылки](users/pervie-shagi/poleznye-ssylki.md)
-* [Полезные статьи](users/stati/README.md)
+* [Полезные статьи](users/posts/README.md)
   * [Просто о блокчейне](users/stati/prosto-o-blokcheine.md)
   * [КриптоТермины](users/stati/kriptotermini.md)
   * [Сервис golos.cf/history](users/stati/goloscfhistory.md)
@@ -36,7 +36,7 @@
   * [Примеры кода](developers/basics/code-examples.md)
   * [Формирование транзакций](developers/basics/transaction-formatting.md)
   * [Пропускная способность](developers/basics/bandwidth.md)
-* [API-документация](developers/api/README.md)
+* [API-документация](developers/api-dokumentatsiya/README.md)
   * [API part 1](developers/api-dokumentatsiya/api-golos-ch1.md)
   * [API part 2](developers/api-dokumentatsiya/api-golos-ch2.md)
   * [API part 3](developers/api-dokumentatsiya/api-golos-ch3.md)
@@ -51,7 +51,7 @@
   * [HF19: Новые возможности](developers/hardforks/hf19_releasenotice-rus.md)
   * [HF20: Устранение критического бага](developers/hardforks/hf20_releasenotice-rus.md)
   * [HF22: Новые возможности](developers/hardforks/hf22_release.md)
-* [Руководства \(HOWTO\)](developers/rukovodstva-howto/README.md)
+* [Руководства \(HOWTO\)](developers/howto/README.md)
   * [Скрипт регистрации аккаунтов](developers/rukovodstva-howto/vik-registration-service.md)
   * [Как использовать мультиподписи](developers/rukovodstva-howto/multisig.md)
   * [Как объединять операции в одну транзакцию](developers/rukovodstva-howto/ops-merging.md)
@@ -60,10 +60,10 @@
 
 ## Делегатам <a id="witnesses"></a>
 
-* [Делегатство и роли нод](witnesses/delegatstvo.md)
-* [Установка ноды](witnesses/ustanovka-nody.md)
+* [Делегатство и роли нод](witnesses/basics.md)
+* [Установка ноды](witnesses/node/README.md)
   * [Гайд для witness/seed ноды](witnesses/node/guide.md)
   * [Настройка для API-ноды](witnesses/node/guide-api.md)
 * [Медианные параметры](witnesses/median-props.md)
-* [Скрипты для price feed](witnesses/witness-scripts.md)
+* [Скрипты для price feed](witnesses/price-feed.md)
 
