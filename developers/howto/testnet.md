@@ -1,7 +1,3 @@
----
-description: ...
----
-
 # Пример запуска тестнета
 
 Автор: [@ropox](https://golos.id/@ropox)
