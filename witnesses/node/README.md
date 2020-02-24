@@ -1,7 +1,3 @@
----
-description: ...
----
-
 # Установка ноды
 
 * [Подробный гайд](guide.md) по запуску делегатской ноды с вкл. seed-обменом
@@ -18,4 +14,3 @@ description: ...
 * cli\_wallet: [https://files.rudex.org/golos-classic/cli\_wallet](https://files.rudex.org/golos-classic/cli_wallet)
 * golosd: [https://files.rudex.org/golos-classic/golosd](https://files.rudex.org/golos-classic/golosd)
 {% endhint %}
-
