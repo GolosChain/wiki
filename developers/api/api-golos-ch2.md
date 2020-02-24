@@ -1,7 +1,3 @@
----
-description: ...
----
-
 # API part 2
 
 Автор: [@asuleymanov](https://golos.io/@asuleymanov)
