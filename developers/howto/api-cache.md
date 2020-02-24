@@ -1,7 +1,3 @@
----
-description: ...
----
-
 # Кэширование API
 
 Автор: [@vik](https://golos.id/@vik)
