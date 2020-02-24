@@ -5,7 +5,7 @@
 ## ПОЛЬЗОВАТЕЛЯМ <a id="users"></a>
 
 * [Начни отсюда](users/welcome.md)
-* [Способы регистрации](users/sposobi-registratsii.md)
+* [Способы регистрации](users/registration.md)
 * [Первые шаги](users/pervie-shagi/README.md)
   * [Основы Голоса](users/pervie-shagi/osnovy-golosa.md)
   * [Интерфейс блога](users/pervie-shagi/interfeis-lichnogo-bloga.md)
@@ -36,7 +36,7 @@
   * [Примеры кода](developers/basics/code-examples.md)
   * [Формирование транзакций](developers/basics/transaction-formatting.md)
   * [Пропускная способность](developers/basics/bandwidth.md)
-* [API-документация](developers/api-dokumentatsiya/README.md)
+* [API-документация](developers/api/README.md)
   * [API part 1](developers/api-dokumentatsiya/api-golos-ch1.md)
   * [API part 2](developers/api-dokumentatsiya/api-golos-ch2.md)
   * [API part 3](developers/api-dokumentatsiya/api-golos-ch3.md)
