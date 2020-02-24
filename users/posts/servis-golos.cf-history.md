@@ -1,2 +1,0 @@
-# Сервис golos.cf/history
-
