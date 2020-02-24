@@ -19,6 +19,3 @@ description: ...
 * golosd: [https://files.rudex.org/golos-classic/golosd](https://files.rudex.org/golos-classic/golosd)
 {% endhint %}
 
-  
-
-

@@ -20,8 +20,8 @@
 
 ## Python
 
-[Библиотека golos-python](https://github.com/Privex/golos-python) от [@someguy](https://golos.id/@someguy123)/[@ksantoprotein](https://golos.id/@ksantoprotein) поддерживает как API запросы, так и формирование транзакций. [Документация](https://golos-python.readthedocs.io/en/latest/index.html) к ней на английском языке.  
-  
+[Библиотека golos-python](https://github.com/Privex/golos-python) от [@someguy](https://golos.id/@someguy123)/[@ksantoprotein](https://golos.id/@ksantoprotein) поддерживает как API запросы, так и формирование транзакций. [Документация](https://golos-python.readthedocs.io/en/latest/index.html) к ней на английском языке.
+
 [Библиотека golos-python](https://github.com/bitfag/golos-python) от [@vvk](https://golos.id/@vvk) также поддерживает большинство необходимого.
 
 ## PHP
@@ -32,7 +32,7 @@
 
 ## GO
 
-[Библиотека golos-go](https://github.com/golos-blockchain/golos-go) от [@asuleymanov](https://golos.id/@asuleymanov) также подходит для API запросов и изучения формирования транзакций. 
+[Библиотека golos-go](https://github.com/golos-blockchain/golos-go) от [@asuleymanov](https://golos.id/@asuleymanov) также подходит для API запросов и изучения формирования транзакций.
 
 ## Другое
 
