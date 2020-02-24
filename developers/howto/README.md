@@ -1,7 +1,3 @@
----
-description: ...
----
-
 # Руководства \(HOWTO\)
 
 * [Скрипт регистрации аккаунтов](registration-service.md)
