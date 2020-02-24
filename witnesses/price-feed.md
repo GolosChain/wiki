@@ -1,10 +1,8 @@
-# Скрипт обновления price feed
+# Скрипты для price feed
 
-## Скрипты обновления price feed
+На данный момент самым актуальным скриптом для делегатов в целях публикации ценового фида GBG/GOLOS является: 
 
-На данной странице аггрегируются скрипты для делегатов для публикации ценового фида GBG/GOLOS. 
-
-### golos-witness-tools \(от делегата @vvk\)
+## golos-witness-tools \(от делегата [@vvk](https://golos.id/@vvk)\)
 
 * [Проект на github](https://github.com/bitfag/golos-witness-tools)
 * [Анонс](https://golos.id/golostools/@vvk/anons-novogo-skripta-obnovleniya-price-feed-i-proekta-golos-witness-tools), пост об [обновлении ](https://golos.id/golos/@vvk/golos-witness-tools-bitshares)скрипта с поддержкой BitShares
@@ -12,4 +10,6 @@
 * Написан на python
 * Удобен для запуска из cron
 * Возможность работы в виде docker-контейнера
+
+О варианте его запуска также можно почитать [здесь](node/guide.md).
 
