@@ -6,3 +6,5 @@
 * [Кэширование API](api-cache.md)
 * [Пример запуска тестнета](testnet.md)
 
+И многие полезности в постах [@vik](https://golos.id/@vik), [@ropox](https://golos.id/@ropox), [@vvk](https://golos.id/@vvk) и других разработчиков в блогах на Голосе.
+

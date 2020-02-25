@@ -6,7 +6,7 @@
 
 * [Начни отсюда](users/welcome.md)
 * [Способы регистрации](users/registration.md)
-* [Полезные посты](users/posts/README.md)
+* [Полезные посты](users/poleznye-posty/README.md)
   * [Внутренняя биржа](users/posts/market.md)
   * [Сервис поиска по БЧ](users/posts/golos-history.md)
   * [Кошелёк и ключи](users/posts/wallet.md)
