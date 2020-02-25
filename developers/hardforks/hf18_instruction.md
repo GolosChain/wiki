@@ -5,11 +5,11 @@
 ### Способы установки HF•18
 
 Установку HF•18 на сервер можно выполнить в одном из следующих вариантов:  
-1. установка с использованием доступной платформы [Docker](hf18_buildinstruction-rus.md#bld_412);  
+1. установка с использованием доступной платформы [Docker](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_412);  
 2. изначальное построение непосредственно из исходников golosd под управлением операционной системы Ubuntu;  
 3. обновление GolosChain до версии HF•18 из исходников golosd под управлением операционной системы Ubuntu.
 
-Инструкции по установке HF•18 в вариантах 1-3 изложены в разделах [2](hf18_buildinstruction-rus.md#bld_2), [3](hf18_buildinstruction-rus.md#bld_3) и [4](hf18_buildinstruction-rus.md#bld_4) соответственно.
+Инструкции по установке HF•18 в вариантах 1-3 изложены в разделах [2](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_2), [3](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_3) и [4](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_4) соответственно.
 
 Рекомендуется установку HF•18 выполнять в варианте 1, поскольку использование платформы Docker обеспечивает:
 
@@ -21,8 +21,8 @@
 Сервер, на который устанавливается HF•18, должен иметь характеристики не хуже:
 
 * объем оперативной памяти:  
-  * 16 ГБ для [делегатского Узла](hf18_buildinstruction-rus.md#bld_410) в варианте конфигурации LOWMEM;  
-  * 64 ГБ для [API Узла](hf18_buildinstruction-rus.md#bld_411) в полной конфигурации;  
+  * 16 ГБ для [делегатского Узла](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_410) в варианте конфигурации LOWMEM;  
+  * 64 ГБ для [API Узла](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_411) в полной конфигурации;  
 * объем дисковой памяти: 80 ГБ для API Узла в полной конфигурации;  
 * операционная система:  
   * Ubuntu версии 16.04 \(или более поздней\);  
@@ -38,8 +38,8 @@
 Перед началом выполнения приведенных в руководстве действий настоятельно рекомендуется:
 
 * сохранить код личного ключа;  
-* отключить функцию подписания блоков отключением [плагина](hf18_buildinstruction-rus.md#bld_48) witness;  
-* остановить и удалить предыдущую версию GolosChain \(только для обновления версии\), используя следующие команды: 
+* отключить функцию подписания блоков отключением [плагина](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_48) witness;  
+* остановить и удалить предыдущую версию GolosChain \(только для обновления версии\), используя следующие команды:
 
   ```text
   docker stop golos-default
@@ -53,9 +53,9 @@
 Установка и функционирование HF•18 на сервер под управлением каких-либо иных классов систем не поддерживается.
 
 Для установки HF•18 на сервер с использованием платформы Docker необходимо выполнить следующие операции:  
-1. сконфигурировать [Docker-образ](hf18_buildinstruction-rus.md#bld_413) в отдельном пространстве;  
-2. создать [контейнер](hf18_buildinstruction-rus.md#bld_46) с использованием Docker-образа. Контейнер можно размещать как на локальном компьютере, так и на удаленном или виртуальном;  
-3. [воспроизвести блокчейн](hf18_buildinstruction-rus.md#bld_43).
+1. сконфигурировать [Docker-образ](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_413) в отдельном пространстве;  
+2. создать [контейнер](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_46) с использованием Docker-образа. Контейнер можно размещать как на локальном компьютере, так и на удаленном или виртуальном;  
+3. [воспроизвести блокчейн](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_43).
 
 ### Конфигурирование Docker-образа
 
@@ -97,7 +97,7 @@ sudo cp share/golosd/config/config.ini /etc/golosd/
 
 | Переменная окружения | Назначение |
 | :--- | :--- |
-| witness | Устанавливает имя [аккаунта](hf18_buildinstruction-rus.md#bld_41) делегата \(для делегатского Узла\) |
+| witness | Устанавливает имя [аккаунта](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_41) делегата \(для делегатского Узла\) |
 | private-key | Задает код личного ключа `active` \(для делегатского Узла\). Тип ключа может быть отличным от `active` |
 | plugin | Определяет перечень плагинов. Неиспользуемые плагины могут быть удалены |
 
@@ -117,7 +117,7 @@ sudo cp share/golosd/snapshot5392323.json /var/lib/golosd/
 
 ### Запуск Docker-образа из GolosCore
 
-Docker-образ размещается на общедоступном реестре Docker Hub либо создается локально из исходников GolosCore. Из Docker-образа можно создать контейнер на физическом устройстве, на котором установлен Docker. Docker-образ представляет собой тиражируемый образ некоторого объекта, а создаваемый контейнер является самим объектом, который можно запускать и останавливать. Контейнер является изолированным от внешней среды со своими переменными окружения и параметрами запуска. В среде контейнера исполняется [Узел](hf18_buildinstruction-rus.md#bld_49). Для запуска одного и того же Узла требуется создание другого контейнера.
+Docker-образ размещается на общедоступном реестре Docker Hub либо создается локально из исходников GolosCore. Из Docker-образа можно создать контейнер на физическом устройстве, на котором установлен Docker. Docker-образ представляет собой тиражируемый образ некоторого объекта, а создаваемый контейнер является самим объектом, который можно запускать и останавливать. Контейнер является изолированным от внешней среды со своими переменными окружения и параметрами запуска. В среде контейнера исполняется [Узел](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_49). Для запуска одного и того же Узла требуется создание другого контейнера.
 
 Для запуска Docker-образа из GolosCore и создания контейнера исполнить следующую командную строку:
 
@@ -198,7 +198,7 @@ sudo docker exec golos-default /usr/local/bin/golosdctl replay
 * Открыть лог-файл и убедиться в следующих фактах:  
   * в файл прекращено поступление новой информации;  
   * текст файла не содержит сообщения об ошибках.  
-* Подключиться к Узлу через  `cli_wallet` по порту 8091, исполнив:
+* Подключиться к Узлу через `cli_wallet` по порту 8091, исполнив:
 
   ```text
   sudo docker exec -ti golos-default \
@@ -211,7 +211,7 @@ sudo docker exec golos-default /usr/local/bin/golosdctl replay
 
 ### Построение Docker-образа с использованием Docker-файла
 
-В этом разделе приведена инструкция по построению Docker-образа с использованием различных [Docker-файлов](hf18_buildinstruction-rus.md#bld_414).
+В этом разделе приведена инструкция по построению Docker-образа с использованием различных [Docker-файлов](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_414).
 
 Docker-файл представляет собой текстовый файл с инструкциями, необходимыми для создания образа контейнера. Образ строится автоматически последовательным выполнением команд, приведенных в файле.
 
@@ -327,7 +327,7 @@ cmake \
     ..
 ```
 
-**3.** Построить проект с установкой [демона](hf18_buildinstruction-rus.md#bld_45) в `/usr/local/`, исполнив:
+**3.** Построить проект с установкой [демона](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/hf18_buildinstruction-rus.md#bld_45) в `/usr/local/`, исполнив:
 
 ```text
 make -j $(nproc)
@@ -370,7 +370,7 @@ sudo sv stop golosd
 * Открыть лог-файл и убедиться в следующих фактах:  
   * в файл прекращено поступление новой информации;  
   * текст файла не содержит сообщения об ошибках.  
-* Подключиться к Узлу через  cli\_wallet по порту 8091, исполнив:
+* Подключиться к Узлу через cli\_wallet по порту 8091, исполнив:
 
   ```text
   /usr/local/bin/cli_wallet \
@@ -378,7 +378,7 @@ sudo sv stop golosd
     --server-rpc-endpoint="ws://127.0.0.1:8091"
   ```
 
-  Успешное подключение к Узлу будет означать успешное обновление GolosChain.  
+  Успешное подключение к Узлу будет означать успешное обновление GolosChain.
 
 ## Раздел\_4 Изначальная установка блокчейна
 
@@ -491,7 +491,7 @@ sudo sv start golosd
 * Открыть лог-файл и убедиться в следующих фактах:  
   * в файл прекращено поступление новой информации;  
   * текст файла не содержит сообщения об ошибках.  
-* Подключиться к Узлу через  cli\_wallet по порту 8091, исполнив:
+* Подключиться к Узлу через cli\_wallet по порту 8091, исполнив:
 
   ```text
   /usr/local/bin/cli_wallet \

@@ -1,18 +1,18 @@
 # HF18: Изменения в API
 
-В версии HF•18 реализованы новые функциональные и технические возможности, предоставляющие пользователям более удобное взаимодействие с системой, повышенную защиту от злоупотребления голосованием, а также повышающие быстродействие системы за счет более оптимального перераспределения методов между плагинами API. 
+В версии HF•18 реализованы новые функциональные и технические возможности, предоставляющие пользователям более удобное взаимодействие с системой, повышенную защиту от злоупотребления голосованием, а также повышающие быстродействие системы за счет более оптимального перераспределения методов между плагинами API.
 
-* [Новые функциональные возможности в HF•18](new_hardfork-hf18.md#перечень-новых-функциональных-возможностей-в-hf18)
-* [Новые технические возможности в HF•18](new_hardfork-hf18.md#перечень-новых-технических-возможностей-в-hf18)
-* [Измененные и новые плагины API в HF•18](new_hardfork-hf18.md#измененные-и-новые-плагины-в-hf18):
-  * [private\_message](new_hardfork-hf18.md#изменения-в-плагине-privatemessage)
-  * [witness\_api](new_hardfork-hf18.md#новый-плагин-witnessapi)
-  * [account\_history](new_hardfork-hf18.md#изменения-в-плагине-accounthistory)
-  * [operation\_history](new_hardfork-hf18.md#новый-плагин-operationhistory)
-  * [social\_network](new_hardfork-hf18.md#изменения-в-плагине-socialnetwork)
-  * [tags](new_hardfork-hf18.md#новый-плагин-tags)
-  * [follow](new_hardfork-hf18.md#изменения-в-плагине-follow)
-  * [database\_api](new_hardfork-hf18.md#изменения-в-плагине-databaseapi)
+* [Новые функциональные возможности в HF•18](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#перечень-новых-функциональных-возможностей-в-hf18)
+* [Новые технические возможности в HF•18](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#перечень-новых-технических-возможностей-в-hf18)
+* [Измененные и новые плагины API в HF•18](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#измененные-и-новые-плагины-в-hf18):
+  * [private\_message](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#изменения-в-плагине-privatemessage)
+  * [witness\_api](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новый-плагин-witnessapi)
+  * [account\_history](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#изменения-в-плагине-accounthistory)
+  * [operation\_history](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новый-плагин-operationhistory)
+  * [social\_network](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#изменения-в-плагине-socialnetwork)
+  * [tags](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новый-плагин-tags)
+  * [follow](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#изменения-в-плагине-follow)
+  * [database\_api](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#изменения-в-плагине-databaseapi)
 
 ## Перечень новых функциональных возможностей в HF•18
 
@@ -156,7 +156,7 @@ struct discussion {
   }
   ```
 
-  Изменена результирующая структура метода:  
+  Изменена результирующая структура метода:
 
   ```javascript
   struct discussion {
@@ -179,20 +179,20 @@ struct discussion {
 
 Новые методы:
 
-* [get\_proposed\_transaction](new_hardfork-hf18.md#новый-метод-getproposedtransaction)
-* [get\_database\_info](new_hardfork-hf18.md#новый-метод-getdatabaseinfo)
-* [get\_vesting\_delegations](new_hardfork-hf18.md#новый-метод-getvestingdelegations)
-* [get\_expiring\_vesting\_delegations](new_hardfork-hf18.md#новый-метод-getexpiringvestingdelegations)  
+* [get\_proposed\_transaction](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новый-метод-getproposedtransaction)
+* [get\_database\_info](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новый-метод-getdatabaseinfo)
+* [get\_vesting\_delegations](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новый-метод-getvestingdelegations)
+* [get\_expiring\_vesting\_delegations](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новый-метод-getexpiringvestingdelegations)  
 
 Новые операции:
 
-* [изменение или возврат делегирования Силы Голоса](new_hardfork-hf18.md#новая-операция-изменение-или-возврат-делегирования-силы-голоса)
-* [создание аккаунта с делегированием Силы Голоса](new_hardfork-hf18.md#новая-операция-создание-аккаунта-с-делегированием-силы-голоса)
-* [изменение json\_metadata  аккаунта](new_hardfork-hf18.md#новая-операция-изменение-jsonmetadata--аккаунта)
-* [предложение на транзакцию](new_hardfork-hf18.md#новая-операция-предложение-на-транзакцию)
-* [обновление предложенной транзакции](new_hardfork-hf18.md#новая-операция-обновление-предложенной-транзакции)
-* [удаление предложенной транзакции](new_hardfork-hf18.md#новая-операция-удаление-предложенной-транзакции)
-* [изменение параметров блокчейна](new_hardfork-hf18.md#новая-операция-изменение-параметров-блокчейна)
+* [изменение или возврат делегирования Силы Голоса](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новая-операция-изменение-или-возврат-делегирования-силы-голоса)
+* [создание аккаунта с делегированием Силы Голоса](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новая-операция-создание-аккаунта-с-делегированием-силы-голоса)
+* [изменение json\_metadata  аккаунта](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новая-операция-изменение-jsonmetadata--аккаунта)
+* [предложение на транзакцию](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новая-операция-предложение-на-транзакцию)
+* [обновление предложенной транзакции](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новая-операция-обновление-предложенной-транзакции)
+* [удаление предложенной транзакции](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новая-операция-удаление-предложенной-транзакции)
+* [изменение параметров блокчейна](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новая-операция-изменение-параметров-блокчейна)
 
 #### Неизменяемая часть database\_api
 
@@ -314,13 +314,13 @@ struct discussion {
   )
   ```
 
-  `account` — аккаунт, по запросу от которого выдается блок делегирования. Отправитель\*/получатель определяется аргументом `type`.  
+  `account` — аккаунт, по запросу от которого выдается блок делегирования. Отправитель\*/получатель определяется аргументом `type`.
 
-  `from` — начальный аккаунт, парный в операции делегирования.  Получатель/отправитель - задается аргументом `type` \(для пагинации\).  
+  `from` — начальный аккаунт, парный в операции делегирования. Получатель/отправитель - задается аргументом `type` \(для пагинации\).
 
-  `limit` — количество возвращаемых элементов \(для пагинации\). По умолчанию принимается равным 100. Максимальное значение равно 1000.  
+  `limit` — количество возвращаемых элементов \(для пагинации\). По умолчанию принимается равным 100. Максимальное значение равно 1000.
 
-  `type` — тип запрашиваемого блока делегирования: "delegated" \(делегированный\), "received" \(полученный\). По умолчанию принимает значение "delegated".  
+  `type` — тип запрашиваемого блока делегирования: "delegated" \(делегированный\), "received" \(полученный\). По умолчанию принимает значение "delegated".
 
 Пример возвращаемого блока делегирования: `массив vesting_delegation_api_object [{id: 0, delegator: "zzz", delegatee: "zxcat", vesting_shares: "90.000000 GESTS", min_delegation_time: "2018-04-25T21:48:15"}]`.
 
@@ -337,11 +337,11 @@ struct discussion {
     uint32_t limit = 100)
   ```
 
-  `account` — аккаунт, возвращающий делегированные средства.  
+  `account` — аккаунт, возвращающий делегированные средства.
 
-  `from` — начальное время возврата делегированных средств \(для пагинации\).  
+  `from` — начальное время возврата делегированных средств \(для пагинации\).
 
-  `limit` — количество возвращаемых элементов \(для пагинации\). По умолчанию принимается равным 100. Максимальное значение равно 1000.  
+  `limit` — количество возвращаемых элементов \(для пагинации\). По умолчанию принимается равным 100. Максимальное значение равно 1000.
 
 Пример возвращаемого модулем блока отозванного делегирования: `массив vesting_delegation_expiration_api_object, [{id: 0, delegator: "zxcat", vesting_shares: "123.000000 GESTS", expiration: "2018-05-25T11:18:45"}]`.
 
@@ -518,10 +518,10 @@ proposal_delete_operation
 * `account_creation_fee` — размер комиссионных отчислений, требуемых на создание аккаунта без делегирования;  
 * `maximum_block_size` — максимальный размер блока блокчейна;  
 * `sbd_interest_rate` — процент, начисляемый на SBD;  
-* `create_account_min_golos_fee` — минимальный размер комиссионных отчислений в криптовалюте Голос, требуемых на создание аккаунта с делегированием \(по умолчанию принимает значение "1.000 GOLOS", см. операцию [account\_create\_with\_delegation](new_hardfork-hf18.md#новая-операция-создание-аккаунта-с-делегированием-силы-голоса)\);  
-* `create_account_min_delegation` — устанавливает минимально возможное количество Силы Голоса при создании аккаунта с делегированием \(по умолчанию принимает значение "5.000 GOLOS", см. операцию [account\_create\_with\_delegation](new_hardfork-hf18.md#новая-операция-создание-аккаунта-с-делегированием-силы-голоса)\);  
-* `create_account_delegation_time` — устанавливает минимально возможное время \(в секундах\) «заморозки» делегированной Силы Голоса при создании аккаунта с делегированием \(по умолчанию принимает значение за период в 30 дней, см. операцию [account\_create\_with\_delegation](new_hardfork-hf18.md#новая-операция-создание-аккаунта-с-делегированием-силы-голоса)\);  
-* `min_delegation` — устанавливает минимально возможное количество Силы Голоса для делегирования на аккаунт \(по умолчанию принимает значение "10.000 GOLOS", см. операцию [delegate\_vesting\_shares](new_hardfork-hf18.md#новая-операция-изменение-или-возврат-делегирования-силы-голоса)\).  
+* `create_account_min_golos_fee` — минимальный размер комиссионных отчислений в криптовалюте Голос, требуемых на создание аккаунта с делегированием \(по умолчанию принимает значение "1.000 GOLOS", см. операцию [account\_create\_with\_delegation](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новая-операция-создание-аккаунта-с-делегированием-силы-голоса)\);  
+* `create_account_min_delegation` — устанавливает минимально возможное количество Силы Голоса при создании аккаунта с делегированием \(по умолчанию принимает значение "5.000 GOLOS", см. операцию [account\_create\_with\_delegation](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новая-операция-создание-аккаунта-с-делегированием-силы-голоса)\);  
+* `create_account_delegation_time` — устанавливает минимально возможное время \(в секундах\) «заморозки» делегированной Силы Голоса при создании аккаунта с делегированием \(по умолчанию принимает значение за период в 30 дней, см. операцию [account\_create\_with\_delegation](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новая-операция-создание-аккаунта-с-делегированием-силы-голоса)\);  
+* `min_delegation` — устанавливает минимально возможное количество Силы Голоса для делегирования на аккаунт \(по умолчанию принимает значение "10.000 GOLOS", см. операцию [delegate\_vesting\_shares](https://github.com/golos-blockchain/wiki/tree/d940af7f54725dd68c7f9080f07d5b5f609bf4d4/developers/hardforks/new_hardfork-hf18.md#новая-операция-изменение-или-возврат-делегирования-силы-голоса)\).  
 
 Операция выполняется с использованием следующей процедуры:
 
