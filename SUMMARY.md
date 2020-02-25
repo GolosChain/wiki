@@ -7,13 +7,10 @@
 * [Начни отсюда](users/welcome.md)
 * [Способы регистрации](users/registration.md)
 * [Полезные посты](users/posts/README.md)
-  * [Просто о блокчейне](users/posts/prosto-o-blokcheine.md)
-  * [Внутренний рынок](users/posts/market.md)
-  * [Интерфейс](users/posts/interface.md)
+  * [Внутренняя биржа](users/posts/market.md)
+  * [Сервис поиска по БЧ](users/posts/golos-history.md)
   * [Кошелёк и ключи](users/posts/wallet.md)
-  * [Вопросы и ответы](users/posts/faq.md)
-  * [Сервис golos.cf/history](users/posts/golos-history.md)
-  * [Зеркала golos.id](users/posts/zerkala-golos.id.md)
+* [Вопросы и ответы](users/faq.md)
 
 ## Разработчикам <a id="developers"></a>
 
